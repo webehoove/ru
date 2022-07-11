@@ -1,12 +1,128 @@
 @font-face {
-  font-family: BS-Regular;
-  src: url(../webfonts/BS-Regular.woff2);
+    font-family: Monorale;
+    font-weight: 100;
+    font-style: normal;
+    src: url('https://cdn.rawgit.com/samvk/monorale-raleway-sober/master/woff/Monorale-Thin.woff') format('woff');
 }
 @font-face {
-  font-family: BS-Medium;
-  src: url(../webfonts/BS-Medium.woff2);
-}
+    font-family: Monorale;
+    font-weight: 100;
+    font-style: italic;
+    src: url('https://cdn.rawgit.com/samvk/monorale-raleway-sober/master/woff/Monorale-ThinItalic.woff') format('woff');
 
+}
+@font-face {
+    font-family: Monorale;
+    font-weight: 200;
+    font-style: normal;
+    src: url('https://cdn.rawgit.com/samvk/monorale-raleway-sober/master/woff/Monorale-ExtraLight.woff') format('woff');
+
+}
+@font-face {
+    font-family: Monorale;
+    font-weight: 200;
+    font-style: italic;
+    src: url('https://cdn.rawgit.com/samvk/monorale-raleway-sober/master/woff/Monorale-ExtraLightItalic.woff') format('woff');
+
+}
+@font-face {
+    font-family: Monorale;
+    font-weight: 300;
+    font-style: normal;
+    src: url('https://cdn.rawgit.com/samvk/monorale-raleway-sober/master/woff/Monorale-Light.woff') format('woff');
+
+}
+@font-face {
+    font-family: Monorale;
+    font-weight: 300;
+    font-style: italic;
+    src: url('https://cdn.rawgit.com/samvk/monorale-raleway-sober/master/woff/Monorale-LightItalic.woff') format('woff');
+
+}
+@font-face {
+    font-family: Monorale;
+    font-weight: 400;
+    font-style: normal;
+    src: url('https://cdn.rawgit.com/samvk/monorale-raleway-sober/master/woff/Monorale-Regular.woff') format('woff');
+
+}
+@font-face {
+    font-family: Monorale;
+    font-weight: 400;
+    font-style: italic;
+    src: url('https://cdn.rawgit.com/samvk/monorale-raleway-sober/master/woff/Monorale-Italic.woff') format('woff');
+
+}
+@font-face {
+    font-family: Monorale;
+    font-weight: 500;
+    font-style: normal;
+    src: url('https://cdn.rawgit.com/samvk/monorale-raleway-sober/master/woff/Monorale-Medium.woff') format('woff');
+
+}
+@font-face {
+    font-family: Monorale;
+    font-weight: 500;
+    font-style: italic;
+    src: url('https://cdn.rawgit.com/samvk/monorale-raleway-sober/master/woff/Monorale-MediumItalic.woff') format('woff');
+
+}
+@font-face {
+    font-family: Monorale;
+    font-weight: 600;
+    font-style: normal;
+    src: url('https://cdn.rawgit.com/samvk/monorale-raleway-sober/master/woff/Monorale-SemiBold.woff') format('woff');
+
+}
+@font-face {
+    font-family: Monorale;
+    font-weight: 600;
+    font-style: italic;
+    src: url('https://cdn.rawgit.com/samvk/monorale-raleway-sober/master/woff/Monorale-SemiBoldItalic.woff') format('woff');
+
+}
+@font-face {
+    font-family: Monorale;
+    font-weight: 700;
+    font-style: normal;
+    src: url('https://cdn.rawgit.com/samvk/monorale-raleway-sober/master/woff/Monorale-Bold.woff') format('woff');
+
+}
+@font-face {
+    font-family: Monorale;
+    font-weight: 700;
+    font-style: italic;
+    src: url('https://cdn.rawgit.com/samvk/monorale-raleway-sober/master/woff/Monorale-BoldItalic.woff') format('woff');
+
+}
+@font-face {
+    font-family: Monorale;
+    font-weight: 800;
+    font-style: normal;
+    src: url('https://cdn.rawgit.com/samvk/monorale-raleway-sober/master/woff/Monorale-ExtraBold.woff') format('woff');
+
+}
+@font-face {
+    font-family: Monorale;
+    font-weight: 800;
+    font-style: italic;
+    src: url('https://cdn.rawgit.com/samvk/monorale-raleway-sober/master/woff/Monorale-ExtraBoldItalic.woff') format('woff');
+
+}
+@font-face {
+    font-family: Monorale;
+    font-weight: 900;
+    font-style: normal;
+    src: url('https://cdn.rawgit.com/samvk/monorale-raleway-sober/master/woff/Monorale-Black.woff') format('woff');
+
+}
+@font-face {
+    font-family: Monorale;
+    font-weight: 900;
+    font-style: italic;
+    src: url('https://cdn.rawgit.com/samvk/monorale-raleway-sober/master/woff/Monorale-BlackItalic.woff') format('woff');
+
+}
 
 html, body, div, span, applet, object,
 iframe, h1, h2, h3, h4, h5, h6, p, blockquote,
@@ -154,13 +270,13 @@ input, select, textarea {
 
 	body {
 		background-color: #ffffff;
-		color: #000000;
+		color: #300a4a;
 	}
 
 	body, input, select, textarea {
-		font-family: 'BS-Regular', sans-serif;
+		font-family: 'Monorale', sans-serif;
 		font-size: 1rem;
-		font-weight: normal;
+		font-weight: 400;
 		letter-spacing: 0;
 		line-height: 1.2;
 	}
@@ -178,8 +294,7 @@ input, select, textarea {
 		}
 
 	strong, b {
-		font-family: 'BS-Medium', sans-serif;
-		font-weight: normal;
+		font-weight: 600;
 	}
 
 	em, i {
@@ -197,6 +312,7 @@ input, select, textarea {
 	h1, h2, h3, h4, h5, h6 {
 		line-height: 1;
 		letter-spacing: 0;
+		font-weight: 600;
 		margin: 0 0 1rem 0;
 	}
 
@@ -224,6 +340,7 @@ input, select, textarea {
 
 	h5 {
 		font-size: 0.9rem;
+		font-weight: 300;
 	}
 
 	h6 {
@@ -281,6 +398,12 @@ input, select, textarea {
 			border: 0;
 		    border-bottom: none;
 			margin: 2rem 0;
+		}
+		
+		hr.minor {
+			border: 0;
+		    border-bottom: solid 1px;
+			margin: 0.5rem 0;
 		}
 
 	.align-left {
@@ -413,11 +536,11 @@ input, select, textarea {
 		}
 
 	strong, b {
-		color: #000000;
+		color: #9829e0;
 	}
 
 	h1, h2, h3, h4, h5, h6 {
-		color: #000000;
+		color: #9829e0;
 	}
 
 	blockquote {
@@ -430,7 +553,7 @@ input, select, textarea {
 	}
 
 	hr {
-		border-bottom-color: rgba(0, 0, 0, 0.2);
+		border-bottom-color: #c06cf5;
 	}
 
 /* Row */
@@ -2435,10 +2558,8 @@ input, select, textarea {
 		cursor: pointer;
 		display: inline-block;
 		font-weight: 400;
-		letter-spacing: 0.125em;
 		text-align: center;
 		text-decoration: none;
-		text-transform: uppercase;
 		white-space: nowrap;
 		font-size: 0.75rem;
 		max-width: 20rem;
@@ -2545,7 +2666,7 @@ input, select, textarea {
 		input[type="button"].primary,
 		button.primary,
 		.button.primary {
-			background-color: #000000;
+			background-color: #9829e0;
 			box-shadow: none;
 			color: #ffffff !important;
 		}
@@ -2555,7 +2676,7 @@ input, select, textarea {
 			input[type="button"].primary:hover,
 			button.primary:hover,
 			.button.primary:hover {
-				background-color: #47D3E5;
+				background-color: #300a4a;
 			}
 
 			input[type="submit"].primary:active,
@@ -2563,7 +2684,7 @@ input, select, textarea {
 			input[type="button"].primary:active,
 			button.primary:active,
 			.button.primary:active {
-				background-color: #1ebdd1;
+				background-color: #7818b0;
 			}
 
 /* Form */
@@ -7177,7 +7298,7 @@ input, select, textarea {
 			}
 
 			#wrapper > .invert hr {
-				border-bottom-color: white;
+				border-bottom-color: #7818b0;
 			}
 
 			#wrapper > .invert .box {
@@ -7218,9 +7339,9 @@ input, select, textarea {
 				#wrapper > .invert input[type="button"].primary,
 				#wrapper > .invert button.primary,
 				#wrapper > .invert .button.primary {
-					background-color: #ffffff;
+					background-color: #9829e0;
 					box-shadow: none;
-					color: #000000 !important;
+					color: #fff !important;
 				}
 
 					#wrapper > .invert input[type="submit"].primary:hover,
@@ -7228,7 +7349,7 @@ input, select, textarea {
 					#wrapper > .invert input[type="button"].primary:hover,
 					#wrapper > .invert button.primary:hover,
 					#wrapper > .invert .button.primary:hover {
-						background-color: #47D3E5;
+						background-color: #c06cf5;
 					}
 
 					#wrapper > .invert input[type="submit"].primary:active,
@@ -7236,7 +7357,7 @@ input, select, textarea {
 					#wrapper > .invert input[type="button"].primary:active,
 					#wrapper > .invert button.primary:active,
 					#wrapper > .invert .button.primary:active {
-						background-color: #1ebdd1;
+						background-color: #dda5fd;
 					}
 
 			#wrapper > .invert label {
@@ -7446,15 +7567,15 @@ input, select, textarea {
 			}
 
 		#wrapper > .color1 {
-			background-color: #f8eeca;
+			background-color: #300a4a;
 		}
 
 		#wrapper > .color2 {
-			background-color: #db8992;
+			background-color: #f5f1fe;
 		}
 
 		#wrapper > .color3 {
-			background-color: #ab7aad;
+			background-color: #9829e0;
 		}
 
 		#wrapper > .color4 {
