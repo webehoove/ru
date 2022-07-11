@@ -7252,7 +7252,7 @@ input, select, textarea {
 	}
 
 	.index > * {
-		border-top-color: rgba(0, 0, 0, 0.2);
+		border-top-color: rgba(0, 0, 0, 0);
 	}
 
 /* Wrapper */
@@ -7264,7 +7264,7 @@ input, select, textarea {
 	}
 
 		#wrapper > .invert {
-			background-color: #000000;
+			background-color: #300A4A;
 			color: #ffffff;
 		}
 
