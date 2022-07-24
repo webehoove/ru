@@ -1,127 +1,29 @@
 @font-face {
-    font-family: Monorale;
-    font-weight: 100;
-    font-style: normal;
-    src: url('https://cdn.rawgit.com/samvk/monorale-raleway-sober/master/woff/Monorale-Thin.woff') format('woff');
-}
-@font-face {
-    font-family: Monorale;
-    font-weight: 100;
-    font-style: italic;
-    src: url('https://cdn.rawgit.com/samvk/monorale-raleway-sober/master/woff/Monorale-ThinItalic.woff') format('woff');
-
-}
-@font-face {
-    font-family: Monorale;
-    font-weight: 200;
-    font-style: normal;
-    src: url('https://cdn.rawgit.com/samvk/monorale-raleway-sober/master/woff/Monorale-ExtraLight.woff') format('woff');
-
-}
-@font-face {
-    font-family: Monorale;
-    font-weight: 200;
-    font-style: italic;
-    src: url('https://cdn.rawgit.com/samvk/monorale-raleway-sober/master/woff/Monorale-ExtraLightItalic.woff') format('woff');
-
-}
-@font-face {
-    font-family: Monorale;
-    font-weight: 300;
-    font-style: normal;
-    src: url('https://cdn.rawgit.com/samvk/monorale-raleway-sober/master/woff/Monorale-Light.woff') format('woff');
-
-}
-@font-face {
-    font-family: Monorale;
-    font-weight: 300;
-    font-style: italic;
-    src: url('https://cdn.rawgit.com/samvk/monorale-raleway-sober/master/woff/Monorale-LightItalic.woff') format('woff');
-
-}
-@font-face {
-    font-family: Monorale;
-    font-weight: 400;
-    font-style: normal;
-    src: url('https://cdn.rawgit.com/samvk/monorale-raleway-sober/master/woff/Monorale-Regular.woff') format('woff');
-
-}
-@font-face {
-    font-family: Monorale;
-    font-weight: 400;
-    font-style: italic;
-    src: url('https://cdn.rawgit.com/samvk/monorale-raleway-sober/master/woff/Monorale-Italic.woff') format('woff');
-
-}
-@font-face {
-    font-family: Monorale;
-    font-weight: 500;
-    font-style: normal;
-    src: url('https://cdn.rawgit.com/samvk/monorale-raleway-sober/master/woff/Monorale-Medium.woff') format('woff');
-
-}
-@font-face {
-    font-family: Monorale;
-    font-weight: 500;
-    font-style: italic;
-    src: url('https://cdn.rawgit.com/samvk/monorale-raleway-sober/master/woff/Monorale-MediumItalic.woff') format('woff');
-
-}
-@font-face {
-    font-family: Monorale;
-    font-weight: 600;
-    font-style: normal;
-    src: url('https://cdn.rawgit.com/samvk/monorale-raleway-sober/master/woff/Monorale-SemiBold.woff') format('woff');
-
-}
-@font-face {
-    font-family: Monorale;
-    font-weight: 600;
-    font-style: italic;
-    src: url('https://cdn.rawgit.com/samvk/monorale-raleway-sober/master/woff/Monorale-SemiBoldItalic.woff') format('woff');
-
-}
-@font-face {
-    font-family: Monorale;
+    font-family: YAUZNAU-Bold;
     font-weight: 700;
     font-style: normal;
-    src: url('https://cdn.rawgit.com/samvk/monorale-raleway-sober/master/woff/Monorale-Bold.woff') format('woff');
-
+    src:url(../webfonts/YAUZNAU-Bold.woff2) format('woff2');
 }
-@font-face {
-    font-family: Monorale;
-    font-weight: 700;
-    font-style: italic;
-    src: url('https://cdn.rawgit.com/samvk/monorale-raleway-sober/master/woff/Monorale-BoldItalic.woff') format('woff');
 
-}
 @font-face {
-    font-family: Monorale;
-    font-weight: 800;
+    font-family: YAUZNAU-Medium;
+    font-weight: 500;
     font-style: normal;
-    src: url('https://cdn.rawgit.com/samvk/monorale-raleway-sober/master/woff/Monorale-ExtraBold.woff') format('woff');
-
+    src:url(../webfonts/YAUZNAU-Medium.woff2) format('woff2');
 }
-@font-face {
-    font-family: Monorale;
-    font-weight: 800;
-    font-style: italic;
-    src: url('https://cdn.rawgit.com/samvk/monorale-raleway-sober/master/woff/Monorale-ExtraBoldItalic.woff') format('woff');
 
-}
 @font-face {
-    font-family: Monorale;
-    font-weight: 900;
+    font-family: YAUZNAU-Regular;
+    font-weight: 400;
     font-style: normal;
-    src: url('https://cdn.rawgit.com/samvk/monorale-raleway-sober/master/woff/Monorale-Black.woff') format('woff');
-
+    src:url(../webfonts/YAUZNAU-Regular.woff2) format('woff2');
 }
-@font-face {
-    font-family: Monorale;
-    font-weight: 900;
-    font-style: italic;
-    src: url('https://cdn.rawgit.com/samvk/monorale-raleway-sober/master/woff/Monorale-BlackItalic.woff') format('woff');
 
+@font-face {
+    font-family: YAUZNAU-Light;
+    font-weight: 300;
+    font-style: normal;
+    src:url(../webfonts/YAUZNAU-Light.woff2) format('woff2');
 }
 
 html, body, div, span, applet, object,
@@ -274,10 +176,10 @@ input, select, textarea {
 	}
 
 	body, input, select, textarea {
-		font-family: 'Monorale', sans-serif;
+		font-family: 'YAUZNAU-light', sans-serif;
+		font-weight: 300;
 		font-size: 1rem;
-		font-weight: 400;
-		letter-spacing: 0;
+		letter-spacing: -0.025em;
 		line-height: 1.2;
 	}
 
@@ -294,7 +196,8 @@ input, select, textarea {
 		}
 
 	strong, b {
-		font-weight: 600;
+		font-family: 'YAUZNAU-Bold', sans-serif;
+		font-weight: 700;
 	}
 
 	em, i {
@@ -310,9 +213,10 @@ input, select, textarea {
 		}
 
 	h1, h2, h3, h4, h5, h6 {
+		font-family: 'YAUZNAU-Medium', sans-serif;
+		font-weight: 500;
 		line-height: 1;
-		letter-spacing: 0;
-		font-weight: 600;
+		letter-spacing: -0.025em;
 		margin: 0 0 1rem 0;
 	}
 
@@ -322,9 +226,20 @@ input, select, textarea {
 		}
 
 	h1 {
-		font-size: 4rem;
+		font-family: 'YAUZNAU-Bold', sans-serif;
 		font-weight: 700;
+		font-size: 4rem;
+		letter-spacing: -0.05em;
 		line-height: 1;
+		color: #9829e0;
+	}
+	
+	h1.slow {
+		font-family: 'YAUZNAU-Regular', sans-serif;
+		font-weight: 400;
+		font-size: 3.25rem;
+		letter-spacing: -0.03em;
+		line-height: 0.9;
 	}
 
 	h2 {
@@ -334,13 +249,20 @@ input, select, textarea {
 	h3 {
 		font-size: 1.5rem;
 	}
+	
+	h3.slow {
+		font-family: 'YAUZNAU-Regular', sans-serif;
+		font-weight: 400;
+		font-size: 1.5rem;
+		color: #300a4a;
+	}
 
 	h4 {
-		font-weight: 500;
 		font-size: 1.1rem;
 	}
 
 	h5 {
+		font-family: 'YAUZNAU-Light', sans-serif;
 		font-size: 0.9rem;
 		font-weight: 300;
 	}
@@ -424,7 +346,12 @@ input, select, textarea {
 
 		h1 {
 			font-size: 3rem;
+			letter-spacing: -0.015em;
 		}
+		
+		h1.slow {
+		    font-size: 2.35rem;
+	    }
 
 		h2 {
 			font-size: 2rem;
@@ -433,6 +360,10 @@ input, select, textarea {
 		h3 {
 			font-size: 1.25rem;
 		}
+		
+		h3.slow {
+		    font-size: 1.25rem;
+	    }
 
 		h4 {
 			font-size: 1.1rem;
@@ -458,6 +389,10 @@ input, select, textarea {
 		h1 {
 			font-size: 2rem;
 		}
+		
+		h1.slow {
+		    font-size: 1.85rem;
+	    }
 
 		h2 {
 			font-size: 1.8rem;
@@ -466,6 +401,10 @@ input, select, textarea {
 		h3 {
 			font-size: 1.25rem;
 		}
+		
+		h3.slow {
+		    font-size: 1.25rem;
+	    }
 
 		h4 {
 			font-size: 1.1rem;
@@ -502,6 +441,10 @@ input, select, textarea {
 		h1 {
 			font-size: 1.5rem;
 		}
+		
+		h1.slow {
+		    font-size: 1.35rem;
+	    }
 
 		h2 {
 			font-size: 1.35rem;
@@ -510,6 +453,10 @@ input, select, textarea {
 		h3 {
 			font-size: 1.25rem;
 		}
+		
+		h3.slow {
+		    font-size: 1.25rem;
+	    }
 
 		h4 {
 			font-size: 1.15rem;
@@ -2559,6 +2506,7 @@ input, select, textarea {
 		border: 0;
 		cursor: pointer;
 		display: inline-block;
+		font-family: 'YAUZNAU-Medium', sans-serif;
 		font-weight: 500;
 		text-align: center;
 		text-decoration: none;
@@ -2594,7 +2542,7 @@ input, select, textarea {
 		input[type="button"].small,
 		button.small,
 		.button.small {
-			font-size: 0.6rem;
+			font-size: 0.75rem;
 			height: 3.325em;
 			line-height: 3.325em;
 			border-radius: 3.325em;
@@ -3162,7 +3110,8 @@ input, select, textarea {
 		}
 
 		ul.alt {
-			font-weight: 500;
+			font-family: 'YAUZNAU-Regular', sans-serif;
+		    font-weight: 400;
 			list-style: none;
 			padding: 0.75rem 0 1.5rem 0;
 		}
@@ -3170,7 +3119,7 @@ input, select, textarea {
 			ul.alt li {
 				font-size: 0.9rem;
 				display: block;
-				padding: 0 0 0.2rem 0;
+				padding: 0 0 0.1rem 0;
 			}
 
 				ul.alt li:first-child {
@@ -3252,7 +3201,7 @@ input, select, textarea {
 		}
 
 			ul.actions.stacked li {
-				padding: 1.3rem 0 0 0;
+				padding: 0;
 			}
 
 				ul.actions.stacked li:first-child {
@@ -3282,7 +3231,7 @@ input, select, textarea {
 			ul.actions.fit.stacked {
 				width: 100%;
 			}
-
+			
 		@media screen and (max-width: 480px) {
 
 			ul.actions:not(.fixed) {
@@ -4682,7 +4631,7 @@ input, select, textarea {
 /* Banner (style5) */
 
 	.banner.style5 {
-		padding: 0 0.7rem 0.7rem 0.7rem ;
+		padding: 0.25rem 1rem 1rem 1rem ;
 		-moz-align-items: left;
 		-webkit-align-items: left;
 		-ms-align-items: left;
@@ -4760,7 +4709,7 @@ input, select, textarea {
 		@media screen and (max-width: 1680px) {
 
 			.banner.style5 {
-				padding: 0 0.7rem 0.7rem 0.7rem ;
+				padding: 0.25rem 1rem 1rem 1rem ;
 			}
 
 		}
@@ -4768,7 +4717,7 @@ input, select, textarea {
 		@media screen and (max-width: 1280px) {
 
 			.banner.style5 {
-				padding: 0 0.7rem 0.7rem 0.7rem ;
+				padding: 0.25rem 1rem 1rem 1rem ;
 			}
 
 		}
@@ -4776,7 +4725,7 @@ input, select, textarea {
 		@media screen and (max-width: 980px) {
 
 			.banner.style5 {
-				padding: 0 0.7rem 0.7rem 0.7rem ;
+				padding: 0.25rem 1rem 1rem 1rem ;
 			}
 
 		}
@@ -4784,7 +4733,7 @@ input, select, textarea {
 		@media screen and (max-width: 736px) {
 
 			.banner.style5 {
-				padding: 0 0.7rem 0.7rem 0.7rem ;
+				padding: 0 0.5rem 0.5rem 0.5rem ;
 			}
 
 		}
@@ -6229,7 +6178,7 @@ input, select, textarea {
 /* Wrapper (style1) */
 
 	.wrapper.style1 > .inner {
-		padding: 0 0.7rem 0.7rem 0.7rem ;
+		padding: 0 1rem 1rem 1rem ;
 		margin: 0 auto;
 		width: 100%;
 	}
@@ -6245,7 +6194,7 @@ input, select, textarea {
 	@media screen and (max-width: 1680px) {
 
 		.wrapper.style1 > .inner {
-			padding: 0 0.7rem 0.7rem 0.7rem ;
+			padding: 0 1rem 1rem 1rem ;
 		}
 
 	}
@@ -6253,7 +6202,7 @@ input, select, textarea {
 	@media screen and (max-width: 1280px) {
 
 		.wrapper.style1 > .inner {
-			padding: 0 0.7rem 0.7rem 0.7rem ;
+			padding: 0 1rem 1rem 1rem ;
 		}
 
 	}
@@ -6261,7 +6210,7 @@ input, select, textarea {
 	@media screen and (max-width: 980px) {
 
 		.wrapper.style1 > .inner {
-			padding: 0 0.7rem 0.7rem 0.7rem ;
+			padding: 0 1rem 1rem 1rem ;
 		}
 
 	}
@@ -6269,7 +6218,7 @@ input, select, textarea {
 	@media screen and (max-width: 736px) {
 
 		.wrapper.style1 > .inner {
-			padding: 0 0.7rem 0.7rem 0.7rem ;
+			padding: 0 0.5rem 0.5rem 0.5rem ;
 		}
 
 	}
