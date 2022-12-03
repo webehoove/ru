@@ -499,10 +499,6 @@ input, select, textarea {
 		background: rgba(0, 0, 0, 0.05);
 		border-color: rgba(0, 0, 0, 0.2);
 	}
-
-	hr {
-		border-bottom-color: rgba(0, 0, 0, 1);
-	}
 	
 	.t_color1 {
 		color: rgba(204, 173, 255, 1);
@@ -3210,7 +3206,7 @@ input, select, textarea {
 		}
 
 	ul.alt li {
-		border-top-color: rgba(0, 0, 0, 0.2);
+		border-top-color: #e5e5e5;
 	}
 
 /* Actions */
