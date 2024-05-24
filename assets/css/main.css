@@ -4877,7 +4877,7 @@ input, select, textarea {
 			}
 
 			#wrapper > .invert a {
-				color: rgba(255, 255, 255, 0.6);
+				color: rgba(255, 255, 255, 0.4);
 			}
 
 				#wrapper > .invert a:hover {
