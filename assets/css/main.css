@@ -31,6 +31,14 @@
 }
 
 @font-face {
+    font-family: 'Artos Sweetitle Rg';
+    font-weight: normal;
+    font-style: normal;
+    src:url(../webfonts/sweetitle_regular-webfont.woff2) format('woff2'),
+	    url(../webfonts/sweetitle_regular-webfont.woff) format('woff');
+}
+
+@font-face {
     font-family: 'Artos Sweetitle Db';
     font-weight: normal;
     font-style: normal;
@@ -266,6 +274,11 @@ input, select, textarea {
 		
 		.upup {
 			text-transform: uppercase;
+		}
+		
+		.title_regular {
+			font-family: 'Artos Sweetitle Rg', Helvetica, sans-serif;
+		    font-weight: normal;
 		}
 		
 		.title_medium {
