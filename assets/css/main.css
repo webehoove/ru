@@ -2507,7 +2507,7 @@ input, select, textarea {
 	.box {
 		border-left: solid 1px;
 		margin: 1rem 0 0 0;
-		padding: 0 0 1rem 1rem;
+		padding: 0 0 0 0.75rem;
 	}
 
 		.box > :last-child,
