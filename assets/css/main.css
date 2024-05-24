@@ -23,6 +23,14 @@
 }
 
 @font-face {
+    font-family: 'Artos Sweetext Bd';
+    font-weight: normal;
+    font-style: normal;
+    src:url(../webfonts/sweetext-bd-webfont.woff2) format('woff2'),
+	    url(../webfonts/sweetext-bd-webfont.woff) format('woff');
+}
+
+@font-face {
     font-family: 'Artos Sweetitle Md';
     font-weight: normal;
     font-style: normal;
