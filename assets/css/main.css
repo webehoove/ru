@@ -319,6 +319,11 @@ input, select, textarea {
 		    font-weight: normal;
 		}
 		
+		.bold {
+			font-family: 'Artos Sweetext Bd', Helvetica, sans-serif;
+		    font-weight: normal;
+		}
+		
 		.menutop {
 			font-size: 16px;
 		}
@@ -394,20 +399,21 @@ input, select, textarea {
 
 	hr {
 		border: 0;
-		border-bottom: none;
 		margin: 3rem 0;
 	}
 
 		hr.major {
 			border: 0;
-		    border-bottom: none;
 			margin: 5rem 0;
 		}
 		
 		hr.minor {
 			border: 0;
-		    border-bottom: none;
 			margin: 2rem 0;
+		}
+		
+		hr.lineer {
+			margin: 0;
 		}
 
 	.align-left {
@@ -4896,7 +4902,7 @@ input, select, textarea {
 	}
 
 		#wrapper > .invert {
-			background-color: #1c1c1c;
+			background-color: #121212;
 			color: rgba(255, 255, 255, 0.87);
 		}
 
@@ -5203,7 +5209,7 @@ input, select, textarea {
 		}
 
 		#wrapper > .color01 {
-			background-color: #f7f7f7;
+			background-color: #3fd8c9;
 		}
 		
 		#wrapper.divided > * {
