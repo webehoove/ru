@@ -4912,7 +4912,7 @@ input, select, textarea {
 			}
 
 			#wrapper > .invert a {
-				color: rgba(255, 255, 255, 0.4);
+				color: rgba(255, 255, 255, 0.3);
 			}
 
 				#wrapper > .invert a:hover {
@@ -4920,7 +4920,7 @@ input, select, textarea {
 				}
 
 			#wrapper > .invert p {
-				color: rgba(255, 255, 255, 0.7);
+				color: rgba(255, 255, 255, 0.6);
 			}
 
 			#wrapper > .invert h1, #wrapper > .invert h2, #wrapper > .invert h3, #wrapper > .invert h4, #wrapper > .invert h5, #wrapper > .invert h6 {
@@ -5202,7 +5202,7 @@ input, select, textarea {
 			}
 		
 		#wrapper > .invert .t_color01 {
-			color: rgba(255, 255, 255, 0.4);
+			color: rgba(255, 255, 255, 0.3);
 		}
 		
 		#wrapper > .invert .t_color02 {
