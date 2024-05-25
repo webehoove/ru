@@ -2554,7 +2554,7 @@ input, select, textarea {
 		}
 
 	.box {
-		border-color: rgba(0, 0, 0, 0.25);
+		border-color: rgba(19, 35, 45, 0.35);
 	}
 
 /* Button */
@@ -5202,27 +5202,27 @@ input, select, textarea {
 				border-top-color: white;
 			}
 		
-		#wrapper > .invert .t_color01 {
+		#wrapper > .invert .c_a_wfall01 {
 			color: rgba(43, 200, 185, 1);
 		}
 
-		.c_astorm_10 {
+		.c_a_storm_10 {
 			color: #f3f4f4;
 		}
 
-		.c_astorm_20 {
+		.c_a_storm_20 {
 			color: #e7e9ea;
 		}
 
-		.c_astorm_40 {
+		.c_a_storm_40 {
 			color: #b8bdc0;
 		}
 
-		.c_astorm_60 {
+		.c_a_storm_60 {
 			color: #899196;
 		}
 
-		.c_astorm_80 {
+		.c_a_storm_80 {
 			color: #5a656c;
 		}
 		
