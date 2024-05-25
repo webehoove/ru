@@ -2554,8 +2554,22 @@ input, select, textarea {
 		}
 
 	.box {
-		border-color: rgba(19, 35, 45, 0.35);
+		border-color: rgba(19, 35, 45, 0.5);
 	}
+	
+	.box_alt {
+		border: none;
+		margin: 0;
+		padding: 1rem;
+		height: 100%;
+	}
+
+		.box_alt > :last-child,
+		.box_alt > :last-child > :last-child,
+		.box_alt > :last-child > :last-child > :last-child {
+			margin-bottom: 0;
+		}
+
 
 /* Button */
 
@@ -3101,6 +3115,17 @@ input, select, textarea {
 			display: block;
 			padding-bottom: 0.2rem;
 		}
+
+		ul.alt {
+			list-style: none;
+		    padding-bottom: 1rem;
+		    margin: 0;
+		}
+
+			ul.alt li {
+				display: block;
+				padding-bottom: 0;
+			}
 
 		ul.topmenu {
 			list-style: none;
@@ -4921,7 +4946,7 @@ input, select, textarea {
 				}
 
 			#wrapper > .invert p {
-				color: rgba(255, 255, 255, 0.6);
+				color: rgba(255, 255, 255, 0.73);
 			}
 
 			#wrapper > .invert h1, #wrapper > .invert h2, #wrapper > .invert h3, #wrapper > .invert h4, #wrapper > .invert h5, #wrapper > .invert h6 {
@@ -5202,7 +5227,7 @@ input, select, textarea {
 				border-top-color: white;
 			}
 		
-		#wrapper > .invert .c_a_wfall01 {
+		#wrapper > .invert .c_a_wfall {
 			color: rgba(43, 200, 185, 1);
 		}
 
