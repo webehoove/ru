@@ -509,7 +509,7 @@ input, select, textarea {
 	@media screen and (max-width: 736px) {
 
 		p {
-			font-size: 1.25rem;
+			font-size: 1rem;
 			line-height: 1.3;
 			margin: 0.5rem 0;
 		}
