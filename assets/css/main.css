@@ -4929,7 +4929,7 @@ input, select, textarea {
 	}
 
 		#wrapper > .invert {
-			background-color: #13232d;
+			background-color: #061116;
 			color: rgba(255, 255, 255, 0.87);
 		}
 
@@ -5249,6 +5249,10 @@ input, select, textarea {
 
 		.c_a_storm_80 {
 			color: #5a656c;
+		}
+
+		.c_a_storm_100 {
+			color: #13232D;
 		}
 		
 		#wrapper.divided > * {
