@@ -337,7 +337,7 @@ input, select, textarea {
         justify-content: flex-end;
         margin-left: auto;
         margin-right: 0;
-		width: 0.8rem;
+		width: 0.9rem;
 	} 
 
 	h1 {
@@ -440,7 +440,7 @@ input, select, textarea {
 
 		   .scheme {
 			    position: absolute;
-				top: 0.05rem;
+				top: 0;
 			    right: 0.5rem;
 	       } 
 
