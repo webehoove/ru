@@ -226,8 +226,8 @@ input, select, textarea {
 		}
 
 	body {
-		background-color: #f5f5f5;
-		color: #121212;
+		background-color: #f3f4f4;
+		color: rgba(19, 35, 45, 1);
 	}
 
 	body, input, select, textarea {
@@ -265,7 +265,7 @@ input, select, textarea {
 	}
 
 	p {
-		color: rgba(85, 85, 85, 1);
+		color: rgba(19, 35, 45, 0.8);
 		margin: 1rem 0;
 	}
 
@@ -276,7 +276,7 @@ input, select, textarea {
 	}
 
 		h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
-			color: rgba(85, 85, 85, 0.6);
+			color: rgba(19, 35, 45, 0.5);
 			text-decoration: none;
 		}
 		
@@ -561,11 +561,11 @@ input, select, textarea {
 	}
 
 	a {
-		color:  rgba(85, 85, 85, 0.6);
+		color:  rgba(19, 35, 45, 0.5);
 	}
 
 		a:hover {
-			color: #121212;
+			color: rgba(19, 35, 45, 0.8);
 		}
 
 	blockquote {
@@ -4904,7 +4904,7 @@ input, select, textarea {
 	}
 
 		#wrapper > .invert {
-			background-color: #121212;
+			background-color: #13232d;
 			color: rgba(255, 255, 255, 0.87);
 		}
 
@@ -4921,11 +4921,11 @@ input, select, textarea {
 				}
 
 			#wrapper > .invert p {
-				color: rgba(255, 255, 255, 0.67);
+				color: rgba(255, 255, 255, 0.6);
 			}
 
 			#wrapper > .invert h1, #wrapper > .invert h2, #wrapper > .invert h3, #wrapper > .invert h4, #wrapper > .invert h5, #wrapper > .invert h6 {
-				color: rgba(255, 255, 255, 1);
+				color: rgba(255, 255, 255, 0.87);
 			}
 
 			#wrapper > .invert blockquote {
@@ -5203,15 +5203,27 @@ input, select, textarea {
 			}
 		
 		#wrapper > .invert .t_color01 {
-			color: rgba(255, 255, 255, 0.3);
-		}
-		
-		#wrapper > .invert .t_color02 {
 			color: rgba(43, 200, 185, 1);
 		}
 
-		#wrapper > .color01 {
-			background-color: #3fd8c9;
+		.c_astorm_10 {
+			color: #f3f4f4;
+		}
+
+		.c_astorm_20 {
+			color: #e7e9ea;
+		}
+
+		.c_astorm_40 {
+			color: #b8bdc0;
+		}
+
+		.c_astorm_60 {
+			color: #899196;
+		}
+
+		.c_astorm_80 {
+			color: #5a656c;
 		}
 		
 		#wrapper.divided > * {
