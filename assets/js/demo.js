@@ -83,7 +83,7 @@
 						'<span class="demo-controls">' +
 							(options.palette ?
 								'<span class="property active" data-name="scheme">' +
-									'<a href="#" class="title"><img src="https://webehoove.github.io/en/images/wb_scheme.svg"></a>' +
+									'<a href="#" class="title"><img src="https://webehoove.github.io/artos/images/support/wb_scheme.svg"></a>' +
 									'<span class="classes">' +
 										'<span data-class="-" class="active">default</span>' +
 										'<span data-class="invert">invert</span>' +
