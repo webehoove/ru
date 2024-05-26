@@ -265,7 +265,7 @@ input, select, textarea {
 	}
 
 	p {
-		color: rgba(19, 35, 45, 0.8);
+		color: rgba(19, 35, 45, 1);
 		margin: 1rem 0;
 	}
 
@@ -4930,7 +4930,7 @@ input, select, textarea {
 
 		#wrapper > .invert {
 			background-color: #061116;
-			color: rgba(255, 255, 255, 0.87);
+			color: #F3F4F4;
 		}
 
 			#wrapper > .invert input, #wrapper > .invert select, #wrapper > .invert textarea {
@@ -4946,7 +4946,7 @@ input, select, textarea {
 				}
 
 			#wrapper > .invert p {
-				color: rgba(255, 255, 255, 0.73);
+				color: #F3F4F4;
 			}
 
 			#wrapper > .invert h1, #wrapper > .invert h2, #wrapper > .invert h3, #wrapper > .invert h4, #wrapper > .invert h5, #wrapper > .invert h6 {
