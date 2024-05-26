@@ -421,6 +421,7 @@ input, select, textarea {
 		}
 		
 		hr.lineer {
+			border-top: none;
 			margin: 0;
 		}
 
@@ -550,6 +551,11 @@ input, select, textarea {
 			margin: 0.5rem 0;
 		}
 		
+		hr.lineer {
+			border-top: 1px solid rgba(19, 35, 45, 0.5);
+			margin: 0;
+		}
+		
 		.menutop {
 			font-size: 12px;
 		}
@@ -563,9 +569,12 @@ input, select, textarea {
 	a {
 		color:  rgba(19, 35, 45, 0.5);
 	}
-
 		a:hover {
-			color: rgba(19, 35, 45, 0.8);
+			color: rgba(19, 35, 45, 0.9);
+		}
+		
+		a:visited {
+			color: rgba(19, 35, 45, 0.5);
 		}
 
 	blockquote {
@@ -4944,6 +4953,10 @@ input, select, textarea {
 				#wrapper > .invert a:hover {
 					color: #ffffff;
 				}
+		
+		        #wrapper > .invert a:visited {
+			        color: rgba(255, 255, 255, 0.4);
+		        }
 
 			#wrapper > .invert p {
 				color: #D2D5D6;
