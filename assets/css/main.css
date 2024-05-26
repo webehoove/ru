@@ -4976,8 +4976,18 @@ input, select, textarea {
 			}
 
 			#wrapper > .invert .lineer {
-				border-top: 1px solid rgba(255, 255, 255, 0.125);
+				border: none;
 			}
+			
+			
+
+	       @media screen and (max-width: 736px) {
+
+		       #wrapper > .invert .lineer {
+		        	border-bottom: 1px solid rgba(255, 255, 255, 0.5);;
+		       }
+
+	        }
 
 			#wrapper > .invert .box {
 				border-color: rgba(255, 255, 255, 0.5);
