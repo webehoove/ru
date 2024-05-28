@@ -1,65 +1,88 @@
 @font-face {
-    font-family: 'Artos Sweetext Lt';
+    font-family: 'A Sans Text Rg';
     font-weight: normal;
     font-style: normal;
-    src:url(../webfonts/sweetext-lt-webfont.woff2) format('woff2'),
-	    url(../webfonts/sweetext-lt-webfont.woff) format('woff');
+    src:url(../webfonts/as/a-sans-text-regular-webfont.woff2) format('woff2'),
+	    url(../webfonts/as/a-sans-text-regular-webfont.woff) format('woff');
 }
 
 @font-face {
-    font-family: 'Artos Sweetext Rg';
+    font-family: 'A Sans Text Rg It';
     font-weight: normal;
     font-style: normal;
-    src:url(../webfonts/sweetext-rg-webfont.woff2) format('woff2'),
-	    url(../webfonts/sweetext-rg-webfont.woff) format('woff');
+    src:url(../webfonts/as/a-sans-text-italic-webfont.woff2) format('woff2'),
+	    url(../webfonts/as/a-sans-text-italic-webfont.woff) format('woff');
 }
 
 @font-face {
-    font-family: 'Artos Sweetext Md';
+    font-family: 'A Sans Text Md';
     font-weight: normal;
     font-style: normal;
-    src:url(../webfonts/sweetext-md-webfont.woff2) format('woff2'),
-	    url(../webfonts/sweetext-md-webfont.woff) format('woff');
+    src:url(../webfonts/as/a-sans-text-md-webfont.woff2) format('woff2'),
+	    url(../webfonts/as/a-sans-text-md-webfont.woff) format('woff');
 }
 
 @font-face {
-    font-family: 'Artos Sweetext Bd';
+    font-family: 'A Sans Text Md It';
     font-weight: normal;
     font-style: normal;
-    src:url(../webfonts/sweetext-bd-webfont.woff2) format('woff2'),
-	    url(../webfonts/sweetext-bd-webfont.woff) format('woff');
+    src:url(../webfonts/as/a-sans-text-mdit-webfont.woff2) format('woff2'),
+	    url(../webfonts/as/a-sans-text-mdit-webfont.woff) format('woff');
 }
 
 @font-face {
-    font-family: 'Artos Sweetitle Md';
+    font-family: 'A Sans Text Bd';
     font-weight: normal;
     font-style: normal;
-    src:url(../webfonts/sweetitle_medium-webfont.woff2) format('woff2'),
-	    url(../webfonts/sweetitle_medium-webfont.woff) format('woff');
+    src:url(../webfonts/as/a-sans-text-bd-webfont.woff2) format('woff2'),
+	    url(../webfonts/as/a-sans-text-bd-webfont.woff) format('woff');
 }
 
 @font-face {
-    font-family: 'Artos Sweetitle Rg';
+    font-family: 'A Sans Text Bd It';
     font-weight: normal;
     font-style: normal;
-    src:url(../webfonts/sweetitle_regular-webfont.woff2) format('woff2'),
-	    url(../webfonts/sweetitle_regular-webfont.woff) format('woff');
+    src:url(../webfonts/as/a-sans-text-bdit-webfont.woff2) format('woff2'),
+	    url(../webfonts/as/a-sans-text-mbdit-webfont.woff) format('woff');
 }
 
-@font-face {
-    font-family: 'Artos Sweetitle Db';
-    font-weight: normal;
-    font-style: normal;
-    src:url(../webfonts/sweetitle_demibold-webfont.woff2) format('woff2'),
-	    url(../webfonts/sweetitle_demibold-webfont.woff) format('woff');
-}
 
 @font-face {
-    font-family: 'Artos Sweetitle Bd';
+    font-family: 'A Sans Title Bd';
     font-weight: normal;
     font-style: normal;
-    src:url(../webfonts/sweetitle_bold-webfont.woff2) format('woff2'),
-	    url(../webfonts/sweetitle_bold-webfont.woff) format('woff');
+    src:url(../webfonts/as/a-sans-title-bold-webfont.woff2) format('woff2'),
+	    url(../webfonts/as/a-sans-title-bold-webfont.woff) format('woff');
+}
+
+
+
+@font-face {
+    font-family: 'A Sans Title Db';
+    font-weight: normal;
+    font-style: normal;
+    src:url(../webfonts/as/a-sans-title-demibold-webfont.woff2) format('woff2'),
+	    url(../webfonts/as/a-sans-title-demibold-webfont.woff) format('woff');
+}
+
+
+
+@font-face {
+    font-family: 'A Sans Title Md';
+    font-weight: normal;
+    font-style: normal;
+    src:url(../webfonts/as/a-sans-title-medium-webfont.woff2) format('woff2'),
+	    url(../webfonts/as/a-sans-title-medium-webfont.woff) format('woff');
+}
+
+
+
+@font-face {
+    font-family: 'A Sans Title Rg';
+    font-weight: normal;
+    font-style: normal;
+    src:url(../webfonts/as/a-sans-title-regular-webfont.woff2) format('woff2'),
+	    url(../webfonts/as/a-sans-title-regular-webfont.woff) format('woff');
 }
 
 
@@ -231,7 +254,7 @@ input, select, textarea {
 	}
 
 	body, input, select, textarea {
-		font-family: 'Artos Sweetext Rg', Helvetica, sans-serif;
+		font-family: 'A Sans Text Rg', Helvetica, sans-serif;
 		-webkit-font-smoothing: antialiased;
 	    -moz-osx-font-smoothing: grayscale;
 		font-weight: normal;
@@ -256,7 +279,7 @@ input, select, textarea {
 		}
 
 	strong, b {
-		font-family: 'Artos Sweetext Md', Helvetica, sans-serif;;
+		font-family: 'A Sans Text Bd', Helvetica, sans-serif;;
         font-weight: normal;
 	}
 
@@ -285,42 +308,57 @@ input, select, textarea {
 		}
 		
 		.title_regular {
-			font-family: 'Artos Sweetitle Rg', Helvetica, sans-serif;
+			font-family: 'A Sans Title Rg', Helvetica, sans-serif;
 		    font-weight: normal;
 		}
 		
 		.title_medium {
-			font-family: 'Artos Sweetitle Md', Helvetica, sans-serif;
+			font-family: 'A Sans Title Md', Helvetica, sans-serif;
 		    font-weight: normal;
 		}
 		
 		.title_demibold {
-			font-family: 'Artos Sweetitle Db', Helvetica, sans-serif;
+			font-family: 'A Sans Title Db', Helvetica, sans-serif;
 		    font-weight: normal;
 		}
 		
 		.title_bold {
-			font-family: 'Artos Sweetitle Bd', Helvetica, sans-serif;
+			font-family: 'A Sans Title Bd', Helvetica, sans-serif;
 		    font-weight: normal;
 		}
 		
-		.title_black {
-			font-family: 'Artos Sweetitle Bd', Helvetica, sans-serif;
+		.title_bold {
+			font-family: 'A Sans Title Bd', Helvetica, sans-serif;
 		    font-weight: normal;
 		}
 		
-		.light {
-			font-family: 'Artos Sweetext Lt', Helvetica, sans-serif;
+		.regular {
+			font-family: 'A Sans Text Rg', Helvetica, sans-serif;
+		    font-weight: normal;
+		}
+		
+		.regular_it {
+			font-family: 'A Sans Text Rg It', Helvetica, sans-serif;
 		    font-weight: normal;
 		}
 		
 		.medium {
-			font-family: 'Artos Sweetext Md', Helvetica, sans-serif;
+			font-family: 'A Sans Text Md', Helvetica, sans-serif;
+		    font-weight: normal;
+		}
+		
+		.medium_it {
+			font-family: 'A Sans Text Md It', Helvetica, sans-serif;
 		    font-weight: normal;
 		}
 		
 		.bold {
-			font-family: 'Artos Sweetext Bd', Helvetica, sans-serif;
+			font-family: 'A Sans Text Bd', Helvetica, sans-serif;
+		    font-weight: normal;
+		}
+		
+		.bold_it {
+			font-family: 'A Sans Text Bd It', Helvetica, sans-serif;
 		    font-weight: normal;
 		}
 		
@@ -338,6 +376,11 @@ input, select, textarea {
         margin-left: auto;
         margin-right: 0;
 		width: 0.9rem;
+	} 
+
+	h1.major {
+		font-size: 6rem;
+		line-height: 0.9;
 	} 
 
 	h1 {
@@ -420,6 +463,11 @@ input, select, textarea {
 			margin: 2rem 0;
 		}
 		
+		hr.lineer_all {
+			border-top: 1px solid #5A656C;
+			margin: 3rem 0 0.6rem 0;;
+		}
+		
 		hr.lineer {
 			border-top: none;
 			margin: 0;
@@ -436,21 +484,15 @@ input, select, textarea {
 	.align-right {
 		text-align: right;
 	}
-	
-	   @media screen and (max-width: 820px) {
-
-		   .scheme {
-			    position: absolute;
-				top: 0;
-			    right: 0.5rem;
-	       } 
-
-	   }
 
 	@media screen and (max-width: 1280px) {
 
 		p {
 			margin: 0.5rem 0;
+		}
+		
+		h1.major {
+			font-size: 4rem;
 		}
 		
 		h1 {
@@ -507,12 +549,26 @@ input, select, textarea {
 
 	}
 	
+	@media screen and (max-width: 820px) {
+
+		.scheme {
+		    position: absolute;
+			top: 0;
+		    right: 0.5rem;
+	        } 
+
+    }
+	
 	@media screen and (max-width: 736px) {
 
 		p {
 			font-size: 1rem;
 			line-height: 1.4;
 			margin: 0.5rem 0;
+		}
+		
+		h1.major {
+			font-size: 2.75rem;
 		}
 
 		h1 {
@@ -552,7 +608,7 @@ input, select, textarea {
 		}
 		
 		hr.lineer {
-			border-top: 1px solid rgba(19, 35, 45, 0.5);
+			border-top: 1px solid #5A656C;
 			margin: 0;
 		}
 		
@@ -2563,7 +2619,7 @@ input, select, textarea {
 		}
 
 	.box {
-		border-color: rgba(19, 35, 45, 0.5);
+		border-color: #5A656C;
 	}
 	
 	.box_alt {
@@ -5255,10 +5311,6 @@ input, select, textarea {
 				border-top-color: white;
 			}
 		
-		#wrapper > .invert .c_a_wfall {
-			color: rgba(43, 200, 185, 1);
-		}
-
 		.c_a_storm_10 {
 			color: #f3f4f4;
 		}
@@ -5281,6 +5333,10 @@ input, select, textarea {
 
 		.c_a_storm_100 {
 			color: #13232D;
+		}
+
+		.c_a_wfall {
+			color: #2BC8B9;
 		}
 		
 		#wrapper.divided > * {
