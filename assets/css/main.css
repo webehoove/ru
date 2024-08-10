@@ -451,7 +451,7 @@ input::-moz-focus-inner {
 	    }
 		
 		h1.major {
-			font-size: 2.5rem;
+			font-size: 2.35rem;
 			line-height: 0.9;
 		}
 	
@@ -2807,20 +2807,19 @@ input::-moz-focus-inner {
 				width: 100%;
 			}
 
-		.image.main {
+		.image.icon {
 			display: block;
-			margin: 0 0 3rem 0;
-			width: 100%;
+			width: 1.75rem;
 		}
-
-			.image.main img {
-				width: 100%;
-			}
 			
 			@media screen and (max-width: 736px) {
 				
 				.rounded img {
 			        padding-bottom: 0.5rem;
+		        }
+				
+				.image.icon {
+			        width: 1.5rem;
 		        }
 				
 			}
