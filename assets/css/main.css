@@ -2814,10 +2814,6 @@ input::-moz-focus-inner {
 			
 			@media screen and (max-width: 736px) {
 				
-				.rounded img {
-			        padding-bottom: 0.5rem;
-		        }
-				
 				.image.icon {
 			        width: 1.5rem;
 		        }
