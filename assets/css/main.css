@@ -463,6 +463,10 @@ input::-moz-focus-inner {
 	    	font-size: 1.4rem;
 	    }
 		
+		h5 {
+	    	font-size: 0.75rem;
+	    }
+		
 		h4.title {
 		    font-size: 1.15rem;
 	    }
@@ -778,15 +782,15 @@ input::-moz-focus-inner {
 
 		.row {
 			margin-top: 0;
-			margin-left: -0.33rem;
+			margin-left: -0.5rem;
 		}
 
 			.row > * {
-				padding: 0 0 0 0.33rem;
+				padding: 0 0 0 0.5rem;
 			}
 
 			.row.gtr-uniform {
-				margin-top: -0.0.33rem;
+				margin-top: -0.0.5rem;
 			}
 
 				.row.gtr-uniform > * {
@@ -1021,15 +1025,15 @@ input::-moz-focus-inner {
 
 				.row {
 					margin-top: 0;
-					margin-left: -0.33rem;
+					margin-left: -0.5rem;
 				}
 
 					.row > * {
-						padding: 0 0 0 0.33rem;
+						padding: 0 0 0 0.5rem;
 					}
 
 					.row.gtr-uniform {
-						margin-top: -0.33rem;
+						margin-top: -0.5rem;
 					}
 
 						.row.gtr-uniform > * {
@@ -1266,15 +1270,15 @@ input::-moz-focus-inner {
 
 				.row {
 					margin-top: 0;
-					margin-left: -0.33rem;
+					margin-left: -0.5rem;
 				}
 
 					.row > * {
-						padding:0 0 0 0.33rem;
+						padding:0 0 0 0.5rem;
 					}
 
 					.row.gtr-uniform {
-						margin-top: -0.33rem;
+						margin-top: -0.5rem;
 					}
 
 						.row.gtr-uniform > * {
@@ -1511,15 +1515,15 @@ input::-moz-focus-inner {
 
 				.row {
 					margin-top: 0;
-					margin-left: -0.33rem;
+					margin-left: -0.5rem;
 				}
 
 					.row > * {
-						padding: 0 0 0 0.33rem;
+						padding: 0 0 0 0.5rem;
 					}
 
 					.row.gtr-uniform {
-						margin-top: -0.33rem;
+						margin-top: -0.5rem;
 					}
 
 						.row.gtr-uniform > * {
@@ -1756,15 +1760,15 @@ input::-moz-focus-inner {
 
 				.row {
 					margin-top: 0;
-					margin-left: -0.33rem;
+					margin-left: -0.5rem;
 				}
 
 					.row > * {
-						padding: 0m 0 0 0.33rem;
+						padding: 0m 0 0 0.5rem;
 					}
 
 					.row.gtr-uniform {
-						margin-top: -0.33rem;
+						margin-top: -0.5rem;
 					}
 
 						.row.gtr-uniform > * {
@@ -2001,15 +2005,15 @@ input::-moz-focus-inner {
 
 				.row {
 					margin-top: 0;
-					margin-left: -0.33rem;
+					margin-left: -0.5rem;
 				}
 
 					.row > * {
-						padding: 0 0 0 0.33rem;
+						padding: 0 0 0 0.5rem;
 					}
 
 					.row.gtr-uniform {
-						margin-top: -0.33rem;
+						margin-top: -0.5rem;
 					}
 
 						.row.gtr-uniform > * {
@@ -2246,15 +2250,15 @@ input::-moz-focus-inner {
 
 				.row {
 					margin-top: 0;
-					margin-left: -0.33rem;
+					margin-left: -0.5rem;
 				}
 
 					.row > * {
-						padding: 0 0 0 0.33rem;
+						padding: 0 0 0 0.5rem;
 					}
 
 					.row.gtr-uniform {
-						margin-top: -0.33rem;
+						margin-top: -0.5rem;
 					}
 
 						.row.gtr-uniform > * {
@@ -2491,15 +2495,15 @@ input::-moz-focus-inner {
 
 				.row {
 					margin-top: 0;
-					margin-left: -0.33rem;
+					margin-left: -0.5rem;
 				}
 
 					.row > * {
-						padding: 0.5rem 0 0 0.33rem;
+						padding: 0 0 0 0.5rem;
 					}
 
 					.row.gtr-uniform {
-						margin-top: -0.33rem;
+						margin-top: -0.5rem;
 					}
 
 						.row.gtr-uniform > * {
@@ -2571,7 +2575,8 @@ input::-moz-focus-inner {
 			}
 			
 	.box.bg01 {
-		background-color: #fff;
+		background-color: rgba(255, 255, 255, 0.25);
+		border: none;
 	}
 
 /* Button */
