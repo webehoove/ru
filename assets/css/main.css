@@ -118,7 +118,7 @@ input::-moz-focus-inner {
 	}
 
 	body {
-		background: #ffffff;
+		background: #fff;
 	} 
 	     
 		 body.is-preload *, body.is-preload *:before, body.is-preload *:after {
@@ -195,7 +195,7 @@ input::-moz-focus-inner {
 		}
 
 	body {
-		background-color: #ffffff;
+		background-color: #fff;
 		color: #18191a;
 	}
 
@@ -372,6 +372,14 @@ input::-moz-focus-inner {
 		text-align: right;
 	}
 	
+	.color0_t {
+		color: #f3f3f3;
+	}
+	
+	.color00_t {
+		color: #18191a;
+	}
+	
 	.color01_t {
 		opacity: .75;
 	}
@@ -509,7 +517,7 @@ input::-moz-focus-inner {
 	#topmenu {
 		position: relative;
 		margin: 1rem 0 0 0;
-	}	
+	}
 	
 	#topmenu.logotype img {
 		position: relative;
@@ -534,6 +542,17 @@ input::-moz-focus-inner {
 				display: inline-block;
 				margin: 0 2.5rem 0 0;
 				padding: 0.75rem 0 0 0;
+			}
+	
+	.menuend {
+		font-size: 0.75rem;
+		display: block;
+		margin-top: 2rem;
+	}
+	
+	        ul.menuend li {
+				display: block;
+				margin-bottom: 0.75rem;
 			}
 			
 	.hideit_mob {
@@ -2569,13 +2588,23 @@ input::-moz-focus-inner {
 				}
 				
 				.box.wide {
-					padding: 2rem 1rem 1.75rem 1rem;
+					padding: 1.5rem 1rem 0 1rem;
 				}
 				
 			}
 			
 	.box.bg01 {
 		background-color: rgba(255, 255, 255, 0.35);
+		border: none;
+	}
+	
+	.box.bg02 {
+		background-color: rgba(255, 255, 255, 1);
+		border: none;
+	}
+	
+	.box.bg03 {
+		background-color: rgba(25, 26, 27, 1);
 		border: none;
 	}
 
@@ -2647,11 +2676,12 @@ input::-moz-focus-inner {
 			background-repeat: no-repeat;
 			background-clip: border-box;
 			background-position:right;
-			min-width: 11em;
-			font-size: 1rem;
-			height: 1.9em;
-			line-height: 2em;
-			border-radius: 1.9em;
+			min-width: 17em;
+			font-size: 0.65rem;
+			height: 4em;
+			line-height: 4.35;
+			border-radius: 0.35em;
+			padding: 0 2.25em;
 			text-align: left;
 		}
 
@@ -2737,19 +2767,19 @@ input::-moz-focus-inner {
 
 		button.colored,
 		.button.colored {
-			background-color: rgba(14, 187, 255, 1);
+			background-color: rgba(162, 146, 255, 1);
 			box-shadow: none;
-			color: rgba(47, 50, 52, 1);
+			color: rgba(24, 25, 26, 1);
 		}
 
 			button.colored:hover,
 			.button.colored:hover {
-				background-color: rgba(14, 187, 255, 0.6);
+				background-color: rgba(135, 122, 212, 1);
 			}
 
 			button.colored:active,
 			.button.colored:active {
-				background-color: rgba(14, 187, 255, 1);
+				background-color: rgba(135, 122, 212, 1);
 			}
 		
 /* Image */
@@ -4728,11 +4758,11 @@ input::-moz-focus-inner {
 			}
 
 			#wrapper > .invert a {
-				color: rgba(243, 243, 243, 0.8);
+				color: rgba(243, 243, 243, 0.5);
 			}
 
 				#wrapper > .invert a:hover {
-					color: rgba(243, 243, 243, 0.5);
+					color: rgba(243, 243, 243, 1);
 					border-bottom: none;
 				}
 
@@ -5055,7 +5085,7 @@ input::-moz-focus-inner {
 		}
 
 		#wrapper > .color04 {
-			background-color: #0B141D;
+			background-color: #2f2f31;
 		}
 
 		#wrapper.divided > * {
