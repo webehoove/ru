@@ -266,7 +266,7 @@ input::-moz-focus-inner {
 
 	h1 {
 		font-size: 2.5rem;
-		line-height: 1;
+		line-height: 0.95;
 	}
 	
 	h1.major {
