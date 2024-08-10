@@ -472,7 +472,7 @@ input::-moz-focus-inner {
 	    }
 		
 		h5 {
-	    	font-size: 0.75rem;
+	    	font-size: 0.8rem;
 	    }
 		
 		h4.title {
@@ -547,7 +547,7 @@ input::-moz-focus-inner {
 	.menuend {
 		font-size: 0.8rem;
 		display: block;
-		margin-top: 2rem;
+		margin-top: 1.75rem;
 	}
 	
 	        ul.menuend li {
