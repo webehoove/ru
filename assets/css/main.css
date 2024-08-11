@@ -4797,6 +4797,14 @@ input::-moz-focus-inner {
 				border-bottom-color: rgba(255, 255, 255, 0.1);
 			}
 
+			#wrapper > .invert hr.lineer {
+				border-bottom-color: rgba(255, 255, 255, 0.1);
+			}
+
+			#wrapper > .invert hr.lineer2 {
+				border-bottom-color: rgba(255, 255, 255, 0.25);
+			}
+
 			#wrapper > .invert .box {
 				border-color: rgba(255, 255, 255, 0.35);
 			}
@@ -4834,9 +4842,9 @@ input::-moz-focus-inner {
 				#wrapper > .invert input[type="button"].primary,
 				#wrapper > .invert button.primary,
 				#wrapper > .invert .button.primary {
-					background-color: rgba(243, 243, 243, 0.25);
+					background-color: rgba(243, 243, 243, 0.15);
 					box-shadow: none;
-					color: rgba(243, 243, 243, 1);
+					color: rgba(243, 243, 243, 0.8);
 				}
 
 					#wrapper > .invert input[type="submit"].primary:hover,
