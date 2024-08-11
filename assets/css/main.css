@@ -273,6 +273,11 @@ input::-moz-focus-inner {
 		font-size: 3.15rem;
 		line-height: 0.9;
 	}
+	
+	h1.major2 {
+		font-size: 4rem;
+		line-height: 0.9;
+	}
 
 	h2 {
 		font-size: 1.75rem;
@@ -403,6 +408,10 @@ input::-moz-focus-inner {
 		    font-size: 2.5rem;
 	    }
 		
+		h1.major2 {
+		    font-size: 3rem;
+	    }
+		
 		hr {
 		    margin: 2.65rem 0;
 	    }
@@ -417,6 +426,11 @@ input::-moz-focus-inner {
 
 		h1.major {
 			font-size: 2.45rem;
+		}
+		
+		h1.major2 {
+			font-size: 2.85rem;
+			line-height: 0.8;
 		}
 	
 	    h3 {
@@ -443,6 +457,10 @@ input::-moz-focus-inner {
 			font-size: 1.75rem;
 		}
 		
+		h1.major2 {
+			font-size: 2rem;
+		}
+		
 		h4 {
 		    font-size: 1.25rem;
 	    }
@@ -466,6 +484,11 @@ input::-moz-focus-inner {
 		h1.major {
 			font-size: 2.5rem;
 			line-height: 0.9;
+		}
+		
+		h1.major2 {
+			font-size: 3rem;
+			line-height: 0.85;
 		}
 	
 	    h3 {
@@ -2604,7 +2627,7 @@ input::-moz-focus-inner {
 	}
 	
 	.box.bg02 {
-		background-color: rgba(255, 255, 255, 1);
+		background-color: rgba(243, 243, 243, 1);
 		border: none;
 	}
 	
@@ -2809,6 +2832,10 @@ input::-moz-focus-inner {
 		}
 		
 		.round img {
+			border-radius: 0.75rem;
+		}
+		
+		.round video {
 			border-radius: 0.75rem;
 		}
 		
