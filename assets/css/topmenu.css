@@ -171,7 +171,7 @@
   transition: transform .6s cubic-bezier(0.215, 0.61, 0.355, 1);
 }
 .wrapper_menu ul li a:after{
-  color: rgba(244, 244, 244, 0.5);
+  color: rgba(244, 244, 244, 0.9);
   position: relative;
   z-index: -1;
   transition: transform 0.3s ease;
@@ -180,10 +180,22 @@
   transform: scaleY(1);
 }
 .wrapper_menu ul li a:hover{
-  color: rgba(244, 244, 244, 0.5);
+  color: rgba(244, 244, 244, 0.9);
 }
 .wrapper_menu ul li a:link:active, a:visited:active {
-  color: rgba(244, 244, 244, 0.5);
+  color: rgba(244, 244, 244, 0.9);
+}
+#wrapper > .invert .wrapper_menu ul li a{
+  color: rgba(244, 244, 244, 0.9);
+}
+#wrapper > .invert .wrapper_menu ul li a:after{
+  color: rgba(244, 244, 244, 0.9);
+}
+#wrapper > .invert .wrapper_menu ul li a:hover:after{
+  transform: scaleY(1);
+}
+#wrapper > .invert .wrapper_menu ul li a:link:active, a:visited:active {
+  color: rgba(244, 244, 244, 0.9);
 }
 input[type="checkbox"]{
   display: none;
