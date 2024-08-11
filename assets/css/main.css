@@ -2690,8 +2690,8 @@ input::-moz-focus-inner {
 			font-size: 0.75rem;
 			height: 4em;
 			line-height: 4.15;
-			border-radius: 0.3em;
-			padding: 0 2em;
+			border-radius: 2em;
+			padding: 0 1.25em;
 			text-align: left;
 		}
 
