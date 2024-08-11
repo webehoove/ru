@@ -359,6 +359,11 @@ input::-moz-focus-inner {
 			border-bottom: 1px solid rgba(24, 25, 26, 0.1);
 			margin: 0;
 		}
+		
+		hr.lineer2 {
+			border-bottom: 1px solid rgba(24, 25, 26, 0.25);
+			margin: 0;
+		}
 
 	.align-left {
 		text-align: left;
