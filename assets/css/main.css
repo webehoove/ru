@@ -255,7 +255,7 @@ input::-moz-focus-inner {
 		}
 		
 		.medium_t {
-			font-family: 'DS Sans Regular', Helvetica, sans-serif;
+			font-family: 'DS Sans Medium', Helvetica, sans-serif;
 		    font-weight: normal;
 		}
 		
@@ -460,11 +460,11 @@ input::-moz-focus-inner {
 	@media screen and (max-width: 736px) {
 
 		h1 {
-		    font-size: 1.75rem;
+		    font-size: 1.85rem;
 	    }
 		
 		h1.major {
-			font-size: 2.25rem;
+			font-size: 2.35rem;
 			line-height: 0.9;
 		}
 	
@@ -4867,20 +4867,20 @@ input::-moz-focus-inner {
 					
 				#wrapper > .invert button.colored,
 				#wrapper > .invert .button.colored {
-					background-color: rgba(14, 187, 255, 1);
+					background-color: rgba(162, 146, 255, 1);
 					box-shadow: none;
-					color: rgba(47, 50, 52, 1);
+					color: rgba(24, 25, 26, 1);
 				}
 
 					#wrapper > .invert button.colored:hover,
 					#wrapper > .invert .button.colored:hover {
-						background-color: rgba(14, 187, 255, 0.5);
+						background-color: rgba(135, 122, 212, 1);
 					    box-shadow: none;
 					}
 
 					#wrapper > .invert button.colored:active,
 					#wrapper > .invert .button.colored:active {
-						background-color: rgba(14, 187, 255, 1);
+						background-color: rgba(135, 122, 212, 1);
 					    box-shadow: none;
 					}
 
