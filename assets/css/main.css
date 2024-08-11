@@ -356,7 +356,7 @@ input::-moz-focus-inner {
 		}
 		
 		hr.lineer {
-			border-bottom: 1px solid rgba(0, 0, 0, 0.35);
+			border-bottom: 1px solid rgba(24, 25, 26, 0.25);
 			margin: 0;
 		}
 
@@ -2864,7 +2864,7 @@ input::-moz-focus-inner {
 	}
 
 		ol li {
-			border-bottom: 1px solid rgba(0, 0, 0, 0.35);
+			border-bottom: 1px solid rgba(24, 25, 26, 0.25);
 			padding: 1rem 0;
 		}
 
