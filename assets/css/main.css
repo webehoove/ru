@@ -2612,6 +2612,11 @@ input::-moz-focus-inner {
 		background-color: rgba(24, 25, 26, 1);
 		border: none;
 	}
+	
+	.box.bg04 {
+		background-color: rgba(68, 68, 70, 1);
+		border: none;
+	}
 
 /* Button */
 
