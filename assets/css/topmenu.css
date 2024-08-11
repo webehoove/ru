@@ -143,6 +143,7 @@
 }
 .wrapper_menu ul{
   position:relative;
+  font-size: 0.7rem;
   left: 1rem;
   top: 0.8rem;
   list-style: none;
@@ -151,7 +152,7 @@
 .wrapper_menu ul li{
   margin: 0.2rem 0 0 0;
   display: block;
-  color: #f3f3f3;
+  color: rgba(244, 244, 244, 0.5);
   border-bottom: 1px solid rgba(244, 244, 244, 0.15);
 }
 .wrapper_menu ul li a{
