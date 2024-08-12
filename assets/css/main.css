@@ -281,7 +281,7 @@ input::-moz-focus-inner {
 
 	h2 {
 		font-size: 1.75rem;
-		line-height: 1.1;
+		line-height: 0.9;
 	}
 
 	h3 {
@@ -488,7 +488,7 @@ input::-moz-focus-inner {
 		
 		h1.major2 {
 			font-size: 3rem;
-			line-height: 0.85;
+			line-height: 0.8;
 		}
 	
 	    h3 {
