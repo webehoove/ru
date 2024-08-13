@@ -274,6 +274,11 @@ input::-moz-focus-inner {
 		line-height: 0.9;
 	}
 	
+	h1.banner {
+		font-size: 4rem;
+		line-height: 1;
+	}
+	
 	h1.major2 {
 		font-size: 4rem;
 		line-height: 0.9;
@@ -408,6 +413,10 @@ input::-moz-focus-inner {
 		    font-size: 2.5rem;
 	    }
 		
+		h1.banner {
+		    font-size: 3rem;
+	    }
+		
 		h1.major2 {
 		    font-size: 3rem;
 	    }
@@ -432,6 +441,11 @@ input::-moz-focus-inner {
 			font-size: 2.85rem;
 			line-height: 0.8;
 		}
+		
+		h1.banner {
+			font-size: 4rem;
+			line-height: 1;
+		}
 	
 	    h3 {
 		    font-size: 1.35rem;
@@ -455,6 +469,11 @@ input::-moz-focus-inner {
 		
 		h1.major {
 			font-size: 1.75rem;
+		}
+		
+		h1.banner {
+			font-size: 4rem;
+			line-height: 0.9;
 		}
 		
 		h1.major2 {
@@ -483,6 +502,11 @@ input::-moz-focus-inner {
 		
 		h1.major {
 			font-size: 2.35rem;
+			line-height: 0.9;
+		}
+		
+		h1.banner {
+			font-size: 2.5rem;
 			line-height: 0.9;
 		}
 		
@@ -3511,7 +3535,7 @@ input::-moz-focus-inner {
 /* Banner (style5) */
 
 	.banner.style5 {
-		padding: 0 0.65rem 0.65rem 0.65rem ;
+		padding: 0 7rem;
 		-moz-align-items: left;
 		-webkit-align-items: left;
 		-ms-align-items: left;
@@ -3586,14 +3610,14 @@ input::-moz-focus-inner {
 				left: 0;
 				width: 100%;
 				height: 100%;
-				opacity: 0.7;
+				opacity: 1;
 				z-index: 1;
 			}
 
 		@media screen and (max-width: 1680px) {
 
 			.banner.style5 {
-				padding: 0 0.65rem 0.65rem 0.65rem ;
+				padding: 0 2rem ;
 			}
 
 		}
@@ -3601,15 +3625,7 @@ input::-moz-focus-inner {
 		@media screen and (max-width: 1280px) {
 
 			.banner.style5 {
-				padding: 0 0.65rem 0.65rem 0.65rem ;
-			}
-
-		}
-
-		@media screen and (max-width: 980px) {
-
-			.banner.style5 {
-				padding: 0 0.65rem 0.65rem 0.65rem ;
+				padding: 0 1rem ;
 			}
 
 		}
@@ -3617,7 +3633,7 @@ input::-moz-focus-inner {
 		@media screen and (max-width: 736px) {
 
 			.banner.style5 {
-				padding: 0 0 0.5rem 0.5rem ;
+				padding: 0 1rem ;
 			}
 
 		}
