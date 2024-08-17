@@ -4915,7 +4915,7 @@ input::-moz-focus-inner {
 				#wrapper > .invert .button.primary {
 					background-color: rgba(243, 243, 243, 0.35);
 					box-shadow: none;
-					color: rgba(243, 243, 243, 0.8);
+					color: rgba(24, 25, 26, 1);
 				}
 
 					#wrapper > .invert input[type="submit"].primary:hover,
@@ -4951,6 +4951,25 @@ input::-moz-focus-inner {
 					#wrapper > .invert button.colored:active,
 					#wrapper > .invert .button.colored:active {
 						background-color: rgba(135, 122, 212, 1);
+					}
+					
+				#wrapper > .invert button.bannered,
+				#wrapper > .invert .button.bannered {
+					background-color: rgba(162, 146, 255, 1);
+					box-shadow: none;
+					rgba(243, 243, 243, 0.25);
+				}
+
+					#wrapper > .invert button.bannered:hover,
+					#wrapper > .invert .button.bannered:hover {
+						background-color: rgba(135, 122, 212, 1);
+						rgba(243, 243, 243, 0.25);
+					}
+
+					#wrapper > .invert button.bannered:active,
+					#wrapper > .invert .button.bannered:active {
+						background-color: rgba(135, 122, 212, 1);
+						rgba(243, 243, 243, 0.25);
 					}
 
 			#wrapper > .invert label {
