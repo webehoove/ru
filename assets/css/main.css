@@ -583,7 +583,7 @@ input::-moz-focus-inner {
 	
 	        ul.menutop li {
 				display: inline-block;
-				margin-right: 2.5rem;
+				margin-right: 1.5rem;
 			}
 			
 	.menubottom {
@@ -592,7 +592,7 @@ input::-moz-focus-inner {
 	
 	        ul.menubottom li {
 				display: inline-block;
-				margin: 0 2.5rem 0 0;
+				margin: 0 1.5rem 0 0;
 				padding: 0.75rem 0 0 0;
 			}
 	
@@ -614,7 +614,7 @@ input::-moz-focus-inner {
 	@media screen and (max-width: 1180px) {
 
 		.menutop {
-		    margin-left: 2.5rem;
+		    margin-left: 2rem;
 	    }
 
 	}
@@ -630,7 +630,7 @@ input::-moz-focus-inner {
 	    }
 	 		
 			ul.menutop li {
-				margin-right: 1rem;
+				margin-right: 0.6rem;
 			}
 
 	}
@@ -650,11 +650,11 @@ input::-moz-focus-inner {
 	    }
 		
 		.menubottom {
-		    font-size: 0.8rem;
+		    font-size: 0.7rem;
 	    }
 	
 	        ul.menubottom li {
-				margin: 0 1rem 0 0;
+				margin: 0 0.5rem 0 0;
 			}
 
 	}
