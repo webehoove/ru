@@ -3474,7 +3474,9 @@ input::-moz-focus-inner {
 		.banner.style5 .content {
 			position: relative;
 			width: 100%;
-			z-index: 2;
+			height: 100svh;
+			overflow: hidden;
+			z-index: 1;
 		}
 
 		.banner.style5 .image {
