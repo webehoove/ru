@@ -24,17 +24,17 @@
 			font-size: 1.35rem;
 		}
 		.submenu a {
-			color: rgba(36, 36, 53, 0.5);
+			color: rgba(59, 59, 75, 0.5);
 		}
 		.submenu a:hover {
-			color: rgba(36, 36, 53, 1);
+			color: rgba(59, 59, 75, 1);
 		}
 		.submenu a:active, a:visited:active {
-			color: rgba(36, 36, 53, 0.5);
+			color: rgba(59, 59, 75, 0.5);
 		}
 		ul.submenu li {
 			line-height: 1.2;
-			border-bottom: 1px solid rgba(36, 36, 53, 0.1);
+			border-bottom: 1px solid rgba(59, 59, 75, 0.1);
 			margin-top: 0.25rem;
 		}
 		.submenu_num {
@@ -63,7 +63,7 @@
 		.line {
 			display: inline-block;
 			height: 160px;
-			border-left: 1px solid rgba(8, 8, 15, 0.8);
+			border-left: 1px solid rgba(59, 59, 75, 0.8);
 			margin-right: 2px;
 		}
         @media screen and (max-width: 1024px) {

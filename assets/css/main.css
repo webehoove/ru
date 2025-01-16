@@ -2564,9 +2564,9 @@ input::-moz-focus-inner {
 		white-space: nowrap;
 		font-size: 0.9rem;
 		width: 12rem;
-		height: 1.8em;
-		line-height: 1.9;
-		border-radius: 0.9em;
+		height: 2em;
+		line-height: 2.2;
+		border-radius: 1em;
 		padding: 0 0.7em;
 		text-overflow: ellipsis;
 		overflow: hidden;
@@ -2640,8 +2640,13 @@ input::-moz-focus-inner {
 	button,
 	.button {
 		background-color: transparent;
-		box-shadow: inset 0 0 0 1px rgba(59, 59, 75, 0.5);
-		color: #1b1b2d !important;
+		background-image: url(../../imgs/arrow_right.svg);
+		background-repeat: no-repeat;
+		background-clip: border-box;
+		background-position:right;
+		box-shadow: inset 0 0 0 1px rgba(59, 59, 75, 0.35);
+		color: rgba(59, 59, 75, 1) !important;
+		opacity: .75;
 	}
 
 		input[type="submit"]:hover,
@@ -2649,8 +2654,8 @@ input::-moz-focus-inner {
 		input[type="button"]:hover,
 		button:hover,
 		.button:hover {
-			box-shadow: inset 0 0 0 1px rgba(59, 59, 75, 0.2);
-			color: #1b1b2d !important;
+			box-shadow: inset 0 0 0 1px rgba(59, 59, 75, 1);
+			color: rgba(59, 59, 75, 1) !important;
 		}
 
 		input[type="submit"]:active,
@@ -2658,9 +2663,8 @@ input::-moz-focus-inner {
 		input[type="button"]:active,
 		button:active,
 		.button:active {
-			background-color: rgba(59, 59, 75, 0.5);
-			box-shadow: inset 0 0 0 1px rgba(59, 59, 75, 0.5);
-			color: #1b1b2d !important;
+			box-shadow: inset 0 0 0 1px rgba(59, 59, 75, 1);
+			color: rgba(59, 59, 75, 1) !important;
 		}
 
 		input[type="submit"].primary,
@@ -2675,6 +2679,7 @@ input::-moz-focus-inner {
 			background-color: rgba(59, 59, 75, 0.5);
 			box-shadow: none;
 			color: #fff !important;
+			opacity: 1;
 		}
 
 			input[type="submit"].primary:hover,
@@ -2693,18 +2698,18 @@ input::-moz-focus-inner {
 				background-color: rgba(59, 59, 75, 0.75);
 			}
 			
-			@media screen and (max-width: 736px) {
+			@media screen and (max-width: 480px) {
 				
 				input[type="submit"],
 	            input[type="reset"],
 	            input[type="button"],
 	            button,
 	            .button {
-					line-height: 2;
+					line-height: 2.25;
 		        }
 				
 			}
-		
+					
 /* Image */
 
 	.image {
