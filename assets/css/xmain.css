@@ -24,17 +24,17 @@
 			font-size: 1.35rem;
 		}
 		.submenu a {
-			color: rgba(8, 8, 15, 0.5);
+			color: rgba(36, 36, 53, 0.5);
 		}
 		.submenu a:hover {
-			color: rgba(8, 8, 15, 1);
+			color: rgba(36, 36, 53, 1);
 		}
 		.submenu a:active, a:visited:active {
-			color: rgba(8, 8, 15, 0.5);
+			color: rgba(36, 36, 53, 0.5);
 		}
 		ul.submenu li {
 			line-height: 1.2;
-			border-bottom: 1px solid rgba(8, 8, 15, 0.2);
+			border-bottom: 1px solid rgba(36, 36, 53, 0.1);
 			margin-top: 0.25rem;
 		}
 		.submenu_num {
@@ -95,7 +95,6 @@
 		}
 		ul.submenu li {
 			line-height: 1.2;
-			border-bottom: 1px solid rgba(8, 8, 15, 0.2);
 			margin-top: 0.25rem;
 		}
 		.submenu_num {
