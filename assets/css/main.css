@@ -3452,6 +3452,8 @@ input::-moz-focus-inner {
 
 	.banner.style5 {
 		padding: 0 2rem 2rem 2rem ;
+		margin: 0 auto;
+		width: 100%;
 		-moz-align-items: left;
 		-webkit-align-items: left;
 		-ms-align-items: left;
