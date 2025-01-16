@@ -4,13 +4,13 @@
 	 viewBox="0 0 206 206" style="enable-background:new 0 0 206 206;" xml:space="preserve">
 <style type="text/css">
 	.st0{fill:#FFFFFF;fill-opacity:0;}
-	.st1{fill:#3B3B4B;}
+	.st1{fill:#FFFFFF;}
 </style>
 <rect y="0" class="st0" width="206" height="206"/>
 <g>
 	<g>
 		<g>
-			<path class="st1" d="M150,107.4l-47,47.3l-47-47.3l8.8-8.8l32.1,32.7v-80h12.3v79.9l32.1-32.7L150,107.4z"/>
+			<path class="st1" d="M107.4,56l47.3,47l-47.3,47l-8.8-8.8l32.7-32.1h-80V96.8h79.9L98.5,64.7L107.4,56z"/>
 		</g>
 	</g>
 </g>
