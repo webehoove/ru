@@ -188,7 +188,7 @@ input::-moz-focus-inner {
 
 	body {
 		background-color: #ffffff;
-		color: #3B3B4B;
+		color: #242435;
 	}
 
 	body, input, select, textarea {
@@ -2605,11 +2605,13 @@ input::-moz-focus-inner {
 		input[type="button"].large,
 		button.large,
 		.button.large {
-			font-size: 0.8rem;
-			height: 4em;
-			line-height: 4em;
-			border-radius: 4em;
-			padding: 0 3em;
+			font-size: 1.25rem;
+			height: 2em;
+			line-height: 2.2em;
+			width: auto;
+			border-radius: 1em;
+			padding: 0 1em;
+			text-align: center;
 		}
 
 		input[type="submit"].wide,
@@ -2630,8 +2632,10 @@ input::-moz-focus-inner {
 		button:disabled,
 		.button.disabled,
 		.button:disabled {
+			background-image: none;
+			width: auto;
 			pointer-events: none;
-			opacity: 0.6;
+			text-align: center;
 		}
 
 	input[type="submit"],
