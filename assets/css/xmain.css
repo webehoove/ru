@@ -67,9 +67,11 @@
 		.submenu_num {
 			width: 3rem;
 		}
-        @media screen and (max-width: 820px) {
 		.menumob {
 			display: block;
+		}
+		.nomob {
+			display: none;
 		}
         @media screen and (max-width: 736px) {
 		.logotype {
