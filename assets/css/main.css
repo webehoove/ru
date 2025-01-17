@@ -33,8 +33,35 @@
            font-display: swap;
            font-style: normal;
         }
+		
+		
+		
+		
 
-
+@font-face {
+           font-family: ELTASans Light;
+           src: url(../webfonts/v007/ELTA-Sans-Light.woff2) format('woff2');
+           font-display: swap;
+           font-style: normal;
+        }
+		
+@font-face {
+           font-family: ELTASans Regular;
+           src: url(../webfonts/v007/Elta-Sans-Regular.woff2) format('woff2');
+           font-display: swap;
+           font-style: normal;
+        }
+		
+@font-face {
+           font-family: ELTASans Medium;
+           src: url(../webfonts/v007/ELTA-Sans-Medium.woff2) format('woff2');
+           font-display: swap;
+           font-style: normal;
+        }
+		
+		
+		
+		
 
 
 html, body, div, span, applet, object,
@@ -192,7 +219,7 @@ input::-moz-focus-inner {
 	}
 
 	body, input, select, textarea {
-		font-family: 'ELTA Sans Regular', Helvetica, sans-serif;
+		font-family: 'ELTASans Regular', Helvetica, sans-serif;
 		font-weight: normal;
 		font-size: 1rem;
 		letter-spacing: 0;
@@ -216,7 +243,7 @@ input::-moz-focus-inner {
 		}
 		
 	strong, b {
-		 font-family: 'ELTA Sans Medium', Helvetica, sans-serif;
+		 font-family: 'ELTASans Medium', Helvetica, sans-serif;
 		 font-weight: normal;
 	}
 
@@ -244,17 +271,12 @@ input::-moz-focus-inner {
 		}
 		
 		.light_t {
-			font-family: 'ELTA Sans Light', Helvetica, sans-serif;
+			font-family: 'ELTASans Light', Helvetica, sans-serif;
 		    font-weight: normal;
 		}
 		
 		.medium_t {
-			font-family: 'ELTA Sans Medium', Helvetica, sans-serif;
-		    font-weight: normal;
-		}
-		
-		.bold_t {
-			font-family: 'ELTA Sans Bold', Helvetica, sans-serif;
+			font-family: 'ELTASans Medium', Helvetica, sans-serif;
 		    font-weight: normal;
 		}
 
@@ -486,7 +508,7 @@ input::-moz-focus-inner {
 		}
 
 		h1.special {
-			font-size: 2.25rem;
+			font-size: 2.2rem;
 		}
 
 		h1.major {
@@ -496,6 +518,10 @@ input::-moz-focus-inner {
 
 		h2 {
 			font-size: 1.5rem;
+		}
+
+		h3 {
+			font-size: 1.25rem;
 		}
 
 		h4 {
@@ -3525,7 +3551,7 @@ input::-moz-focus-inner {
 				left: 0;
 				width: 100%;
 				height: 100%;
-				opacity: 0.5;
+				opacity: 0.6;
 				z-index: 1;
 			}
 
