@@ -4,18 +4,15 @@
         }
 		#logosymbol {
 			position: relative;
-			float: right;
+			float: left;
 			width: 2.5rem;
-			margin-top: -1.15rem;
+			margin-top: -0.65rem;
 		}
 		#logosymbol_b {
 			position: relative;
 			float: left;
 			width: 2.5rem;
 			margin-top: 0.8rem;
-		}
-		#topmenu_logo {
-			margin-top: 0.35rem;
 		}
 		#topmenu {
 			margin-top: 0;
@@ -78,6 +75,10 @@
 		.logotype {
 			font-size: 1.35rem;
 			margin-top: -0.4rem;
+		}
+		#logosymbol {
+			width: 2.25rem;
+			margin-top: -0.6rem;
 		}
 		#logosymbol_b {
 			width: 3rem;
