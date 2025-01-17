@@ -219,7 +219,7 @@ input::-moz-focus-inner {
 	}
 
 	body, input, select, textarea {
-		font-family: 'ELTASans Regular', Helvetica, sans-serif;
+		font-family: 'ELTA Sans Regular', Helvetica, sans-serif;
 		font-weight: normal;
 		font-size: 1rem;
 		letter-spacing: 0;
@@ -243,7 +243,7 @@ input::-moz-focus-inner {
 		}
 		
 	strong, b {
-		 font-family: 'ELTASans Medium', Helvetica, sans-serif;
+		 font-family: 'ELTA Sans Medium', Helvetica, sans-serif;
 		 font-weight: normal;
 	}
 
@@ -271,12 +271,12 @@ input::-moz-focus-inner {
 		}
 		
 		.light_t {
-			font-family: 'ELTASans Light', Helvetica, sans-serif;
+			font-family: 'ELTA Sans Light', Helvetica, sans-serif;
 		    font-weight: normal;
 		}
 		
 		.medium_t {
-			font-family: 'ELTASans Medium', Helvetica, sans-serif;
+			font-family: 'ELTA Sans Medium', Helvetica, sans-serif;
 		    font-weight: normal;
 		}
 
