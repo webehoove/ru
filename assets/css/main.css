@@ -564,15 +564,15 @@ input::-moz-focus-inner {
 	a {
 		-webkit-tap-highlight-color: transparent !important;
         outline: none !important;
-		color: rgba(59, 59, 75, 0.75);
+		color: rgba(59, 59, 75, 1);
 	}
 
 		a:hover {
-			color: rgba(59, 59, 75, 1);
+			color: rgba(59, 59, 75, 0.75);
 		}
 		
 		a:active, a:visited:active {
-			color: rgba(59, 59, 75, 1);
+			color: rgba(59, 59, 75, 0.75);
 		}
 
 	blockquote {
