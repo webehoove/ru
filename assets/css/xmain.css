@@ -61,8 +61,10 @@
 		}
         @media screen and (max-width: 736px) {
 		.logotype {
-			font-size: 1.35rem;
 			margin-top: -0.4rem;
+		}
+		.logotype_menu {
+			margin-top: 1.65rem;
 		}
 		#logosymbol {
 			width: 7rem;

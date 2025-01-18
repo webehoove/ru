@@ -390,7 +390,7 @@ input::-moz-focus-inner {
 		
 		hr.lineer3 {
 			border-bottom: 1px solid rgba(59, 59, 75, 0.15);
-			margin: 2.5rem 0;
+			margin: 2.5rem 0 1rem 0;
 		}
 
 	.align-left {
@@ -4835,11 +4835,11 @@ input::-moz-focus-inner {
 			}
 
 			#wrapper > .invert hr {
-				border-bottom-color: rgba(255, 255, 255, 0.8);
+				border-bottom-color: rgba(255, 255, 255, 0.15);
 			}
 
 			#wrapper > .invert .box {
-				border-color: rgba(255, 255, 255, 0.35);
+				border-color: rgba(255, 255, 255, 0.15);
 			}
 
 			#wrapper > .invert input[type="submit"],
