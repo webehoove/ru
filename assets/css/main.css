@@ -279,6 +279,11 @@ input::-moz-focus-inner {
 			font-family: 'ELTA Sans Medium', Helvetica, sans-serif;
 		    font-weight: normal;
 		}
+		
+		.bold_t {
+			font-family: 'ELTA Sans Bold', Helvetica, sans-serif;
+		    font-weight: normal;
+		}
 
 	h1 {
 		font-size: 3rem;
@@ -369,11 +374,6 @@ input::-moz-focus-inner {
 		    margin: 4rem 0;
 		}
 		
-		hr.ends {
-			border: 0;
-		    margin: 1rem 0;
-		}
-		
 		hr.lineer {
 			border-bottom: 1px solid rgba(59, 59, 75, 0.1);
 			margin: 0 0 1.5rem 0;
@@ -454,11 +454,6 @@ input::-moz-focus-inner {
 		
 		hr.major {
 			margin: 3rem 0;
-		}
-		
-		hr.ends {
-			border: 0;
-		    margin: 1rem 0;
 		}
 
 	}
@@ -542,10 +537,6 @@ input::-moz-focus-inner {
 		
 		hr.lineer {
 			margin: 1.5rem 0;
-		}
-		
-		hr.lineer3 {
-			margin: 3rem 0;
 		}
 
 	}
@@ -2652,6 +2643,8 @@ input::-moz-focus-inner {
 			width: auto;
 			pointer-events: none;
 			text-align: center;
+			box-shadow: inset 0 0 0 1px rgba(59, 59, 75, 0.25);
+			color: rgba(59, 59, 75, 0.6) !important;
 		}
 
 	input[type="submit"],
@@ -2664,7 +2657,7 @@ input::-moz-focus-inner {
 		background-repeat: no-repeat;
 		background-clip: border-box;
 		background-position:right;
-		box-shadow: inset 0 0 0 1px rgba(59, 59, 75, 0.35);
+		box-shadow: inset 0 0 0 1px rgba(59, 59, 75, 0.25);
 		color: rgba(59, 59, 75, 1) !important;
 	}
 
