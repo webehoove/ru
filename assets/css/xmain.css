@@ -45,23 +45,9 @@
 		.menumob {
 			display: none;
 		}
-		.footer-bottom {
-			flex: 1;
-			margin-bottom: 1rem;
-		}
-		.footer-bottom-raster {	
-		    flex: 1;
-            height: 100%;
-            width: 100%;
-            display: flex;
-            gap: 1px;
-            justify-content: space-around;
-  		}
-		.line {
-			display: inline-block;
-			height: 160px;
-			border-left: 1px solid rgba(59, 59, 75, 0.8);
-			margin-right: 2px;
+		.goup {
+			position: relative;
+			float: right;
 		}
         @media screen and (max-width: 1024px) {
 		.submenu_num {
@@ -109,13 +95,6 @@
 		ul.spacemenu li {
 			margin-bottom: 0.35rem;
 		}
-		.footer-bottom {	
-		    margin-bottom: 1rem;
-		    padding-left: 1rem;
-			padding-right: 1rem;
-		}
-		.line {
-			height: 120px;
-			border-left: 1px solid #08080F;
-			margin-right: 4px;
+		.goup {
+			margin-top: 1rem;
 		}
