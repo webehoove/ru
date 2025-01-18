@@ -778,11 +778,11 @@ input::-moz-focus-inner {
 
 		.row {
 			margin-top: 0;
-			margin-left: -2rem;
+			margin-left: -1.5rem;
 		}
 
 			.row > * {
-				padding: 2rem 0 0 2rem;
+				padding: 1.5rem 0 0 1.5rem;
 			}
 
 			.row.gtr-uniform {
@@ -1021,11 +1021,11 @@ input::-moz-focus-inner {
 
 				.row {
 					margin-top: 0;
-					margin-left: -2rem;
+					margin-left: -1.5rem;
 				}
 
 					.row > * {
-						padding: 2rem 0 0 2rem;
+						padding: 1.5rem 0 0 1.5rem;
 					}
 
 					.row.gtr-uniform {
@@ -1266,11 +1266,11 @@ input::-moz-focus-inner {
 
 				.row {
 					margin-top: 0;
-					margin-left: -2rem;
+					margin-left: -1.5rem;
 				}
 
 					.row > * {
-						padding: 2rem 0 0 2rem;
+						padding: 1.5rem 0 0 1.5rem;
 					}
 
 					.row.gtr-uniform {
@@ -1511,11 +1511,11 @@ input::-moz-focus-inner {
 
 				.row {
 					margin-top: 0;
-					margin-left: -2rem;
+					margin-left: -1.5rem;
 				}
 
 					.row > * {
-						padding: 2rem 0 0 2rem;
+						padding: 1.5rem 0 0 1.5rem;
 					}
 
 					.row.gtr-uniform {
@@ -1756,11 +1756,11 @@ input::-moz-focus-inner {
 
 				.row {
 					margin-top: 0;
-					margin-left: -2rem;
+					margin-left: -1.5rem;
 				}
 
 					.row > * {
-						padding: 2rem 0 0 2rem;
+						padding: 1.5rem 0 0 1.5rem;
 					}
 
 					.row.gtr-uniform {
@@ -2001,11 +2001,11 @@ input::-moz-focus-inner {
 
 				.row {
 					margin-top: 0;
-					margin-left: -1rem;
+					margin-left: -0.5rem;
 				}
 
 					.row > * {
-						padding: 1rem 0 0 1rem;
+						padding: 0.5rem 0 0 0.5rem;
 					}
 
 					.row.gtr-uniform {
@@ -2052,9 +2052,10 @@ input::-moz-focus-inner {
 
 		}
 
-			.row {
+			
 		@media screen and (max-width: 480px) {
-
+			
+            .row {
 				display: flex;
 				flex-wrap: wrap;
 				box-sizing: border-box;
@@ -2246,11 +2247,11 @@ input::-moz-focus-inner {
 
 				.row {
 					margin-top: 0;
-					margin-left: -1rem;
+					margin-left: -0.5rem;
 				}
 
 					.row > * {
-						padding: 1rem 0 0 1rem;
+						padding: 0.5rem 0 0 0.5rem;
 					}
 
 					.row.gtr-uniform {
@@ -2491,11 +2492,11 @@ input::-moz-focus-inner {
 
 				.row {
 					margin-top: 0;
-					margin-left: -1rem;
+					margin-left: -0.5rem;
 				}
 
 					.row > * {
-						padding: 1rem 0 0 1rem;
+						padding: 0.5rem 0 0 0.5rem;
 					}
 
 					.row.gtr-uniform {
