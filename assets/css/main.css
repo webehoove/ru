@@ -375,17 +375,17 @@ input::-moz-focus-inner {
 		}
 		
 		hr.lineer {
-			border-bottom: 1px solid rgba(59, 59, 75, 0.125);
+			border-bottom: 1px solid rgba(59, 59, 75, 0.135);
 			margin: 0 0 1.5rem 0;
 		}
 		
 		hr.lineer2 {
-			border-bottom: 1px solid rgba(59, 59, 75, 0.125);
+			border-bottom: 1px solid rgba(59, 59, 75, 0.135);
 			margin: 1.5rem 0;
 		}
 		
 		hr.lineer3 {
-			border-bottom: 1px solid rgba(59, 59, 75, 0.125);
+			border-bottom: 1px solid rgba(59, 59, 75, 0.135);
 			margin: 2.5rem 0;
 		}
 
@@ -2531,7 +2531,7 @@ input::-moz-focus-inner {
 	.box {
 		position: relative;
 		background-color: inherit;
-		padding: 2.5rem 2rem 3rem 2rem;
+		padding: 2rem 2rem 2.5rem 2rem;
 		margin: 0 0 1.5rem 0;
 		width: 100%;
 		border: none;
@@ -2549,17 +2549,17 @@ input::-moz-focus-inner {
 	.box02 {
 		position: relative;
 		background-color: inherit;
-		padding: 2.5rem 2rem 3rem 2rem;
+		padding: 2rem 2rem 2.5rem 2rem;
 		margin: 0 0 1.5rem 0;
 		width: 100%;
-		border: 1px solid rgba(59, 59, 75, 0.125);
+		border: 1px solid rgba(59, 59, 75, 0.135);
 		border-radius: 0.75rem;
 	}
 	
 	        @media screen and (max-width: 736px) {
 				
 				.box, .box02 {
-					padding: 2rem 1.5rem 2rem 1.5rem;
+					padding: 1.5rem 1.5rem 2rem 1.5rem;
 					margin: 0 0 1rem 0;
 		        }
 				
@@ -5095,7 +5095,7 @@ input::-moz-focus-inner {
 			}
 
 		#wrapper > .color01 {
-			background-color: #ffffff;
+			background-color: #f7f7f8;
 		}
 
 		#wrapper > .color02 {
