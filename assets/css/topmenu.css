@@ -42,7 +42,7 @@
   outline: none !important;
   position: absolute;
   z-index: 2;
-  right: 0;
+  right: 1rem;
   /*left: 20px; */
   top: 30px;
   height: 40px;
