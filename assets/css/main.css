@@ -2001,15 +2001,15 @@ input::-moz-focus-inner {
 
 				.row {
 					margin-top: 0;
-					margin-left: -0.5rem;
+					margin-left: -0.75rem;
 				}
 
 					.row > * {
-						padding: 0.5rem 0 0 0.5rem;
+						padding: 0.75rem 0 0 0.75rem;
 					}
 
 					.row.gtr-uniform {
-						margin-top: -0.5rem;
+						margin-top: -0.75rem;
 					}
 
 						.row.gtr-uniform > * {
@@ -2247,15 +2247,15 @@ input::-moz-focus-inner {
 
 				.row {
 					margin-top: 0;
-					margin-left: -0.5rem;
+					margin-left: -0.75rem;
 				}
 
 					.row > * {
-						padding: 0.5rem 0 0 0.5rem;
+						padding: 0.75rem 0 0 0.75rem;
 					}
 
 					.row.gtr-uniform {
-						margin-top: -0.5rem;
+						margin-top: -0.75rem;
 					}
 
 						.row.gtr-uniform > * {
@@ -2492,15 +2492,15 @@ input::-moz-focus-inner {
 
 				.row {
 					margin-top: 0;
-					margin-left: -0.5rem;
+					margin-left: -0.75rem;
 				}
 
 					.row > * {
-						padding: 0.5rem 0 0 0.5rem;
+						padding: 0.75rem 0 0 0.75rem;
 					}
 
 					.row.gtr-uniform {
-						margin-top: -0.5rem;
+						margin-top: -0.75rem;
 					}
 
 						.row.gtr-uniform > * {
@@ -2577,7 +2577,7 @@ input::-moz-focus-inner {
 				
 				.box, .box02 {
 					padding: 1.5rem 1.5rem 2rem 1.5rem;
-					margin: 0 0 1rem 0;
+					margin: 0 0 0.75rem 0;
 		        }
 				
 			}
