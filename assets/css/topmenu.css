@@ -146,11 +146,11 @@
   outline: none !important;
   text-decoration: none;
   text-transform: uppercase;
-  font-size: 1.75rem;
+  font-size: 2.25rem;
   padding: 0;
   color: #fff;
   position: relative;
-  line-height: 1.2;
+  line-height: 1;
   margin: 0;
   opacity: 0;
   transition: all 0.3s ease;
