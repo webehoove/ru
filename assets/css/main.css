@@ -291,8 +291,8 @@ input::-moz-focus-inner {
 	}
 	
 	h1.special {
-		font-size: 4.5rem;
-		line-height: 0.95;
+		font-size: 5rem;
+		line-height: 1;
 	}
 
     h1.title {
@@ -512,7 +512,6 @@ input::-moz-focus-inner {
 
 		h1.special {
 			font-size: 2.25rem;
-			line-height: 1;
 		}
 
 		h1.title {
@@ -2726,7 +2725,7 @@ input::-moz-focus-inner {
 			background-position:right;
 			background-color: rgba(59, 59, 75, 0.1);
 			box-shadow: none;
-			color: rgba(59, 59, 75, 0.75) !important;
+			color: rgba(59, 59, 75, 1) !important;
 			opacity: 1;
 		}
 
@@ -4852,7 +4851,7 @@ input::-moz-focus-inner {
 			}
 
 			#wrapper > .invert hr {
-				border-bottom-color: rgba(255, 255, 255, 0.15);
+				border-bottom-color: rgba(255, 255, 255, 0.2);
 			}
 
 			#wrapper > .invert .box {
