@@ -5,7 +5,7 @@
 		#logosymbol {
 			position: relative;
 			float: left;
-			width: 8rem;
+			width: 7rem;
 			margin-top: -0.5rem;
 		}
 		#logosymbol_b {
@@ -65,7 +65,7 @@
 		}
 		#logosymbol {
 			width: 7rem;
-			margin-top: 0;
+			margin-top: 1rem;
 		}
 		#logosymbol_b {
 			width: 3.5rem;
