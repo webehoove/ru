@@ -215,7 +215,7 @@ input::-moz-focus-inner {
 
 	body {
 		background-color: #ffffff;
-		color: #3B3B4B;
+		color: #1B1B2D;
 	}
 
 	body, input, select, textarea {
@@ -286,12 +286,12 @@ input::-moz-focus-inner {
 		}
 
 	h1 {
-		font-size: 3rem;
+		font-size: 3.5rem;
 		line-height: 1;
 	}
 	
 	h1.special {
-		font-size: 5rem;
+		font-size: 4rem;
 		line-height: 1;
 	}
 
@@ -315,12 +315,12 @@ input::-moz-focus-inner {
 	}
 
 	h4 {
-		font-size: 1.3rem;
+		font-size: 1.25rem;
 		line-height: 1.25;
 	}
 
 	h5 {
-		font-size: 1rem;
+		font-size: 0.95rem;
 	}
 	
 	sub {
@@ -376,7 +376,7 @@ input::-moz-focus-inner {
 		
 		hr.major {
 			border: 0;
-		    margin: 4rem 0;
+		    margin: 6rem 0;
 		}
 		
 		hr.lineer {
@@ -2861,7 +2861,7 @@ input::-moz-focus-inner {
 
 		ul li {
 			display: inline-block;
-			padding-right: 1.15rem;
+			padding-right: 3rem;
 			padding-botom: 2rem;
 		}
 		
