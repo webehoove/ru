@@ -7,11 +7,11 @@
 		#logosymbol_b {
 			position: relative;
 			float: left;
-			width: 3.5rem;
+			width: 3rem;
 			margin-top: 0.8rem;
 		}
 		#topmenu {
-			font-size: 0.8rem;
+			font-size: 1rem;
 			margin-top: 0;
 		}
 		.submenu {
@@ -42,6 +42,9 @@
 		.menumob {
 			display: none;
 		}
+		ul.spacemenu li {
+			margin-bottom: 0.35rem;
+		}
 		.goup {
 			position: relative;
 			float: right;
@@ -65,15 +68,15 @@
 			margin-top: 1rem;
 		}
 		#logosymbol_b {
-			width: 3.5rem;
+			width: 3rem;
 			margin-top: 2.25rem;
 		}
 		#topmenu_logo {
 			display: none;
 		}
 		#topmenu {
-			font-size: 1rem;
-			margin-top: 1rem;
+			font-size: 1.15rem;
+			margin-top: 2rem;
 		}
 		.submenu {
 			font-size: 1rem;
@@ -87,9 +90,6 @@
 		}
 		.submenu_num2 {
 			width: 3rem;
-		}
-		ul.spacemenu li {
-			margin-bottom: 0.35rem;
 		}
 		.goup {
 			margin-top: 1rem;

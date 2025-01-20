@@ -200,7 +200,7 @@ input::-moz-focus-inner {
 		@media screen and (max-width: 736px) {
 
 			html {
-				font-size: 14px;
+				font-size: 13px;
 			}
 
 		}
@@ -208,7 +208,7 @@ input::-moz-focus-inner {
 		@media screen and (max-width: 360px) {
 
 			html {
-				font-size: 14px;
+				font-size: 13px;
 			}
 
 		}
@@ -222,7 +222,6 @@ input::-moz-focus-inner {
 		font-family: 'ELTA Sans Regular', Helvetica, sans-serif;
 		font-weight: normal;
 		font-size: 1rem;
-		letter-spacing: 0;
 		line-height: 1.2;
 	}
 
@@ -252,12 +251,10 @@ input::-moz-focus-inner {
 	}
 
 	p {
-		margin: 0 0 0.5rem 0;
 		line-height: 1.2;
 	}
 		
 	h1, h2, h3, h4, h5, h6 {
-		line-height: 1;
 		margin: 0;
 	}
 
@@ -376,12 +373,12 @@ input::-moz-focus-inner {
 		
 		hr.major {
 			border: 0;
-		    margin: 6rem 0;
+		    margin: 5rem 0;
 		}
 		
 		hr.lineer {
 			border-bottom: 1px solid rgba(27, 27, 45, 0.15);
-			margin: 0 0 1.5rem 0;
+			margin: 0;
 		}
 		
 		hr.lineer1 {
@@ -465,10 +462,6 @@ input::-moz-focus-inner {
 		    font-size: 8rem;
 			letter-spacing: 0;
 	    }
-		
-		hr.major {
-			margin: 3rem 0;
-		}
 
 	}
 	
@@ -493,10 +486,6 @@ input::-moz-focus-inner {
 		h3 {
 			font-size: 1.35rem;
 		}
-		
-		hr {
-			margin: 1rem 0;
-		}
 
 	}
 	
@@ -504,11 +493,7 @@ input::-moz-focus-inner {
 
 		body, input, select, textarea {
 		    font-size: 1.1rem;
-	    }  
-		
-		p {
-			line-height: 1.2;
-		}
+	    } 
 
 		h1 {
 			font-size: 1.75rem;
@@ -536,7 +521,7 @@ input::-moz-focus-inner {
 		}
 
 		h4 {
-			font-size: 1.1rem;
+			font-size: 1.2rem;
 		}
 
 		h5 {
@@ -553,10 +538,6 @@ input::-moz-focus-inner {
 		
 		hr.minor {
 			margin: 1.35rem 0;
-		}
-		
-		hr.lineer {
-			margin: 1.5rem 0;
 		}
 
 	}
