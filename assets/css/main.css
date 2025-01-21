@@ -300,7 +300,7 @@ input::-moz-focus-inner {
 	h1.special {
 		font-size: 3.5rem;
 		line-height: 1;
-		letter-spacing: -0.1rem;
+		letter-spacing: -0.075rem;
 	}
 
     h1.title {
