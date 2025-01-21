@@ -387,6 +387,11 @@ input::-moz-focus-inner {
 		    margin: 7rem 0;
 		}
 		
+		hr.major_index {
+			border: 0;
+		    margin: 7rem 0;
+		}
+		
 		hr.block {
 			border: 0;
 		    margin: 4rem 0;
@@ -533,6 +538,10 @@ input::-moz-focus-inner {
 		
 		hr.major {
 			margin: 6.5rem 0;
+		}
+		
+		hr.major_index {
+			margin: 4.5rem 0;
 		}
 		
 		hr.block {
