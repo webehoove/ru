@@ -17,17 +17,17 @@
 			font-size: 1rem;
 		}
 		.submenu a {
-			color: rgba(27, 27, 45, 0.5);
+			color: rgba(27, 27, 45, 1);
 		}
 		.submenu a:hover {
-			color: rgba(27, 27, 45, 1);
+			color: rgba(27, 27, 45, 0.5);
 		}
 		.submenu a:active, a:visited:active {
 			color: rgba(59, 59, 75, 0.5);
 		}
 		ul.submenu li {
-			border-bottom: 1px solid rgba(27, 27, 45, 0);
-			margin: 0.5rem 0;
+			border-bottom: 1px solid rgba(27, 27, 45, 0.25);
+			padding: 1.3rem 0 1rem 0;
 		}
 		.submenu_num {
 			width: 3.5rem;
