@@ -393,23 +393,13 @@ input::-moz-focus-inner {
 		}
 		
 		hr.lineer {
-			border-bottom: 1px solid rgba(27, 27, 45, 0.25);
+			border-bottom: 1px solid rgba(15, 15, 15, 0.15);
 			margin: 0;
 		}
 		
 		hr.lineer1 {
-			border-bottom: 1px solid rgba(27, 27, 45, 0.15);
+			border-bottom: 1px solid rgba(15, 15, 15, 0.15);
 			margin: 5rem 0 1rem 0;
-		}
-		
-		hr.lineer2 {
-			border-bottom: 1px solid rgba(27, 27, 45, 0.15);
-			margin: 5rem 0;
-		}
-		
-		hr.lineer3 {
-			border-bottom: 1px solid rgba(27, 27, 45, 0.15);
-			margin: 2.5rem 0 1rem 0;
 		}
 
 	.align-left {
@@ -5137,7 +5127,7 @@ input::-moz-focus-inner {
 			}
 
 		#wrapper > .color01 {
-			background-color: #F6F6F7;
+			background-color: #FAFAF8;
 		}
 
 		#wrapper > .color02 {
