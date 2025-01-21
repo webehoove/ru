@@ -11,7 +11,7 @@
 			margin-top: 2.35rem;
 		}
 		#topmenu {
-			margin-top: 0;
+			margin: 0;
 		}
 		.submenu {
 			font-size: 1.35rem;
@@ -57,9 +57,21 @@
 		}
 		.menumob {
 			display: block;
+			padding: 0;
 		}
 		.nomob {
 			display: none;
+		}
+		}
+        @media screen and (max-width: 1024px) {
+		.logotype {
+			margin-top: 0.2rem;
+		}
+		}
+        @media screen and (max-width: 820px) {
+		.logotype {
+			margin-top: -0.2rem;
+		}
 		}
         @media screen and (max-width: 736px) {
 		.logotype {
@@ -67,10 +79,7 @@
 		}
 		#logosymbol {
 			width: 7.15rem;
-			margin-top: 0;
-		}
-		#topmenu {
-			margin: 0 0 2rem 0;
+			margin: 0;
 		}
 		ul.submenu li {
 			margin-top: 0;
@@ -83,4 +92,5 @@
 		}
 		.goup {
 			margin-top: 0;
+		}
 		}
