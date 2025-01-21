@@ -2595,7 +2595,7 @@ input::-moz-focus-inner {
 		font-size: 0.9rem;
 		width: 12rem;
 		height: 2em;
-		line-height: 2.2;
+		line-height: 2.05;
 		border-radius: 1em;
 		padding: 0 0.7em;
 		text-overflow: ellipsis;
@@ -2677,7 +2677,7 @@ input::-moz-focus-inner {
 	button,
 	.button {
 		background-color: transparent;
-		background-image: url(../../imgs/arrow_right.svg);
+		background-image: url(../../imgs/arrow_right_w.svg);
 		background-repeat: no-repeat;
 		background-clip: border-box;
 		background-position:right;
@@ -2711,9 +2711,9 @@ input::-moz-focus-inner {
 			background-repeat: no-repeat;
 			background-clip: border-box;
 			background-position:right;
-			background-color: rgba(15, 15, 15, 0.1);
+			background-color: rgba(15, 15, 15, 1);
 			box-shadow: none;
-			color: rgba(15, 15, 15, 1) !important;
+			color: rgba(255, 255, 255, 1) !important;
 			opacity: 1;
 		}
 
@@ -2722,7 +2722,7 @@ input::-moz-focus-inner {
 			input[type="button"].primary:hover,
 			button.primary:hover,
 			.button.primary:hover {
-				background-color: rgba(27, 27, 45, 0.15);
+				background-color: rgba(15, 15, 15, 0.75);
 			}
 
 			input[type="submit"].primary:active,
@@ -2730,7 +2730,7 @@ input::-moz-focus-inner {
 			input[type="button"].primary:active,
 			button.primary:active,
 			.button.primary:active {
-				background-color: rgba(27, 27, 45, 0.15);
+				background-color: rgba(15, 15, 15, 0.75);
 			}
 			
 			@media screen and (max-width: 480px) {
@@ -2740,7 +2740,7 @@ input::-moz-focus-inner {
 	            input[type="button"],
 	            button,
 	            .button {
-					line-height: 2.15;
+					line-height: 2;
 		        }
 				
 			}
