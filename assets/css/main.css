@@ -552,24 +552,24 @@ input::-moz-focus-inner {
 	a {
 		-webkit-tap-highlight-color: transparent !important;
         outline: none !important;
-		color: rgba(27, 27, 45, 1);
+		color: rgba(15, 15, 15, 1);
 	}
 
 		a:hover {
-			color: rgba(27, 27, 45, 0.5);
+			color: rgba(15, 15, 15, 0.5);
 		}
 		
 		a:active, a:visited:active {
-			color: rgba(27, 27, 45, 0.5);
+			color: rgba(15, 15, 15, 0.5);
 		}
 
 	blockquote {
-		border-left-color: rgba(27, 27, 45, 1);
+		border-left-color: rgba(15, 15, 15, 1);
 	}
 
 	code {
-		background: rgba(27, 27, 45, 1);
-		border-color: rgba(27, 27, 45, 1);
+		background: rgba(15, 15, 15, 1);
+		border-color: rgba(15, 15, 15, 1);
 	}
 	
 /* Row */
@@ -2667,8 +2667,8 @@ input::-moz-focus-inner {
 			width: auto;
 			pointer-events: none;
 			text-align: center;
-			box-shadow: inset 0 0 0 1px rgba(27, 27, 45, 0.25);
-			color: rgba(27, 27, 45, 0.6) !important;
+			box-shadow: inset 0 0 0 1px rgba(15, 15, 15, 0.15);
+			color: rgba(15, 15, 15, 0.5) !important;
 		}
 
 	input[type="submit"],
@@ -2681,8 +2681,8 @@ input::-moz-focus-inner {
 		background-repeat: no-repeat;
 		background-clip: border-box;
 		background-position:right;
-		box-shadow: inset 0 0 0 1px rgba(27, 27, 45, 0.25);
-		color: rgba(27, 27, 45, 1) !important;
+		box-shadow: inset 0 0 0 1px rgba(15, 15, 15, 0.15);
+		color: rgba(15, 15, 15, 1) !important;
 	}
 
 		input[type="submit"]:hover,
@@ -2690,8 +2690,8 @@ input::-moz-focus-inner {
 		input[type="button"]:hover,
 		button:hover,
 		.button:hover {
-			box-shadow: inset 0 0 0 1px rgba(27, 27, 45, 1);
-			color: rgba(27, 27, 45, 1) !important;
+			box-shadow: inset 0 0 0 1px rgba(15, 15, 15, 1);
+			color: rgba(15, 15, 15, 1) !important;
 		}
 
 		input[type="submit"]:active,
@@ -2699,8 +2699,8 @@ input::-moz-focus-inner {
 		input[type="button"]:active,
 		button:active,
 		.button:active {
-			box-shadow: inset 0 0 0 1px rgba(27, 27, 45, 1);
-			color: rgba(27, 27, 45, 1) !important;
+			box-shadow: inset 0 0 0 1px rgba(15, 15, 15, 1);
+			color: rgba(15, 15, 15, 1) !important;
 		}
 
 		input[type="submit"].primary,
@@ -2711,9 +2711,9 @@ input::-moz-focus-inner {
 			background-repeat: no-repeat;
 			background-clip: border-box;
 			background-position:right;
-			background-color: rgba(27, 27, 45, 0.075);
+			background-color: rgba(15, 15, 15, 0.1);
 			box-shadow: none;
-			color: rgba(59, 59, 75, 0.75) !important;
+			color: rgba(15, 15, 15, 1) !important;
 			opacity: 1;
 		}
 
