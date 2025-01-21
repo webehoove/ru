@@ -24,9 +24,9 @@
   z-index: 2;
   right: 0;
   /*left: 20px; */
-  top: 30px;
+  top: 1.6rem;
   height: 40px;
-  width: 60px;
+  width: 50px;
   text-align: center;
   line-height: 50px;
   font-size: 20px;
@@ -44,9 +44,9 @@
   z-index: 2;
   right: 1rem;
   /*left: 20px; */
-  top: 30px;
+  top: 1.6rem;
   height: 40px;
-  width: 60px;
+  width: 50px;
   text-align: center;
   line-height: 50px;
   font-size: 20px;
@@ -78,22 +78,22 @@
 	position: absolute;
 	top: 0;
 	width: 45%;
-	border-bottom: 2px solid #3B3B4B;
+	border-bottom: 2px solid #1B1B2D;
 	transition: transform .6s cubic-bezier(0.215, 0.61, 0.355, 1);
 }
 
 .menu-btn:before{
-  transform: translateY(-7px);
+  transform: translateY(-5px);
 }
 .menu-btn:after{
-  transform: translateY(7px);
+  transform: translateY(5px);
 }
 
 .menu-btnb:before{
-  transform: translateY(-7px);
+  transform: translateY(-5px);
 }
 .menu-btnb:after{
-  transform: translateY(7px);
+  transform: translateY(5px);
 }
 
 .close {

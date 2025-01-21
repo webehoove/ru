@@ -162,13 +162,13 @@ input::-moz-focus-inner {
 /* Type */
 
 	html {
-		font-size: 16px;
+		font-size: 14px;
 	}
 
 		@media screen and (max-width: 1680px) {
 
 			html {
-				font-size: 16px;
+				font-size: 14px;
 			}
 
 		}
@@ -181,10 +181,18 @@ input::-moz-focus-inner {
 
 		}
 
+		@media screen and (max-width: 1024px) {
+
+			html {
+				font-size: 13px;
+			}
+
+		}
+
 		@media screen and (max-width: 980px) {
 
 			html {
-				font-size: 14px;
+				font-size: 13px;
 			}
 
 		}
@@ -192,7 +200,7 @@ input::-moz-focus-inner {
 		@media screen and (max-width: 820px) {
 
 			html {
-				font-size: 14px;
+				font-size: 13px;
 			}
 
 		}
@@ -222,7 +230,7 @@ input::-moz-focus-inner {
 		font-family: 'ELTA Sans Regular', Helvetica, sans-serif;
 		font-weight: normal;
 		font-size: 1rem;
-		line-height: 1.2;
+		line-height: 1.15;
 	}
 
 	a {
@@ -288,7 +296,7 @@ input::-moz-focus-inner {
 	}
 	
 	h1.special {
-		font-size: 4rem;
+		font-size: 3.5rem;
 		line-height: 1;
 	}
 
@@ -312,7 +320,7 @@ input::-moz-focus-inner {
 	}
 
 	h4 {
-		font-size: 1.3rem;
+		font-size: 1.35rem;
 		line-height: 1;
 	}
 
@@ -363,17 +371,17 @@ input::-moz-focus-inner {
 
 	hr {
 		border: 0;
-		margin: 1rem 0;
+		margin: 0.75rem 0;
 	}
 
 		hr.minor {
 			border: 0;
-		    margin: 1.5rem 0;
+		    margin: 2rem 0;
 		}
 		
 		hr.major {
 			border: 0;
-		    margin: 5rem 0;
+		    margin: 7rem 0;
 		}
 		
 		hr.lineer {
@@ -439,7 +447,7 @@ input::-moz-focus-inner {
 	@media screen and (max-width: 1366px) {
 		
 		h1.special {
-		    font-size: 3.5rem;
+		    font-size: 3.25rem;
 	    }
 	}
 
@@ -449,10 +457,6 @@ input::-moz-focus-inner {
 		h1 {
 			font-size: 2rem;
 		}
-	
-	    h1.special {
-		    font-size: 3rem;
-	    }
 
 		h1.title {
 			font-size: 3rem;
@@ -470,10 +474,6 @@ input::-moz-focus-inner {
 		h1 {
 			font-size: 2rem;
 		}
-	
-	    h1.special {
-		    font-size: 2.75rem;
-	    }
 
 		h1.title {
 			font-size: 2.75rem;
@@ -500,7 +500,7 @@ input::-moz-focus-inner {
 		}
 
 		h1.special {
-			font-size: 2.25rem;
+			font-size: 2.15rem;
 		}
 
 		h1.title {
@@ -521,23 +521,23 @@ input::-moz-focus-inner {
 		}
 
 		h4 {
-			font-size: 1.2rem;
+			font-size: 1.25rem;
 		}
 
 		h5 {
 			font-size: 0.95rem;
 		}
 		
-		hr {
-			margin: 1rem 0;
-		}
-		
 		hr.major {
-			margin: 2rem 0;
+			margin: 7rem 0;
 		}
 		
 		hr.minor {
-			margin: 1.35rem 0;
+			margin: 3rem 0;
+		}
+		
+		hr.lineer {
+			margin: 0.5rem 0;
 		}
 
 	}
@@ -549,15 +549,15 @@ input::-moz-focus-inner {
 	a {
 		-webkit-tap-highlight-color: transparent !important;
         outline: none !important;
-		color: rgba(27, 27, 45, 0.5);
+		color: rgba(27, 27, 45, 1);
 	}
 
 		a:hover {
-			color: rgba(27, 27, 45, 1);
+			color: rgba(27, 27, 45, 0.5);
 		}
 		
 		a:active, a:visited:active {
-			color: rgba(27, 27, 45, 1);
+			color: rgba(27, 27, 45, 0.5);
 		}
 
 	blockquote {
@@ -2841,8 +2841,7 @@ input::-moz-focus-inner {
 
 		ul li {
 			display: inline-block;
-			padding-right: 3rem;
-			padding-botom: 2rem;
+			padding-right: 2rem;
 		}
 		
 		ul.alter li {
@@ -3481,7 +3480,7 @@ input::-moz-focus-inner {
 /* Banner (style5) */
 
 	.banner.style5 {
-		padding: 1rem 2rem 2rem 2rem ;
+		padding: 0 1rem 1rem 1rem ;
 		margin: 0 auto;
 		width: 100%;
 		-moz-align-items: left;
@@ -3567,7 +3566,7 @@ input::-moz-focus-inner {
 		@media screen and (max-width: 1680px) {
 
 			.banner.style5 {
-				padding: 1rem 2rem 2rem 2rem ;
+				padding: 0 1rem 1rem 1rem ;
 			}
 
 		}
@@ -3575,7 +3574,7 @@ input::-moz-focus-inner {
 		@media screen and (max-width: 1280px) {
 
 			.banner.style5 {
-				padding: 1rem 2rem 2rem 2rem ;
+				padding: 0 1rem 1rem 1rem ;
 			}
 
 		}
@@ -3654,7 +3653,7 @@ input::-moz-focus-inner {
 /* Wrapper (style1) */
 
 	.wrapper.style1 > .inner {
-		padding: 1rem 2rem 2rem 2rem ;
+		padding: 0 1rem ;
 		margin: 0 auto;
 		width: 100%;
 	}
@@ -3670,7 +3669,7 @@ input::-moz-focus-inner {
 	@media screen and (max-width: 1680px) {
 
 		.wrapper.style1 > .inner {
-			padding: 1rem 2rem 2rem 2rem ;
+			padding: 0 1rem ;
 		}
 
 	}
@@ -3678,7 +3677,7 @@ input::-moz-focus-inner {
 	@media screen and (max-width: 1280px) {
 
 		.wrapper.style1 > .inner {
-			padding: 1rem 2rem 2rem 2rem ;
+			padding: 0 1rem ;
 		}
 
 	}
@@ -3686,7 +3685,7 @@ input::-moz-focus-inner {
 	@media screen and (max-width: 1080px) {
 
 		.wrapper.style1 > .inner {
-			padding: 0 1rem 1rem 1rem ;
+			padding: 0 1rem ;
 		}
 
 	}
@@ -3694,7 +3693,7 @@ input::-moz-focus-inner {
 	@media screen and (max-width: 1024px) {
 
 		.wrapper.style1 > .inner {
-			padding: 0.2rem 1rem 1rem 1rem ;
+			padding: 0.2rem 1rem 0 1rem ;
 		}
 
 	}
@@ -3702,7 +3701,7 @@ input::-moz-focus-inner {
 	@media screen and (max-width: 736px) {
 
 		.wrapper.style1 > .inner {
-			padding: 0 1rem 1rem 1rem ;
+			padding: 0 0.65rem 0 0.65rem ;
 		}
 
 	}
@@ -3773,7 +3772,7 @@ input::-moz-focus-inner {
 			}
 
 				.wrapper.style2 > .inner {
-					padding: 2rem 1.5rem 0.1rem 1.5rem ;
+					padding: 2rem 1.5rem 0 1.5rem ;
 				}
 
 		}

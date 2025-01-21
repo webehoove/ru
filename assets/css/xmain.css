@@ -7,11 +7,10 @@
 		#logosymbol_b {
 			position: relative;
 			float: left;
-			width: 3rem;
-			margin-top: 0.8rem;
+			width: 3.5rem;
+			margin-top: 2.35rem;
 		}
 		#topmenu {
-			font-size: 1rem;
 			margin-top: 0;
 		}
 		.submenu {
@@ -43,13 +42,16 @@
 			display: none;
 		}
 		ul.spacemenu li {
-			margin-bottom: 0.35rem;
+			margin-bottom: 0;
 		}
 		.goup {
 			position: relative;
 			float: right;
 		}
-        @media screen and (max-width: 1080px) {
+		ul.goup li {
+			padding: 0.25rem 0.5rem 0 0;
+		}
+        @media screen and (max-width: 1180px) {
 		.submenu_num {
 			width: 3rem;
 		}
@@ -61,29 +63,17 @@
 		}
         @media screen and (max-width: 736px) {
 		.logotype {
-			margin-top: -0.4rem;
+			margin-top: 0;
 		}
 		#logosymbol {
-			width: 7rem;
-			margin-top: 1rem;
-		}
-		#logosymbol_b {
-			width: 3rem;
-			margin-top: 2.25rem;
-		}
-		#topmenu_logo {
-			display: none;
+			width: 7.15rem;
+			margin-top: 0;
 		}
 		#topmenu {
-			font-size: 1.15rem;
-			margin-top: 2rem;
-		}
-		.submenu {
-			font-size: 1rem;
+			margin: 0 0 2rem 0;
 		}
 		ul.submenu li {
-			line-height: 1.2;
-			margin-top: 0.25rem;
+			margin-top: 0;
 		}
 		.submenu_num {
 			width: 50%;
@@ -92,5 +82,5 @@
 			width: 3rem;
 		}
 		.goup {
-			margin-top: 1rem;
+			margin-top: 0;
 		}
