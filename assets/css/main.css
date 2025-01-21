@@ -294,13 +294,13 @@ input::-moz-focus-inner {
 	h1 {
 		font-size: 2rem;
 		line-height: 1.15;
-		letter-spacing: -0.075rem;
+		letter-spacing: -0.08rem;
 	}
 	
 	h1.special {
 		font-size: 3.5rem;
 		line-height: 1;
-		letter-spacing: -0.075rem;
+		letter-spacing: -0.08rem;
 	}
 
     h1.title {
