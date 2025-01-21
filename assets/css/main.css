@@ -40,21 +40,22 @@
 
 @font-face {
            font-family: ELTASans Light;
-           src: url(../webfonts/v007/ELTA-Sans-Light.woff2) format('woff2');
+           src: url(../webfonts/v007/SuisseIntl-Light.woff2) format('woff2');
            font-display: swap;
            font-style: normal;
         }
 		
 @font-face {
            font-family: ELTASans Regular;
-           src: url(../webfonts/v007/Elta-Sans-Regular.woff2) format('woff2');
+           src: url(../webfonts/v007/SuisseIntl-Regular.woff2) format('woff2');
+		   src: url(../webfonts/v007/SuisseIntl-Regular.woff) format('woff');
            font-display: swap;
            font-style: normal;
         }
 		
 @font-face {
-           font-family: ELTASans Medium;
-           src: url(../webfonts/v007/ELTA-Sans-Medium.woff2) format('woff2');
+           font-family: ELTASans Bold;
+           src: url(../webfonts/v007/SuisseIntl-SemiBold.woff2) format('woff2');
            font-display: swap;
            font-style: normal;
         }
@@ -223,11 +224,11 @@ input::-moz-focus-inner {
 
 	body {
 		background-color: #ffffff;
-		color: #1B1B2D;
+		color: #0F0F0F;
 	}
 
 	body, input, select, textarea {
-		font-family: 'ELTA Sans Regular', Helvetica, sans-serif;
+		font-family: 'ELTASans Regular', Helvetica, sans-serif;
 		font-weight: normal;
 		font-size: 1rem;
 		line-height: 1.15;
@@ -250,7 +251,7 @@ input::-moz-focus-inner {
 		}
 		
 	strong, b {
-		 font-family: 'ELTA Sans Medium', Helvetica, sans-serif;
+		 font-family: 'ELTASans Bold', Helvetica, sans-serif;
 		 font-weight: normal;
 	}
 
@@ -276,7 +277,7 @@ input::-moz-focus-inner {
 		}
 		
 		.light_t {
-			font-family: 'ELTA Sans Light', Helvetica, sans-serif;
+			font-family: 'ELTASans Light', Helvetica, sans-serif;
 		    font-weight: normal;
 		}
 		
@@ -286,19 +287,20 @@ input::-moz-focus-inner {
 		}
 		
 		.bold_t {
-			font-family: 'ELTA Sans Bold', Helvetica, sans-serif;
+			font-family: 'ELTASans Bold', Helvetica, sans-serif;
 		    font-weight: normal;
 		}
 
 	h1 {
 		font-size: 2rem;
-		line-height: 1.1;
+		line-height: 1.15;
+		letter-spacing: -0.075rem;
 	}
 	
 	h1.special {
 		font-size: 3.5rem;
 		line-height: 1;
-		letter-spacing: -0.05rem;
+		letter-spacing: -0.1rem;
 	}
 
     h1.title {
@@ -507,6 +509,7 @@ input::-moz-focus-inner {
 
 		h1.special {
 			font-size: 2.15rem;
+			line-height: 1.15;
 		}
 
 		h1.title {
