@@ -322,7 +322,7 @@ input::-moz-focus-inner {
 
 	h4 {
 		font-size: 1.35rem;
-		line-height: 1;
+		line-height: 1.3;
 	}
 
 	h5 {
@@ -385,8 +385,13 @@ input::-moz-focus-inner {
 		    margin: 7rem 0;
 		}
 		
+		hr.block {
+			border: 0;
+		    margin: 4rem 0;
+		}
+		
 		hr.lineer {
-			border-bottom: 1px solid rgba(27, 27, 45, 0.15);
+			border-bottom: 1px solid rgba(27, 27, 45, 0.25);
 			margin: 0;
 		}
 		
@@ -397,7 +402,7 @@ input::-moz-focus-inner {
 		
 		hr.lineer2 {
 			border-bottom: 1px solid rgba(27, 27, 45, 0.15);
-			margin: 2.5rem 0;
+			margin: 5rem 0;
 		}
 		
 		hr.lineer3 {
@@ -529,12 +534,16 @@ input::-moz-focus-inner {
 			font-size: 0.95rem;
 		}
 		
+		hr.minor {
+			margin: 2rem 0;
+		}
+		
 		hr.major {
 			margin: 6.5rem 0;
 		}
 		
-		hr.minor {
-			margin: 2rem 0;
+		hr.block {
+			margin: 3rem 0;
 		}
 		
 		hr.lineer {
@@ -5125,11 +5134,11 @@ input::-moz-focus-inner {
 			}
 
 		#wrapper > .color01 {
-			background-color: #f7f7f8;
+			background-color: #F6F6F7;
 		}
 
 		#wrapper > .color02 {
-			background-color: #f2f2f3;
+			background-color: #F2F2F3;
 		}
 
 		#wrapper > .color10 {
