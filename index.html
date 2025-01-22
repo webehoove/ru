@@ -17,6 +17,43 @@
         <link rel="icon" type="image/png" sizes="32x32" href="imgs/support/favicon-32x32.png">
         <link rel="icon" type="image/png" sizes="16x16" href="imgs/support/favicon-16x16.png">
         <link rel="manifest" href="imgs/support/site.webmanifest">
+        <style type="text/css">
+@font-face {
+           font-family: ELTA Sans Light;
+           src: url(../webfonts/ELTASans-Light.woff) format('woff');
+		   src: url(../webfonts/ELTASans-Light.woff2) format('woff2');
+		   src: url(../webfonts/ELTASans-Light.ttf) format('truetype');
+           font-display: swap;
+           font-style: normal;
+        }
+		
+@font-face {
+           font-family: ELTA Sans Regular;
+           src: url(../webfonts/ELTASans-Regular.woff) format('woff');
+		   src: url(../webfonts/ELTASans-Regular.woff2) format('woff2');
+		   src: url(../webfonts/ELTASans-Regular.ttf) format('truetype');
+           font-display: swap;
+           font-style: normal;
+        }
+		
+@font-face {
+           font-family: ELTA Sans Medium;
+           src: url(../webfonts/ELTASans-Medium.woff) format('woff');
+		   src: url(../webfonts/ELTASans-Medium.woff2) format('woff2');
+		   src: url(../webfonts/ELTASans-Medium.ttf) format('truetype');
+           font-display: swap;
+           font-style: normal;
+        }
+		
+@font-face {
+           font-family: ELTA Sans Bold;
+           src: url(../webfonts/ELTASans-Bold.woff) format('woff');
+		   src: url(../webfonts/ELTASans-Bold.woff2) format('woff2');
+		   src: url(../webfonts/ELTASans-Bold.ttf) format('truetype');
+           font-display: swap;
+           font-style: normal;
+        }
+		</style>
 	</head>
 	<body class="is-preload">
     
@@ -25,31 +62,36 @@
 			<div id="wrapper">
 
 				<!-- BANNER -->
-					<section class="banner style5 invert orient-left content-align-left image-position-center fullscreen onload-image-fade-in onload-content-fade-right" style="border-radius:0 0 1rem 1rem;">
+					<section class="banner style5 invert orient-left content-align-left image-position-center fullscreen onload-image-fade-in onload-content-fade-right" style="border-radius:0 0 0.75rem 0.75rem;">
 						<div class="content">
-                            <div class="row">
-                                        <div id="topmenu" class="col-6 col-6-small">
+                                  <div class="row">
+                                        <div id="topmenu" class="col-2 col-6-small">
                                               
-                                             <ul class="logotype bold_t upup">
-                                                <li><span id="logosymbol"><a href="https://eltaspb.ru/"><img src="imgs/elta_logotype_w.svg" onContextMenu="return false;" alt="ЭЛТА" /></a></span></li>
+                                             <ul class="logotype medium_t upup">
+                                                <li><a href="https://eltaspb.ru/">Элта</a></li>
                                              </ul>
                                               
                                         </div>
-                                        <div id="topmenu" class="col-5 off-12-small nomob">
-                                        
-                                             <ul class="bold_t upup">
+                                        <div id="topmenu" class="col-4 off-12-small">
+                                              
+                                             <ul class="medium_t upup">
                                                 <li><a href="#aboutus" class="smooth-scroll">О компании</a></li>
+                                             </ul>
+                                              
+                                        </div>
+                                        <div id="topmenu" class="col-5 off-12-small">
+                                        
+                                             <ul class="medium_t upup">
                                                 <li><a href="https://eltaspb.ru/licenses/">Документация</a></li>
                                                 <li><a href="https://eltaspb.ru/projects">Проекты</a></li>
                                                 <li><a href="https://eltaspb.ru/vacancies/">Вакансии</a></li>
+                                                <li><a href="https://eltaspb.ru/contacts/">Контакты</a></li>
                                              </ul>
                                              
                                         </div>
-                                        <div id="topmenu" class="col-1 off-12-small nomob">
+                                        <div id="topmenu_logo" class="col-1 off-12-small">
                                         
-                                             <ul class="bold_t upup" style="position:relative; float:right;">
-                                                <li style="padding:0;"><a href="https://eltaspb.ru/contacts/">Контакты</a></li>
-                                             </ul>
+                                             <span id="logosymbol"><img src="imgs/elta_symbol_INFOE01.svg" onContextMenu="return false;" alt="ЭЛТА" /></span>
                                              
                                         </div>
                                         
@@ -59,38 +101,33 @@
                                             <label for="active" class="menu-btn"><span></span></label>
                                             <label for="active" class="close"></label>
                                             <div class="wrapper_menu requires-no-scroll">
-                                              <ul class="medium_t" style="padding-top:8.5rem;">
+                                              <hr class="ends">
+                                              <ul>
                                                 <li><a href="https://eltaspb.ru/index.html#aboutus">О компании</a></li>
                                                 <li><a href="https://eltaspb.ru/index.html#service">Наши услуги</a></li>
                                                 <li><a href="https://eltaspb.ru/index.html#pluses">Преимущества</a></li>
                                                 <li><a href="https://eltaspb.ru/index.html#partners">Заказчики</a></li>
                                               </ul>
-                                              <ul class="medium_t">
+                                              <ul style="padding-top:3rem">
                                                 <li><a href="https://eltaspb.ru/licenses/">Документация</a></li>
                                                 <li><a href="https://eltaspb.ru/projects">Проекты</a></li>
                                                 <li><a href="https://eltaspb.ru/vacancies/">Вакансии</a></li>
                                                 <li><a href="https://eltaspb.ru/contacts/">Контакты</a></li>
                                               </ul>
-                                              <ul class="upup">
-                                                <li><hr class="lineer3" style="border-color:rgba(255, 255, 255, 0.15);"></li>
-                                                <li><h4 style="color:rgba(255, 255, 255, 0.5);">Санкт-Петербург</h4></li>
-                                                <li><a href="tel:+79959976307"><h4>+7 995 997 63 07</h4></a></li>
-                                                <li><a href="tel:+78122447041"><h4>+7 812 244 70 41</h4></a></li>
-                                              </ul>
                                             </div>
                                         </div>
                             </div>
-                            <div class="row">
+						    <div class="row">
                                         <div class="col-12 col-12-small">
                                         
-                                             <hr class="major_index">
+                                             <hr class="ends">
                                         
                                         </div>
                             </div>
 						    <div class="row">
-                                        <div class="col-12 col-9-small">
+                                        <div class="col-10 col-11-small">
                                         
-                                             <h1 class="special_one bold_t upup">Комплексное
+                                             <h1 class="special medium_t upup">Комплексное<br>
                                                                       проектирование,<br>
                                                                       монтаж и обслуживание<br>
                                                                       инженерных систем</h1>
@@ -98,12 +135,11 @@
                                         </div>
                             </div>
                             <div class="row">
-                                        <div class="col-6 col-12-small" style="position:absolute; bottom:1.5rem;">
+                                        <div class="col-4 col-10-small" style="position:absolute; bottom:1.5rem;">
                                         
-                                             <h4>Наша работа &#8212; это умение сформировать поток задач и правильно им управлять.<br>
-                                                 Мы искренне наслаждаемся воплощением идей в жизнь, превращая их в индивидуальные, удобные для клиента и эстетически приятные проекты.</h4>
+                                             <h2 style="line-height:1;">Наша работа &#8212; это умение сформировать поток задач и правильно им управлять</h2>
                                              <hr class="minor">
-                                             <ul class="bold_t upup">
+                                             <ul class="medium_t upup">
                                                 <li><a href="#aboutus" class="button primary wide smooth-scroll">Подробнее</a></li>
                                              </ul>
                                         
@@ -112,87 +148,91 @@
                             
                         </div>
                         <div class="image">
-                             <video id="videobg" data-src="imgs/elta_banner_vid_pres.mp4" data-mobsrc="imgs/elta_banner_vid_pres.mp4" placeholder="imgs/elta_banner_vid_pres_prev.jpg" preload="auto" autoplay loop muted="" playsinline="" src="imgs/elta_banner_vid_pres.mp4">
+                             <video id="videobg" data-src="imgs/elta_banner_design.mp4" data-mobsrc="imgs/elta_banner_design.mp4" placeholder="" preload="auto" autoplay loop muted="" playsinline="" src="imgs/elta_banner_design.mp4">
                              </video>
                         </div> 
-                  </section>
+                  </section> 
                             
              <!-- ABOUT -->
-                  <section class="wrapper style1 align-left">
+                  <section id="aboutus" class="wrapper style1 align-left">
 						<div class="inner">
                                   
                             <div class="row">
                                         <div class="col-12 col-12-small">
                                         
-                                             <hr class="block">
+                                             <hr>
                                         
                                         </div>
                             </div>
-                            <div id="aboutus" class="row">
-                                        <div class="col-6 off-12-small">
-                                        </div>
-                                        <div class="col-6 col-12-small">
+                            <div class="row">
+                                        <div class="col-3 col-12-small">
                                         
-                                             <ul class="topmenu submenu upup" style="padding-bottom:1rem;">
-                                                <li>&nbsp;</li>
-                                                <li><a href="#aboutus_" class="smooth-scroll"><span class="submenu_num">01</span><span class="bold_t">О компании</span></a></li>
-                                                <li><a href="#service" class="smooth-scroll"><span class="submenu_num">02</span><span class="bold_t">Наши услуги</span></a></li>
-                                                <li><a href="#pluses" class="smooth-scroll"><span class="submenu_num">03</span><span class="bold_t">Преимущества</span></a></li>
-                                                <li><a href="#partners" class="smooth-scroll"><span class="submenu_num">04</span><span class="bold_t">Заказчики</span></a></li>
+                                             <ul class="topmenu submenu medium_t upup" style="padding-bottom:1rem;">
+                                                <li><a href="#aboutus_" class="smooth-scroll"><span class="submenu_num">01</span>О компании</a></li>
+                                                <li><a href="#service" class="smooth-scroll"><span class="submenu_num">02</span>Наши услуги</a></li>
+                                                <li><a href="#pluses" class="smooth-scroll"><span class="submenu_num">03</span>Преимущества</a></li>
+                                                <li><a href="#partners" class="smooth-scroll"><span class="submenu_num">04</span>Заказчики</a></li>
                                              </ul>
+                                             <hr class="ends">
+                                        
+                                        </div>
+                                        <div class="col-1 off-12-small">
+                                        </div>
+                                        <div class="col-6 off-12-small">
+                                        
+                                             <ul class="topmenu submenu color08_t" style="padding-bottom:1rem;">
+                                                <li>СПб 2005&#8212;<script>document.write(Date().split(' ')[3])</script></li>
+                                             </ul>
+                                             <hr class="ends">
+                                        
+                                        </div>
+                            </div>
+                            <div class="row">
+                                        <div class="col-12 off-12-small">
+                                        
+                                             <hr>
                                         
                                         </div>
                             </div>
                             <div id="aboutus_" class="row">
-                                        <div class="col-12 col-12-small">
+                                        <div class="col-4 col-12-small">
                                         
-                                             <hr class="block">
-                                        
-                                        </div>
-                            </div>
-                            <div class="row">
-                                        <div class="col-1 off-12-small">
-                                        </div>
-                                        <div class="col-5 col-12-small">
-                                        
-                                             <h1 class="special bold_t upup">О компании</h1>
-                                             <hr class="minor">
+                                             <h1 class="major color09_t">01</h1>
                                         
                                         </div>
                                         <div class="col-6 col-12-small">
                                         
-                                             <h1>Компания ООО &laquo;Элта&raquo; была основана в 2005 году в <span style="white-space: nowrap;">Санкт-Петербурге</span> как предприятие, специализирующееся на проектировании, монтаже и обслуживании инженерных систем любой сложности.</h1>
+                                             <h1 class="medium_t upup">О компании</h1>
+                                             <hr class="major">
+                                             <h2>Компания ООО &laquo;Элта&raquo; была основана в 2005 году в <span style="white-space: nowrap;">Санкт-Петербурге</span> как предприятие, специализирующееся на проектировании, монтаже и обслуживании инженерных систем любой сложности.</h2>
                                              <hr class="minor">
+                                             
                                         
                                         </div>
                             </div>
                             <div class="row">
-                                        <div class="col-6 off-12-small">
+                                        <div class="col-4 col-12-small">
                                         </div>
                                         <div class="col-5 col-12-small">
                                         
-                                             <h4 class="color07_t">Наша компания придерживается принципов надежного партнерства и профессионального выполнения работ. Выполняя услуги для наших клиентов, мы делаем этот процесс более эффективным, безопасным и стабильным.<br><br>
-                                                 Мы несём ответственность за свою работу и своих сотрудников. Инженер по охране труда в штате компании следит за соблюдением требований по обучению, своевременному прохождению медицинских осмотров и инструктажей сотрудниками компании, а также выполнению других требований техники безопасности при проведении строительно-монтажных работ.</h4>
-                                                 <hr class="major">
+                                             <h3>Наша компания придерживается принципов надежного партнерства и профессионального выполнения работ. Выполняя услуги для наших клиентов, мы делаем этот процесс более эффективным, безопасным и стабильным.<br><br>
+                                                 Мы несём ответственность за свою работу и своих сотрудников. Инженер по охране труда в штате компании следит за соблюдением требований по обучению, своевременному прохождению медицинских осмотров и инструктажей сотрудниками компании, а также выполнению других требований техники безопасности при проведении строительно-монтажных работ.</h3>
                                         
                                         </div>
                             </div>
                             <div class="row">
-                                        <div class="col-6 off-12-small">
+                                        <div class="col-4 col-12-small">
                                         </div>
                                         <div class="col-5 col-12-small">
                                         
+                                             <hr class="minor">
                                              <div class="box box_bg_02">
-                                                <h2 class="medium_t upup">Качество и безопасность</h2>
-                                                <hr class="minor">
-                                                <h4 class="color07_t">Компания Элта является участником некоммерческого партнерства содействия развитию качества и безопасности выполнения строительных работ в организациях:</h4>
+                                                <h4 class="color07_t">Компания Элта является участником некоммерческого партнерства содействия развитию качества и безопасности выполнения строительных работ в организациях</h4>
                                                 <hr>
                                                 <h5 class="color07_t" style="margin-bottom:0.25rem;">Ассоциация строительных организаций</h5>
                                                 <h3>&laquo;СРО &laquo;Инжспецстрой-Электросетьстрой&raquo; и<br>
                                                 НП &laquo;СРО &laquo;Инжспецстрой-Проект&raquo;</h3>
-                                                <hr class="minor">
-                                                <hr class="lineer">
-                                                <hr class="minor">
+                                                <hr class="major lineer3">
                                                 <h4 class="color07_t">А также имеет лицензию на осуществление деятельности по монтажу, техническому обслуживанию  и ремонту средств обеспечения пожарной безопасности  зданий и сооружений Министерства Российской Федерации по делам гражданской обороны, чрезвычайным ситуациям и ликвидации последствий стихийных бедствий.</h4>
                                                 <hr class="minor">
                                                 <ul class="medium_t upup">
@@ -202,46 +242,39 @@
                                         
                                         </div>
                             </div>
-                      </div> 
-                  </section>    
-                            
-             <!-- SERVICE -->
-                  <section class="wrapper style1 align-left">
-						<div class="inner">
-                        
                             <div class="row">
                                         <div class="col-12 col-12-small">
                                         
                                              <hr class="major">
                                              <hr class="lineer">
-                                             <hr class="major">
                                         
                                         </div>
                             </div>
-                            <div id="service" class="row">
-                                        <div class="col-6 col-12-small">
+                      </div> 
+                  </section>    
+                            
+             <!-- SERVICE -->
+                  <section id="service" class="wrapper style1 align-left">
+						<div class="inner">
+                        
+                            <div class="row">
+                                        <div class="col-4 col-12-small">
                                         
                                              <h1 class="major color09_t">02</h1>
                                         
                                         </div>
-                            </div>
-                            <div class="row">
-                                        <div class="col-6 col-12-small">
-                                        
-                                             <h1 class="medium_t upup">Наши услуги</h1>
-                                             <hr class="minor">
-                                        
-                                        </div>
                                         <div class="col-5 col-12-small">
                                         
-                                             <h2>Предлагая полный комплекс услуг, от выполнения проектных работ до ввода в эксплуатацию смонтированной установки, наша компания несет ответственность не только за выполненные монтажные работы, но и за предложенные проектные решения.<br><br>
-                                             Также компания готова выполнить послегарантийное обслуживание смонтированных систем.</h2>
+                                             <h1 class="medium_t upup">Наши услуги</h1>
+                                             <hr class="major">
+                                             <h3>Предлагая полный комплекс услуг, от выполнения проектных работ до ввода в эксплуатацию смонтированной установки, наша компания несет ответственность не только за выполненные монтажные работы, но и за предложенные проектные решения.<br><br>
+                                             Также компания готова выполнить послегарантийное обслуживание смонтированных систем.</h3>
                                         </div>
                             </div>
                             <div class="row">
                                         <div class="col-12 col-12-small">
                                         
-                                             <hr class="major">
+                                             <hr class="minor">
                                         
                                         </div>
                             </div> 
@@ -249,64 +282,47 @@
                   </section>    
                             
              <!-- DESIGN -->
-                  <section id="service" class="wrapper style1 color01 align-left">
+                  <section id="service" class="wrapper style1 color02 align-left" style="border-radius:0.75rem 0.75rem 0 0;">
 						<div class="inner">
                         
                             <div class="row">
                                         <div class="col-12 col-12-small">
                                         
-                                             <hr class="minor">
+                                             <hr>
                                         
                                         </div>
                             </div>
                             <div class="row">
-                                        <div class="col-5 col-12-small">
+                                        <div class="col-4 col-12-small">
                                         
-                                             <ul class="medium_t upup">
-                                                   <li class="button disabled">Проектирование</li>
-                                                   <li class="button disabled">Рабочая документация</li>
-                                             </ul>
-                                             <hr class="minor">
-                                             <h1 class="title medium_t upup">Комплексное<br>
-                                                                       проектирование</h1>
-                                             <hr class="major">
-                                             <span class="image fit"><img style="width:6rem; margin-bottom:2rem;" src="imgs/elta_map_icon.svg" onContextMenu="return false;" alt="ЭЛТА" /></span>        
-                                             <hr class="minor">
-                                             <h3>Мы готовы выполнить как проектную, так и рабочую документацию по следующим основным направлениям:</h3>
-                                             <hr class="minor">
-                                             <h3><ul class="alter medium_t upup">
-                                               <li>&#8212;&nbsp;Проектная документация</li>
-                                               <li>&#8212;&nbsp;Рабочая документация</li>
-                                             </ul></h3>
-                                             <hr class="major"> 
+                                             <h1 class="upup medium_t">Проектирование</h1>
+                                             <hr> 
+                                             <span class="image fit"><img style="width:5rem; margin-bottom:2rem;" src="imgs/elta_map_icon.svg" onContextMenu="return false;" alt="ЭЛТА" /></span>        
+                                             <hr class="minor"> 
                                              
                                         </div>
-                                        <div class="col-1 off-12-small">
-                                        </div>
-                                        <div class="col-5 col-12-small">
+                                        <div class="col-4 col-12-small">
                                         
-                                             <div class="box02">
-                                             <span class="image fit"><img style="width:1.85rem; margin-bottom:2rem;" src="imgs/elta_control_icon.svg" onContextMenu="return false;" alt="ЭЛТА" /></span>        
-                                             <hr class="minor">
-                                             <h4 class="color07_t">Выполняя работы по проектированию мы гарантируем детальную проработку проекта, при которой учитываются технические характеристики объекта строительства и используемого в проекте оборудования. Такой подход обеспечивает реалистичную возможность воплощения проекта, удобство обслуживания и эксплуатации.</h4>
-                                             </div>
-                                             <div class="box02">
-                                             <span class="image fit"><img style="width:1.5rem; margin-bottom:2rem;" src="imgs/elta_graphic_icon.svg" onContextMenu="return false;" alt="ЭЛТА" /></span>        
-                                             <hr class="minor">
-                                             <h4 class="color07_t">При разработке проектной документации наша компания учитывает действующие требования по энергоэффективности зданий, а также экологические нормы строительства. Данные меры позволяют значительно сократить финансовые и энергетические затраты собственника при дальнейшей эксплуатации объекта.</h4>
-                                             </div>
-                                             <div class="box02">
-                                             <span class="image fit"><img style="width:1.6rem; margin-bottom:2rem;" src="imgs/elta_list_check_icon.svg" onContextMenu="return false;" alt="ЭЛТА" /></span>        
-                                             <hr class="minor">
-                                             <h4 class="color07_t">Вся проектная документация разрабатывается в соответствии с требованиями и нормами государственных стандартов (ПУЭ, СНиП, СП, ГОСТы и т.д.) и проходит согласование со всеми необходимыми контролирующими организациями и учреждениями Санкт-Петербурга и Ленинградской области, в том числе в сбытовых компаниях, электросетевых компаниях (филиалах ОАО «Ленэнерго», СПб ЭС, ПЭС и др.), экспертизе МЧС России, ГУП «Водоканал» Санкт-Петербурга и прочих.</h4>
-                                             </div>
+                                             <h2>Мы готовы выполнить как проектную, так и рабочую документацию по следующим основным направлениям</h2>
+                                             <ul class="alter upup medium_t">
+                                               <li>&#8212;&nbsp;Проектная документация</li>
+                                               <li>&#8212;&nbsp;Рабочая документация</li>
+                                             </ul>
+                                             <hr class="ends">
+                                        
+                                        </div>
+                                        <div class="col-4 col-12-small">
+                                        
+                                             <h4 class="color07_t">Выполняя работы по проектированию мы гарантируем выполнение детальной проработки проекта, при которой учитываются технические характеристики самого объекта строительства и технические характеристики используемого в проекте оборудования. Детальная проработка обеспечивает техническую возможность воплощения проекта, возможность и удобство обслуживания и эксплуатации.<br><br>
+                                                При разработке проектной документации наша компания учитывает действующие требования по энергоэффективности зданий, а также экологические нормы строительства. Данные меры позволяют значительно сократить финансовые и энергетические затраты собственника при дальнейшей эксплуатации объекта.<br><br>
+                                                Вся проектная документация разрабатывается в соответствии с требованиями и нормами государственных стандартов (ПУЭ, СНиП, СП, ГОСТы и т.д.) и проходит согласование со всеми необходимыми контролирующими организациями и учреждениями Санкт-Петербурга и Ленинградской области, в том числе в сбытовых компаниях, электросетевых компаниях (филиалах ОАО «Ленэнерго», СПб ЭС, ПЭС и др.), экспертизе МЧС России, ГУП «Водоканал» Санкт-Петербурга и прочих.</h4>
                                         
                                         </div>
                             </div>
                             <div class="row">
                                         <div class="col-12 col-12-small">
                                         
-                                             <hr class="major">
+                                             <hr class="minor">
                                         
                                         </div>
                             </div>
@@ -314,66 +330,58 @@
                   </section>    
                             
              <!-- CONSTRUCTION -->
-                  <section id="service" class="wrapper style1 color10 align-left">
+                  <section id="service" class="wrapper style1 invert color04 align-left" style="border-radius:0 0 0.75rem 0.75rem;">
 						<div class="inner">
                         
                             <div class="row">
                                         <div class="col-12 col-12-small">
                                         
-                                             <hr class="minor">
+                                             <hr>
                                         
                                         </div>
                             </div>
                             <div class="row">
-                                        <div class="col-5 col-12-small">
+                                        <div class="col-4 col-12-small">
                                         
-                                             <ul class="medium_t upup">
-                                                   <li class="button disabled">Монтаж</li>
-                                                   <li class="button disabled">Обслуживание</li>
-                                             </ul>
-                                             <hr class="minor">
-                                             <h1 class="title medium_t upup">Монтажные<br>работы</h1>
-                                             <hr class="major">
-                                             <span class="image fit"><img style="width:4.75rem; margin-bottom:2rem;" src="imgs/elta_design_icon.svg" onContextMenu="return false;" alt="ЭЛТА" /></span>
+                                             <h1 class="upup medium_t">Монтажные<br>работы</h1>
+                                             <hr>
+                                             <span class="image fit"><img style="width:4.55rem; margin-bottom:2rem;" src="imgs/elta_design_icon.svg" onContextMenu="return false;" alt="ЭЛТА" /></span>
                                              <hr class="minor"> 
-                                             <h3>Наша компания выполнит как монтажные и пусконаладочные работы, так и сдачу работ надзорным органам и ввод в эксплуатацию инженерных систем:</h3>
-                                             <hr class="minor">
-                                             <h3><ul class="alter medium_t upup">
+                                        
+                                        </div>
+                                        <div class="col-4 col-12-small">
+                                        
+                                             <h2>Наша компания выполнит как монтажные и пусконаладочные работы, так и сдачу работ надзорным органам и ввод в эксплуатацию инженерных систем</h2>
+                                             <h3>
+                                             <ul class="alter upup medium_t">
                                                <li>&#8212;&nbsp;Электрические сети</li>
                                                <li>&#8212;&nbsp;Сети отопления и вентиляции</li>
                                                <li>&#8212;&nbsp;Слаботочные системы</li>
                                                <li>&#8212;&nbsp;Системы водоснабжения</li>
                                                <li>&#8212;&nbsp;Системы канализации</li>
                                                <li>&#8212;&nbsp;Системы кондиционирования</li>
-                                             </ul></h3>
-                                             <hr class="major"> 
-                                             
+                                             </ul>
+                                             </h3>
+                                             <hr class="minor">
+                                        
                                         </div>
-                                        <div class="col-1 off-12-small">
-                                        </div>
-                                        <div class="col-5 col-12-small">
+                                        <div class="col-4 col-12-small">
                                         
                                              <h3>Наши базовые принципы при выполнении монтажных работ:</h3>
                                              <hr class="minor">
-                                             <h4 class="color06_t">
+                                             <h4 style="opacity:.75;">
                                              <ul>
-                                               <hr class="minor">
-                                               <li><span class="submenu_num2 medium_t">1.</span>Определенная стоимость выполнения работ по проекту, выполненному или откорректированному нашей организацией, является окончательной, т.е. все неучтенные объемы работ и материалов заказчик дополнительно не оплачивает;</li>
-                                               <hr class="lineer2">
-                                               <li><span class="submenu_num2 medium_t">2.</span>Четкое планирование посредством создания графика производства работ. Нами производится определение необходимого количества монтажников на объекте для неукоснительного соблюдения сроков выполнения работ;</li>
-                                               <hr class="lineer2">
-                                               <li><span class="submenu_num2 medium_t">3.</span>Высокое качество выполняемых работ достигается благодаря осуществлению входного контроля проектной документации и внутреннему контролю за поставляемыми на строительную площадку оборудованием и материалами;</li>
-                                               <hr class="lineer2">
+                                               <li><span class="submenu_num2 medium_t">1.</span>Определенная по проекту, выполненному или откорректированному нашей организацией, стоимость выполнения работ, является окончательной, т.е. все неучтенные объемы работ и материалов заказчик дополнительно не оплачивает;<br><br></li>
+                                               <li><span class="submenu_num2 medium_t">2.</span>Четкое планирование, посредством создания графика производства работ. Нами производится определение необходимого количества монтажников на объекте для неукоснительного соблюдения сроков выполнения работ;<br><br></li>
+                                               <li><span class="submenu_num2 medium_t">3.</span>Высокое качество выполняемых работ достигается благодаря осуществлению входного контроля проектной документации и внутреннему контролю за поставляемыми на строительную площадку оборудованием и материалами;<br><br></li>
                                                <li><span class="submenu_num2 medium_t">4.</span>Мы гарантируем соблюдение требований охраны труда и пожарной безопасности. Инженер в штате компании следит за соблюдением требований по обучению, своевременному прохождению медицинских осмотров и инструктажей сотрудниками компании, а также выполнению других требований техники безопасности при проведении строительно-монтажных работ.</li>
                                              </ul>
                                              </h4>
-                                             <hr class="major">
-                                             <div class="box02">
-                                             <span class="image fit"><img style="width:1.5rem; margin-bottom:2rem;" src="imgs/elta_clock_icon.svg" onContextMenu="return false;" alt="ЭЛТА" /></span>        
                                              <hr class="minor">
-                                             <h4 class="color07_t">В процессе выполнения работ мы готовы оперативно реагировать на все замечания, требования и пожелания заказчика.<br><br>
-                                                                   Для нас важно, чтобыпервый успешно сданный объект послужил началом для дальнейшего сотрудничества.</h4>
-                                             </div>
+                                             
+                                             <p style="opacity:.5;">В процессе выполнения работы мы готовы оперативно реагировать на все замечания, требования и пожелания заказчика.
+                                             <br><br>
+                                             Для нас важно, чтобы первый успешно сданный объект послужил началом для дальнейшего сотрудничества.</p>
                                         
                                         </div>
                             </div>
@@ -389,75 +397,55 @@
                   
             
              <!-- PLUSES -->
-                  <section class="wrapper style1 align-left">
+                  <section id="pluses" class="wrapper style1 color02 align-left">
                         <div class="inner">
                             
                             <div class="row">
-                                        <div class="col-12 col-12-small">
-                                        
-                                             <hr class="major">
-                                        
-                                        </div>
-                            </div>
-                            <div id="pluses" class="row">
-                                        <div class="col-6 col-12-small">
-                                        
-                                             <h1 class="major color09_t">03</h1>
-                                        
-                                        </div>
-                            </div>
-                            <div class="row">
-                                        <div class="col-6 col-12-small">
-                                        
-                                             <h1 class="medium_t upup">Преимущества</h1>
-                                             <hr class="minor">
-                                        
-                                        </div>
-                                        <div class="col-6 col-12-small">
-                                        
-                                             <h1 class="">В своей работе мы руководствуемся следующими основными принципами:</h1>
-                                        
-                                        </div>
-                            </div>
-                            <div class="row">
-                                        <div class="col-12 col-12-small">
-                                        
-                                             <hr class="major">
-                                        
-                                        </div>
-                            </div>
-                            <div class="row">
                                         <div class="col-4 col-12-small">
                                         
-                                             <div class="box02" style="height:100%;">
-                                             <span class="image fit"><img style="width:2.5rem;" src="imgs/elta_check_icon.svg" onContextMenu="return false;" alt="ЭЛТА" /></span>
-                                             <hr class="minor">
+                                             <h1 class="major color08_t">03</h1>
+                                        
+                                        </div>
+                                        <div class="col-7 col-12-small">
+                                        
+                                             <hr class="lineer">
+                                             <h1 class="medium_t">Преимущества</h1>
+                                             <hr>
+                                             <h3>В своей работе мы руководствуемся следующими основными принципами</h3>
+                                        </div>
+                            </div>
+                            <div class="row">
+                                        <div class="col-12 col-12-small">
+                                        
+                                             <hr>
+                                        
+                                        </div>
+                            </div>
+                            <div class="row">
+                                        <div class="col-2 off-12-small">
+                                        </div>
+                                        <div class="col-3 col-12-small">
+                                        
+                                             <span class="image fit"><img style="width:2.5rem; margin:2rem 0;" src="imgs/elta_check_icon.svg" onContextMenu="return false;" alt="ЭЛТА" /></span>
                                              <h2 class="medium_t upup">Честный бюджет</h2>
                                              <hr class="minor">
-                                             <h4 class="color07_t">Мы всегда даём заказчику полную и правдивую картину стоимости реализации проекта. Подавая коммерческое предложение, мы гарантируем, что проект может быть реализован в рамках согласованного бюджета и несём полную ответственность за предложенные проектные решения.</h4>
-                                             </div>
+                                             <p>Мы всегда даём заказчику полную и правдивую картину стоимости реализации проекта. Подавая коммерческое предложение, мы гарантируем, что проект может быть реализован в рамках согласованного бюджета и несём полную ответственность за предложенные проектные решения.</p>
                                              
                                         </div>
-                                        <div class="col-4 col-12-small">
+                                        <div class="col-3 col-12-small">
                                         
-                                             <div class="box02" style="height:100%;">
-                                             <span class="image fit"><img style="width:2.5rem;" src="imgs/elta_check_icon.svg" onContextMenu="return false;" alt="ЭЛТА" /></span>
-                                             <hr class="minor">
+                                             <span class="image fit"><img style="width:2.5rem; margin:2rem 0;" src="imgs/elta_check_icon.svg" onContextMenu="return false;" alt="ЭЛТА" /></span>
                                              <h2 class="medium_t upup">Качество</h2>
                                              <hr class="minor">
-                                             <h4 class="color07_t">Мы дорожим своей репутацией и неизменно выполняем работы на таком уровне качества, который превращает новых заказчиков в наших постоянных партнеров. Нами выработана и воплощена собственная система внутреннего контроля качества. Эффективность системы проверена годами и подтверждается десятками успешно завершенных проектов.</h4>
-                                             </div>
+                                             <p>Мы дорожим своей репутацией и неизменно выполняем работы на таком уровне качества, который превращает новых заказчиков в наших постоянных партнеров. Нами выработана и воплощена собственная система внутреннего контроля качества. Эффективность системы проверена годами и подтверждается десятками успешно завершенных проектов.</p>
                                         
                                         </div>
-                                        <div class="col-4 col-12-small">
+                                        <div class="col-3 col-12-small">
                                         
-                                             <div class="box02" style="height:100%;">
-                                             <span class="image fit"><img style="width:2.5rem;" src="imgs/elta_check_icon.svg" onContextMenu="return false;" alt="ЭЛТА" /></span>
-                                             <hr class="minor">
+                                             <span class="image fit"><img style="width:2.5rem; margin:2rem 0;" src="imgs/elta_check_icon.svg" onContextMenu="return false;" alt="ЭЛТА" /></span>
                                              <h2 class="medium_t upup">Сроки</h2>
                                              <hr class="minor">
-                                             <h4 class="color07_t">Мы всегда реально оцениваем сроки, в которые проект возможно воплотить без ущерба для качества, учитывая как потребности заказчика, так и объективные факторы, влияющие на срок выполнения работ. Реально оценивая сроки и имея четко разработанные алгоритмы для их соблюдения, мы всегда исполняем взятые на себя обязательства в срок.</h4>
-                                             </div>
+                                             <p>Мы всегда реально оцениваем сроки, в которые проект возможно воплотить без ущерба для качества, учитывая как потребности заказчика, так и объективные факторы, влияющие на срок выполнения работ. Реально оценивая сроки и имея четко разработанные алгоритмы для их соблюдения, мы всегда исполняем взятые на себя обязательства в срок.</p>
                                         
                                         </div>
                             </div>
@@ -472,44 +460,31 @@
                   </section>     
                   
              <!-- PARTNERS -->
-                  <section class="wrapper style1 color01 align-left">
+                  <section id="partners" class="wrapper style1 align-left">
                         <div class="inner">
                         
                             <div class="row">
-                                        <div class="col-12 col-12-small">
+                                        <div class="col-4 col-12-small">
                                         
-                                             <hr class="major">
-                                        
-                                        </div>
-                            </div>
-                            <div id="partners" class="row">
-                                        <div class="col-6 col-12-small">
-                                        
-                                             <h1 class="major color09_t">04</h1>
+                                             <h1 class="major color08_t">04</h1>
                                         
                                         </div>
-                            </div>
-                            <div class="row">
-                                        <div class="col-6 col-12-small">
+                                        <div class="col-7 col-12-small">
                                         
-                                             <h1 class="medium_t upup">Наши заказчики</h1>
-                                        
-                                        </div>
-                                        <div class="col-6 col-12-small">
-                                        
-                                             <h1 class="">Компании для которых мы выполняли работы по проектированию и монтажу инженерных сетей</h1>
-                                             <hr class="minor">
-                                        
+                                             <hr class="lineer">
+                                             <h1 class="medium_t">Наши заказчики</h1>
+                                             <hr>
+                                             <h3>Компании для которых мы выполняли работы по проектированию и монтажу инженерных сетей</h3>
                                         </div>
                             </div>
                             <div class="row">
                                         <div class="col-12 col-12-small">
                                         
-                                             <hr class="major">
+                                             <hr>
                                         
                                         </div>
                             </div>
-                            <div class="row">
+                            <div class="row rounded">
                                         <div class="col-2 col-6-small">
                                         
                                              <span class="image fit"><img src="imgs/projects/elta_projects_metro_spb.png" onContextMenu="return false;" alt="" /></span>
@@ -634,7 +609,7 @@
                             <div class="row">
                                         <div class="col-12 col-12-small">
                                         
-                                             <hr class="major">
+                                             <hr>
                                         
                                         </div>
                             </div>
@@ -642,15 +617,15 @@
                   </section>     
                   
              <!-- CONTACTS -->
-                  <section class="wrapper style1 color10 align-left">
-                        <div class="inner" style="padding-bottom:2rem; padding-top:1.5rem;">
+                  <section class="wrapper style1 invert color05 align-left" style="border-radius:0.75rem 0.75rem 0 0;">
+                        <div class="inner" style="padding-bottom:1rem;">
                             
-                            <div class="row" style="margin-bottom:9rem;">
+                            <div class="row" style="margin-bottom:4rem;">
 										<div id="topmenu" class="col-4 col-12-small">
                                               
                                              <ul class="topmenu upup">
                                                 <li class="medium_t">Элта</li>
-                                                <li class="medium_t color07_t">Комплексное проектирование,
+                                                <li class="color08_t">Комплексное проектирование,
                                                 <br>
                                                 монтаж и обслуживание
                                                 <br>
@@ -669,6 +644,7 @@
                                              </ul>
                                              <hr>
                                              
+                                             
                                         </div>
                                         <div id="topmenu" class="col-3 col-6-small">
                                         
@@ -681,20 +657,19 @@
                                              <hr>
                                              
                                         </div>
-                                        <div id="topmenu" class="col-2 col-6-small">
+                                        <div id="topmenu" class="col-2 col-12-small">
                                         
-                                             <ul class="topmenu medium_t upup color07_t">
+                                             <ul class="topmenu upup">
                                                 <li>Санкт-Петербург</li>
-                                                <li>+7 995 997 63 07</li>
-                                                <li>+7 812 244 70 41</li>
+                                                <li>+7 995 997-63-07</li>
                                              </ul>
                                              <hr>
                                              
                                         </div>
-                                        <div class="col-1 col-6-small">
+                                        <div class="col-1 off-12-small">
                                         
-                                             <ul class="goup">
-                                                <li><span class="image fit" style="width:2.5rem"><a href="#top"><img src="imgs/page_up.svg" onContextMenu="return false;" alt="ЭЛТА" /></a></span></li>
+                                             <ul>
+                                                <li style="position:relative; float:right; padding-top:0.5rem;"><span class="image fit" style="width:1rem"><a href="#top"><img src="imgs/page_up.svg" onContextMenu="return false;" alt="ЭЛТА" /></a></span></li>
                                              </ul>
                                              <hr>
                                              
@@ -703,13 +678,13 @@
                             <div class="row">
 										<div class="col-4 col-6-small">
                                         
-                                             <span id="logosymbol_b" class="image fit"><img src="imgs/elta_symbol_b.svg" onContextMenu="return false;" alt="ЭЛТА" /></span>
+                                             <span id="logosymbol_b" class="image fit"><img src="imgs/elta_symbol_INFOE01.svg" onContextMenu="return false;" alt="ЭЛТА" /></span>
                                              
                                         </div>
                                         <div id="topmenu" class="col-8 col-6-small">
                                         
-                                             <ul class="topmenu medium_t upup" style="padding-top:2rem;">
-                                                <li class="color07_t">(C) Компания Элта<br>
+                                             <ul class="topmenu upup" style="padding-top:0.75rem;">
+                                                <li class="color08_t">(C) Компания Элта<br>
                                                     2005&#8211;<script>document.write(Date().split(' ')[3])</script></li>
                                              </ul>
                                         
@@ -730,7 +705,7 @@
 			<script src="assets/js/browser.min.js"></script>
 			<script src="assets/js/breakpoints.min.js"></script>
 			<script src="assets/js/util.js"></script>
-			<script src="assets/js/main.js"></script>
+			<script src="assets/js/main.js"></script>  
             <script src="https://cdnjs.cloudflare.com/ajax/libs/smoothscroll/1.4.10/SmoothScroll.min.js" integrity="sha256-huW7yWl7tNfP7lGk46XE+Sp0nCotjzYodhVKlwaNeco=" crossorigin="anonymous"></script>
 <script>
 SmoothScroll({
@@ -750,5 +725,6 @@ SmoothScroll({
     touchpadSupport   : true,
 })
 </script>
+<span class="cursor"></span>
 	</body>
 </html>
