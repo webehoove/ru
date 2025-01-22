@@ -70,7 +70,7 @@
 		}
         @media screen and (max-width: 736px) {
 		.logotype {
-			margin-top: 0;
+			margin-top: 0.1rem;
 		}
 		#logosymbol {
 			width: 5.15rem;
