@@ -1,7 +1,7 @@
 		#logosymbol {
 			position: relative;
 			float: left;
-			width: 7rem;
+			width: 6rem;
 			margin-top: -0.35rem;
 		}
 		#logosymbol_b {
@@ -70,10 +70,10 @@
 		}
         @media screen and (max-width: 736px) {
 		.logotype {
-			margin-top: -0.2rem;
+			margin-top: 0;
 		}
 		#logosymbol {
-			width: 7.75rem;
+			width: 5.15rem;
 			margin: 0;
 		}
 		}
