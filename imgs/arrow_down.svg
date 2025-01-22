@@ -4,14 +4,9 @@
 	 viewBox="0 0 206 206" style="enable-background:new 0 0 206 206;" xml:space="preserve">
 <style type="text/css">
 	.st0{fill:#FFFFFF;fill-opacity:0;}
-	.st1{fill:#3B3B4B;}
+	.st1{fill:#0F0F0F;}
 </style>
 <rect y="0" class="st0" width="206" height="206"/>
-<g>
-	<g>
-		<g>
-			<path class="st1" d="M150,107.4l-47,47.3l-47-47.3l8.8-8.8l32.1,32.7v-80h12.3v79.9l32.1-32.7L150,107.4z"/>
-		</g>
-	</g>
-</g>
+<polygon class="st1" points="141.3,95.6 111.2,126.3 111.2,49.3 94.9,49.3 94.9,126.4 64.8,95.8 53.2,107.4 103,157.5 152.8,107.4 
+	"/>
 </svg>
