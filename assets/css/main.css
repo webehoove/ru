@@ -297,9 +297,15 @@ input::-moz-focus-inner {
 		letter-spacing: -0.075rem;
 	}
 	
+	h1.special_one {
+		font-size: 5rem;
+		line-height: 1.05;
+		letter-spacing: -0.05rem;
+	}
+	
 	h1.special {
 		font-size: 3.5rem;
-		line-height: 1;
+		line-height: 1.05;
 		letter-spacing: -0.05rem;
 	}
 
@@ -389,7 +395,7 @@ input::-moz-focus-inner {
 		
 		hr.major_index {
 			border: 0;
-		    margin: 5.25rem 0;
+		    margin: 4.5rem 0;
 		}
 		
 		hr.block {
@@ -500,6 +506,12 @@ input::-moz-focus-inner {
 
 		h1 {
 			font-size: 1.75rem;
+		}
+
+		h1.special_one {
+			font-size: 2.5rem;
+			line-height: 1.15;
+			letter-spacing: -0.035rem;
 		}
 
 		h1.special {
@@ -3652,15 +3664,15 @@ input::-moz-focus-inner {
 		}
 
 	.banner .image {
-		background-color: rgba(0, 0, 0, 0);
+		background-color: rgba(15, 15, 15, 1);
 	}
 
 	.banner.invert .image {
-		background-color: rgba(255, 255, 255, 0);
+		background-color: rgba(15, 15, 15, 1);
 	}
 	
 	.banner.invert .image video {
-		background-color: rgba(255, 255, 255, 0);
+		background-color: rgba(15, 15, 15, 1);
 	}
 
 /* Wrapper (style1) */
@@ -4826,7 +4838,7 @@ input::-moz-focus-inner {
 	}
 
 		#wrapper > .invert {
-			background-color: #1B1B2D;
+			background-color: #0F0F0F;
 			color: #ffffff;
 		}
 
@@ -4839,7 +4851,7 @@ input::-moz-focus-inner {
 			}
 
 				#wrapper > .invert a:hover {
-					color: rgba(255, 255, 255, 0.5);
+					color: rgba(255, 255, 255, 0.75);
 					border-bottom: none;
 				}
 
