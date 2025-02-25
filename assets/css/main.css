@@ -228,10 +228,9 @@ input::-moz-focus-inner {
 	}
 
 	body, input, select, textarea {
-		font-family: 'ELTASans Regular', Helvetica, sans-serif;
+		font-family: 'ELTA Sans Regular', Helvetica, sans-serif;
 		font-weight: normal;
 		font-size: 1rem;
-		line-height: 1.15;
 	}
 
 	a {
@@ -294,25 +293,17 @@ input::-moz-focus-inner {
 	h1 {
 		font-size: 2rem;
 		line-height: 1.15;
-		letter-spacing: -0.075rem;
 	}
 	
 	h1.special_one {
-		font-size: 5rem;
-		line-height: 1;
-		letter-spacing: -0.05rem;
+		font-size: 4rem;
+		line-height: 1.05;
 	}
 	
 	h1.special {
-		font-size: 3.5rem;
+		font-size: 4rem;
 		line-height: 1.05;
-		letter-spacing: -0.05rem;
 	}
-
-    h1.title {
-		font-size: 3.5rem;
-	}
-
 	
 	h1.major {
 		font-size: 10rem;
@@ -455,6 +446,10 @@ input::-moz-focus-inner {
 	
 	@media screen and (max-width: 1366px) {
 		
+		h1.special_one {
+		    font-size: 4.5rem;
+	    }
+		
 		h1.special {
 		    font-size: 3.25rem;
 	    }
@@ -465,10 +460,6 @@ input::-moz-focus-inner {
 
 		h1 {
 			font-size: 2rem;
-		}
-
-		h1.title {
-			font-size: 3rem;
 		}
 	
 	    h1.major {
@@ -482,10 +473,6 @@ input::-moz-focus-inner {
 
 		h1 {
 			font-size: 2rem;
-		}
-
-		h1.title {
-			font-size: 2.75rem;
 		}
 
 		h2 {
@@ -509,15 +496,13 @@ input::-moz-focus-inner {
 		}
 
 		h1.special_one {
-			font-size: 2.5rem;
+			font-size: 2rem;
 			line-height: 1;
-			letter-spacing: -0.035rem;
 		}
 
 		h1.special {
-			font-size: 2.15rem;
+			font-size: 2rem;
 			line-height: 1;
-			letter-spacing: -0.035rem;
 		}
 
 		h1.title {
@@ -3809,7 +3794,7 @@ input::-moz-focus-inner {
 			}
 
 				.wrapper.style2 > .inner {
-					padding: 0 0.65rem 0.2rem 0.65rem ;
+					padding: 0 0.65rem 0.15rem 0.65rem ;
 				}
 
 		}
