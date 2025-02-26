@@ -296,7 +296,7 @@ input::-moz-focus-inner {
 	}
 	
 	h1.special_one {
-		font-size: 4rem;
+		font-size: 6rem;
 		line-height: 1.05;
 	}
 	
@@ -3794,7 +3794,7 @@ input::-moz-focus-inner {
 			}
 
 				.wrapper.style2 > .inner {
-					padding: 0 0.65rem 0.15rem 0.65rem ;
+					padding: 0.4rem 0.65rem 0.4rem 0.65rem ;
 				}
 
 		}
