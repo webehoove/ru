@@ -61,14 +61,14 @@
         }
 		
 @font-face {
-           font-family: ELTASans Light;
+           font-family: ELTA-Sans Light;
            src: url(../webfonts/r-light.woff2) format('woff2');
            font-style: normal;
 		   font-weight: 300;
         }
 		
 @font-face {
-           font-family: ELTASans Rgular;
+           font-family: ELTA-Sans Rgular;
            src: url(../webfonts/r-regular.woff2) format('woff2');
            font-style: normal;
 		   font-weight: 300;
@@ -240,7 +240,7 @@ input::-moz-focus-inner {
 	}
 
 	body, input, select, textarea {
-		font-family: 'ELTA Sans Regular', Helvetica, sans-serif;
+		font-family: 'ELTA-Sans Regular', Helvetica, sans-serif;
 		font-weight: normal;
 		font-size: 1rem;
 	}
