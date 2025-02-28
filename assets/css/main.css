@@ -243,6 +243,7 @@ input::-moz-focus-inner {
 		font-family: 'ELTA-Sans Regular', Helvetica, sans-serif;
 		font-weight: normal;
 		font-size: 1rem;
+		letter-spacing: -0.02rem;
 	}
 
 	a {
