@@ -60,7 +60,19 @@
            font-style: normal;
         }
 		
+@font-face {
+           font-family: ELTASans Light;
+           src: url(../webfonts/r-light.woff2) format('woff2');
+           font-style: normal;
+		   font-weight: 300;
+        }
 		
+@font-face {
+           font-family: ELTASans Rgular;
+           src: url(../webfonts/r-regular.woff2) format('woff2');
+           font-style: normal;
+		   font-weight: 300;
+        }		
 		
 		
 
