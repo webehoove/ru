@@ -6,8 +6,15 @@
         }
 		
 @font-face {
-           font-family: ELTASans Rgular;
+           font-family: ELTASans Regular;
            src: url(../webfonts/r-regular.woff2) format('woff2');
+           font-style: normal;
+		   font-weight: 300;
+        }
+		
+@font-face {
+           font-family: ELTASans Medium;
+           src: url(../webfonts/r-medium.woff2) format('woff2');
            font-style: normal;
 		   font-weight: 300;
         }
@@ -170,10 +177,10 @@ input::-moz-focus-inner {
 	}
 
 	body, input, select, textarea {
-		font-family: 'ELTASans Rgular', Helvetica, sans-serif;
-		font-weight: 300;
+		font-family: 'ELTASans Regular', Helvetica, sans-serif;
+		font-weight: 400;
 		font-size: 1rem;
-		letter-spacing: -0.02rem;
+		letter-spacing: -0.025rem;
 		line-height: 1.2;
 	}
 
@@ -194,7 +201,7 @@ input::-moz-focus-inner {
 		}
 		
 	strong, b {
-		 font-family: 'ELTA Sans Medium', Helvetica, sans-serif;
+		 font-family: 'ELTASans Medium', Helvetica, sans-serif;
 		 font-weight: normal;
 	}
 
@@ -222,17 +229,17 @@ input::-moz-focus-inner {
 		}
 		
 		.light_t {
-			font-family: 'ELTA Sans Light', Helvetica, sans-serif;
+			font-family: 'ELTASans Light', Helvetica, sans-serif;
 		    font-weight: normal;
 		}
 		
 		.medium_t {
-			font-family: 'ELTA Sans Medium', Helvetica, sans-serif;
+			font-family: 'ELTASans Medium', Helvetica, sans-serif;
 		    font-weight: normal;
 		}
 		
 		.bold_t {
-			font-family: 'ELTA Sans Bold', Helvetica, sans-serif;
+			font-family: 'ELTASans Bold', Helvetica, sans-serif;
 		    font-weight: normal;
 		}
 
