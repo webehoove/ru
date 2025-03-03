@@ -68,7 +68,7 @@
 	position: absolute;
 	top: 0;
 	width: 45%;
-	border-bottom: 2px solid #ffffff;
+	border-bottom: 1px solid #ffffff;
 	transition: transform .6s cubic-bezier(0.215, 0.61, 0.355, 1);
 }
 .menu-btnb span,
@@ -80,7 +80,7 @@
 	position: absolute;
 	top: 0;
 	width: 45%;
-	border-bottom: 2px solid #1B1B2D;
+	border-bottom: 1px solid #1B1B2D;
 	transition: transform .6s cubic-bezier(0.215, 0.61, 0.355, 1);
 }
 
