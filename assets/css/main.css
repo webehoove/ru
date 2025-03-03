@@ -298,7 +298,7 @@ input::-moz-focus-inner {
 		}
 		
 		.upup {
-			text-transform: uppercase;
+			text-transform: none;
 		}
 		
 		.light_t {
