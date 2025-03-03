@@ -1,5 +1,5 @@
 		#logotype {
-			font-size: 1.15rem;
+			font-size: 1.1rem;
 		}
 		#logosymbol {
 			position: relative;
@@ -12,6 +12,9 @@
 			float: left;
 			width: 3.5rem;
 			margin-top: 2.35rem;
+		}
+		#logosymbol_mob {
+			display: none;
 		}
 		#topmenu {
 			margin: 0;
@@ -63,22 +66,30 @@
 		#topmenu {
 			display: none;
 		}
+		#logosymbol {
+			display: none;
+		}
 		}
         @media screen and (max-width: 1024px) {
-		.logotype {
-			margin-top: 0.2rem;
-		}
+		
 		}
         @media screen and (max-width: 820px) {
-		.logotype {
-			margin-top: -0.2rem;
-		}
+		
 		}
         @media screen and (max-width: 736px) {
-		.logotype {
+		#logotype {
+			position: relative;
+			float: right;
 			margin-top: 0.1rem;
+			right: -3.5rem;
+			font-size: 1rem;
 		}
-		#logosymbol {
-			width: 6.5rem;
+		#logosymbol_mob {
+			display: block;
+			position: relative;
+			float: left;
+			clear: both;
+			width: 1.45rem;
+			margin-top: -1.35rem;
 		}
 		}
