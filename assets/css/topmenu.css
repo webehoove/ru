@@ -26,7 +26,7 @@
   /*left: 20px; */
   top: 1.2rem;
   height: 40px;
-  width: 50px;
+  width: 40px;
   text-align: center;
   cursor: pointer;
   /*color: #fff;*/
@@ -44,7 +44,7 @@
   /*left: 20px; */
   top: 1.2rem;
   height: 40px;
-  width: 50px;
+  width: 40px;
   text-align: center;
   cursor: pointer;
   /*color: #fff;*/
@@ -61,7 +61,7 @@
 		}
 		@media screen and (max-width: 736px) {
 		.menu-btn, .menu-btnb{
-			top: 1.4rem;
+			top: 1.5rem;
 		}
 		}
 .menu-btn span,

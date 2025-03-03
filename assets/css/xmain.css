@@ -52,6 +52,9 @@
 		ul.goup li {
 			padding: 0.25rem 0.5rem 0 0;
 		}
+		.offdesk {
+			display: none;
+		}
         @media screen and (max-width: 1180px) {
 		.submenu_num {
 			width: 3rem;
@@ -70,13 +73,10 @@
 			display: none;
 		}
 		}
-        @media screen and (max-width: 1024px) {
-		
-		}
-        @media screen and (max-width: 820px) {
-		
-		}
         @media screen and (max-width: 736px) {
+		.offdesk {
+			display: block;
+		}
 		#logotype {
 			position: relative;
 			float: right;
