@@ -518,7 +518,7 @@ input::-moz-focus-inner {
 		}
 
 		h1.title {
-			font-size: 1.35rem;
+			font-size: 1.4rem;
 			line-height: 1.1;
 		}
 
@@ -2547,7 +2547,7 @@ input::-moz-focus-inner {
 		margin: 0 0 0.75rem 0;
 		width: 100%;
 		border: none;
-		border-radius: 0.75rem;
+		border-radius: 0.5rem;
 	}
 	
 	  .box_bg_01 {
@@ -2565,7 +2565,7 @@ input::-moz-focus-inner {
 		margin: 0 0 1.5rem 0;
 		width: 100%;
 		border: 1px solid rgba(27, 27, 45, 0.15);
-		border-radius: 0.75rem;
+		border-radius: 0.5rem;
 	}
 	
 	        @media screen and (max-width: 736px) {
@@ -2766,11 +2766,11 @@ input::-moz-focus-inner {
 		}
 		
 		.rounded img {
-			border-radius: 0.75rem;
+			border-radius: 0.5rem;
 		}
 		
 		.rounded video {
-			border-radius: 0.75rem;
+			border-radius: 0.5rem;
 		}
 		
 		.image video {
