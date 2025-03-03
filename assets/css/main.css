@@ -61,6 +61,18 @@
 		
 		
 		
+
+
+
+@font-face {
+           font-family: ELTA-Sans Regular;
+           src: url(../webfonts/v007/PPPangramSans-Medium.woff2) format('woff2');
+           font-display: swap;
+           font-style: normal;
+        }
+		
+		
+		
 		
 
 
@@ -227,7 +239,7 @@ input::-moz-focus-inner {
 	}
 
 	body, input, select, textarea {
-		font-family: 'ELTASans Regular', Helvetica, sans-serif;
+		font-family: 'ELTA-Sans Regular', Helvetica, sans-serif;
 		font-weight: normal;
 		font-size: 1rem;
 	}
@@ -281,12 +293,12 @@ input::-moz-focus-inner {
 		}
 		
 		.medium_t {
-			font-family: 'ELTASans Regular', Helvetica, sans-serif;
+			font-family: 'ELTA-Sans Regular', Helvetica, sans-serif;
 		    font-weight: normal;
 		}
 		
 		.bold_t {
-			font-family: 'ELTASans Bold', Helvetica, sans-serif;
+			font-family: 'ELTA-Sans Regular', Helvetica, sans-serif;
 		    font-weight: normal;
 		}
 
