@@ -163,13 +163,13 @@ input::-moz-focus-inner {
 /* Type */
 
 	html {
-		font-size: 14px;
+		font-size: 18px;
 	}
 
 		@media screen and (max-width: 1680px) {
 
 			html {
-				font-size: 14px;
+				font-size: 18px;
 			}
 
 		}
@@ -177,7 +177,7 @@ input::-moz-focus-inner {
 		@media screen and (max-width: 1280px) {
 
 			html {
-				font-size: 14px;
+				font-size: 18px;
 			}
 
 		}
@@ -185,7 +185,7 @@ input::-moz-focus-inner {
 		@media screen and (max-width: 1024px) {
 
 			html {
-				font-size: 13px;
+				font-size: 18px;
 			}
 
 		}
@@ -193,7 +193,7 @@ input::-moz-focus-inner {
 		@media screen and (max-width: 980px) {
 
 			html {
-				font-size: 13px;
+				font-size: 18px;
 			}
 
 		}
@@ -201,7 +201,7 @@ input::-moz-focus-inner {
 		@media screen and (max-width: 820px) {
 
 			html {
-				font-size: 13px;
+				font-size: 18px;
 			}
 
 		}
@@ -209,7 +209,7 @@ input::-moz-focus-inner {
 		@media screen and (max-width: 736px) {
 
 			html {
-				font-size: 13px;
+				font-size: 16px;
 			}
 
 		}
@@ -217,14 +217,14 @@ input::-moz-focus-inner {
 		@media screen and (max-width: 360px) {
 
 			html {
-				font-size: 13px;
+				font-size: 16px;
 			}
 
 		}
 
 	body {
 		background-color: #ffffff;
-		color: #242435;
+		color: #1B1B2D;
 	}
 
 	body, input, select, textarea {
@@ -286,7 +286,7 @@ input::-moz-focus-inner {
 		}
 		
 		.bold_t {
-			font-family: 'ELTASans Bold', Helvetica, sans-serif;
+			font-family: 'ELTA Sans Bold', Helvetica, sans-serif;
 		    font-weight: normal;
 		}
 
@@ -296,18 +296,8 @@ input::-moz-focus-inner {
 	}
 	
 	h1.special_one {
-		font-size: 5rem;
-		line-height: 0.9;
-	}
-	
-	h1.special {
-		font-size: 4rem;
-		line-height: 1.05;
-	}
-	
-	h1.major {
-		font-size: 10rem;
-		line-height: 0.85;
+		font-size: 3.25rem;
+		line-height: 1;
 	}
 
 	h2 {
@@ -325,7 +315,7 @@ input::-moz-focus-inner {
 	}
 
 	h5 {
-		font-size: 0.95rem;
+		font-size: 0.75rem;
 	}
 	
 	sub {
@@ -371,7 +361,7 @@ input::-moz-focus-inner {
 
 	hr {
 		border: 0;
-		margin: 0.75rem 0;
+		margin: 0.5rem 0;
 	}
 
 		hr.minor {
@@ -384,11 +374,6 @@ input::-moz-focus-inner {
 		    margin: 7rem 0;
 		}
 		
-		hr.major_index {
-			border: 0;
-		    margin: 4.5rem 0;
-		}
-		
 		hr.block {
 			border: 0;
 		    margin: 4rem 0;
@@ -396,7 +381,7 @@ input::-moz-focus-inner {
 		
 		hr.lineer {
 			border-bottom: 1px solid rgba(36, 36, 53, 0.135);
-			margin: 0;
+			margin: 0.75rem 0;
 		}
 		
 		hr.lineer1 {
@@ -447,71 +432,34 @@ input::-moz-focus-inner {
 	@media screen and (max-width: 1366px) {
 		
 		h1.special_one {
-		    font-size: 4.5rem;
-	    }
-		
-		h1.special {
-		    font-size: 3.25rem;
+		    font-size: 2.75rem;
 	    }
 	}
 
 
 	@media screen and (max-width: 1280px) {
 
-		h1 {
-			font-size: 2rem;
-		}
-	
-	    h1.major {
-		    font-size: 8rem;
-			letter-spacing: 0;
+		h1.special_one {
+		    font-size: 2.15rem;
 	    }
 
 	}
 	
 	@media screen and (max-width: 980px) {
 
-		h1 {
-			font-size: 2rem;
-		}
-
-		h2 {
-			font-size: 1.75rem;
-		}
-
-		h3 {
-			font-size: 1.35rem;
-		}
+		
 
 	}
 	
 	@media screen and (max-width: 736px) {
-
-		body, input, select, textarea {
-		    font-size: 1.1rem;
-	    } 
 
 		h1 {
 			font-size: 1.75rem;
 		}
 
 		h1.special_one {
-			font-size: 2.25rem;
-			line-height: 0.8;
-		}
-
-		h1.special {
-			font-size: 2rem;
+			font-size: 1.55rem;
 			line-height: 1;
-		}
-
-		h1.title {
-			font-size: 2.25rem;
-		}
-
-		h1.major {
-			font-size: 6.5rem;
-			line-height: -1.5;
 		}
 
 		h2 {
@@ -530,24 +478,8 @@ input::-moz-focus-inner {
 			font-size: 0.95rem;
 		}
 		
-		hr.minor {
-			margin: 1.75rem 0;
-		}
-		
-		hr.major {
-			margin: 6.5rem 0;
-		}
-		
-		hr.major_index {
-			margin: 5.15rem 0;
-		}
-		
-		hr.block {
-			margin: 3rem 0;
-		}
-		
-		hr.lineer {
-			margin: 0.5rem 0;
+		hr {
+			margin: 1.5rem 0;
 		}
 
 	}
@@ -2550,11 +2482,11 @@ input::-moz-focus-inner {
 		border-radius: 0.75rem;
 	}
 	
-	  .box_bg_02 {
+	  .box_bg_01 {
 		  background-color: #F2F2F3;
 	  }
 	  
-	  .box_bg_10 {
+	  .box_bg_02 {
 		  background-color: #E8E8EA;
 	  }
 	  
@@ -2602,7 +2534,7 @@ input::-moz-focus-inner {
 		font-size: 1rem;
 		width: 12rem;
 		height: 2em;
-		line-height: 2;
+		line-height: 2.2;
 		border-radius: 1.55em;
 		padding: 0 0.7em;
 		text-overflow: ellipsis;
@@ -3490,7 +3422,7 @@ input::-moz-focus-inner {
 /* Banner (style5) */
 
 	.banner.style5 {
-		padding: 0 2rem ;
+		padding: 0 1rem ;
 		margin: 0 auto;
 		width: 100%;
 		-moz-align-items: left;
@@ -3569,14 +3501,14 @@ input::-moz-focus-inner {
 				left: 0;
 				width: 100%;
 				height: 100%;
-				opacity: 0.75;
+				opacity: 0.9;
 				z-index: 1;
 			}
 
 		@media screen and (max-width: 1680px) {
 
 			.banner.style5 {
-				padding: 0 2rem ;
+				padding: 0 1rem ;
 			}
 
 		}
@@ -3584,7 +3516,7 @@ input::-moz-focus-inner {
 		@media screen and (max-width: 1280px) {
 
 			.banner.style5 {
-				padding: 0 2rem ;
+				padding: 0 1rem ;
 			}
 
 		}
@@ -3592,7 +3524,7 @@ input::-moz-focus-inner {
 		@media screen and (max-width: 1080px) {
 
 			.banner.style5 {
-				padding: 0 2rem ;
+				padding: 0 1rem ;
 			}
 
 		}
@@ -3600,7 +3532,7 @@ input::-moz-focus-inner {
 	    @media screen and (max-width: 1024px) {
 
 		    .banner.style5 {
-		    	padding: 0 2rem ;
+		    	padding: 0 1rem ;
 		    }
 
 	    }
@@ -3608,7 +3540,7 @@ input::-moz-focus-inner {
 		@media screen and (max-width: 980px) {
 
 			.banner.style5 {
-				padding: 0 2rem ;
+				padding: 0 1rem ;
 			}
 
 		}
@@ -3616,8 +3548,7 @@ input::-moz-focus-inner {
 		@media screen and (max-width: 736px) {
 
 			.banner.style5 {
-				padding: 0 1rem  ;
-				margin-top: 0;
+				padding: 0 0.65rem ;
 			}
 
 		}
@@ -3663,7 +3594,7 @@ input::-moz-focus-inner {
 /* Wrapper (style1) */
 
 	.wrapper.style1 > .inner {
-		padding: 0 2rem ;
+		padding: 0 1rem ;
 		margin: 0 auto;
 		width: 100%;
 	}
@@ -3679,7 +3610,7 @@ input::-moz-focus-inner {
 	@media screen and (max-width: 1680px) {
 
 		.wrapper.style1 > .inner {
-			padding: 0 2rem ;
+			padding: 0 1rem ;
 		}
 
 	}
@@ -3687,7 +3618,7 @@ input::-moz-focus-inner {
 	@media screen and (max-width: 1280px) {
 
 		.wrapper.style1 > .inner {
-			padding: 0 2rem ;
+			padding: 0 1rem ;
 		}
 
 	}
@@ -3695,7 +3626,7 @@ input::-moz-focus-inner {
 	@media screen and (max-width: 1080px) {
 
 		.wrapper.style1 > .inner {
-			padding: 0 2rem ;
+			padding: 0 1rem ;
 		}
 
 	}
@@ -3703,7 +3634,7 @@ input::-moz-focus-inner {
 	@media screen and (max-width: 1024px) {
 
 		.wrapper.style1 > .inner {
-			padding: 0 2rem ;
+			padding: 0 1rem ;
 		}
 
 	}
@@ -3711,7 +3642,7 @@ input::-moz-focus-inner {
 	@media screen and (max-width: 736px) {
 
 		.wrapper.style1 > .inner {
-			padding: 0 1rem 0 1rem ;
+			padding: 0 0.65rem ;
 		}
 
 	}
