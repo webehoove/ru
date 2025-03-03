@@ -24,7 +24,7 @@
   z-index: 2;
   right: 0;
   /*left: 20px; */
-  top: 1.9rem;
+  top: 1.2rem;
   height: 40px;
   width: 50px;
   text-align: center;
@@ -42,7 +42,7 @@
   z-index: 2;
   right: 1rem;
   /*left: 20px; */
-  top: 1.9rem;
+  top: 1.2rem;
   height: 40px;
   width: 50px;
   text-align: center;
@@ -54,9 +54,14 @@
   transition: all 0.3s ease-in-out;
 }
 
-        @media screen and (max-width: 736px) {
+        @media screen and (max-width: 768px) {
 		.menu-btn, .menu-btnb{
-			top: 1.5rem;
+			top: 1.4rem;
+		}
+		}
+		@media screen and (max-width: 736px) {
+		.menu-btn, .menu-btnb{
+			top: 1.4rem;
 		}
 		}
 .menu-btn span,
