@@ -458,7 +458,7 @@ input::-moz-focus-inner {
 		}
 
 		h1.special_one {
-			font-size: 1.55rem;
+			font-size: 1.5rem;
 			line-height: 1;
 		}
 
@@ -2532,7 +2532,7 @@ input::-moz-focus-inner {
 		text-decoration: none;
 		white-space: nowrap;
 		font-size: 1rem;
-		width: 12rem;
+		width: 11rem;
 		height: 2em;
 		line-height: 2.2;
 		border-radius: 1.55em;
@@ -2562,11 +2562,11 @@ input::-moz-focus-inner {
 		input[type="button"].small,
 		button.small,
 		.button.small {
-			font-size: 0.75rem;
-			height: 3.325em;
-			line-height: 3.325em;
-			border-radius: 3.325em;
-			padding: 0 2em;
+			font-size: 0.8rem;
+			height: 2em;
+			line-height: 2.2;
+			border-radius: 1em;
+			padding: 0 0 0 0.7em;
 		}
 
 		input[type="submit"].large,
@@ -2589,7 +2589,7 @@ input::-moz-focus-inner {
 		input[type="button"].wide,
 		button.wide,
 		.button.wide {
-			min-width: 14em;
+			min-width: 12em;
 			text-align: left;
 		}
 
@@ -2616,7 +2616,7 @@ input::-moz-focus-inner {
 	button,
 	.button {
 		background-color: transparent;
-		background-image: url(../../imgs/arrow_right_w.svg);
+		background-image: url(../../imgs/arrow_down_w.svg);
 		background-repeat: no-repeat;
 		background-clip: border-box;
 		background-position:right;
