@@ -337,7 +337,7 @@ input::-moz-focus-inner {
 
 	h3 {
 		font-size: 1.5rem;
-		line-height: 1.05;
+		line-height: 1.15;
 	}
 
 	h4 {
@@ -513,7 +513,7 @@ input::-moz-focus-inner {
 		}
 
 		h1.special_one {
-			font-size: 1.75rem;
+			font-size: 1.5rem;
 			line-height: 1;
 		}
 
