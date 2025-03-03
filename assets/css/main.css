@@ -361,7 +361,7 @@ input::-moz-focus-inner {
 
 	hr {
 		border: 0;
-		margin: 0.5rem 0;
+		margin: 0.15rem 0;
 	}
 
 		hr.minor {
@@ -479,7 +479,7 @@ input::-moz-focus-inner {
 		}
 		
 		hr {
-			margin: 1.5rem 0;
+			margin: 1.25rem 0;
 		}
 
 	}
@@ -2697,6 +2697,10 @@ input::-moz-focus-inner {
 		}
 		
 		.rounded img {
+			border-radius: 0.75rem;
+		}
+		
+		.rounded video {
 			border-radius: 0.75rem;
 		}
 		
