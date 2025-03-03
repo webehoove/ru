@@ -48,7 +48,6 @@
 @font-face {
            font-family: ELTASans Regular;
            src: url(../webfonts/v007/SuisseIntl-Regular.woff2) format('woff2');
-		   src: url(../webfonts/v007/SuisseIntl-Regular.woff) format('woff');
            font-display: swap;
            font-style: normal;
         }
@@ -228,7 +227,7 @@ input::-moz-focus-inner {
 	}
 
 	body, input, select, textarea {
-		font-family: 'ELTA Sans Regular', Helvetica, sans-serif;
+		font-family: 'ELTASans Regular', Helvetica, sans-serif;
 		font-weight: normal;
 		font-size: 1rem;
 	}
@@ -250,7 +249,7 @@ input::-moz-focus-inner {
 		}
 		
 	strong, b {
-		 font-family: 'ELTASans Bold', Helvetica, sans-serif;
+		 font-family: 'ELTA Sans Bold', Helvetica, sans-serif;
 		 font-weight: normal;
 	}
 
@@ -264,6 +263,7 @@ input::-moz-focus-inner {
 		
 	h1, h2, h3, h4, h5, h6 {
 		margin: 0;
+		letter-spacing: -0.035rem;
 	}
 
 		h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
@@ -276,7 +276,7 @@ input::-moz-focus-inner {
 		}
 		
 		.light_t {
-			font-family: 'ELTASans Light', Helvetica, sans-serif;
+			font-family: 'ELTA Sans Light', Helvetica, sans-serif;
 		    font-weight: normal;
 		}
 		
