@@ -2562,7 +2562,7 @@ input::-moz-focus-inner {
 		input[type="button"].small,
 		button.small,
 		.button.small {
-			font-size: 0.8rem;
+			font-size: 0.85rem;
 			height: 2em;
 			line-height: 2.2;
 			border-radius: 1em;
