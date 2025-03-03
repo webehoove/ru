@@ -1,5 +1,5 @@
 		#logotype {
-			font-size: 1.1rem;
+			font-size: 1.15rem;
 			top: 0.1rem;
 		}
 		#logosymbol {
@@ -83,14 +83,14 @@
 			float: right;
 			margin-top: 0.25rem;
 			right: -3.4rem;
-			font-size: 1rem;
+			font-size: 1.2rem;
 		}
 		#logosymbol_mob {
 			display: block;
 			position: relative;
 			float: left;
 			clear: both;
-			width: 1.45rem;
-			margin-top: -1.35rem;
+			width: 1.65rem;
+			margin-top: -1.45rem;
 		}
 		}
