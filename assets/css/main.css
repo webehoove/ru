@@ -227,7 +227,7 @@ input::-moz-focus-inner {
 	}
 
 	body, input, select, textarea {
-		font-family: 'ELTA Sans Regular', Helvetica, sans-serif;
+		font-family: 'ELTASans Regular', Helvetica, sans-serif;
 		font-weight: normal;
 		font-size: 1rem;
 	}
@@ -263,6 +263,7 @@ input::-moz-focus-inner {
 		
 	h1, h2, h3, h4, h5, h6 {
 		margin: 0;
+		letter-spacing: -0.025em;
 	}
 
 		h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
@@ -280,7 +281,7 @@ input::-moz-focus-inner {
 		}
 		
 		.medium_t {
-			font-family: 'ELTA Sans Medium', Helvetica, sans-serif;
+			font-family: 'ELTASans Regular', Helvetica, sans-serif;
 		    font-weight: normal;
 		}
 		
@@ -296,6 +297,11 @@ input::-moz-focus-inner {
 	
 	h1.special_one {
 		font-size: 3.25rem;
+		line-height: 1;
+	}
+	
+	h1.title {
+		font-size: 2.15rem;
 		line-height: 1;
 	}
 
@@ -455,6 +461,10 @@ input::-moz-focus-inner {
 		    font-size: 2.15rem;
 	    }
 		
+		h1.title {
+		    font-size: 1.65rem;
+	    }
+		
 		hr.block_start {
 			border: 0;
 		    margin: 0.5rem 0;
@@ -479,6 +489,11 @@ input::-moz-focus-inner {
 		h1.special_one {
 			font-size: 1.5rem;
 			line-height: 1;
+		}
+
+		h1.title {
+			font-size: 1.35rem;
+			line-height: 1.1;
 		}
 
 		h2 {
