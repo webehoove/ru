@@ -256,7 +256,7 @@ input::-moz-focus-inner {
 
 	body {
 		background-color: #ffffff;
-		color: #1A1B26;
+		color: #1A1B27;
 	}
 
 	body, input, select, textarea {
@@ -423,17 +423,17 @@ input::-moz-focus-inner {
 		}
 		
 		hr.lineer {
-			border-bottom: 1px solid rgba(36, 36, 53, 0.135);
+			border-bottom: 1px solid rgba(26, 27, 39, 0.13);
 			margin: 0.75rem 0;
 		}
 		
 		hr.lineer2 {
-			border-bottom: 1px solid rgba(36, 36, 53, 0.135);
+			border-bottom: 1px solid rgba(26, 27, 39, 0.13);
 			margin: 2rem 0 2rem 0;
 		}
 		
 		hr.lineer3 {
-			border-bottom: 1px solid rgba(36, 36, 53, 0.135);
+			border-bottom: 1px solid rgba(26, 27, 39, 0.13);
 			margin: 0;
 		}
 
@@ -449,8 +449,12 @@ input::-moz-focus-inner {
 		text-align: right;
 	}
 	
-	.color00_t {
-		color: rgba(255, 255, 255, 0.65);
+	.color00_text {
+		color: rgba(255, 255, 255, 0.35);
+	}
+	
+	.color01_text {
+		color: rgba(26, 27, 39, 0.75);
 	}
 	
 	.color04_t {
@@ -569,30 +573,30 @@ input::-moz-focus-inner {
 	}
 
 	input, select, textarea {
-		color: rgba(27, 27, 45, 1);
+		color: rgba(26, 27, 39, 1);
 	}
 
 	a {
 		-webkit-tap-highlight-color: transparent !important;
         outline: none !important;
-		color: rgba(36, 36, 53, 1);
+		color: rgba(26, 27, 39, 1);
 	}
 
 		a:hover {
-			color: rgba(36, 36, 53, 0.5);
+			color: rgba(26, 27, 39, 0.5);
 		}
 		
 		a:active, a:visited:active {
-			color: rgba(36, 36, 53, 0.5);
+			color: rgba(26, 27, 39, 1);
 		}
 
 	blockquote {
-		border-left-color: rgba(36, 36, 53, 1);
+		border-left-color: rgba(26, 27, 39, 1);
 	}
 
 	code {
-		background: rgba(36, 36, 53, 1);
-		border-color: rgba(36, 36, 53, 1);
+		background: rgba(26, 27, 39, 1);
+		border-color: rgba(26, 27, 39, 1);
 	}
 	
 /* Row */
@@ -2567,11 +2571,11 @@ input::-moz-focus-inner {
 	}
 	
 	  .box_bg_01 {
-		  background-color: rgba(242, 242, 243, 0.78);
+		  background-color: rgba(26, 27, 39, 0.04);
 	  }
 	  
 	  .box_bg_02 {
-		  background-color: rgba(227, 232, 251, 0.5);
+		  background-color: rgba(26, 27, 39, 0.04);
 	  }
 	  
 	.box02 {
@@ -2580,7 +2584,7 @@ input::-moz-focus-inner {
 		padding: 1.5rem;
 		margin: 0 0 0.75rem 0;
 		width: 100%;
-		border: 1px solid rgba(27, 27, 45, 0.15);
+		border: 1px solid rgba(26, 27, 39, 0.15);
 		border-radius: 0.5rem;
 	}
 	
@@ -2691,8 +2695,8 @@ input::-moz-focus-inner {
 			width: auto;
 			pointer-events: none;
 			text-align: center;
-			box-shadow: inset 0 0 0 1px rgba(36, 36, 53, 0.15);
-			color: rgba(36, 36, 53, 0.5) !important;
+			box-shadow: inset 0 0 0 1px rgba(26, 27, 39, 0.15);
+			color: rgba(26, 27, 39, 0.5) !important;
 		}
 
 	input[type="submit"],
@@ -2705,8 +2709,8 @@ input::-moz-focus-inner {
 		background-repeat: no-repeat;
 		background-clip: border-box;
 		background-position:right;
-		box-shadow: inset 0 0 0 1px rgba(36, 36, 53, 0.15);
-		color: rgba(36, 36, 53, 1) !important;
+		box-shadow: inset 0 0 0 1px rgba(26, 27, 39, 0.15);
+		color: rgba(26, 27, 39, 1) !important;
 	}
 
 		input[type="submit"]:hover,
@@ -2714,8 +2718,8 @@ input::-moz-focus-inner {
 		input[type="button"]:hover,
 		button:hover,
 		.button:hover {
-			box-shadow: inset 0 0 0 1px rgba(36, 36, 53, 1);
-			color: rgba(36, 36, 53, 1) !important;
+			box-shadow: inset 0 0 0 1px rgba(26, 27, 39, 1);
+			color: rgba(26, 27, 39, 1) !important;
 		}
 
 		input[type="submit"]:active,
@@ -2723,8 +2727,8 @@ input::-moz-focus-inner {
 		input[type="button"]:active,
 		button:active,
 		.button:active {
-			box-shadow: inset 0 0 0 1px rgba(36, 36, 53, 1);
-			color: rgba(36, 36, 53, 1) !important;
+			box-shadow: inset 0 0 0 1px rgba(26, 27, 39, 1);
+			color: rgba(26, 27, 39, 1) !important;
 		}
 
 		input[type="submit"].primary,
@@ -2735,7 +2739,7 @@ input::-moz-focus-inner {
 			background-repeat: no-repeat;
 			background-clip: border-box;
 			background-position:right;
-			background-color: rgba(36, 36, 53, 0.65);
+			background-color: rgba(26, 27, 39, 0.55);
 			box-shadow: none;
 			color: rgba(255, 255, 255, 1) !important;
 			opacity: 1;
@@ -2746,7 +2750,7 @@ input::-moz-focus-inner {
 			input[type="button"].primary:hover,
 			button.primary:hover,
 			.button.primary:hover {
-				background-color: rgba(36, 36, 53, 0.75);
+				background-color: rgba(26, 27, 39, 0.75);
 			}
 
 			input[type="submit"].primary:active,
@@ -4843,7 +4847,7 @@ input::-moz-focus-inner {
 	}
 
 		#wrapper > .invert {
-			background-color: #1A1B26;
+			background-color: #1A1B27;
 			color: #ffffff;
 		}
 
@@ -5151,6 +5155,10 @@ input::-moz-focus-inner {
 				border-top-color: white;
 			}
 
+		#wrapper > .color_bg_01 {
+			background-color: rgba(26, 27, 39, 0.04);
+		}
+		
 		#wrapper > .color01 {
 			background-color: #F5F5F6;
 		}
