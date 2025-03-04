@@ -518,7 +518,7 @@ input::-moz-focus-inner {
 		}
 
 		h1.title {
-			font-size: 1.4rem;
+			font-size: 1.5rem;
 			line-height: 1;
 		}
 
@@ -2543,7 +2543,7 @@ input::-moz-focus-inner {
 	.box {
 		position: relative;
 		background-color: inherit;
-		padding: 2.25rem 2rem 2.5rem 2rem;
+		padding: 1.5rem;
 		margin: 0 0 0.75rem 0;
 		width: 100%;
 		border: none;
@@ -2561,7 +2561,7 @@ input::-moz-focus-inner {
 	.box02 {
 		position: relative;
 		background-color: inherit;
-		padding: 2.25rem 2rem 2.5rem 2rem;
+		padding: 1.5rem;
 		margin: 0 0 0.75rem 0;
 		width: 100%;
 		border: 1px solid rgba(27, 27, 45, 0.15);
@@ -2571,7 +2571,7 @@ input::-moz-focus-inner {
 	        @media screen and (max-width: 736px) {
 				
 				.box, .box02 {
-					padding: 1.65rem 1.5rem 2rem 1.5rem;
+					padding: 1rem;
 					margin: 0 0 0.5rem 0;
 		        }
 				
