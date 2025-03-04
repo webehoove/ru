@@ -2562,11 +2562,11 @@ input::-moz-focus-inner {
 	}
 	
 	  .box_bg_01 {
-		  background-color: #F2F2F3;
+		  background-color: rgba(242, 242, 243, 0.78);
 	  }
 	  
 	  .box_bg_02 {
-		  background-color: #1B1B2D;
+		  background-color: rgba(227, 232, 251, 0.5);
 	  }
 	  
 	.box02 {
@@ -5147,7 +5147,7 @@ input::-moz-focus-inner {
 			}
 
 		#wrapper > .color01 {
-			background-color: #FAFAF8;
+			background-color: #F5F5F6;
 		}
 
 		#wrapper > .color02 {

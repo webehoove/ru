@@ -13,7 +13,7 @@
 			position: relative;
 			float: left;
 			width: 2rem;
-			margin-top: 2.35rem;
+			margin-top: 3.5rem;
 		}
 		#logosymbol_mob {
 			display: none;
@@ -87,8 +87,8 @@
 			position: relative;
 			float: right;
 			margin-top: 0;
-			right: -3.45rem;
-			font-size: 1.05rem;
+			right: -3.55rem;
+			font-size: 1.1rem;
 		}
 		#logosymbol_mob {
 			display: block;
