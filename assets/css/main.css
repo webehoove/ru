@@ -2634,7 +2634,7 @@ input::-moz-focus-inner {
 		input[type="button"].small,
 		button.small,
 		.button.small {
-			font-size: 0.75rem;
+			font-size: 0.85rem;
 			width: auto;
 			height: 2em;
 			line-height: 2.1;
@@ -2723,7 +2723,7 @@ input::-moz-focus-inner {
 			background-repeat: no-repeat;
 			background-clip: border-box;
 			background-position:right;
-			background-color: rgba(36, 36, 53, 1);
+			background-color: rgba(36, 36, 53, 0.65);
 			box-shadow: none;
 			color: rgba(255, 255, 255, 1) !important;
 			opacity: 1;
