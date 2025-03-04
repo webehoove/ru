@@ -3731,11 +3731,12 @@ input::-moz-focus-inner {
 	}
 
 		.wrapper.style2 > .inner {
+			background-color: #fff;
 			padding: 0 1rem 1rem 1rem ;
 			margin: 0 auto;
 			width: 100%;
 			position: relative;
-			z-index: 1;
+			z-index: 2;
 		}
 		
 		@media screen and (max-width: 1680px) {
@@ -4830,7 +4831,7 @@ input::-moz-focus-inner {
 	}
 
 		#wrapper > .invert {
-			background-color: #242435;
+			background-color: #1B1B2D;
 			color: #ffffff;
 		}
 

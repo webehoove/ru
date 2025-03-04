@@ -22,7 +22,7 @@
   outline: none !important;
   position: absolute;
   z-index: 2;
-  right: 0;
+  right: 0.55rem;
   /*left: 20px; */
   top: 1.2rem;
   height: 40px;
@@ -40,7 +40,7 @@
   outline: none !important;
   position: absolute;
   z-index: 2;
-  right: 0.5rem;
+  right: 0.55rem;
   /*left: 20px; */
   top: 1.2rem;
   height: 40px;
@@ -61,7 +61,7 @@
 		}
 		@media screen and (max-width: 736px) {
 		.menu-btn, .menu-btnb{
-			top: 1.6rem;
+			top: 1.7rem;
 		}
 		}
 .menu-btn span,
