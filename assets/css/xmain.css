@@ -81,9 +81,9 @@
 		#logotype {
 			position: relative;
 			float: right;
-			margin-top: 0.25rem;
-			right: -3.75rem;
-			font-size: 1.15rem;
+			margin-top: 0.1rem;
+			right: -3.65rem;
+			font-size: 1.1rem;
 		}
 		#logosymbol_mob {
 			display: block;
@@ -91,6 +91,6 @@
 			float: left;
 			clear: both;
 			width: 1.65rem;
-			margin-top: -1.55rem;
+			margin-top: -1.45rem;
 		}
 		}

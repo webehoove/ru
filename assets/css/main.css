@@ -547,7 +547,7 @@ input::-moz-focus-inner {
 		}
 		
 		hr.block {
-			margin: 1.5rem 0;
+			margin: 2rem 0;
 		}
 		
 		hr.block_start {
@@ -3801,7 +3801,7 @@ input::-moz-focus-inner {
 			}
 
 				.wrapper.style2 > .inner {
-					padding: 0.4rem 0.65rem 0.65rem 0.65rem ;
+					padding: 0.5rem 0.65rem 0.65rem 0.65rem ;
 				}
 
 		}
