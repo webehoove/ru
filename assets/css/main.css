@@ -450,11 +450,11 @@ input::-moz-focus-inner {
 	}
 	
 	.color00_text {
-		color: rgba(255, 255, 255, 0.35);
+		color: rgba(255, 255, 255, 0.45);
 	}
 	
 	.color01_text {
-		color: rgba(26, 27, 39, 0.75);
+		color: rgba(26, 27, 39, 0.65);
 	}
 	
 	.color04_t {
