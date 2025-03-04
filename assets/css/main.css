@@ -337,7 +337,7 @@ input::-moz-focus-inner {
 
 	h3 {
 		font-size: 1.5rem;
-		line-height: 1.15;
+		line-height: 1.2;
 	}
 
 	h4 {
@@ -397,7 +397,7 @@ input::-moz-focus-inner {
 
 		hr.minor {
 			border: 0;
-		    margin: 0.5rem 0;
+		    margin: 1rem 0;
 		}
 		
 		hr.major {
@@ -407,7 +407,7 @@ input::-moz-focus-inner {
 		
 		hr.block {
 			border: 0;
-		    margin: 2rem 0;
+		    margin: 2.25rem 0;
 		}
 		
 		hr.block_start {
