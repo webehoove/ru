@@ -420,9 +420,9 @@ input::-moz-focus-inner {
 			margin: 0.75rem 0;
 		}
 		
-		hr.lineer1 {
+		hr.lineer2 {
 			border-bottom: 1px solid rgba(36, 36, 53, 0.135);
-			margin: 5rem 0 1rem 0;
+			margin: 2rem 0 2rem 0;
 		}
 
 	.align-left {
