@@ -1,5 +1,6 @@
 		#logotype {
 			font-size: 1.15rem;
+			letter-spacing: -0.025rem;
 			top: 0.1rem;
 		}
 		#logosymbol {
@@ -84,6 +85,7 @@
 			margin-top: 0.1rem;
 			right: -3.65rem;
 			font-size: 1.1rem;
+			letter-spacing: -0.025rem;
 		}
 		#logosymbol_mob {
 			display: block;

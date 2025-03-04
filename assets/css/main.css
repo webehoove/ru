@@ -289,7 +289,6 @@ input::-moz-focus-inner {
 		
 	h1, h2, h3, h4, h5, h6 {
 		margin: 0;
-		letter-spacing: 0;
 	}
 
 		h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
@@ -324,6 +323,7 @@ input::-moz-focus-inner {
 	h1.special_one {
 		font-size: 4rem;
 		line-height: 1;
+		letter-spacing: -0.015rem;
 	}
 	
 	h1.title {
@@ -2246,15 +2246,15 @@ input::-moz-focus-inner {
 
 				.row {
 					margin-top: 0;
-					margin-left: -0.5rem;
+					margin-left: -0.75rem;
 				}
 
 					.row > * {
-						padding: 0.5rem 0 0 0.5rem;
+						padding: 0.75rem 0 0 0.75rem;
 					}
 
 					.row.gtr-uniform {
-						margin-top: -0.5rem;
+						margin-top: -0.75rem;
 					}
 
 						.row.gtr-uniform > * {
@@ -2491,19 +2491,19 @@ input::-moz-focus-inner {
 
 				.row {
 					margin-top: 0;
-					margin-left: -0.5rem;
+					margin-left: -0.75rem;
 				}
 
 					.row > * {
-						padding: 0.5rem 0 0 0.5rem;
+						padding: 0.75rem 0 0 0.75rem;
 					}
 
 					.row.gtr-uniform {
-						margin-top: -0.5rem;
+						margin-top: -0.75rem;
 					}
 
 						.row.gtr-uniform > * {
-							padding-top: 0.5rem;
+							padding-top: 0.75rem;
 						}
 
 				.row.gtr-150 {
@@ -2576,7 +2576,7 @@ input::-moz-focus-inner {
 				
 				.box, .box02 {
 					padding: 1rem;
-					margin: 0 0 0.5rem 0;
+					margin: 0 0 0.75rem 0;
 		        }
 				
 			}
@@ -2634,10 +2634,10 @@ input::-moz-focus-inner {
 		input[type="button"].small,
 		button.small,
 		.button.small {
-			font-size: 0.85rem;
+			font-size: 0.75rem;
 			width: auto;
 			height: 2em;
-			line-height: 2.2;
+			line-height: 2.1;
 			border-radius: 1em;
 			padding: 0 0 0 0.7em;
 		}
