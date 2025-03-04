@@ -152,11 +152,11 @@
   -webkit-tap-highlight-color: transparent !important;
   outline: none !important;
   text-decoration: none;
-  font-size: 1.75rem;
+  font-size: 1.5rem;
   padding: 0;
   color: #fff;
   position: relative;
-  line-height: 1;
+  line-height: 1.2;
   margin: 0;
   opacity: 0;
   transition: all 0.3s ease;
