@@ -256,7 +256,7 @@ input::-moz-focus-inner {
 
 	body {
 		background-color: #ffffff;
-		color: #1B1B2D;
+		color: #1A1B26;
 	}
 
 	body, input, select, textarea {
@@ -4843,7 +4843,7 @@ input::-moz-focus-inner {
 	}
 
 		#wrapper > .invert {
-			background-color: #1B1B2D;
+			background-color: #1A1B26;
 			color: #ffffff;
 		}
 
