@@ -85,6 +85,13 @@
            font-style: normal;
         }
 		
+@font-face {
+           font-family: ELTA-Sans Bold;
+           src: url(../webfonts/v007/PPPangramSans-Bold.woff2) format('woff2');
+           font-display: swap;
+           font-style: normal;
+        }
+		
 		
 		
 		
@@ -311,7 +318,7 @@ input::-moz-focus-inner {
 		}
 		
 		.bold_t {
-			font-family: 'ELTA-Sans Regular', Helvetica, sans-serif;
+			font-family: 'ELTA-Sans Bold', Helvetica, sans-serif;
 		    font-weight: normal;
 		}
 
