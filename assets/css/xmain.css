@@ -84,18 +84,12 @@
 			display: block;
 		}
 		#logotype {
-			position: relative;
-			float: right;
-			margin-top: 0;
-			right: -3.55rem;
-			font-size: 1.1rem;
+			display: none;
 		}
 		#logosymbol_mob {
 			display: block;
 			position: relative;
-			float: left;
-			clear: both;
-			width: 1.65rem;
-			margin-top: -1.45rem;
+			top: -0.2rem;
+			width: 4.25rem;
 		}
 		}
