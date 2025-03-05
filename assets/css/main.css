@@ -4896,8 +4896,8 @@ input::-moz-focus-inner {
 				border-bottom-color: rgba(255, 255, 255, 0.25);
 			}
 
-			#wrapper > .invert .box {
-				border-color: rgba(255, 255, 255, 0.15);
+			#wrapper > .invert .box02 {
+				border-color: rgba(255, 255, 255, 0.25);
 			}
 
 			#wrapper > .invert input[type="submit"],
