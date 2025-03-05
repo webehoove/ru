@@ -2585,6 +2585,10 @@ input::-moz-focus-inner {
 		  background-color: rgba(26, 27, 39, 0.04);
 	  }
 	  
+	  .box_bg_02 {
+		  background-color: rgba(26, 27, 39, 0.15);
+	  }
+	  
 	.box02 {
 		position: relative;
 		background-color: inherit;
@@ -5170,8 +5174,8 @@ input::-moz-focus-inner {
 			background-color: rgba(61, 66, 96, 0.15);
 		}
 		
-		#wrapper > .color_bg_8 {
-			background-color: rgba(61, 66, 96, 0.8);
+		#wrapper > .color_bg_6 {
+			background-color: rgba(26, 26, 39, 0.56);
 		}
 		
 		#wrapper > .color01 {
