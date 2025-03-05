@@ -2578,15 +2578,11 @@ input::-moz-focus-inner {
 		margin: 0 0 0.75rem 0;
 		width: 100%;
 		border: none;
-		border-radius: 0.5rem;
+		border-radius: 0.65rem;
 	}
 	
 	  .box_bg_01 {
 		  background-color: rgba(26, 27, 39, 0.04);
-	  }
-	  
-	  .box_bg_02 {
-		  background-color: rgba(255, 255, 255, 1);
 	  }
 	  
 	.box02 {
@@ -2596,7 +2592,7 @@ input::-moz-focus-inner {
 		margin: 0 0 0.75rem 0;
 		width: 100%;
 		border: 1px solid rgba(26, 27, 39, 0.15);
-		border-radius: 0.5rem;
+		border-radius: 0.65rem;
 	}
 	
 	        @media screen and (max-width: 736px) {
@@ -2797,11 +2793,11 @@ input::-moz-focus-inner {
 		}
 		
 		.rounded img {
-			border-radius: 0.5rem;
+			border-radius: 0.65rem;
 		}
 		
 		.rounded video {
-			border-radius: 0.5rem;
+			border-radius: 0.65rem;
 		}
 		
 		.image video {
