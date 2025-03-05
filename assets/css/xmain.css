@@ -44,6 +44,7 @@
 			display: none;
 		}
 		ul.spacemenu {
+			font-size: 0.9rem;
 			letter-spacing: 1.2;
 		}
 		ul.spacemenu li {
@@ -96,8 +97,5 @@
 			clear: both;
 			width: 1.65rem;
 			margin-top: -1.45rem;
-		}
-		ul.spacemenu li {
-			margin-bottom: 0.45rem;
 		}
 		}
