@@ -92,6 +92,13 @@
            font-style: normal;
         }
 		
+@font-face {
+           font-family: ELTA-Sans Compact;
+           src: url(../webfonts/v007/PPPangramSans-CompactRegular.woff2) format('woff2');
+           font-display: swap;
+           font-style: normal;
+        }
+		
 		
 		
 		
@@ -319,6 +326,11 @@ input::-moz-focus-inner {
 		
 		.bold_t {
 			font-family: 'ELTA-Sans Bold', Helvetica, sans-serif;
+		    font-weight: normal;
+		}
+		
+		.compact_t {
+			font-family: 'ELTA-Sans Compact', Helvetica, sans-serif;
 		    font-weight: normal;
 		}
 
@@ -5158,12 +5170,12 @@ input::-moz-focus-inner {
 			background-color: rgba(26, 27, 39, 0.04);
 		}
 		
-		#wrapper > .color_bg_5 {
+		#wrapper > .color_bg_6 {
 			background-color: rgba(26, 27, 39, 0.6);
 		}
 		
 		#wrapper > .color_bg_7 {
-			background-color: rgba(26, 27, 39, 0.7);
+			background-color: rgba(26, 27, 39, 0.75);
 		}
 		
 		#wrapper > .color01 {
