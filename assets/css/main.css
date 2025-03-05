@@ -408,7 +408,7 @@ input::-moz-focus-inner {
 		
 		hr.major {
 			border: 0;
-		    margin: 1.5rem 0;
+		    margin: 1.75rem 0;
 		}
 		
 		hr.block {
@@ -516,7 +516,7 @@ input::-moz-focus-inner {
 	@media screen and (max-width: 980px) {
 
 		hr.major {
-			margin: 2rem 0;
+			margin: 2.5rem 0;
 		}
 		
 		hr.minor {
