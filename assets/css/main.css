@@ -263,7 +263,7 @@ input::-moz-focus-inner {
 
 	body {
 		background-color: #ffffff;
-		color: #1A1B27;
+		color: #111217;
 	}
 
 	body, input, select, textarea {
@@ -346,7 +346,7 @@ input::-moz-focus-inner {
 	
 	h1.title {
 		font-size: 2.15rem;
-		line-height: 0.9;
+		line-height: 0.95;
 	}
 
 	h2 {
@@ -364,7 +364,8 @@ input::-moz-focus-inner {
 	}
 
 	h5 {
-		font-size: 0.85rem;
+		font-size: 0.75rem;
+		line-height: 1.2;
 	}
 	
 	sub {
@@ -410,7 +411,7 @@ input::-moz-focus-inner {
 
 	hr {
 		border: 0;
-		margin: 0.15rem 0;
+		margin: 1.5rem 0;
 	}
 
 		hr.minor {
@@ -579,6 +580,10 @@ input::-moz-focus-inner {
 		
 		hr.block_start {
 			margin: 0.5rem 0;
+		}
+		
+		hr.lineer {
+			margin: 0;
 		}
 
 	}
@@ -2706,8 +2711,8 @@ input::-moz-focus-inner {
 			width: auto;
 			pointer-events: none;
 			text-align: center;
-			box-shadow: inset 0 0 0 1px rgba(26, 27, 39, 0.15);
-			color: rgba(26, 27, 39, 0.5) !important;
+			box-shadow: inset 0 0 0 1px rgba(17, 18, 23, 0.15);
+			color: rgba(17, 18, 23, 0.5) !important;
 		}
 
 	input[type="submit"],
@@ -2720,8 +2725,8 @@ input::-moz-focus-inner {
 		background-repeat: no-repeat;
 		background-clip: border-box;
 		background-position:right;
-		box-shadow: inset 0 0 0 1px rgba(26, 27, 39, 0.15);
-		color: rgba(26, 27, 39, 0.75) !important;
+		box-shadow: inset 0 0 0 1px rgba(17, 18, 23, 0.15);
+		color: rgba(17, 18, 23, 0.85) !important;
 	}
 
 		input[type="submit"]:hover,
@@ -2729,8 +2734,8 @@ input::-moz-focus-inner {
 		input[type="button"]:hover,
 		button:hover,
 		.button:hover {
-			box-shadow: inset 0 0 0 1px rgba(26, 27, 39, 0.4);
-			color: rgba(26, 27, 39, 0.95) !important;
+			box-shadow: inset 0 0 0 1px rgba(17, 18, 23, 0.8);
+			color: rgba(17, 18, 23, 0.95) !important;
 		}
 
 		input[type="submit"]:active,
@@ -2738,8 +2743,8 @@ input::-moz-focus-inner {
 		input[type="button"]:active,
 		button:active,
 		.button:active {
-			box-shadow: inset 0 0 0 1px rgba(26, 27, 39, 1);
-			color: rgba(26, 27, 39, 0.75) !important;
+			box-shadow: inset 0 0 0 1px rgba(17, 18, 23, 1);
+			color: rgba(17, 18, 23, 0.75) !important;
 		}
 
 		input[type="submit"].primary,
@@ -2750,7 +2755,7 @@ input::-moz-focus-inner {
 			background-repeat: no-repeat;
 			background-clip: border-box;
 			background-position:right;
-			background-color: rgba(26, 27, 39, 0.55);
+			background-color: rgba(17, 18, 23, 0.55);
 			box-shadow: none;
 			color: rgba(255, 255, 255, 1) !important;
 			opacity: 1;
@@ -2761,7 +2766,7 @@ input::-moz-focus-inner {
 			input[type="button"].primary:hover,
 			button.primary:hover,
 			.button.primary:hover {
-				background-color: rgba(26, 27, 39, 0.75);
+				background-color: rgba(17, 18, 23, 0.75);
 			}
 
 			input[type="submit"].primary:active,
@@ -2769,7 +2774,7 @@ input::-moz-focus-inner {
 			input[type="button"].primary:active,
 			button.primary:active,
 			.button.primary:active {
-				background-color: rgba(36, 36, 53, 0.75);
+				background-color: rgba(17, 18, 23, 0.75);
 			}
 			
 			@media screen and (max-width: 480px) {
@@ -4858,7 +4863,7 @@ input::-moz-focus-inner {
 	}
 
 		#wrapper > .invert {
-			background-color: #1A1B27;
+			background-color: #111217;
 			color: #ffffff;
 		}
 
@@ -4871,7 +4876,7 @@ input::-moz-focus-inner {
 			}
 
 				#wrapper > .invert a:hover {
-					color: rgba(255, 255, 255, 0.75);
+					color: rgba(255, 255, 255, 0.5);
 					border-bottom: none;
 				}
 
@@ -4893,7 +4898,7 @@ input::-moz-focus-inner {
 			}
 
 			#wrapper > .invert hr {
-				border-bottom-color: rgba(255, 255, 255, 0.25);
+				border-bottom-color: rgba(255, 255, 255, 0.1);
 			}
 
 			#wrapper > .invert .box02 {
@@ -5166,16 +5171,16 @@ input::-moz-focus-inner {
 				border-top-color: white;
 			}
 
-		#wrapper > .color_bg_04 {
-			background-color: rgba(26, 27, 39, 0.04);
+		#wrapper > .color_bg_03 {
+			background-color: rgba(17, 18, 23, 0.03);
 		}
 		
 		#wrapper > .color_bg_15 {
-			background-color: rgba(61, 66, 96, 0.15);
+			background-color: rgba(17, 18, 23, 0.15);
 		}
 		
-		#wrapper > .color_bg_6 {
-			background-color: rgba(26, 26, 39, 0.56);
+		#wrapper > .color_bg_9 {
+			background-color: rgba(17, 18, 23, 0.92);
 		}
 		
 		#wrapper > .color01 {
