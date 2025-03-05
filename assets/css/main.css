@@ -4893,10 +4893,10 @@ input::-moz-focus-inner {
 			#wrapper > .invert input[type="button"],
 			#wrapper > .invert button,
 			#wrapper > .invert .button {
-				background-color: rgba(255, 255, 255, 0.25);
+				background-color: rgba(255, 255, 255, 1);
 				background-image: none;
 				box-shadow: none;
-				color: #ffffff !important;
+				color: #1A1B27 !important;
 			}
 
 				#wrapper > .invert input[type="submit"]:hover,
@@ -4904,9 +4904,9 @@ input::-moz-focus-inner {
 				#wrapper > .invert input[type="button"]:hover,
 				#wrapper > .invert button:hover,
 				#wrapper > .invert .button:hover {
-					background-color: #fff;
+					background-color: rgba(255, 255, 255, 0.6);
 					box-shadow: none;
-					color: #1b1b2d !important;
+					color: #1A1B27 !important;
 				}
 
 				#wrapper > .invert input[type="submit"]:active,
@@ -4914,9 +4914,9 @@ input::-moz-focus-inner {
 				#wrapper > .invert input[type="button"]:active,
 				#wrapper > .invert button:active,
 				#wrapper > .invert .button:active {
-					background-color: #fff;
+					background-color: rgba(255, 255, 255, 1);
 					box-shadow: none;
-					color: #1b1b2d !important;
+					color: #1A1B27 !important;
 				}
 
 				#wrapper > .invert input[type="submit"].primary,
@@ -5159,7 +5159,7 @@ input::-moz-focus-inner {
 		}
 		
 		#wrapper > .color_bg_02 {
-			background-color: rgba(26, 27, 39, 0.1);
+			background-color: rgba(26, 27, 39, 0.5);
 		}
 		
 		#wrapper > .color01 {

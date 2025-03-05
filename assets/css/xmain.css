@@ -52,7 +52,7 @@
 		.goup {
 			position: relative;
 			float: right;
-			width: 1.5rem;
+			width: 2.25rem;
 		}
 		ul.goup li {
 			padding: 0.25rem 0.5rem 0 0;
@@ -96,5 +96,8 @@
 			clear: both;
 			width: 1.65rem;
 			margin-top: -1.45rem;
+		}
+		ul.spacemenu li {
+			margin-bottom: 0.45rem;
 		}
 		}
