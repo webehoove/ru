@@ -5154,12 +5154,16 @@ input::-moz-focus-inner {
 				border-top-color: white;
 			}
 
-		#wrapper > .color_bg_01 {
+		#wrapper > .color_bg_04 {
 			background-color: rgba(26, 27, 39, 0.04);
 		}
 		
-		#wrapper > .color_bg_02 {
-			background-color: rgba(26, 27, 39, 0.5);
+		#wrapper > .color_bg_5 {
+			background-color: rgba(26, 27, 39, 0.6);
+		}
+		
+		#wrapper > .color_bg_7 {
+			background-color: rgba(26, 27, 39, 0.7);
 		}
 		
 		#wrapper > .color01 {
