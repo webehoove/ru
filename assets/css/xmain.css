@@ -79,6 +79,12 @@
 			display: none;
 		}
 		}
+        @media screen and (max-width: 768px) {
+		#logotype {
+			position: relative;
+			top: -0.1rem;
+		}
+		}
         @media screen and (max-width: 736px) {
 		.offdesk {
 			display: block;
@@ -86,7 +92,7 @@
 		#logotype {
 			position: relative;
 			float: right;
-			margin-top: 0;
+			top: 0.2rem;
 			right: -3.75rem;
 			font-size: 1.2rem;
 		}
