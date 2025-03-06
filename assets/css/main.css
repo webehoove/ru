@@ -335,7 +335,7 @@ input::-moz-focus-inner {
 		}
 
 	h1 {
-		font-size: 2.5rem;
+		font-size: 3rem;
 		line-height: 1;
 	}
 	
@@ -513,7 +513,7 @@ input::-moz-focus-inner {
 	@media screen and (max-width: 1280px) {
 
 		h1 {
-		    font-size: 1.95rem;
+		    font-size: 2.15rem;
 	    }
 		
 		h1.special_one {
@@ -546,11 +546,11 @@ input::-moz-focus-inner {
 	@media screen and (max-width: 736px) {
 
 		h1 {
-			font-size: 1.6rem;
+			font-size: 1.65rem;
 		}
 
 		h1.special_one {
-			font-size: 1.7rem;
+			font-size: 1.75rem;
 			line-height: 1;
 		}
 
@@ -2666,12 +2666,12 @@ input::-moz-focus-inner {
 		input[type="button"].small,
 		button.small,
 		.button.small {
-			font-size: 0.85rem;
+			font-size: 0.7rem;
 			width: auto;
-			height: 2em;
-			line-height: 2.1;
-			border-radius: 1em;
-			padding: 0 0 0 0.7em;
+			height: 3em;
+			line-height: 3.1;
+			border-radius: 1.5em;
+			padding: 0 0 0 0.8em;
 		}
 
 		input[type="submit"].large,
@@ -2679,7 +2679,7 @@ input::-moz-focus-inner {
 		input[type="button"].large,
 		button.large,
 		.button.large {
-			font-size: 0.75rem;
+			font-size: 0.7rem;
 			background-image: none;
 			height: 3.5em;
 			line-height: 3.7em;
@@ -2694,7 +2694,7 @@ input::-moz-focus-inner {
 		input[type="button"].wide,
 		button.wide,
 		.button.wide {
-			min-width: 12em;
+			min-width: 14em;
 			text-align: left;
 		}
 
@@ -4093,8 +4093,12 @@ input::-moz-focus-inner {
 			background-color: rgba(17, 18, 23, 0.9);
 		}
 		
-		#wrapper > .color01 {
+		#wrapper > .color00 {
 			background-color: #f0f0f0;
+		}
+		
+		#wrapper > .color01 {
+			background-color: #e5e5e5;
 		}
 
 		#wrapper > .color02 {
