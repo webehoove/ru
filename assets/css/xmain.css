@@ -1,6 +1,7 @@
 		#logotype {
 			font-size: 1.2rem;
 			top: 0.1rem;
+			letter-spacing: -0.025rem;
 		}
 		#logosymbol {
 			position: relative;
@@ -19,6 +20,9 @@
 		}
 		#topmenu {
 			margin: 0;
+		}
+		.deskmenu {
+			font-size: 0.85rem;
 		}
 		.submenu {
 			font-size: 1rem;
