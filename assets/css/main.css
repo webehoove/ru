@@ -3959,7 +3959,7 @@ input::-moz-focus-inner {
 			}
 
 			#wrapper > .invert hr {
-				border-bottom-color: rgba(255, 255, 255, 0.135);
+				border-bottom-color: rgba(255, 255, 255, 0.15);
 			}
 
 			#wrapper > .invert .box02 {
