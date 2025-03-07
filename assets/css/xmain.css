@@ -28,16 +28,16 @@
 			font-size: 1rem;
 		}
 		.submenu a {
-			color: rgba(15, 15, 15, 1);
+			color: rgba(20, 20, 20, 1);
 		}
 		.submenu a:hover {
-			color: rgba(15, 15, 15, 0.5);
+			color: rgba(20, 20, 20, 0.6);
 		}
 		.submenu a:active, a:visited:active {
-			color: rgba(15, 15, 15, 0.5);
+			color: rgba(20, 20, 20, 0.6);
 		}
 		ul.submenu li {
-			border-bottom: 1px solid rgba(0, 0, 0, 0.125);
+			border-bottom: 1px solid rgba(0, 0, 0, 0.135);
 			padding: 1.2rem 0 1rem 0;
 		}
 		.submenu_num {
