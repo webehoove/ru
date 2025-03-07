@@ -515,12 +515,13 @@ input::-moz-focus-inner {
 	@media screen and (max-width: 736px) {
 
 		h1 {
-			font-size: 1.65rem;
+			font-size: 1.75rem;
 		}
 
 		h1.special_one {
-			font-size: 1.75rem;
+			font-size: 1.85rem;
 			line-height: 1;
+			letter-spacing: -0.02rem;
 		}
 
 		h1.title {
