@@ -428,8 +428,8 @@ input::-moz-focus-inner {
 		}
 
 		h1.special_one {
-			font-size: 2.75rem;
-			line-height: 0.85;
+			font-size: 2.8rem;
+			line-height: 0.82;
 			letter-spacing: -0.075rem;
 		}
 
@@ -3672,7 +3672,7 @@ input::-moz-focus-inner {
 	@media screen and (max-width: 736px) {
 
 		.wrapper.style1 > .inner {
-			padding: 0 0.65rem ;
+			padding: 0 0.5rem ;
 		}
 
 	}
