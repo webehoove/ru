@@ -435,6 +435,11 @@ input::-moz-focus-inner {
 		    margin: 1.25rem 0;
 		}
 		
+		hr.block_end {
+			border: 0;
+		    margin: 5rem 0;
+		}
+		
 		hr.lineer {
 			border-bottom: 1px solid rgba(0, 0, 0, 0.135);
 			margin: 0.5rem 0;
@@ -471,6 +476,10 @@ input::-moz-focus-inner {
 		
 		h1.special_one {
 		    font-size: 3rem;
+	    }
+		
+		hr.block_end {
+		    margin: 4rem 0;
 	    }
 	}
 
@@ -519,9 +528,9 @@ input::-moz-focus-inner {
 		}
 
 		h1.special_one {
-			font-size: 1.85rem;
+			font-size: 1.82rem;
 			line-height: 1;
-			letter-spacing: -0.02rem;
+			letter-spacing: -0.017rem;
 		}
 
 		h1.title {
@@ -530,7 +539,7 @@ input::-moz-focus-inner {
 		}
 
 		h2 {
-			font-size: 1.25rem;
+			font-size: 1.2rem;
 			line-height: 1.1;
 		}
 
@@ -557,6 +566,10 @@ input::-moz-focus-inner {
 		hr.block_start {
 			margin: 0.5rem 0;
 		}
+		
+		hr.block_end {
+		    margin: 3rem 0;
+	    }
 		
 		hr.lineer {
 			margin: 0;
@@ -2558,7 +2571,7 @@ input::-moz-focus-inner {
 	}
 	
 	  .box_bg_01 {
-		  background-color: rgba(0, 0, 0, 0.35);
+		  background-color: rgba(0, 0, 0, 0.05);
 	  }
 	  
 	  .box_bg_02 {
