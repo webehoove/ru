@@ -2578,7 +2578,7 @@ input::-moz-focus-inner {
 	  }
 	  
 	  .box_bg_02 {
-		  background-color: rgba(255, 255, 255, 1);
+		  background-color: rgba(255, 255, 255, 0.035);
 	  }
 	  
 	  .box_bg_03 {
