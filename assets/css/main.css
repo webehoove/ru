@@ -2768,6 +2768,36 @@ input::-moz-focus-inner {
 				background-color: rgba(0, 0, 0, 0.92);
 			}
 			
+		input[type="submit"].secondary,
+		input[type="reset"].secondary,
+		input[type="button"].secondary,
+		button.secondary,
+		.button.secondary {
+			background-repeat: no-repeat;
+			background-clip: border-box;
+			background-position:right;
+			background-color: rgba(255, 255, 255, 1);
+			box-shadow: none;
+			color: rgba(0, 0, 0, 0.92) !important;
+			opacity: 1;
+		}
+
+			input[type="submit"].secondary:hover,
+			input[type="reset"].secondary:hover,
+			input[type="button"].secondary:hover,
+			button.secondary:hover,
+			.button.secondary:hover {
+				background-color: rgba(255, 255, 255, 0.6);
+			}
+
+			input[type="submit"].secondary:active,
+			input[type="reset"].secondary:active,
+			input[type="button"].secondary:active,
+			button.secondary:active,
+			.button.secondary:active {
+				background-color: rgba(255, 255, 255, 1);
+			}
+			
 			@media screen and (max-width: 480px) {
 				
 				input[type="submit"],
