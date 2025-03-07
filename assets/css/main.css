@@ -263,7 +263,7 @@ input::-moz-focus-inner {
 
 	body {
 		background-color: #ffffff;
-		color: #141414;
+		color: #141415;
 	}
 
 	body, input, select, textarea {
@@ -4120,7 +4120,7 @@ input::-moz-focus-inner {
 		}
 
 		#wrapper > .color03 {
-			background-color: #1e1e1f;
+			background-color: #212122;
 		}
 
 		#wrapper > .color04 {
