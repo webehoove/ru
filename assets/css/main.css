@@ -1,100 +1,13 @@
 @font-face {
-           font-family: ELTA Sans Light;
-           src: url(../webfonts/ELTASans-Light.woff) format('woff');
-		   src: url(../webfonts/ELTASans-Light.woff2) format('woff2');
-		   src: url(../webfonts/ELTASans-Light.ttf) format('truetype');
-           font-display: swap;
-           font-style: normal;
-        }
-		
-@font-face {
            font-family: ELTA Sans Regular;
-           src: url(../webfonts/ELTASans-Regular.woff) format('woff');
-		   src: url(../webfonts/ELTASans-Regular.woff2) format('woff2');
-		   src: url(../webfonts/ELTASans-Regular.ttf) format('truetype');
+		   src: url(../webfonts/AeonikPro-Regular.woff2) format('woff2');
            font-display: swap;
            font-style: normal;
         }
 		
 @font-face {
            font-family: ELTA Sans Medium;
-           src: url(../webfonts/ELTASans-Medium.woff) format('woff');
-		   src: url(../webfonts/ELTASans-Medium.woff2) format('woff2');
-		   src: url(../webfonts/ELTASans-Medium.ttf) format('truetype');
-           font-display: swap;
-           font-style: normal;
-        }
-		
-@font-face {
-           font-family: ELTA Sans Bold;
-           src: url(../webfonts/ELTASans-Bold.woff) format('woff');
-		   src: url(../webfonts/ELTASans-Bold.woff2) format('woff2');
-		   src: url(../webfonts/ELTASans-Bold.ttf) format('truetype');
-           font-display: swap;
-           font-style: normal;
-        }
-		
-		
-		
-		
-
-@font-face {
-           font-family: ELTASans Light;
-           src: url(../webfonts/v007/SuisseIntl-Light.woff2) format('woff2');
-           font-display: swap;
-           font-style: normal;
-        }
-		
-@font-face {
-           font-family: ELTASans Regular;
-           src: url(../webfonts/v007/SuisseIntl-Regular.woff2) format('woff2');
-           font-display: swap;
-           font-style: normal;
-        }
-		
-@font-face {
-           font-family: ELTASans Bold;
-           src: url(../webfonts/v007/SuisseIntl-SemiBold.woff2) format('woff2');
-           font-display: swap;
-           font-style: normal;
-        }
-		
-		
-		
-
-
-
-@font-face {
-           font-family: ELTA-Sans Light;
-           src: url(../webfonts/v007/PPPangramSans-Light.woff2) format('woff2');
-           font-display: swap;
-           font-style: normal;
-        }
-		
-@font-face {
-           font-family: ELTA-Sans Regular;
-           src: url(../webfonts/v007/PPPangramSans-Medium.woff2) format('woff2');
-           font-display: swap;
-           font-style: normal;
-        }
-		
-@font-face {
-           font-family: ELTA-Sans Semibold;
-           src: url(../webfonts/v007/PPPangramSans-Semibold.woff2) format('woff2');
-           font-display: swap;
-           font-style: normal;
-        }
-		
-@font-face {
-           font-family: ELTA-Sans Bold;
-           src: url(../webfonts/v007/PPPangramSans-Bold.woff2) format('woff2');
-           font-display: swap;
-           font-style: normal;
-        }
-		
-@font-face {
-           font-family: ELTA-Sans Compact;
-           src: url(../webfonts/v007/PPPangramSans-CompactRegular.woff2) format('woff2');
+		   src: url(../webfonts/AeonikPro-Medium.woff2) format('woff2');
            font-display: swap;
            font-style: normal;
         }
@@ -267,8 +180,9 @@ input::-moz-focus-inner {
 	}
 
 	body, input, select, textarea {
-		font-family: 'ELTA-Sans Regular', Helvetica, sans-serif;
+		font-family: 'ELTA Sans Regular', Helvetica, sans-serif;
 		font-weight: normal;
+		font-feature-settings: "ss02";
 		font-size: 1rem;
 	}
 
@@ -289,7 +203,7 @@ input::-moz-focus-inner {
 		}
 		
 	strong, b {
-		 font-family: 'ELTA-Sans Bold', Helvetica, sans-serif;
+		 font-family: 'ELTA Sans Medium', Helvetica, sans-serif;
 		 font-weight: normal;
 	}
 
@@ -314,23 +228,8 @@ input::-moz-focus-inner {
 			text-transform: uppercase;
 		}
 		
-		.light_t {
-			font-family: 'ELTA-Sans Light', Helvetica, sans-serif;
-		    font-weight: normal;
-		}
-		
-		.semibold_t {
-			font-family: 'ELTA-Sans Semibold', Helvetica, sans-serif;
-		    font-weight: normal;
-		}
-		
-		.bold_t {
-			font-family: 'ELTA-Sans Bold', Helvetica, sans-serif;
-		    font-weight: normal;
-		}
-		
-		.compact_t {
-			font-family: 'ELTA-Sans Compact', Helvetica, sans-serif;
+		.medium_t {
+			font-family: 'ELTA Sans Medium', Helvetica, sans-serif;
 		    font-weight: normal;
 		}
 
@@ -340,8 +239,9 @@ input::-moz-focus-inner {
 	}
 	
 	h1.special_one {
-		font-size: 4rem;
-		line-height: 1;
+		font-size: 6rem;
+		line-height: 0.8;
+		letter-spacing: -0.15rem;
 	}
 	
 	h1.title {
@@ -491,7 +391,7 @@ input::-moz-focus-inner {
 	    }
 		
 		h1.special_one {
-		    font-size: 2.75rem;
+		    font-size: 4.5rem;
 	    }
 		
 		h1.title {
@@ -528,9 +428,9 @@ input::-moz-focus-inner {
 		}
 
 		h1.special_one {
-			font-size: 1.82rem;
-			line-height: 1;
-			letter-spacing: -0.017rem;
+			font-size: 2.75rem;
+			line-height: 0.85;
+			letter-spacing: -0.09rem;
 		}
 
 		h1.title {
@@ -543,7 +443,7 @@ input::-moz-focus-inner {
 		}
 
 		h2.title {
-			font-size: 1.35rem;
+			font-size: 1.3rem;
 		}
 
 		h3 {

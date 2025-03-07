@@ -1,6 +1,6 @@
 		#logotype {
-			font-size: 1.2rem;
-			top: 0.1rem;
+			font-size: 2.5rem;
+			letter-spacing: -0.1rem;
 		}
 		#logosymbol {
 			position: relative;
@@ -84,8 +84,7 @@
 		}
         @media screen and (max-width: 768px) {
 		#logotype {
-			position: relative;
-			top: -0.1rem;
+			
 		}
 		}
         @media screen and (max-width: 736px) {
@@ -93,18 +92,6 @@
 			display: block;
 		}
 		#logotype {
-			position: relative;
-			float: right;
-			top: 0.145rem;
-			right: -3.75rem;
-			font-size: 1.15rem;
-		}
-		#logosymbol_mob {
-			display: block;
-			position: relative;
-			float: left;
-			clear: both;
-			width: 1.65rem;
-			margin-top: -1.4rem;
+			font-size: 2.15rem;
 		}
 		}
