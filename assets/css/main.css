@@ -2746,7 +2746,7 @@ input::-moz-focus-inner {
 			background-repeat: no-repeat;
 			background-clip: border-box;
 			background-position:right;
-			background-color: rgba(0, 0, 0, 0.92);
+			background-color: rgba(0, 0, 0, 0.5);
 			box-shadow: none;
 			color: rgba(255, 255, 255, 1) !important;
 			opacity: 1;
@@ -4077,11 +4077,11 @@ input::-moz-focus-inner {
 			}
 
 		#wrapper > .color00 {
-			background-color: #f0f0f0;
+			background-color: #f1f1f1;
 		}
 		
 		#wrapper > .color01 {
-			background-color: #e5e5e5;
+			background-color: #e1e1e1;
 		}
 
 		#wrapper > .color02 {
