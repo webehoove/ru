@@ -95,7 +95,7 @@
 		#logotype {
 			position: relative;
 			float: right;
-			top: 0.2rem;
+			top: 0.145rem;
 			right: -3.75rem;
 			font-size: 1.15rem;
 		}
@@ -105,6 +105,6 @@
 			float: left;
 			clear: both;
 			width: 1.65rem;
-			margin-top: -1.45rem;
+			margin-top: -1.4rem;
 		}
 		}

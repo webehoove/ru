@@ -2574,15 +2574,11 @@ input::-moz-focus-inner {
 	}
 	
 	  .box_bg_01 {
-		  background-color: rgba(0, 0, 0, 0.05);
+		  background-color: rgba(0, 0, 0, 0.035);
 	  }
 	  
 	  .box_bg_02 {
-		  background-color: rgba(255, 255, 255, 0.07);
-	  }
-	  
-	  .box_bg_03 {
-		  background-color: rgba(255, 255, 255, 0.5);
+		  background-color: rgba(255, 255, 255, 0.075);
 	  }
 	  
 	.box02 {
