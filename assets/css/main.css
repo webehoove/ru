@@ -350,7 +350,7 @@ input::-moz-focus-inner {
 	}
 
 	h2 {
-		font-size: 1.75rem;
+		font-size: 1.65rem;
 		line-height: 1.1;
 	}
 
@@ -540,7 +540,10 @@ input::-moz-focus-inner {
 
 		h2 {
 			font-size: 1.2rem;
-			line-height: 1.1;
+		}
+
+		h2.title {
+			font-size: 1.35rem;
 		}
 
 		h3 {
@@ -2571,7 +2574,7 @@ input::-moz-focus-inner {
 	}
 	
 	  .box_bg_01 {
-		  background-color: rgba(0, 0, 0, 0.05);
+		  background-color: rgba(0, 0, 0, 0.035);
 	  }
 	  
 	  .box_bg_02 {
@@ -2579,7 +2582,7 @@ input::-moz-focus-inner {
 	  }
 	  
 	  .box_bg_03 {
-		  background-color: rgba(255, 255, 255, 0.15);
+		  background-color: rgba(255, 255, 255, 0.5);
 	  }
 	  
 	.box02 {
@@ -4090,7 +4093,7 @@ input::-moz-focus-inner {
 		}
 
 		#wrapper > .color04 {
-			background-color: #4f4f4f;
+			background-color: #5e5e5e;
 		}
 
 		#wrapper > .color05 {
