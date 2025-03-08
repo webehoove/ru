@@ -2665,8 +2665,8 @@ input::-moz-focus-inner {
 			width: auto;
 			pointer-events: none;
 			text-align: center;
-			box-shadow: inset 0 0 0 1px rgba(0, 0, 0, 0.15);
-			color: rgba(0, 0, 0, 0.5) !important;
+			box-shadow: inset 0 0 0 1px rgba(46, 50, 53, 0.15);
+			color: rgba(46, 50, 53, 0.5) !important;
 		}
 
 	input[type="submit"],
@@ -2679,8 +2679,8 @@ input::-moz-focus-inner {
 		background-repeat: no-repeat;
 		background-clip: border-box;
 		background-position:right;
-		box-shadow: inset 0 0 0 1px rgba(0, 0, 0, 0.15);
-		color: rgba(0, 0, 0, 0.85) !important;
+		box-shadow: inset 0 0 0 1px rgba46, 50, 53, 0.15);
+		color: rgba(46, 50, 53, 0.85) !important;
 	}
 
 		input[type="submit"]:hover,
@@ -2688,8 +2688,8 @@ input::-moz-focus-inner {
 		input[type="button"]:hover,
 		button:hover,
 		.button:hover {
-			box-shadow: inset 0 0 0 1px rgba(0, 0, 0, 0.8);
-			color: rgba(0, 0, 0, 0.92) !important;
+			box-shadow: inset 0 0 0 1px rgba(46, 50, 53, 0.8);
+			color: rgba(46, 50, 53, 0.92) !important;
 		}
 
 		input[type="submit"]:active,
@@ -2697,8 +2697,8 @@ input::-moz-focus-inner {
 		input[type="button"]:active,
 		button:active,
 		.button:active {
-			box-shadow: inset 0 0 0 1px rgba(0, 0, 0, 1);
-			color: rgba(0, 0, 0, 0.75) !important;
+			box-shadow: inset 0 0 0 1px rgba(46, 50, 53, 1);
+			color: rgba(46, 50, 53, 0.75) !important;
 		}
 
 		input[type="submit"].primary,
@@ -2709,7 +2709,7 @@ input::-moz-focus-inner {
 			background-repeat: no-repeat;
 			background-clip: border-box;
 			background-position:right;
-			background-color: rgba(0, 0, 0, 0.5);
+			background-color: rgba(46, 50, 53, 0.5);
 			box-shadow: none;
 			color: rgba(255, 255, 255, 1) !important;
 			opacity: 1;
@@ -2720,7 +2720,7 @@ input::-moz-focus-inner {
 			input[type="button"].primary:hover,
 			button.primary:hover,
 			.button.primary:hover {
-				background-color: rgba(0, 0, 0, 0.7);
+				background-color: rgba(46, 50, 53, 0.7);
 			}
 
 			input[type="submit"].primary:active,
@@ -2728,7 +2728,7 @@ input::-moz-focus-inner {
 			input[type="button"].primary:active,
 			button.primary:active,
 			.button.primary:active {
-				background-color: rgba(0, 0, 0, 0.92);
+				background-color: rgba(46, 50, 53, 0.92);
 			}
 			
 		input[type="submit"].secondary,
@@ -2741,7 +2741,7 @@ input::-moz-focus-inner {
 			background-position:right;
 			background-color: rgba(255, 255, 255, 1);
 			box-shadow: none;
-			color: rgba(0, 0, 0, 0.92) !important;
+			color: rgba(46, 50, 53, 0.92) !important;
 			opacity: 1;
 		}
 
