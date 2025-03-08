@@ -1,97 +1,111 @@
 		#logotype {
 			font-size: 2.5rem;
+			line-height: 1.1;
 			letter-spacing: -0.08rem;
 		}
+		
 		#logosymbol {
 			position: relative;
 			float: right;
 			width: 1.6rem;
 			margin-top: -0.35rem;
 		}
+		
 		#logosymbol_b {
 			position: relative;
 			float: left;
 			width: 2rem;
 			margin-top: 3.5rem;
 		}
-		#logosymbol_mob {
-			display: none;
-		}
+		
 		#topmenu {
+			position: relative;
 			margin: 0;
+			top: 0.5rem
 		}
-		.deskmenu {
-			font-size: 0.85rem;
+		
+		ul.topmenu {
+			list-style: none;
+			font-size: 0.75rem;
+		    padding: 0;
+		    margin: 0;
 		}
-		.submenu {
-			font-size: 1rem;
-		}
-		.submenu a {
-			color: rgba(20, 20, 20, 1);
-		}
-		.submenu a:hover {
-			color: rgba(20, 20, 20, 0.6);
-		}
-		.submenu a:active, a:visited:active {
-			color: rgba(20, 20, 20, 0.6);
-		}
-		ul.submenu li {
-			border-bottom: 1px solid rgba(0, 0, 0, 0.135);
-			padding: 1.2rem 0 1rem 0;
-		}
-		.submenu_num {
-			width: 4.5rem;
-			float: left;
-		}
+
+			ul.topmenu li {
+				display: block;
+				margin-bottom: 0.25rem;
+			}
+			
+			ul.topmenu li a {
+				
+			}
+			
+			ul.topmenu li a:hover {
+				border-bottom: none;
+			}
+
+				ul.topmenu li:first-child {
+					padding-left: 0;
+				}
+				
 		.menumob {
 			display: none;
 		}
+		
 		ul.spacemenu {
 			font-size: 0.9rem;
-			letter-spacing: 1.2;
 		}
+		
 		ul.spacemenu li {
 			margin-bottom: 0.3rem;
 		}
+		
 		.goup {
 			position: relative;
 			float: right;
 			width: 2.25rem;
 		}
+		
 		ul.goup li {
 			padding: 0.25rem 0.5rem 0 0;
 		}
+		
 		.offdesk {
 			display: none;
 		}
+		
         @media screen and (max-width: 1180px) {
-		.submenu_num {
-			width: 3rem;
-		}
+			
 		.menumob {
 			display: block;
 			padding: 0;
 		}
+		
 		.nomob {
 			display: none;
 		}
+		
 		#topmenu {
 			display: none;
 		}
-		#logosymbol {
-			display: none;
+		
 		}
-		}
+		
         @media screen and (max-width: 768px) {
-		#logotype {
 			
-		}
-		}
-        @media screen and (max-width: 736px) {
-		.offdesk {
-			display: block;
-		}
 		#logotype {
 			font-size: 2.15rem;
 		}
+		
+		}
+        @media screen and (max-width: 736px) {
+			
+		.offdesk {
+			display: block;
+		}
+		
+		#logotype {
+			font-size: 2.15rem;
+		}
+		
 		}

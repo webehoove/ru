@@ -5,7 +5,7 @@
   right: -100%;
   height: 100%;
   width: 100%;
-  background: #141414;
+  background: #2e3235;
   /*background: linear-gradient(90deg, #f92c78, #4114a1);*/
   /* background: linear-gradient(375deg, #1cc7d0, #2ede98); */
  /* background: linear-gradient(-45deg, #e3eefe 0%, #efddfb 100%);*/
@@ -24,7 +24,7 @@
   z-index: 2;
   right: 0.55rem;
   /*left: 20px; */
-  top: 1.2rem;
+  top: 1.9rem;
   height: 40px;
   width: 40px;
   text-align: center;
@@ -42,7 +42,7 @@
   z-index: 2;
   right: 0.55rem;
   /*left: 20px; */
-  top: 1.2rem;
+  top: 1.9rem;
   height: 40px;
   width: 40px;
   text-align: center;
@@ -53,17 +53,6 @@
  /* background: linear-gradient(-45deg, #e3eefe 0%, #efddfb 100%); */
   transition: all 0.3s ease-in-out;
 }
-
-        @media screen and (max-width: 768px) {
-		.menu-btn, .menu-btnb{
-			top: 1.4rem;
-		}
-		}
-		@media screen and (max-width: 736px) {
-		.menu-btn, .menu-btnb{
-			top: 1.6rem;
-		}
-		}
 .menu-btn span,
 .menu-btn:before,
 .menu-btn:after{
@@ -85,7 +74,7 @@
 	position: absolute;
 	top: 0;
 	width: 45%;
-	border-bottom: 2px solid #141414;
+	border-bottom: 2px solid #2e3235;
 	transition: transform .6s cubic-bezier(0.215, 0.61, 0.355, 1);
 }
 
