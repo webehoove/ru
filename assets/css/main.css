@@ -485,7 +485,7 @@ input::-moz-focus-inner {
 
 		h1 {
 		    font-size: 1.75rem;
-			margin-bottom: 2rem;
+			margin-bottom: 1.6rem;
 	    }
 		
 		h1.special_one {
@@ -503,6 +503,10 @@ input::-moz-focus-inner {
 		
 		hr.lineer {
 		    margin: 1rem 0;
+		}
+		
+		hr.lineer2 {
+		    margin: 6rem 0 0 0;
 		}
 
 	}
