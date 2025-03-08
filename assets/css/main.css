@@ -263,12 +263,18 @@ input::-moz-focus-inner {
 		width: 75%;
 	}
 
+	h2.title {
+		font-size: 1.45rem;
+		line-height: 0.92;
+	}
+
 	h3 {
 		font-size: 1.45rem;
 		line-height: 1.05;
 	}
 
 	h3.title {
+		font-size: 1.45rem;
 		line-height: 1;
 	}
 
@@ -458,6 +464,10 @@ input::-moz-focus-inner {
 		    font-size: 3.8rem;
 	    }
 		
+		h2.title {
+		    font-size: 1.35rem;
+	    }
+		
 		h3 {
 		    font-size: 1rem;
 	    }
@@ -494,6 +504,11 @@ input::-moz-focus-inner {
 		
 		h2 {
 			width: 90%;
+	    }
+		
+		h2.title {
+		    font-size: 1.35rem;
+			letter-spacing: -0.015rem;
 	    }
 		
 		h3 {
@@ -2525,7 +2540,7 @@ input::-moz-focus-inner {
 	}
 	
 	  .box_bg_01 {
-		  background-color: rgba(46, 50, 53, 0.07);
+		  background-color: rgba(46, 50, 53, 0.20);
 	  }
 	  
 	  .box_bg_02 {
