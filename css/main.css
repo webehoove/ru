@@ -2636,10 +2636,10 @@ input::-moz-focus-inner {
 			font-size: 0.6rem;
 			background-image: none;
 			height: 4em;
-			line-height: 4em;
+			line-height: 4.05em;
 			width: auto;
 			border-radius: 2em;
-			padding: 0 1.5em;
+			padding: 0 1.35em;
 			text-align: center;
 		}
 
@@ -2674,12 +2674,12 @@ input::-moz-focus-inner {
 	input[type="button"],
 	button,
 	.button {
-		background-color: transparent;
+		background-color: inherit;
 		background-image: url(../../imgs/arrow_down_w.svg);
 		background-repeat: no-repeat;
 		background-clip: border-box;
 		background-position:right;
-		box-shadow: inset 0 0 0 1px rgba46, 50, 53, 0.15);
+		box-shadow: inset 0 0 0 1px rgba(46, 50, 53, 0.15);
 		color: rgba(46, 50, 53, 0.85) !important;
 	}
 
@@ -2706,6 +2706,7 @@ input::-moz-focus-inner {
 		input[type="button"].primary,
 		button.primary,
 		.button.primary {
+			background-image: url(../../imgs/arrow_right_w.svg);
 			background-repeat: no-repeat;
 			background-clip: border-box;
 			background-position:right;
@@ -2758,18 +2759,6 @@ input::-moz-focus-inner {
 			button.secondary:active,
 			.button.secondary:active {
 				background-color: rgba(255, 255, 255, 1);
-			}
-			
-			@media screen and (max-width: 480px) {
-				
-				input[type="submit"],
-	            input[type="reset"],
-	            input[type="button"],
-	            button,
-	            .button {
-					line-height: 2;
-		        }
-				
 			}
 					
 /* Image */
