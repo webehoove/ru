@@ -277,7 +277,7 @@ input::-moz-focus-inner {
 
 	h3.title {
 		font-size: 1.45rem;
-		line-height: 1;
+		line-height: 0.92;
 	}
 
 	h4 {
@@ -509,7 +509,7 @@ input::-moz-focus-inner {
 	    }
 		
 		h2.title {
-		    font-size: 1.45rem;
+		    font-size: 1.4rem;
 			letter-spacing: -0.015rem;
 	    }
 		
@@ -519,8 +519,7 @@ input::-moz-focus-inner {
 	    }
 		
 		h3.title {
-		    font-size: 1.45rem;
-			line-height: 0.85;
+		    font-size: 1.4rem;
 			margin-bottom: 1.75rem;
 	    }
 		
@@ -533,7 +532,7 @@ input::-moz-focus-inner {
 		}
 		
 		hr.lineer2 {
-		    margin: 6rem 0 0 0;
+			margin: 6rem 0 0 0;
 		}
 
 	}
