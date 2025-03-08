@@ -250,6 +250,7 @@ input::-moz-focus-inner {
 		font-size: 3rem;
 		line-height: 0.9;
 		letter-spacing: -0.05rem;
+			opacity: .6;
 	}
 	
 	h1.special_one {
@@ -494,9 +495,9 @@ input::-moz-focus-inner {
 	@media screen and (max-width: 768px) {
 
 		h1 {
-		    font-size: 2rem;
+		    font-size: 1.35rem;
 			line-height: 0.85;
-			margin-bottom: 1.5rem;
+			opacity: .5;
 	    }
 		
 		h1.special_one {
@@ -518,7 +519,9 @@ input::-moz-focus-inner {
 	    }
 		
 		h3.title {
-		    font-size: 1.15rem;
+		    font-size: 1.35rem;
+			line-height: 0.85;
+			margin-bottom: 1.75rem;
 	    }
 		
 		hr.major {
