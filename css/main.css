@@ -249,6 +249,7 @@ input::-moz-focus-inner {
 	h1 {
 		font-size: 3rem;
 		line-height: 0.9;
+		letter-spacing: -0.05rem;
 	}
 	
 	h1.special_one {
