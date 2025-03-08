@@ -189,8 +189,7 @@ input::-moz-focus-inner {
 	body, input, select, textarea {
 		font-family: 'ELTA Sans Regular', Helvetica, sans-serif;
 		font-weight: normal;
-		font-feature-settings: "ss02";
-		font-feature-settings: "ss09";
+		font-feature-settings: "ss02", "ss09";
 		font-size: 1rem;
 	}
 
@@ -468,6 +467,10 @@ input::-moz-focus-inner {
 	    }
 		
 		h3.title {
+		    font-size: 1rem;
+	    }
+		
+		h4 {
 		    font-size: 1rem;
 	    }
 		
