@@ -94,7 +94,7 @@
         @media screen and (max-width: 768px) {
 			
 		#logotype {
-			font-size: 2.15rem;
+			font-size: 2rem;
 		}
 		
 		}
@@ -102,10 +102,6 @@
 			
 		.offdesk {
 			display: block;
-		}
-		
-		#logotype {
-			font-size: 2.15rem;
 		}
 		
 		}
