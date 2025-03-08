@@ -263,12 +263,18 @@ input::-moz-focus-inner {
 		width: 75%;
 	}
 
+	h2.title {
+		font-size: 1.45rem;
+		line-height: 0.92;
+	}
+
 	h3 {
 		font-size: 1.45rem;
 		line-height: 1.05;
 	}
 
 	h3.title {
+		font-size: 1.45rem;
 		line-height: 1;
 	}
 
@@ -458,6 +464,10 @@ input::-moz-focus-inner {
 		    font-size: 3.8rem;
 	    }
 		
+		h2.title {
+		    font-size: 1.35rem;
+	    }
+		
 		h3 {
 		    font-size: 1rem;
 	    }
@@ -496,13 +506,18 @@ input::-moz-focus-inner {
 			width: 90%;
 	    }
 		
+		h2.title {
+		    font-size: 1.35rem;
+			letter-spacing: -0.015rem;
+	    }
+		
 		h3 {
 		    font-size: 1rem;
 			line-height: 1.2;
 	    }
 		
 		h3.title {
-		    font-size: 1.2rem;
+		    font-size: 1.15rem;
 	    }
 		
 		hr.major {
@@ -2517,26 +2532,28 @@ input::-moz-focus-inner {
 		position: relative;
 		background-color: inherit;
 		padding: 1.5rem;
-		margin: 0 0 0.75rem 0;
+		margin: 0 0 0.275rem 0;
 		width: 100%;
+		height: 100%;
 		border: none;
 		border-radius: 0.65rem;
 	}
 	
 	  .box_bg_01 {
-		  background-color: rgba(0, 0, 0, 0.6);
+		  background-color: rgba(46, 50, 53, 0.20);
 	  }
 	  
 	  .box_bg_02 {
-		  background-color: rgba(255, 255, 255, 0.075);
+		  background-color: rgba(46, 50, 53, 0.1);
 	  }
 	  
 	.box02 {
 		position: relative;
 		background-color: inherit;
-		padding: 1.5rem;
-		margin: 0 0 0.75rem 0;
+		padding: 1.25rem;
+		margin: 0 0 0.65rem 0;
 		width: 100%;
+		height: 100%;
 		border: 1px solid rgba(0, 0, 0, 0.135);
 		border-radius: 0.65rem;
 	}
@@ -2544,8 +2561,8 @@ input::-moz-focus-inner {
 	        @media screen and (max-width: 736px) {
 				
 				.box, .box02 {
-					padding: 1rem;
-					margin: 0 0 0.75rem 0;
+					padding: 0.8rem;
+					margin: 0;
 		        }
 				
 			}
@@ -2648,8 +2665,8 @@ input::-moz-focus-inner {
 			width: auto;
 			pointer-events: none;
 			text-align: center;
-			box-shadow: inset 0 0 0 1px rgba(0, 0, 0, 0.15);
-			color: rgba(0, 0, 0, 0.5) !important;
+			box-shadow: inset 0 0 0 1px rgba(46, 50, 53, 0.15);
+			color: rgba(46, 50, 53, 0.5) !important;
 		}
 
 	input[type="submit"],
@@ -2662,8 +2679,8 @@ input::-moz-focus-inner {
 		background-repeat: no-repeat;
 		background-clip: border-box;
 		background-position:right;
-		box-shadow: inset 0 0 0 1px rgba(0, 0, 0, 0.15);
-		color: rgba(0, 0, 0, 0.85) !important;
+		box-shadow: inset 0 0 0 1px rgba46, 50, 53, 0.15);
+		color: rgba(46, 50, 53, 0.85) !important;
 	}
 
 		input[type="submit"]:hover,
@@ -2671,8 +2688,8 @@ input::-moz-focus-inner {
 		input[type="button"]:hover,
 		button:hover,
 		.button:hover {
-			box-shadow: inset 0 0 0 1px rgba(0, 0, 0, 0.8);
-			color: rgba(0, 0, 0, 0.92) !important;
+			box-shadow: inset 0 0 0 1px rgba(46, 50, 53, 0.8);
+			color: rgba(46, 50, 53, 0.92) !important;
 		}
 
 		input[type="submit"]:active,
@@ -2680,8 +2697,8 @@ input::-moz-focus-inner {
 		input[type="button"]:active,
 		button:active,
 		.button:active {
-			box-shadow: inset 0 0 0 1px rgba(0, 0, 0, 1);
-			color: rgba(0, 0, 0, 0.75) !important;
+			box-shadow: inset 0 0 0 1px rgba(46, 50, 53, 1);
+			color: rgba(46, 50, 53, 0.75) !important;
 		}
 
 		input[type="submit"].primary,
@@ -2692,7 +2709,7 @@ input::-moz-focus-inner {
 			background-repeat: no-repeat;
 			background-clip: border-box;
 			background-position:right;
-			background-color: rgba(0, 0, 0, 0.5);
+			background-color: rgba(46, 50, 53, 0.5);
 			box-shadow: none;
 			color: rgba(255, 255, 255, 1) !important;
 			opacity: 1;
@@ -2703,7 +2720,7 @@ input::-moz-focus-inner {
 			input[type="button"].primary:hover,
 			button.primary:hover,
 			.button.primary:hover {
-				background-color: rgba(0, 0, 0, 0.7);
+				background-color: rgba(46, 50, 53, 0.7);
 			}
 
 			input[type="submit"].primary:active,
@@ -2711,7 +2728,7 @@ input::-moz-focus-inner {
 			input[type="button"].primary:active,
 			button.primary:active,
 			.button.primary:active {
-				background-color: rgba(0, 0, 0, 0.92);
+				background-color: rgba(46, 50, 53, 0.92);
 			}
 			
 		input[type="submit"].secondary,
@@ -2724,7 +2741,7 @@ input::-moz-focus-inner {
 			background-position:right;
 			background-color: rgba(255, 255, 255, 1);
 			box-shadow: none;
-			color: rgba(0, 0, 0, 0.92) !important;
+			color: rgba(46, 50, 53, 0.92) !important;
 			opacity: 1;
 		}
 
