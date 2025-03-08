@@ -249,6 +249,8 @@ input::-moz-focus-inner {
 	h1 {
 		font-size: 3rem;
 		line-height: 0.9;
+		letter-spacing: -0.05rem;
+			opacity: .6;
 	}
 	
 	h1.special_one {
@@ -258,8 +260,8 @@ input::-moz-focus-inner {
 	}
 
 	h2 {
-		font-size: 1.25rem;
-		line-height: 1;
+		font-size: 1.2rem;
+		line-height: 1.05;
 		width: 75%;
 	}
 
@@ -493,9 +495,9 @@ input::-moz-focus-inner {
 	@media screen and (max-width: 768px) {
 
 		h1 {
-		    font-size: 2rem;
+		    font-size: 1.35rem;
 			line-height: 0.85;
-			margin-bottom: 1.5rem;
+			opacity: .5;
 	    }
 		
 		h1.special_one {
@@ -517,7 +519,9 @@ input::-moz-focus-inner {
 	    }
 		
 		h3.title {
-		    font-size: 1.15rem;
+		    font-size: 1.35rem;
+			line-height: 0.85;
+			margin-bottom: 1.75rem;
 	    }
 		
 		hr.major {
@@ -2540,7 +2544,7 @@ input::-moz-focus-inner {
 	}
 	
 	  .box_bg_01 {
-		  background-color: rgba(46, 50, 53, 0.20);
+		  background-color: rgba(46, 50, 53, 0.15);
 	  }
 	  
 	  .box_bg_02 {
@@ -2633,13 +2637,13 @@ input::-moz-focus-inner {
 		input[type="button"].large,
 		button.large,
 		.button.large {
-			font-size: 0.7rem;
+			font-size: 0.6rem;
 			background-image: none;
-			height: 3.5em;
-			line-height: 3.7em;
+			height: 4em;
+			line-height: 4.05em;
 			width: auto;
-			border-radius: 1.75em;
-			padding: 0 1em;
+			border-radius: 2em;
+			padding: 0 1.35em;
 			text-align: center;
 		}
 
@@ -2674,12 +2678,12 @@ input::-moz-focus-inner {
 	input[type="button"],
 	button,
 	.button {
-		background-color: transparent;
+		background-color: inherit;
 		background-image: url(../../imgs/arrow_down_w.svg);
 		background-repeat: no-repeat;
 		background-clip: border-box;
 		background-position:right;
-		box-shadow: inset 0 0 0 1px rgba46, 50, 53, 0.15);
+		box-shadow: inset 0 0 0 1px rgba(46, 50, 53, 0.15);
 		color: rgba(46, 50, 53, 0.85) !important;
 	}
 
@@ -2706,13 +2710,13 @@ input::-moz-focus-inner {
 		input[type="button"].primary,
 		button.primary,
 		.button.primary {
+			background-image: url(../../imgs/arrow_right_w.svg);
 			background-repeat: no-repeat;
 			background-clip: border-box;
 			background-position:right;
 			background-color: rgba(46, 50, 53, 0.5);
 			box-shadow: none;
 			color: rgba(255, 255, 255, 1) !important;
-			opacity: 1;
 		}
 
 			input[type="submit"].primary:hover,
@@ -2720,7 +2724,7 @@ input::-moz-focus-inner {
 			input[type="button"].primary:hover,
 			button.primary:hover,
 			.button.primary:hover {
-				background-color: rgba(46, 50, 53, 0.7);
+				background-color: rgba(46, 50, 53, 1);
 			}
 
 			input[type="submit"].primary:active,
@@ -2728,7 +2732,7 @@ input::-moz-focus-inner {
 			input[type="button"].primary:active,
 			button.primary:active,
 			.button.primary:active {
-				background-color: rgba(46, 50, 53, 0.92);
+				background-color: rgba(46, 50, 53, 0.5);
 			}
 			
 		input[type="submit"].secondary,
@@ -2759,18 +2763,6 @@ input::-moz-focus-inner {
 			button.secondary:active,
 			.button.secondary:active {
 				background-color: rgba(255, 255, 255, 1);
-			}
-			
-			@media screen and (max-width: 480px) {
-				
-				input[type="submit"],
-	            input[type="reset"],
-	            input[type="button"],
-	            button,
-	            .button {
-					line-height: 2;
-		        }
-				
 			}
 					
 /* Image */
