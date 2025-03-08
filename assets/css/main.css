@@ -495,7 +495,7 @@ input::-moz-focus-inner {
 	@media screen and (max-width: 768px) {
 
 		h1 {
-		    font-size: 1.35rem;
+		    font-size: 1.45rem;
 			line-height: 0.85;
 			opacity: .5;
 	    }
@@ -509,7 +509,7 @@ input::-moz-focus-inner {
 	    }
 		
 		h2.title {
-		    font-size: 1.35rem;
+		    font-size: 1.45rem;
 			letter-spacing: -0.015rem;
 	    }
 		
@@ -519,7 +519,7 @@ input::-moz-focus-inner {
 	    }
 		
 		h3.title {
-		    font-size: 1.35rem;
+		    font-size: 1.45rem;
 			line-height: 0.85;
 			margin-bottom: 1.75rem;
 	    }
