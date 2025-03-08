@@ -4003,7 +4003,7 @@ input::-moz-focus-inner {
 			}
 
 		#wrapper > .color00 {
-			background-color: #f1f1f1;
+			background-color: #f2f2f2;
 		}
 		
 		#wrapper > .color01 {
@@ -4028,34 +4028,6 @@ input::-moz-focus-inner {
 
 		#wrapper > .color04 {
 			background-color: #5e5e5e;
-		}
-
-		#wrapper > .color00 {
-			background-color: #0e0e0e;
-		}
-		
-		#wrapper > .color01 {
-			background-color: #141414;
-		}
-
-		#wrapper > .color02 {
-			background-color: #212121;
-		}
-
-		#wrapper > .color03 {
-			background-color: #2d2d2d;
-		}
-
-		#wrapper > .color04 {
-			background-color: #4f4f4f;
-		}
-
-		#wrapper > .color05 {
-			background-color: #e1e1e1;
-		}
-
-		#wrapper > .color06 {
-			background-color: #f1f1f1;
 		}
 
 		#wrapper.divided > * {
