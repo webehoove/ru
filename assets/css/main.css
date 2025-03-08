@@ -249,7 +249,7 @@ input::-moz-focus-inner {
 
 	h1 {
 		font-size: 3rem;
-		line-height: 1;
+		line-height: 0.9;
 	}
 	
 	h1.special_one {
@@ -269,12 +269,12 @@ input::-moz-focus-inner {
 	}
 
 	h3 {
-		font-size: 1.4rem;
-		line-height: 1.2;
+		font-size: 1.45rem;
+		line-height: 1.05;
 	}
 
 	h4 {
-		font-size: 1.35rem;
+		font-size: 1.25rem;
 		line-height: 1.2;
 	}
 
@@ -334,14 +334,9 @@ input::-moz-focus-inner {
 		    margin: 1.5rem 0;
 		}
 		
-		hr.minor {
-			border: 0;
-		    margin: 1rem 0;
-		}
-		
 		hr.block {
 			border: 0;
-		    margin: 2.25rem 0;
+		    margin: 2rem 0;
 		}
 		
 		hr.block_start {
@@ -361,17 +356,12 @@ input::-moz-focus-inner {
 		
 		hr.lineer2 {
 			border-bottom: 1px solid rgba(0, 0, 0, 0.135);
-			margin: 2rem 0 2rem 0;
+			margin: 8rem 0 0 0;
 		}
 		
 		hr.lineer3 {
 			border-bottom: 1px solid rgba(0, 0, 0, 0.135);
 			margin: 0;
-		}
-		
-		hr.lineer_onoff {
-			border-bottom: 1px solid rgba(0, 0, 0, 0.135);
-		    margin: 3rem 0 0 0;
 		}
 
 	.align-left {
@@ -412,8 +402,16 @@ input::-moz-focus-inner {
 		    font-size: 1.3rem;
 	    }
 		
+		h4 {
+		    font-size: 1.2rem;
+	    }
+		
 		hr.major {
 		    margin: 0.5rem 0;
+		}
+		
+		hr.block {
+		    margin: 1.2rem 0;
 		}
 		
 		hr.lineer {
@@ -440,6 +438,10 @@ input::-moz-focus-inner {
 		hr.major {
 		    margin: 3rem 0;
 		}
+		
+		hr.lineer2 {
+		    margin: 6rem 0 0 0;
+		}
 
 	}
 	
@@ -456,13 +458,21 @@ input::-moz-focus-inner {
 		h3 {
 		    font-size: 1rem;
 	    }
+		
+		hr.block {
+		    margin: 1rem 0;
+		}
+		
+		hr.lineer2 {
+		    margin: 5rem 0 0 0;
+		}
 
 	}
 	
 	@media screen and (max-width: 768px) {
 
 		h1 {
-		    font-size: 1.6rem;
+		    font-size: 1.75rem;
 			margin-bottom: 2rem;
 	    }
 		
@@ -472,6 +482,7 @@ input::-moz-focus-inner {
 		
 		h3 {
 		    font-size: 1rem;
+			line-height: 1.2;
 	    }
 		
 		hr.major {
@@ -486,20 +497,12 @@ input::-moz-focus-inner {
 	
 	@media screen and (max-width: 736px) {
 
-		h1 {
-			font-size: 1.6rem;
-		}
-
 		h1.special_one {
 			font-size: 2.8rem;
 			line-height: 0.82;
 			letter-spacing: -0.07rem;
 			width: 100%;
 		}
-		
-		h3 {
-		    font-size: 1.1rem;
-	    }
 		
 		hr.lineer {
 			margin: 1.5rem 0;;
