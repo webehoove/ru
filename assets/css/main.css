@@ -12,6 +12,13 @@
            font-style: normal;
         }
 		
+@font-face {
+           font-family: ELTA Sans Bold;
+		   src: url(../webfonts/ELTASans-Bold.woff2) format('woff2');
+           font-display: swap;
+           font-style: normal;
+        }
+		
 		
 		
 		
@@ -183,6 +190,7 @@ input::-moz-focus-inner {
 		font-family: 'ELTA Sans Regular', Helvetica, sans-serif;
 		font-weight: normal;
 		font-feature-settings: "ss02";
+		font-feature-settings: "ss09";
 		font-size: 1rem;
 	}
 
@@ -232,6 +240,12 @@ input::-moz-focus-inner {
 			font-family: 'ELTA Sans Medium', Helvetica, sans-serif;
 		    font-weight: normal;
 		}
+		
+		.bold_t {
+			font-family: 'ELTA Sans Bold', Helvetica, sans-serif;
+		    font-weight: normal;
+			font-feature-settings: "ss09";
+		}
 
 	h1 {
 		font-size: 3rem;
@@ -255,7 +269,7 @@ input::-moz-focus-inner {
 	}
 
 	h3 {
-		font-size: 1.5rem;
+		font-size: 1.4rem;
 		line-height: 1.2;
 	}
 
@@ -387,11 +401,15 @@ input::-moz-focus-inner {
 	@media screen and (max-width: 1280px) {
 
 		h1 {
-		    font-size: 2.15rem;
+		    font-size: 2.75rem;
 	    }
 		
 		h1.special_one {
 		    font-size: 4.6rem;
+	    }
+		
+		h3 {
+		    font-size: 1.3rem;
 	    }
 		
 		hr.major {
@@ -403,19 +421,65 @@ input::-moz-focus-inner {
 		}
 
 	}
-	
-	@media screen and (max-width: 980px) {
 
+
+	@media screen and (max-width: 1180px) {
+
+		h1 {
+		    font-size: 2.5rem;
+	    }
+		
 		h1.special_one {
 		    font-size: 4.3rem;
 	    }
 		
+		h3 {
+		    font-size: 1.2rem;
+	    }
+		
 		hr.major {
-			margin: 2.5rem 0;
+		    margin: 3rem 0;
+		}
+
+	}
+	
+	@media screen and (max-width: 980px) {
+
+		h1 {
+		    font-size: 2.2rem;
+	    }
+		
+		h1.special_one {
+		    font-size: 3.8rem;
+	    }
+		
+		h3 {
+		    font-size: 1rem;
+	    }
+
+	}
+	
+	@media screen and (max-width: 768px) {
+
+		h1 {
+		    font-size: 1.6rem;
+			margin-bottom: 2rem;
+	    }
+		
+		h1.special_one {
+			width: 90%;
+	    }
+		
+		h3 {
+		    font-size: 1rem;
+	    }
+		
+		hr.major {
+			margin: 3rem 0;
 		}
 		
-		hr.minor {
-			margin: 1rem 0;
+		hr.lineer {
+		    margin: 1rem 0;
 		}
 
 	}
@@ -423,62 +487,22 @@ input::-moz-focus-inner {
 	@media screen and (max-width: 736px) {
 
 		h1 {
-			font-size: 1.75rem;
+			font-size: 1.6rem;
 		}
 
 		h1.special_one {
 			font-size: 2.8rem;
 			line-height: 0.82;
 			letter-spacing: -0.07rem;
+			width: 100%;
 		}
-
-		h1.title {
-			font-size: 1.5rem;
-			line-height: 1;
-		}
-
-		h2 {
-			font-size: 1.2rem;
-		}
-
-		h2.title {
-			font-size: 1.3rem;
-		}
-
+		
 		h3 {
-			font-size: 1.15rem;
-		}
-
-		h4 {
-			font-size: 1.1rem;
-		}
-
-		h5 {
-			font-size: 0.8rem;
-		}
-		
-		hr {
-			margin: 1rem 0;
-		}
-		
-		hr.block {
-			margin: 2rem 0;
-		}
-		
-		hr.block_start {
-			margin: 0.5rem 0;
-		}
-		
-		hr.block_end {
-		    margin: 3rem 0;
+		    font-size: 1.1rem;
 	    }
 		
 		hr.lineer {
-			margin: 0;
-		}
-		
-		hr.lineer_onoff {
-			margin: 0.5rem 0 0 0;
+			margin: 1.5rem 0;;
 		}
 
 	}
