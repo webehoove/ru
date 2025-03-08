@@ -4,8 +4,11 @@
 	 viewBox="0 0 206 206" style="enable-background:new 0 0 206 206;" xml:space="preserve">
 <style type="text/css">
 	.st0{fill:#FFFFFF;fill-opacity:0;}
-	.st1{fill:#FFFFFF;}
+	.st1{fill:none;stroke:#FFFFFF;stroke-width:6;stroke-miterlimit:10;}
 </style>
-<rect y="0" class="st0" width="206" height="206"/>
-<polygon class="st1" points="97.5,76.5 119.1,97.7 65,97.7 65,109.1 119.1,109.1 97.6,130.2 105.8,138.4 141,103.4 105.8,68.4 "/>
+<rect class="st0" width="206" height="206"/>
+<g>
+	<line class="st1" x1="82.5" y1="123.5" x2="122.6" y2="83.4"/>
+	<polyline class="st1" points="90.2,82.5 123.5,82.5 123.5,115.8 	"/>
+</g>
 </svg>
