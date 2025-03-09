@@ -2728,6 +2728,14 @@ input::-moz-focus-inner {
 			box-shadow: inset 0 0 0 1px rgba(46, 50, 53, 1);
 			color: rgba(46, 50, 53, 0.75) !important;
 		}
+		
+		.button.bg01 {
+			background-image: url(../../imgs/icon_doc.svg);
+			background-repeat: no-repeat;
+			background-clip: border-box;
+			background-position: left;
+			text-align: right;
+		}
 
 		input[type="submit"].primary,
 		input[type="reset"].primary,
