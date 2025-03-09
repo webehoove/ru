@@ -531,8 +531,8 @@ input::-moz-focus-inner {
 	@media screen and (max-width: 736px) {
 
 		p {
-			font-size: 0.9rem;
-			width: 90%;
+			font-size: 0.95rem;
+			width: 95%;
 	    }
 		
 		p.box_t {
@@ -552,8 +552,9 @@ input::-moz-focus-inner {
 		}
 		
 		h2 {
-			font-size: 1.35rem;
+			font-size: 1.3rem;
 			line-height: 1.05;
+			letter-spacing: -0.025rem;
 			width: 100%;
 	    }
 		
