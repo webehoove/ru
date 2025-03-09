@@ -2564,10 +2564,14 @@ input::-moz-focus-inner {
 	}
 	
 	  .box_bg_01 {
-		  background-color: rgba(46, 50, 53, 0.14);
+		  background-color: rgba(225, 225, 225, 1);
 	  }
 	  
 	  .box_bg_02 {
+		  background-color: rgba(139, 142, 143, 1);
+	  }
+	  
+	  .box_bg_03 {
 		  background-color: rgba(46, 50, 53, 1);
 	  }
 	  
