@@ -268,7 +268,7 @@ input::-moz-focus-inner {
 	h2.title {
 		font-size: 1.45rem;
 		line-height: 0.92;
-		letter-spacing: -0.05rem;
+		letter-spacing: -0.025rem;
 	}
 
 	h3 {
@@ -279,7 +279,7 @@ input::-moz-focus-inner {
 	h3.title {
 		font-size: 1.45rem;
 		line-height: 0.92;
-		letter-spacing: -0.05rem;
+		letter-spacing: -0.025rem;
 	}
 
 	h4 {
