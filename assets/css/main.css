@@ -471,14 +471,6 @@ input::-moz-focus-inner {
 		    font-size: 3.8rem;
 	    }
 		
-		h3 {
-		    font-size: 1rem;
-	    }
-		
-		h3.title {
-		    font-size: 1rem;
-	    }
-		
 		h4 {
 		    font-size: 1rem;
 	    }
@@ -547,6 +539,7 @@ input::-moz-focus-inner {
 		
 		h1 {
 			line-height: 1;
+			margin-bottom: 2rem;
 	    }
 		
 		h1.special_one {
@@ -557,14 +550,14 @@ input::-moz-focus-inner {
 		}
 		
 		h2 {
-			font-size: 1.4rem;
+			font-size: 1.35rem;
 			line-height: 1;
 			letter-spacing: -0.02rem;
 			width: 100%;
 	    }
 		
 		h2.title {
-			font-size: 1.45rem;
+			font-size: 1.4rem;
 			line-height: 0.9;
 	    }
 		
@@ -573,7 +566,11 @@ input::-moz-focus-inner {
 		}
 		
 		hr.block {
-			margin: 0.5rem 0;
+			margin: 0.4rem 0;
+		}
+		
+		hr.block2 {
+			margin: 0.2rem 0;
 		}
 		
 		hr.lineer {
