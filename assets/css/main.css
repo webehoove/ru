@@ -268,6 +268,7 @@ input::-moz-focus-inner {
 	h2.title {
 		font-size: 1.45rem;
 		line-height: 0.92;
+		letter-spacing: -0.05rem;
 	}
 
 	h3 {
@@ -278,6 +279,7 @@ input::-moz-focus-inner {
 	h3.title {
 		font-size: 1.45rem;
 		line-height: 0.92;
+		letter-spacing: -0.05rem;
 	}
 
 	h4 {
@@ -286,7 +288,7 @@ input::-moz-focus-inner {
 	}
 
 	h5 {
-		font-size: 0.8rem;
+		font-size: 0.75rem;
 		line-height: 1.2;
 	}
 	
@@ -524,6 +526,10 @@ input::-moz-focus-inner {
 		h3 {
 		    font-size: 0.95rem;
 			line-height: 1.2;
+	    }
+		
+		h5 {
+		    font-size: 0.8rem;
 	    }
 		
 		h3.title {
@@ -2558,11 +2564,11 @@ input::-moz-focus-inner {
 	}
 	
 	  .box_bg_01 {
-		  background-color: rgba(46, 50, 53, 0.15);
+		  background-color: rgba(46, 50, 53, 0.14);
 	  }
 	  
 	  .box_bg_02 {
-		  background-color: rgba(46, 50, 53, 0.1);
+		  background-color: rgba(46, 50, 53, 1);
 	  }
 	  
 	.box02 {
@@ -2728,7 +2734,7 @@ input::-moz-focus-inner {
 			background-repeat: no-repeat;
 			background-clip: border-box;
 			background-position:right;
-			background-color: rgba(46, 50, 53, 0.5);
+			background-color: rgba(139, 142, 143, 1);
 			box-shadow: none;
 			color: rgba(255, 255, 255, 1) !important;
 		}
@@ -2738,7 +2744,7 @@ input::-moz-focus-inner {
 			input[type="button"].primary:hover,
 			button.primary:hover,
 			.button.primary:hover {
-				background-color: rgba(46, 50, 53, 1);
+				background-color: rgba(139, 142, 143, 0.6);
 			}
 
 			input[type="submit"].primary:active,
@@ -2746,7 +2752,7 @@ input::-moz-focus-inner {
 			input[type="button"].primary:active,
 			button.primary:active,
 			.button.primary:active {
-				background-color: rgba(46, 50, 53, 0.5);
+				background-color: rgba(139, 142, 143, 1);
 			}
 			
 		input[type="submit"].secondary,
