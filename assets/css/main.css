@@ -2664,7 +2664,7 @@ input::-moz-focus-inner {
 			font-size: 0.6rem;
 			background-image: none;
 			height: 4em;
-			line-height: 4.05em;
+			line-height: 4.075em;
 			width: auto;
 			border-radius: 2em;
 			padding: 0 1.35em;
@@ -2677,7 +2677,6 @@ input::-moz-focus-inner {
 		button.wide,
 		.button.wide {
 			min-width: 14em;
-			text-align: left;
 		}
 
 		input[type="submit"].disabled, input[type="submit"]:disabled,
@@ -2729,12 +2728,20 @@ input::-moz-focus-inner {
 			color: rgba(46, 50, 53, 0.75) !important;
 		}
 		
-		.button.bg01 {
+		.button.doc {
 			background-image: url(../../imgs/icon_doc.svg);
 			background-repeat: no-repeat;
 			background-clip: border-box;
 			background-position: left;
 			text-align: right;
+		}
+		
+		.button.a_right {
+			background-image: url(../../imgs/arrow_right_w.svg);
+			background-repeat: no-repeat;
+			background-clip: border-box;
+			background-position:right;
+			text-align: left;
 		}
 
 		input[type="submit"].primary,
@@ -2742,10 +2749,7 @@ input::-moz-focus-inner {
 		input[type="button"].primary,
 		button.primary,
 		.button.primary {
-			background-image: url(../../imgs/arrow_right_w.svg);
-			background-repeat: no-repeat;
-			background-clip: border-box;
-			background-position:right;
+			
 			background-color: rgba(139, 142, 143, 1);
 			box-shadow: none;
 			color: rgba(255, 255, 255, 1) !important;
