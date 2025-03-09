@@ -557,15 +557,15 @@ input::-moz-focus-inner {
 		}
 		
 		h2 {
-			font-size: 1.3rem;
-			line-height: 1.05;
-			letter-spacing: -0.025rem;
+			font-size: 1.4rem;
+			line-height: 1;
+			letter-spacing: -0.02rem;
 			width: 100%;
 	    }
 		
 		h2.title {
-			font-size: 1.35rem;
-			line-height: 0.95;
+			font-size: 1.45rem;
+			line-height: 0.9;
 	    }
 		
 		hr.major {
