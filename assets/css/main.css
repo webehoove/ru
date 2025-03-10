@@ -564,6 +564,10 @@ input::-moz-focus-inner {
 			width: 100%;
 	    }
 		
+		h2.digit {
+			margin-left: 0.35rem;
+	    }
+		
 		hr.major {
 			margin: 2.75rem 0;
 		}
@@ -2635,7 +2639,7 @@ input::-moz-focus-inner {
 				
 				.box03_arrow {
 					width: 1.2rem;
-					top: 1.15rem;
+					top: 1.2rem;
 		        }
 				
 			}
