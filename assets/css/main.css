@@ -447,6 +447,7 @@ input::-moz-focus-inner {
 		
 		h1.special_one {
 		    font-size: 4.2rem;
+			letter-spacing: -0.15rem;
 	    }
 		
 		hr.major {
@@ -601,15 +602,15 @@ input::-moz-focus-inner {
 	a {
 		-webkit-tap-highlight-color: transparent !important;
         outline: none !important;
-		color: rgba(46, 50, 53, 0.5);
+		color: rgba(46, 50, 53, 1);
 	}
 
 		a:hover {
-			color: rgba(46, 50, 53, 1);
+			color: rgba(46, 50, 53, 0.5);
 		}
 		
 		a:active, a:visited:active {
-			color: rgba(46, 50, 53, 0.5);
+			color: rgba(46, 50, 53, 1);
 		}
 	
 /* Row */
@@ -3838,7 +3839,7 @@ input::-moz-focus-inner {
 			}
 
 				.wrapper.style2 > .inner {
-					padding: 0 0.65rem 0.65rem 0.65rem ;
+					padding: 0 0.65rem 0.85rem 0.65rem ;
 				}
 
 		}

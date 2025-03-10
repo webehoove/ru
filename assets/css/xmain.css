@@ -1,5 +1,5 @@
 		#logotype {
-			font-size: 2.35rem;
+			font-size: 2.5rem;
 			line-height: 1.1;
 			letter-spacing: -0.07rem;
 		}
@@ -26,14 +26,14 @@
 		
 		ul.topmenu {
 			list-style: none;
-			font-size: 1rem;
+			font-size: 0.8rem;
 		    padding: 0;
 		    margin: 0;
 		}
 
 			ul.topmenu li {
 				display: block;
-				margin-bottom: 0.15rem;
+				margin-bottom: 0.2rem;
 			}
 			
 			ul.topmenu li a {
@@ -94,8 +94,8 @@
         @media screen and (max-width: 768px) {
 			
 		#logotype {
-			font-size: 1.5rem;
-			line-height: 1.25;
+			font-size: 1.8rem;
+			line-height: 1.2;
 			letter-spacing: -0.05rem;
 		}
 		
