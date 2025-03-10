@@ -190,8 +190,8 @@ input::-moz-focus-inner {
 		}
 
 	body {
-		background-color: #f2f2f2;
-		color: #17191a;
+		background-color: #fff;
+		color: #424242;
 	}
 
 	body, input, select, textarea {
