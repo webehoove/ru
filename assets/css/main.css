@@ -191,7 +191,7 @@ input::-moz-focus-inner {
 
 	body {
 		background-color: #f2f2f2;
-		color: #2e3235;
+		color: #17191a;
 	}
 
 	body, input, select, textarea {
@@ -601,7 +601,7 @@ input::-moz-focus-inner {
 	a {
 		-webkit-tap-highlight-color: transparent !important;
         outline: none !important;
-		color: rgba(46, 50, 53, 0.6);
+		color: rgba(46, 50, 53, 0.5);
 	}
 
 		a:hover {
@@ -609,7 +609,7 @@ input::-moz-focus-inner {
 		}
 		
 		a:active, a:visited:active {
-			color: rgba(46, 50, 53, 0.6);
+			color: rgba(46, 50, 53, 0.5);
 		}
 	
 /* Row */
@@ -3924,7 +3924,7 @@ input::-moz-focus-inner {
 	}
 
 		#wrapper > .invert {
-			background-color: #1a1e21;
+			background-color: #17191a;
 			color: #ffffff;
 		}
 
