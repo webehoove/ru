@@ -278,14 +278,9 @@ input::-moz-focus-inner {
 		letter-spacing: -0.035rem;
 	}
 
-	h3 {
-		font-size: 1.45rem;
-		line-height: 1.05;
-	}
-
-	h3.title {
-		font-size: 1.45rem;
-		line-height: 0.92;
+	h2.title {
+		font-size: 1.5rem;
+		line-height: 1;
 		letter-spacing: -0.025rem;
 	}
 
@@ -422,6 +417,10 @@ input::-moz-focus-inner {
 		    font-size: 1.6rem;
 	    }
 		
+		h2.title {
+		    font-size: 1.3rem;
+	    }
+		
 		h4 {
 		    font-size: 1.2rem;
 	    }
@@ -505,6 +504,11 @@ input::-moz-focus-inner {
 			width: 80%;
 	    }
 		
+		h2.title {
+			font-size: 1.15rem;
+			width: 80%;
+	    }
+		
 		hr.major {
 			margin: 4rem 0;
 		}
@@ -555,8 +559,9 @@ input::-moz-focus-inner {
 	    }
 		
 		h2.title {
-			font-size: 1.35rem;
-			line-height: 0.9;
+			font-size: 1.285rem;
+			line-height: 1;
+			width: 100%;
 	    }
 		
 		hr.major {
@@ -2616,7 +2621,7 @@ input::-moz-focus-inner {
 	  .box03_arrow {
 		  position: absolute; 
 		  width: 1.5rem; 
-		  top: 1.65rem; 
+		  top: 1.55rem; 
 		  left: -3rem; 
 		  opacity: .3;
 	  }
@@ -2630,7 +2635,7 @@ input::-moz-focus-inner {
 				
 				.box03_arrow {
 					width: 1.2rem;
-					top: 1.28rem;
+					top: 1.15rem;
 		        }
 				
 			}
