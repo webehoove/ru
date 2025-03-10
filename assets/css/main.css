@@ -540,7 +540,7 @@ input::-moz-focus-inner {
 		}
 		
 		h1 {
-			font-size: 1.475rem;
+			font-size: 1.5rem;
 			line-height: 1;
 			margin-bottom: 2rem;
 	    }
@@ -553,14 +553,14 @@ input::-moz-focus-inner {
 		}
 		
 		h2 {
-			font-size: 1.475rem;
+			font-size: 1.5rem;
 			line-height: 1;
 			letter-spacing: -0.02rem;
 			width: 100%;
 	    }
 		
 		h2.title {
-			font-size: 1.285rem;
+			font-size: 1.2rem;
 			line-height: 1;
 			width: 100%;
 	    }
@@ -3925,8 +3925,8 @@ input::-moz-focus-inner {
 	}
 
 		#wrapper > .invert {
-			background-color: #17191a;
-			color: #ffffff;
+			background-color: #323232;
+			color: #dee1e6;
 		}
 
 			#wrapper > .invert input, #wrapper > .invert select, #wrapper > .invert textarea {
@@ -3934,20 +3934,20 @@ input::-moz-focus-inner {
 			}
 
 			#wrapper > .invert a {
-				color: rgba(255, 255, 255, 1);
+				color: #dee1e6;
 			}
 
 				#wrapper > .invert a:hover {
-					color: rgba(255, 255, 255, 0.5);
+					color: #dee1e6;
 					border-bottom: none;
 				}
 
 			#wrapper > .invert strong, #wrapper > .invert b {
-				color: #ffffff;
+				color: #dee1e6;
 			}
 
 			#wrapper > .invert h1, #wrapper > .invert h2, #wrapper > .invert h3, #wrapper > .invert h4, #wrapper > .invert h5, #wrapper > .invert h6 {
-				color: #ffffff;
+				color: #dee1e6;
 			}
 
 			#wrapper > .invert blockquote {
@@ -4087,7 +4087,7 @@ input::-moz-focus-inner {
 		}
 		
 		#wrapper > .color01 {
-			background-color: #e1e1e1;
+			background-color: #858789;
 		}
 
 		#wrapper > .color02 {
