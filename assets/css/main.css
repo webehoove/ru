@@ -191,7 +191,7 @@ input::-moz-focus-inner {
 
 	body {
 		background-color: #fff;
-		color: #424242;
+		color: #323232;
 	}
 
 	body, input, select, textarea {
@@ -596,21 +596,21 @@ input::-moz-focus-inner {
 	}
 
 	input, select, textarea {
-		color: rgba(46, 50, 53, 1);
+		color: rgba(50, 50, 50, 1);
 	}
 
 	a {
 		-webkit-tap-highlight-color: transparent !important;
         outline: none !important;
-		color: rgba(46, 50, 53, 1);
+		color: rgba(50, 50, 50, 1);
 	}
 
 		a:hover {
-			color: rgba(46, 50, 53, 0.5);
+			color: rgba(50, 50, 50, 0.5);
 		}
 		
 		a:active, a:visited:active {
-			color: rgba(46, 50, 53, 1);
+			color: rgba(50, 50, 50, 1);
 		}
 	
 /* Row */
