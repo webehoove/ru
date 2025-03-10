@@ -21,7 +21,7 @@
 		#topmenu {
 			position: relative;
 			margin: 0;
-			top: 0.5rem
+			top: 0.5rem;
 		}
 		
 		ul.topmenu {
@@ -94,8 +94,8 @@
         @media screen and (max-width: 768px) {
 			
 		#logotype {
-			font-size: 1.8rem;
-			line-height: 1.5;
+			font-size: 1.5rem;
+			line-height: 1.25;
 			letter-spacing: -0.05rem;
 		}
 		
