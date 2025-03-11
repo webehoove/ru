@@ -201,6 +201,10 @@ input::-moz-focus-inner {
 		background-color: #f2f3f4;
 		color: #1e1e1e;
 	}
+	
+	h1.special_one {
+		color: #858789;
+	}
 
 	body, input, select, textarea {
 		font-family: 'ELTA Sans Regular', Helvetica, sans-serif;
@@ -276,7 +280,7 @@ input::-moz-focus-inner {
 	}
 	
 	h1.special_one {
-		font-size: 6.5rem;
+		font-size: 6.25rem;
 		line-height: 0.8;
 		letter-spacing: -0.2rem;
 	}
@@ -391,6 +395,13 @@ input::-moz-focus-inner {
 		text-align: right;
 	}
 	
+	@media screen and (max-width: 1680px) {
+		
+		h1.special_one {
+		    font-size: 5.6rem;
+	    }
+	}
+	
 	@media screen and (max-width: 1366px) {
 		
 		p.box_t {
@@ -398,14 +409,13 @@ input::-moz-focus-inner {
 		}	
 			
 		h1.special_one {
-		    font-size: 5rem;
+		    font-size: 4.7rem;
 	    }
 		
 		hr.top_title {
 		    margin: 0.75rem 0;
 	    }
 	}
-
 
 	@media screen and (max-width: 1280px) {
 
@@ -455,7 +465,7 @@ input::-moz-focus-inner {
 		}
 		
 		h1.special_one {
-		    font-size: 4.2rem;
+		    font-size: 4rem;
 			letter-spacing: -0.15rem;
 	    }
 		
@@ -494,7 +504,7 @@ input::-moz-focus-inner {
 	    }
 		
 		h1.special_one {
-			font-size: 3.5rem;
+			font-size: 3rem;
 			width: 90%;
 	    }
 		
