@@ -101,13 +101,13 @@
         @media screen and (max-width: 768px) {
 			
 		#logotype {
-			font-size: 1.8rem;
+			font-size: 1.75rem;
 			line-height: 1.2;
-			letter-spacing: -0.05rem;
+			letter-spacing: -0.045rem;
 		}
 		
 		.logotype_fl {
-			letter-spacing: -0.1rem;
+			letter-spacing: -0.085rem;
 		}
 		
 		}
