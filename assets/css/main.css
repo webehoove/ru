@@ -291,7 +291,7 @@ input::-moz-focus-inner {
 	}
 
 	h5 {
-		font-size: 0.75rem;
+		font-size: 0.85rem;
 		line-height: 1.2;
 	}
 	
@@ -555,6 +555,10 @@ input::-moz-focus-inner {
 			line-height: 1;
 			letter-spacing: -0.02rem;
 			width: 100%;
+	    }
+		
+		h5 {
+			font-size: 1rem;
 	    }
 		
 		hr.top_title {

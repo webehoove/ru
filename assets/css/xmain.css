@@ -1,21 +1,15 @@
 		#logotype {
-			font-size: 2.5rem;
+			font-size: 3rem;
 			line-height: 1.1;
-			letter-spacing: -0.07rem;
+			letter-spacing: -0.09rem;
 		}
 		
-		#logosymbol {
+		#logotype_b {
 			position: relative;
-			float: right;
-			width: 1.6rem;
-			margin-top: -0.35rem;
-		}
-		
-		#logosymbol_b {
-			position: relative;
-			float: left;
-			width: 2rem;
-			margin-top: 3.5rem;
+			top: -0.75rem;
+			font-size: 3rem;
+			line-height: 1.1;
+			letter-spacing: -0.09rem;
 		}
 		
 		#topmenu {
@@ -52,14 +46,18 @@
 			display: none;
 		}
 		
-		ul.spacemenu {
-			font-size: 0.9rem;
+		ul.bottommenu {
+			list-style: none;
+			font-size: 0.85rem;
+		    padding: 0;
+		    margin: 0;
 		}
 		
-		ul.spacemenu li {
-			margin-bottom: 0.3rem;
-		}
-		
+		        ul.bottommenu li {
+	   	        	display: block;
+				    margin-bottom: 0.25rem;
+	        	}
+	  	
 		.goup {
 			position: relative;
 			float: right;
@@ -67,7 +65,7 @@
 		}
 		
 		ul.goup li {
-			padding: 0.25rem 0.5rem 0 0;
+			padding: 0.25rem 0.5rem 1rem 0;
 		}
 		
 		.offdesk {
@@ -76,6 +74,11 @@
 		
         @media screen and (max-width: 1180px) {
 			
+		#logotype {
+			font-size: 2.5rem;
+			line-height: 1.1;
+		}
+		
 		.menumob {
 			display: block;
 			padding: 0;
@@ -94,7 +97,7 @@
         @media screen and (max-width: 768px) {
 			
 		#logotype {
-			font-size: 1.8rem;
+			font-size: 2rem;
 			line-height: 1.2;
 			letter-spacing: -0.05rem;
 		}
@@ -105,5 +108,10 @@
 		.offdesk {
 			display: block;
 		}
+		
+		    ul.bottommenu li {
+				font-size: 0.9rem;
+	   	        margin-bottom: 0.75rem;
+	        }
 		
 		}
