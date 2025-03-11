@@ -199,7 +199,6 @@ input::-moz-focus-inner {
 		font-weight: normal;
 		font-feature-settings: "ss02", "ss09";
 		font-size: 1rem;
-		letter-spacing: -0.0125rem;
 	}
 
 	a {
@@ -523,7 +522,7 @@ input::-moz-focus-inner {
 	@media screen and (max-width: 736px) {
 
 		p {
-			font-size: 1rem;
+			font-size: 1.15rem;
 			width: 100%
 	    }
 		
@@ -554,6 +553,7 @@ input::-moz-focus-inner {
 		h2.title {
 			font-size: 1.15rem;
 			line-height: 1;
+			letter-spacing: -0.02rem;
 			width: 100%;
 	    }
 		
