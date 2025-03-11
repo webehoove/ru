@@ -191,7 +191,7 @@ input::-moz-focus-inner {
 
 	body {
 		background-color: #f2f3f4;
-		color: #373737;
+		color: #1e1e1e;
 	}
 
 	body, input, select, textarea {
@@ -354,21 +354,21 @@ input::-moz-focus-inner {
 		
 		hr.block2 {
 			border: 0;
-		    margin: 2rem 0;
+		    margin: 1.9rem 0;
 		}
 		
 		hr.lineer {
-			border-bottom: 1px solid rgba(55, 55, 55, 0.25);
+			border-bottom: 1px solid rgba(0, 0, 0, 0.25);
 			margin: 8rem 0 1rem 0;
 		}
 		
 		hr.lineer_none {
-			border-bottom: 1px solid rgba(55, 55, 55, 0.25);
+			border-bottom: 1px solid rgba(0, 0, 0, 0.25);
 			margin: 0;
 		}
 		
 		hr.lineer_top {
-			border-bottom: 1px solid rgba(55, 55, 55, 0.25);
+			border-bottom: 1px solid rgba(0, 0, 0, 0.25);
 			margin: 2rem 0 2.2rem 0;
 		}
 
@@ -566,39 +566,35 @@ input::-moz-focus-inner {
 		}
 		
 		hr.block2 {
-			margin: 0.2rem 0;
+			margin: 1rem 0;
 		}
 		
 		hr.lineer_top {
-		    margin: 1rem 0;
+			margin: 0.9rem 0 1rem 0;
 		}
 		
 		hr.lineer {
-		    margin: 2rem 0;
-		}
-		
-		hr.lineer_top {
-			margin: 1rem 0 0.5rem 0;
+		    margin: 3.5rem 0;
 		}
 
 	}
 
 	input, select, textarea {
-		color: rgba(55, 55, 55, 1);
+		color: rgba(30, 30, 30, 1);
 	}
 
 	a {
 		-webkit-tap-highlight-color: transparent !important;
         outline: none !important;
-		color: rgba(55, 55, 55, 1);
+		color: rgba(30, 30, 30, 1);
 	}
 
 		a:hover {
-			color: rgba(55, 55, 55, 0.5);
+			color: rgba(30, 30, 30, 0.5);
 		}
 		
 		a:active, a:visited:active {
-			color: rgba(55, 55, 55, 1);
+			color: rgba(30, 30, 30, 1);
 		}
 	
 /* Row */
