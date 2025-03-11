@@ -190,8 +190,8 @@ input::-moz-focus-inner {
 		}
 
 	body {
-		background-color: #fff;
-		color: #323232;
+		background-color: #f2f3f4;
+		color: #373737;
 	}
 
 	body, input, select, textarea {
@@ -199,6 +199,7 @@ input::-moz-focus-inner {
 		font-weight: normal;
 		font-feature-settings: "ss02", "ss09";
 		font-size: 1rem;
+		letter-spacing: -0.0125rem;
 	}
 
 	a {
@@ -225,10 +226,6 @@ input::-moz-focus-inner {
 	em, i {
 		font-style: italic;
 	}
-
-	p {
-		line-height: 1.1;
-	}
 		
 	h1, h2, h3, h4, h5, h6 {
 		margin: 0;
@@ -254,8 +251,13 @@ input::-moz-focus-inner {
 			font-feature-settings: "ss09";
 		}
 
+	p {
+		font-size: 1.15rem;
+		line-height: 1.1;
+	}
+	
 	p.box_t {
-		font-size: 1.25rem;
+		font-size: 1.15rem;
 		line-height: 1;
 		width: 75%;
 	}
@@ -269,19 +271,19 @@ input::-moz-focus-inner {
 	h1.special_one {
 		font-size: 6.5rem;
 		line-height: 0.8;
-		letter-spacing: -0.25rem;
+		letter-spacing: -0.2rem;
 	}
 
 	h2 {
 		font-size: 1.8rem;
-		line-height: 0.95;
+		line-height: 0.9;
 		letter-spacing: -0.035rem;
 	}
 
 	h2.title {
 		font-size: 1.5rem;
 		line-height: 1;
-		letter-spacing: -0.025rem;
+		letter-spacing: -0.035rem;
 	}
 
 	h4 {
@@ -340,39 +342,34 @@ input::-moz-focus-inner {
 		margin: 1rem 0;
 	}
 
-		hr.major {
+		hr.top_title {
 			border: 0;
 		    margin: 1.5rem 0;
 		}
 		
 		hr.block {
 			border: 0;
-		    margin: 2rem 0;
+		    margin: 1.5rem 0;
 		}
 		
 		hr.block2 {
 			border: 0;
-		    margin: 0.5rem 0;
+		    margin: 2rem 0;
 		}
 		
 		hr.lineer {
-			border-bottom: 1px solid rgba(0, 0, 0, 0.135);
-			margin: 3rem 0;
-		}
-		
-		hr.lineer2 {
-			border-bottom: 1px solid rgba(0, 0, 0, 0.135);
+			border-bottom: 1px solid rgba(55, 55, 55, 0.25);
 			margin: 8rem 0 1rem 0;
 		}
 		
-		hr.lineer2_top {
-			border-bottom: 1px solid rgba(0, 0, 0, 0.135);
-			margin: 8rem 0 0 0;
+		hr.lineer_none {
+			border-bottom: 1px solid rgba(55, 55, 55, 0.25);
+			margin: 0;
 		}
 		
-		hr.lineer3 {
-			border-bottom: 1px solid rgba(0, 0, 0, 0.135);
-			margin: 0;
+		hr.lineer_top {
+			border-bottom: 1px solid rgba(55, 55, 55, 0.25);
+			margin: 2rem 0 2.2rem 0;
 		}
 
 	.align-left {
@@ -397,7 +394,7 @@ input::-moz-focus-inner {
 		    font-size: 5rem;
 	    }
 		
-		hr.major {
+		hr.top_title {
 		    margin: 0.75rem 0;
 	    }
 	}
@@ -430,7 +427,7 @@ input::-moz-focus-inner {
 		    font-size: 1.2rem;
 	    }
 		
-		hr.major {
+		hr.top_title {
 		    margin: 0.5rem 0;
 		}
 		
@@ -439,7 +436,7 @@ input::-moz-focus-inner {
 		}
 		
 		hr.lineer {
-		    margin: 2rem 0;
+		    margin: 7rem 0 1rem 0;
 		}
 
 	}
@@ -450,17 +447,17 @@ input::-moz-focus-inner {
 		    font-size: 2.5rem;
 	    }
 		
+		hr.top_title {
+		    margin: 3rem 0;
+		}
+		
 		h1.special_one {
 		    font-size: 4.2rem;
 			letter-spacing: -0.15rem;
 	    }
 		
-		hr.major {
-		    margin: 3.5rem 0;
-		}
-		
-		hr.lineer2 {
-		    margin: 6rem 0 0 0;
+		hr.lineer {
+		    margin: 6rem 0 0.65rem; 0;
 		}
 
 	}
@@ -475,16 +472,8 @@ input::-moz-focus-inner {
 		    font-size: 3.8rem;
 	    }
 		
-		h4 {
-		    font-size: 1rem;
-	    }
-		
 		hr {
 		    margin: 0.75rem 0;
-		}
-		
-		hr.lineer2 {
-		    margin: 5rem 0 0 0;
 		}
 
 	}
@@ -502,11 +491,12 @@ input::-moz-focus-inner {
 	    }
 		
 		h1.special_one {
-			width: 90%;
+			width: 70%;
 	    }
 		
 		h2 {
 			font-size: 1.35rem;
+			line-height: 0.95;
 			width: 80%;
 	    }
 		
@@ -515,8 +505,8 @@ input::-moz-focus-inner {
 			width: 80%;
 	    }
 		
-		hr.major {
-			margin: 4rem 0;
+		hr.lineer_top {
+			margin: 0 0 3rem 0;
 		}
 		
 		hr.block {
@@ -601,21 +591,21 @@ input::-moz-focus-inner {
 	}
 
 	input, select, textarea {
-		color: rgba(50, 50, 50, 1);
+		color: rgba(55, 55, 55, 1);
 	}
 
 	a {
 		-webkit-tap-highlight-color: transparent !important;
         outline: none !important;
-		color: rgba(50, 50, 50, 1);
+		color: rgba(55, 55, 55, 1);
 	}
 
 		a:hover {
-			color: rgba(50, 50, 50, 0.5);
+			color: rgba(55, 55, 55, 0.5);
 		}
 		
 		a:active, a:visited:active {
-			color: rgba(50, 50, 50, 1);
+			color: rgba(55, 55, 55, 1);
 		}
 	
 /* Row */
@@ -2613,7 +2603,7 @@ input::-moz-focus-inner {
 		margin: 0 0 0.65rem 0;
 		width: 100%;
 		height: 100%;
-		border: 1px solid rgba(0, 0, 0, 0.135);
+		border: 1px solid rgba(55, 55, 55, 0.25);
 		border-radius: 0.65rem;
 	}
 	
@@ -2624,7 +2614,7 @@ input::-moz-focus-inner {
 		margin: 0 0 0.65rem 0;
 		width: 100%;
 		height: 100%;
-		border: 1px solid rgba(0, 0, 0, 0.135);
+		border: 1px solid rgba(55, 55, 55, 0.25);
 		border-radius: 0.65rem;
 	}
 	
@@ -2716,39 +2706,30 @@ input::-moz-focus-inner {
 		input[type="button"].large,
 		button.large,
 		.button.large {
+			background-repeat: no-repeat;
+			background-clip: border-box;
+			text-align: right;
 			font-size: 0.65rem;
-			background-image: none;
 			height: 4em;
 			line-height: 4.075em;
 			width: auto;
-			border-radius: 2em;
+			border-radius: 0;
 			padding: 0 1.45em;
 			text-align: center;
 		}
 
-		input[type="submit"].wide,
-		input[type="reset"].wide,
-		input[type="button"].wide,
-		button.wide,
-		.button.wide {
-			min-width: 14em;
-		}
-
-		input[type="submit"].disabled, input[type="submit"]:disabled,
-		input[type="reset"].disabled,
-		input[type="reset"]:disabled,
-		input[type="button"].disabled,
-		input[type="button"]:disabled,
-		button.disabled,
-		button:disabled,
-		.button.disabled,
-		.button:disabled {
-			background-image: none;
-			width: auto;
-			pointer-events: none;
+		input[type="submit"].noborder,
+		input[type="reset"].noborder,
+		input[type="button"].noborder,
+		button.noborder,
+		.button.noborder {
+			font-size: 0.65rem;
+			height: 4em;
+			line-height: 4.075em;
+			border-radius: 2rem;
+			padding: 0 1.45em;
 			text-align: center;
-			box-shadow: inset 0 0 0 1px rgba(46, 50, 53, 0.15);
-			color: rgba(46, 50, 53, 0.5) !important;
+			width: 13rem;
 		}
 
 	input[type="submit"],
@@ -2761,7 +2742,7 @@ input::-moz-focus-inner {
 		background-repeat: no-repeat;
 		background-clip: border-box;
 		background-position:right;
-		box-shadow: inset 0 0 0 1px rgba(46, 50, 53, 0.15);
+		box-shadow: inset 0 0 0 1px rgba(55, 55, 55, 0.15);
 		color: rgba(46, 50, 53, 0.85) !important;
 	}
 
@@ -2770,8 +2751,8 @@ input::-moz-focus-inner {
 		input[type="button"]:hover,
 		button:hover,
 		.button:hover {
-			box-shadow: inset 0 0 0 1px rgba(46, 50, 53, 0.8);
-			color: rgba(46, 50, 53, 0.92) !important;
+			box-shadow: inset 0 0 0 1px rgba(55, 55, 55, 0.8);
+			color: rgba(55, 55, 55, 0.92) !important;
 		}
 
 		input[type="submit"]:active,
@@ -2780,21 +2761,17 @@ input::-moz-focus-inner {
 		button:active,
 		.button:active {
 			box-shadow: inset 0 0 0 1px rgba(46, 50, 53, 1);
-			color: rgba(46, 50, 53, 0.75) !important;
+			color: rgba(55, 55, 55, 0.75) !important;
 		}
 		
 		.button.doc {
 			background-image: url(../../imgs/icon_doc.svg);
-			background-repeat: no-repeat;
-			background-clip: border-box;
 			background-position: left;
 			text-align: right;
 		}
 		
 		.button.a_right {
 			background-image: url(../../imgs/arrow_right_w.svg);
-			background-repeat: no-repeat;
-			background-clip: border-box;
 			background-position:right;
 			text-align: left;
 		}
@@ -2805,7 +2782,7 @@ input::-moz-focus-inner {
 		button.primary,
 		.button.primary {
 			
-			background-color: rgba(139, 142, 143, 0.5);
+			background-color: rgba(55, 55, 55, 1);
 			box-shadow: none;
 			color: rgba(255, 255, 255, 1) !important;
 		}
@@ -2815,7 +2792,7 @@ input::-moz-focus-inner {
 			input[type="button"].primary:hover,
 			button.primary:hover,
 			.button.primary:hover {
-				background-color: rgba(139, 142, 143, 0.8);
+				background-color: rgba(55, 55, 55, 0.8);
 			}
 
 			input[type="submit"].primary:active,
@@ -2824,36 +2801,6 @@ input::-moz-focus-inner {
 			button.primary:active,
 			.button.primary:active {
 				background-color: rgba(139, 142, 143, 0.5);
-			}
-			
-		input[type="submit"].secondary,
-		input[type="reset"].secondary,
-		input[type="button"].secondary,
-		button.secondary,
-		.button.secondary {
-			background-repeat: no-repeat;
-			background-clip: border-box;
-			background-position:right;
-			background-color: rgba(255, 255, 255, 1);
-			box-shadow: none;
-			color: rgba(46, 50, 53, 0.92) !important;
-			opacity: 1;
-		}
-
-			input[type="submit"].secondary:hover,
-			input[type="reset"].secondary:hover,
-			input[type="button"].secondary:hover,
-			button.secondary:hover,
-			.button.secondary:hover {
-				background-color: rgba(255, 255, 255, 0.6);
-			}
-
-			input[type="submit"].secondary:active,
-			input[type="reset"].secondary:active,
-			input[type="button"].secondary:active,
-			button.secondary:active,
-			.button.secondary:active {
-				background-color: rgba(255, 255, 255, 1);
 			}
 					
 /* Image */
