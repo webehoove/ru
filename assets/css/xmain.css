@@ -1,7 +1,11 @@
 		#logotype {
 			font-size: 3rem;
 			line-height: 1.1;
-			letter-spacing: -0.09rem;
+			letter-spacing: -0.1rem;
+		}
+		
+		.logotype_fl {
+			letter-spacing: -0.165rem;
 		}
 		
 		#logotype_b {
@@ -99,7 +103,11 @@
 		#logotype {
 			font-size: 1.8rem;
 			line-height: 1.2;
-			letter-spacing: -0.04rem;
+			letter-spacing: -0.05rem;
+		}
+		
+		.logotype_fl {
+			letter-spacing: -0.1rem;
 		}
 		
 		}
