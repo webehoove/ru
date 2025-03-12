@@ -208,7 +208,7 @@ input::-moz-focus-inner {
 
 	body, input, select, textarea {
 		font-family: 'ELTA Sans Regular', Roboto, Helvetica, sans-serif;
-		font-variation-settings: 'wght' 450;
+		font-variation-settings: 'wght' 400;
 		font-feature-settings: "ss02", "ss09";
 		font-size: 1rem;
 	}
