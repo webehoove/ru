@@ -264,7 +264,7 @@ input::-moz-focus-inner {
 		
 		.logo_t {
 			font-family: 'ELTA Sans Regular', Helvetica, sans-serif;
-		    font-variation-settings: 'wght' 480;
+		    font-variation-settings: 'wght' 420;
 		}
 
 	p {
@@ -284,18 +284,13 @@ input::-moz-focus-inner {
 	}
 	
 	h1.special_one {
-		font-size: 4.5rem;
+		font-size: 5.5rem;
 		line-height: 0.8;
+		letter-spacing: -0.075rem;
 	}
 
 	h2 {
 		font-size: 2.25rem;
-		line-height: 1;
-		letter-spacing: -0.035rem;
-	}
-
-	h2.title {
-		font-size: 1.5rem;
 		line-height: 1;
 		letter-spacing: -0.035rem;
 	}
@@ -364,7 +359,7 @@ input::-moz-focus-inner {
 
 		hr.top_title {
 			border: 0;
-		    margin: 1.5rem 0;
+		    margin: 2rem 0;
 		}
 		
 		hr.block {
@@ -445,10 +440,6 @@ input::-moz-focus-inner {
 		    font-size: 1.6rem;
 	    }
 		
-		h2.title {
-		    font-size: 1.3rem;
-	    }
-		
 		hr.top_title {
 		    margin: 0.5rem 0;
 		}
@@ -521,11 +512,6 @@ input::-moz-focus-inner {
 			width: 80%;
 	    }
 		
-		h2.title {
-			font-size: 1.15rem;
-			width: 80%;
-	    }
-		
 		hr.lineer_top {
 			margin: 0 0 3rem 0;
 		}
@@ -565,8 +551,9 @@ input::-moz-focus-inner {
 	    }
 		
 		h1.special_one {
-			font-size: 1.75rem;
-			line-height: 1;
+			font-size: 2.825rem;
+			line-height: 0.8;
+			letter-spacing: -0.05rem;
 			width: 100%;
 		}
 		
@@ -577,20 +564,13 @@ input::-moz-focus-inner {
 			width: 100%;
 	    }
 		
-		h2.title {
-			font-size: 1.25rem;
-			line-height: 1.1;
-			letter-spacing: -0.02rem;
-			width: 100%;
-	    }
-		
 		h5.num {
 			font-size: 1rem;
 			line-height: 1.9;
 	    }
 		
 		hr.top_title {
-			margin: 2.5rem 0;
+			margin: 3rem 0;
 		}
 		
 		hr.block {
@@ -602,7 +582,7 @@ input::-moz-focus-inner {
 		}
 		
 		hr.lineer_top {
-			margin: 0.9rem 0 1rem 0;
+			margin: 0.5rem 0;
 		}
 		
 		hr.lineer {
