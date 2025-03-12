@@ -1,11 +1,11 @@
 		#logotype {
-			font-size: 3rem;
+			font-size: 2rem;
 			line-height: 1.1;
 			letter-spacing: -0.1rem;
 		}
 		
 		.logotype_fl {
-			letter-spacing: -0.165rem;
+			letter-spacing: -0.125rem;
 		}
 		
 		#logotype_b {
@@ -101,7 +101,7 @@
         @media screen and (max-width: 768px) {
 			
 		#logotype {
-			font-size: 1.75rem;
+			font-size: 1.85rem;
 			line-height: 1.2;
 			letter-spacing: -0.045rem;
 		}
