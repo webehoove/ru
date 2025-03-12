@@ -251,6 +251,11 @@ input::-moz-focus-inner {
 			text-transform: uppercase;
 		}
 		
+		.book_t {
+			font-family: 'ELTA Sans Regular', Helvetica, sans-serif;
+		    font-variation-settings: 'wght' 430;
+		}
+		
 		.medium_t {
 			font-family: 'ELTA Sans Medium', Helvetica, sans-serif;
 		    font-weight: normal;
