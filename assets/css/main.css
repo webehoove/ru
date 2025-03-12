@@ -261,6 +261,11 @@ input::-moz-focus-inner {
 		    font-weight: normal;
 			font-feature-settings: "ss09";
 		}
+		
+		.logo_t {
+			font-family: 'ELTA Sans Regular', Helvetica, sans-serif;
+		    font-variation-settings: 'wght' 480;
+		}
 
 	p {
 		font-size: 1rem;
@@ -503,7 +508,6 @@ input::-moz-focus-inner {
 		h1 {
 			font-size: 1.35rem;
 			line-height: 0.95;
-			margin-bottom: 3rem;
 	    }
 		
 		h1.special_one {
@@ -590,11 +594,11 @@ input::-moz-focus-inner {
 		}
 		
 		hr.block {
-			margin: 0.4rem 0;
+			margin: 2rem 0;
 		}
 		
 		hr.block2 {
-			margin: 1rem 0;
+			margin: 1.35rem 0;
 		}
 		
 		hr.lineer_top {
