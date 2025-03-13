@@ -278,11 +278,6 @@ input::-moz-focus-inner {
 			font-feature-settings: "ss09";
 		}
 		
-		.logo_t {
-			font-family: 'ELTA Sans Regular', Helvetica, sans-serif;
-		    font-variation-settings: 'wght' 420;
-		}
-
 	p {
 		font-size: 1.35rem;
 		line-height: 1.15;
