@@ -224,10 +224,6 @@ input::-moz-focus-inner {
 		background-color: inherit;
 		color: #1e1e1e;
 	}
-	
-	h1.special_one {
-		color: #1e1e1e;
-	}
 
 	body, input, select, textarea {
 		font-family: 'ELTA Sans Regular', Roboto, Helvetica, sans-serif;
@@ -556,7 +552,7 @@ input::-moz-focus-inner {
 	@media screen and (max-width: 736px) {
 
 		p {
-			font-size: 1.15rem;
+			font-size: 1.25rem;
 			line-height: 1.2;
 			letter-spacing: -0.02rem;
 			width: 100%;
@@ -596,6 +592,11 @@ input::-moz-focus-inner {
 		h5.num {
 			font-size: 1rem;
 			line-height: 2;
+	    }
+		
+		h5.num2 {
+			font-size: 1rem;
+			line-height: 1.2;
 	    }
 		
 		hr.top_title {
