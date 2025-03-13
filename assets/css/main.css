@@ -308,7 +308,7 @@ input::-moz-focus-inner {
 	}
 	
 	h1.special {
-		font-size: 3.5rem;
+		font-size: 4.5rem;
 		line-height: 0.9;
 		letter-spacing: -0.075rem;
 	}
@@ -322,6 +322,12 @@ input::-moz-focus-inner {
 	h3.inside_t {
 		font-size: 1.5rem;
 		line-height: 0.8;
+	}
+
+	h4 {
+		font-size: 1.75rem;
+		line-height: 1;
+		letter-spacing: -0.035rem;
 	}
 
 	h5 {
@@ -625,6 +631,11 @@ input::-moz-focus-inner {
 		h3.inside_t {
 			font-size: 1.35rem;
 			line-height: 0.9;
+	    }
+		
+		h4 {
+			font-size: 1.5rem;
+			letter-spacing: -0.01rem;
 	    }
 		
 		h5.num {
@@ -2655,7 +2666,7 @@ input::-moz-focus-inner {
 	  }
 	  
 	  .box_bg_02 {
-		  background-color: rgba(0, 0, 0, 0.075);
+		  background-color: rgba(0, 0, 0, 0.085);
 	  }
 	  
 	.box02 {
@@ -2778,20 +2789,6 @@ input::-moz-focus-inner {
 			border-radius: 0;
 			padding: 0 1.45em;
 			text-align: center;
-		}
-
-		input[type="submit"].noborder,
-		input[type="reset"].noborder,
-		input[type="button"].noborder,
-		button.noborder,
-		.button.noborder {
-			font-size: 0.65rem;
-			height: 4em;
-			line-height: 4.075em;
-			border-radius: 2rem;
-			padding: 0 1.45em;
-			text-align: center;
-			width: 13rem;
 		}
 
 	input[type="submit"],
