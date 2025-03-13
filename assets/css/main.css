@@ -318,7 +318,7 @@ input::-moz-focus-inner {
 		letter-spacing: -0.035rem;
 	}
 
-	h3 {
+	h3.inside_t {
 		font-size: 2rem;
 		line-height: 0.8;
 	}
@@ -591,10 +591,9 @@ input::-moz-focus-inner {
 			width: 100%;
 	    }
 		
-		h3 {
-			font-size: 1.5rem;
+		h3.inside_t {
+			font-size: 1.35rem;
 			line-height: 0.9;
-			letter-spacing: -0.01rem;
 	    }
 		
 		h5.num {
