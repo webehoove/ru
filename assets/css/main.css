@@ -320,7 +320,7 @@ input::-moz-focus-inner {
 	}
 
 	h3.inside_t {
-		font-size: 2rem;
+		font-size: 1.5rem;
 		line-height: 0.8;
 	}
 
@@ -479,7 +479,7 @@ input::-moz-focus-inner {
 	    }
 		
 		h3.inside_t {
-		    font-size: 1.75rem;
+		    font-size: 1.5rem;
 	    }
 		
 		h5.num {
@@ -503,6 +503,10 @@ input::-moz-focus-inner {
 	
 	@media screen and (max-width: 1180px) {
 
+		p.inside_t {
+		    font-size: 1.15rem;
+	    }
+		
 		h1.special_one {
 		    font-size: 4rem;
 	    }
@@ -536,7 +540,7 @@ input::-moz-focus-inner {
 	    }
 		
 		h3.inside_t {
-		    font-size: 1.5rem;
+		    font-size: 1.35rem;
 	    }
 		
 		hr {
@@ -2967,7 +2971,8 @@ input::-moz-focus-inner {
 		
 		ul.alter li {
 			display: block;
-			padding-bottom: 1rem;
+			padding: 2rem 0;
+			border-top: 1px solid rgba(0, 0, 0, 0.88);
 		}
 
 	dl {
@@ -3000,10 +3005,14 @@ input::-moz-focus-inner {
 			display: block;
 			clear: both;
 		}
-
-	ul.alt li {
-		border-top-color: rgba(0, 0, 0, 0.2);
-	}
+		
+		@media screen and (max-width: 736px) {
+			
+			ul.alter li {
+				padding: 1.5rem 0;
+			}
+			
+		}
 
 /* Actions */
 
