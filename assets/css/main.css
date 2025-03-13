@@ -214,7 +214,7 @@ input::-moz-focus-inner {
 		}
 
 	body {
-		background-color: #f2f3f4;
+		background-color: inherit;
 		color: #1e1e1e;
 	}
 	
@@ -550,7 +550,7 @@ input::-moz-focus-inner {
 	@media screen and (max-width: 736px) {
 
 		p {
-			font-size: 1.125rem;
+			font-size: 1.15rem;
 			line-height: 1.2;
 			letter-spacing: -0.02rem;
 			width: 100%;
@@ -588,8 +588,8 @@ input::-moz-focus-inner {
 	    }
 		
 		h5.num {
-			font-size: 0.95rem;
-			line-height: 1.95;
+			font-size: 1rem;
+			line-height: 2;
 	    }
 		
 		hr.top_title {
@@ -3588,7 +3588,7 @@ input::-moz-focus-inner {
 				left: 0;
 				width: 100%;
 				height: 100%;
-				opacity: 0.9;
+				opacity: 0.8;
 				z-index: 1;
 			}
 
