@@ -6,6 +6,13 @@
         }
 		
 @font-face {
+           font-family: ELTA Sans Book;
+		   src: url(../webfonts/aeonikpro-c-b.woff2) format('woff2');
+           font-display: swap;
+           font-style: normal;
+        }
+		
+@font-face {
            font-family: ELTA Sans Medium;
 		   src: url(../webfonts/AeonikPro-Medium.woff2) format('woff2');
            font-display: swap;
@@ -224,7 +231,6 @@ input::-moz-focus-inner {
 
 	body, input, select, textarea {
 		font-family: 'ELTA Sans Regular', Roboto, Helvetica, sans-serif;
-		font-variation-settings: 'wght' 400;
 		font-feature-settings: "ss02", "ss09";
 		font-size: 1rem;
 	}
@@ -265,6 +271,11 @@ input::-moz-focus-inner {
 		
 		.upup {
 			text-transform: uppercase;
+		}
+		
+		.book_t {
+			font-family: 'ELTA Sans Book', Helvetica, sans-serif;
+		    font-weight: normal;
 		}
 		
 		.medium_t {
