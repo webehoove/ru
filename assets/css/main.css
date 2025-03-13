@@ -550,7 +550,7 @@ input::-moz-focus-inner {
 	@media screen and (max-width: 736px) {
 
 		p {
-			font-size: 1.2rem;
+			font-size: 1.125rem;
 			line-height: 1.2;
 			letter-spacing: -0.02rem;
 			width: 100%;
@@ -597,11 +597,11 @@ input::-moz-focus-inner {
 		}
 		
 		hr.block {
-			margin: 2rem 0;
+			margin: 3rem 0;
 		}
 		
 		hr.block2 {
-			margin: 1.35rem 0;
+			margin: 1.5rem 0;
 		}
 		
 		hr.lineer_top {
