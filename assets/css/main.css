@@ -135,7 +135,7 @@ input::-moz-focus-inner {
 		@media screen and (max-width: 1680px) {
 
 			html {
-				font-size: 16px;
+				font-size: 14px;
 			}
 
 		}
@@ -143,7 +143,7 @@ input::-moz-focus-inner {
 		@media screen and (max-width: 1366px) {
 
 			html {
-				font-size: 15px;
+				font-size: 14px;
 			}
 
 		}
@@ -296,8 +296,9 @@ input::-moz-focus-inner {
 	}
 	
 	h1 {
-		font-size: 3rem;
+		font-size: 4rem;
 		line-height: 0.78;
+		letter-spacing: -0.075rem;
 	}
 	
 	h1.special_one {
@@ -313,7 +314,7 @@ input::-moz-focus-inner {
 	}
 
 	h2 {
-		font-size: 2.25rem;
+		font-size: 2.75rem;
 		line-height: 1;
 		letter-spacing: -0.035rem;
 	}
@@ -404,17 +405,17 @@ input::-moz-focus-inner {
 		}
 		
 		hr.lineer {
-			border-bottom: 1px solid rgba(0, 0, 0, 0.25);
+			border-bottom: 1px solid rgba(0, 0, 0, 0.88);
 			margin: 8rem 0 1.5rem 0;
 		}
 		
 		hr.lineer_none {
-			border-bottom: 1px solid rgba(0, 0, 0, 0.25);
+			border-bottom: 1px solid rgba(0, 0, 0, 0.88);
 			margin: 0;
 		}
 		
 		hr.lineer_top {
-			border-bottom: 1px solid rgba(0, 0, 0, 0.25);
+			border-bottom: 1px solid rgba(0, 0, 0, 0.88);
 			margin: 2rem 0 2.2rem 0;
 		}
 
@@ -448,8 +449,12 @@ input::-moz-focus-inner {
 		    font-size: 4.35rem;
 	    }
 		
+		h1.special {
+		    font-size: 3.25rem;
+	    }
+		
 		h2 {
-		    font-size: 2rem;
+		    font-size: 2.15rem;
 	    }
 		
 		h5.num {
@@ -461,13 +466,25 @@ input::-moz-focus-inner {
 
 	@media screen and (max-width: 1280px) {
 
+		h1 {
+		    font-size: 3.5rem;
+	    }
+		
 		h1.special_one {
 		    font-size: 4.35rem;
 	    }
 		
+		h2 {
+		    font-size: 2.05rem;
+	    }
+		
+		h3.inside_t {
+		    font-size: 1.75rem;
+	    }
+		
 		h5.num {
 		    font-size: 0.95rem;
-			line-height: 0.95;
+			line-height: 1;
 	    }
 		
 		hr.top_title {
@@ -486,13 +503,13 @@ input::-moz-focus-inner {
 	
 	@media screen and (max-width: 1180px) {
 
-		hr.top_title {
-		    margin: 3rem 0;
-		}
-		
 		h1.special_one {
 		    font-size: 4rem;
 	    }
+		
+		hr.top_title {
+		    margin: 3rem 0;
+		}
 		
 		hr.lineer {
 		    margin: 6rem 0 0.65rem; 0;
@@ -502,12 +519,24 @@ input::-moz-focus-inner {
 	
 	@media screen and (max-width: 980px) {
 
+		p.inside_t {
+		    font-size: 1.15rem;
+	    }
+		
 		h1 {
 		    font-size: 2.75rem;
 	    }
 		
 		h1.special_one {
 		    font-size: 3.8rem;
+	    }
+		
+		h1.special {
+		    font-size: 2.75rem;
+	    }
+		
+		h3.inside_t {
+		    font-size: 1.5rem;
 	    }
 		
 		hr {
@@ -527,8 +556,7 @@ input::-moz-focus-inner {
 	    }
 		
 		h1.special_one {
-			font-size: 3rem;
-			width: 90%;
+			font-size: 4rem;
 	    }
 		
 		h2 {
@@ -575,7 +603,6 @@ input::-moz-focus-inner {
 			font-size: 2.825rem;
 			line-height: 0.8;
 			letter-spacing: -0.05rem;
-			width: 100%;
 		}
 		
 		h1.special {
@@ -2619,7 +2646,8 @@ input::-moz-focus-inner {
 	}
 	
 	  .box_bg_01 {
-		  background-color: rgba(225, 225, 225, 1);
+		  background-color: rgba(0, 0, 0, 0.83);
+		  color: rgba(255, 255, 255, 1);
 	  }
 	  
 	  .box_bg_02 {
@@ -3901,7 +3929,7 @@ input::-moz-focus-inner {
 	}
 
 		#wrapper > .invert {
-			background-color: #323232;
+			background-color: rgba(0, 0, 0, 0.83);
 			color: #fff;
 		}
 
