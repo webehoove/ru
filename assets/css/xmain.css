@@ -8,6 +8,12 @@
 			letter-spacing: -0.125rem;
 		}
 		
+		.lockup {
+			position: relative;
+			width: 9.5rem;
+			top: 0.5rem;
+		}
+		
 		#logotype_b {
 			position: relative;
 			top: -0.75rem;
@@ -116,6 +122,11 @@
 		
 		.logotype_fl {
 			letter-spacing: -0.085rem;
+		}
+		
+		.lockup {
+			width: 7.5rem;
+			top: 0;
 		}
 		
 		}
