@@ -411,17 +411,17 @@ input::-moz-focus-inner {
 		}
 		
 		hr.lineer {
-			border-bottom: 1px solid rgba(0, 0, 0, 0.88);
+			border-bottom: 1px solid rgba(0, 0, 0, 0.66);
 			margin: 8rem 0 1.5rem 0;
 		}
 		
 		hr.lineer_none {
-			border-bottom: 1px solid rgba(0, 0, 0, 0.88);
+			border-bottom: 1px solid rgba(0, 0, 0, 0.66);
 			margin: 0;
 		}
 		
 		hr.lineer_top {
-			border-bottom: 1px solid rgba(0, 0, 0, 0.88);
+			border-bottom: 1px solid rgba(0, 0, 0, 0.66);
 			margin: 2rem 0 2.2rem 0;
 		}
 
@@ -2661,12 +2661,12 @@ input::-moz-focus-inner {
 	}
 	
 	  .box_bg_01 {
-		  background-color: rgba(0, 0, 0, 0.88);
+		  background-color: rgba(0, 0, 0, 0.85);
 		  color: rgba(255, 255, 255, 1);
 	  }
 	  
 	  .box_bg_02 {
-		  background-color: rgba(0, 0, 0, 0.085);
+		  background-color: rgba(0, 0, 0, 0.086);
 	  }
 	  
 	.box02 {
