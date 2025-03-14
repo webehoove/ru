@@ -222,7 +222,7 @@ input::-moz-focus-inner {
 
 	body {
 		background-color: inherit;
-		color: #1e1e1e;
+		color: #292929;
 	}
 
 	body, input, select, textarea {
@@ -286,6 +286,7 @@ input::-moz-focus-inner {
 		}
 		
 	p {
+		color: #888888;
 		font-size: 1.35rem;
 		line-height: 1.15;
 	}
@@ -2661,7 +2662,7 @@ input::-moz-focus-inner {
 	}
 	
 	  .box_bg_01 {
-		  background-color: rgba(0, 0, 0, 0.85);
+		  background-color: rgba(0, 0, 0, 0.83);
 		  color: rgba(255, 255, 255, 1);
 	  }
 	  
@@ -2861,7 +2862,54 @@ input::-moz-focus-inner {
 			.button.primary:active {
 				background-color: rgba(139, 142, 143, 0.5);
 			}
-					
+			
+	.linkarrow {
+		   background: url(../../imgs/arrow_right.svg);
+		   background-repeat: no-repeat;
+		   background-clip: padding-box;
+		   background-position: center left;
+		   color: #F00;
+		   cursor: pointer;
+		   display: inline-block;
+		   text-align: center;
+		   text-decoration: none;
+		   white-space: nowrap;
+		   width: auto;
+		   height: 2rem;
+		   line-height: 1.2;
+		   padding-left: 2rem;
+	}
+	
+	.linkarrow {
+		   background: url(../../imgs/arrow_right.svg);
+		   background-repeat: no-repeat;
+		   background-clip: padding-box;
+		   background-position: center left;
+		   font-size: 1.25rem;
+		   color: rgba(0, 0, 0, 0.5);
+		   cursor: pointer;
+		   display: inline-block;
+		   text-align: center;
+		   text-decoration: none;
+		   white-space: nowrap;
+		   width: auto;
+		   height: 0.9rem;
+		   line-height: 0.8;
+		   padding-left: 2.25rem;
+	}
+			.linkarrow:hover {
+				color: rgba(0, 0, 0, 0.8);
+			}
+			
+    @media screen and (max-width: 1366px) {
+		
+		.linkarrow {
+		   height: 0.9rem;
+		   line-height: 0.85;
+	    }
+		
+	}
+						
 /* Image */
 
 	.image {
