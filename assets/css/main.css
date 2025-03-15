@@ -319,7 +319,7 @@ input::-moz-focus-inner {
 
 	h4 {
 		font-size: 1.75rem;
-		line-height: 0.9;
+		line-height: 1.1;
 		letter-spacing: -0.035rem;
 	}
 
@@ -585,7 +585,7 @@ input::-moz-focus-inner {
 	@media screen and (max-width: 736px) {
 
 		p {
-			font-size: 1.25rem;
+			font-size: 1.2rem;
 			line-height: 1.2;
 			letter-spacing: 0;
 			width: 100%;
@@ -598,7 +598,7 @@ input::-moz-focus-inner {
 	    }
 		
 		p.inside_t {
-			font-size: 1.15rem;
+			font-size: 1.1rem;
 			line-height: 1;
 		}
 		
@@ -609,7 +609,7 @@ input::-moz-focus-inner {
 	    }
 		
 		h1.special_one {
-			font-size: 3rem;
+			font-size: 2.85rem;
 			line-height: 0.85;
 			letter-spacing: -0.05rem;
 		}
@@ -641,6 +641,7 @@ input::-moz-focus-inner {
 		
 		h4 {
 			font-size: 1.65rem;
+			line-height: 1;
 			letter-spacing: -0.015rem;
 	    }
 		
@@ -3741,7 +3742,7 @@ input::-moz-focus-inner {
 		@media screen and (max-width: 736px) {
 
 			.banner.style5 {
-				padding: 0 0.65rem ;
+				padding: 0 1.5rem ;
 			}
 
 		}
@@ -3835,7 +3836,7 @@ input::-moz-focus-inner {
 	@media screen and (max-width: 768px) {
 
 		.wrapper.style1 > .inner {
-			padding: 0 0.65rem ;
+			padding: 0 1.5rem ;
 		}
 
 	}
@@ -3921,7 +3922,7 @@ input::-moz-focus-inner {
 			}
 
 				.wrapper.style2 > .inner {
-					padding: 0 0.65rem 0.85rem 0.65rem ;
+					padding: 0 1.5rem 1.5rem 1.5rem ;
 				}
 
 		}
