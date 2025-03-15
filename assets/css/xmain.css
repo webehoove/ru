@@ -10,7 +10,7 @@
 		
 		.lockup {
 			position: relative;
-			width: 9rem;
+			width: 10rem;
 			top: 0.5rem;
 		}
 		
@@ -58,20 +58,21 @@
 		
 		ul.bottommenu {
 			list-style: none;
-			font-size: 1rem;
+			font-size: 1.15rem;
 		    padding: 0;
 		    margin: 0;
 		}
 		
 		        ul.bottommenu li {
 	   	        	display: block;
-				    margin-bottom: 0.35rem;
+				    margin-bottom: 1rem;
 	        	}
 	  	
 		.goup {
 			position: relative;
 			float: right;
 			width: 2.25rem;
+			bottom: 0.5rem;
 		}
 		
 		ul.goup li {
@@ -138,7 +139,7 @@
 		}
 		
 		    ul.bottommenu li {
-				font-size: 1rem;
+				font-size: 1.15rem;
 	   	        margin-bottom: 0.75rem;
 	        }
 		
