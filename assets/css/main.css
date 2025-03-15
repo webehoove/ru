@@ -594,8 +594,14 @@ input::-moz-focus-inner {
 		p {
 			font-size: 1.25rem;
 			line-height: 1.2;
-			letter-spacing: -0.02rem;
+			letter-spacing: 0;
 			width: 100%;
+	    }
+		
+		p.title {
+			font-size: 1.35rem;
+			line-height: 1.2;
+			letter-spacing: 0;
 	    }
 		
 		p.inside_t {
@@ -647,12 +653,12 @@ input::-moz-focus-inner {
 		
 		h5.num {
 			font-size: 0.9rem;
-			line-height: 1.75;
+			line-height: 1.7;
 	    }
 		
 		h5.num2 {
 			font-size: 0.9rem;
-			line-height: 1.65;
+			line-height: 1.2;
 	    }
 		
 		hr.top_title {
