@@ -3742,7 +3742,7 @@ input::-moz-focus-inner {
 		@media screen and (max-width: 736px) {
 
 			.banner.style5 {
-				padding: 0 1.5rem ;
+				padding: 0 1rem ;
 			}
 
 		}
@@ -3836,7 +3836,7 @@ input::-moz-focus-inner {
 	@media screen and (max-width: 768px) {
 
 		.wrapper.style1 > .inner {
-			padding: 0 1.5rem ;
+			padding: 0 1rem ;
 		}
 
 	}
@@ -3922,7 +3922,7 @@ input::-moz-focus-inner {
 			}
 
 				.wrapper.style2 > .inner {
-					padding: 0 1.5rem 1.5rem 1.5rem ;
+					padding: 0 1rem 1rem 1rem ;
 				}
 
 		}
