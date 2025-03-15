@@ -289,8 +289,8 @@ input::-moz-focus-inner {
 	}
 	
 	h1 {
-		font-size: 4rem;
-		line-height: 0.78;
+		font-size: 3.75rem;
+		line-height: 0.9;
 		letter-spacing: -0.075rem;
 	}
 	
@@ -330,6 +330,7 @@ input::-moz-focus-inner {
 
 	h5.num {
 		font-size: 0.85rem;
+		line-height: 1.75;
 	}
 
 	h5.num2 {
@@ -444,12 +445,16 @@ input::-moz-focus-inner {
 			line-height: 1.2;
 	    }
 		
+		h1 {
+		    font-size: 3.25rem;
+	    }
+		
 		h1.special_one {
 		    font-size: 4.35rem;
 	    }
 		
 		h1.special {
-		    font-size: 3.25rem;
+		    font-size: 3.75rem;
 	    }
 		
 		h2 {
@@ -458,17 +463,13 @@ input::-moz-focus-inner {
 		
 		h5.num {
 		    font-size: 0.9rem;
-			line-height: 0.9;
+			line-height: 1.5;
 	    }
 		
 	}
 
 	@media screen and (max-width: 1280px) {
 
-		h1 {
-		    font-size: 3.5rem;
-	    }
-		
 		h1.special_one {
 		    font-size: 4.35rem;
 	    }
