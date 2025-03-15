@@ -623,7 +623,7 @@ input::-moz-focus-inner {
 		
 		h2 {
 			font-size: 1.9rem;
-			line-height: 1.1;
+			line-height: 1.0.5;
 			letter-spacing: -0.02rem;
 			width: 100%;
 	    }
