@@ -387,7 +387,7 @@ input::-moz-focus-inner {
 
 	hr {
 		border: 0;
-		margin: 1rem 0;
+		margin: 1.5rem 0;
 	}
 
 		hr.top_title {
@@ -550,7 +550,7 @@ input::-moz-focus-inner {
 	    }
 		
 		hr {
-		    margin: 0.75rem 0;
+		    margin: 1rem 0;
 		}
 
 	}
@@ -661,6 +661,10 @@ input::-moz-focus-inner {
 			line-height: 1.2;
 	    }
 		
+		hr {
+			margin: 1.25rem 0;
+		}
+		
 		hr.top_title {
 			margin: 3rem 0;
 		}
@@ -670,7 +674,7 @@ input::-moz-focus-inner {
 		}
 		
 		hr.block2 {
-			margin: 1.5rem 0;
+			margin: 1.8rem 0;
 		}
 		
 		hr.block3 {
