@@ -616,7 +616,7 @@ input::-moz-focus-inner {
 		}
 		
 		h1.special {
-			font-size: 2.75rem;
+			font-size: 2.65rem;
 			line-height: 0.9;
 			letter-spacing: -0.05rem;
 		}
@@ -624,6 +624,13 @@ input::-moz-focus-inner {
 		h2 {
 			font-size: 1.9rem;
 			line-height: 1.1;
+			letter-spacing: -0.02rem;
+			width: 100%;
+	    }
+		
+		h2.text {
+			font-size: 1.75rem;
+			line-height: 1.05;
 			letter-spacing: -0.02rem;
 			width: 100%;
 	    }
@@ -669,7 +676,7 @@ input::-moz-focus-inner {
 		}
 		
 		hr.lineer {
-		    margin: 3.5rem 0;
+		    margin: 4rem 0;
 		}
 
 	}
