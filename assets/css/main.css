@@ -681,10 +681,6 @@ input::-moz-focus-inner {
 
 	}
 
-	p {
-		color: rgba(45, 45, 45, 1);
-	}
-
 	a {
 		-webkit-tap-highlight-color: transparent !important;
         outline: none !important;
