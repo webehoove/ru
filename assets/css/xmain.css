@@ -58,7 +58,7 @@
 		
 		ul.bottommenu {
 			list-style: none;
-			font-size: 0.85rem;
+			font-size: 1rem;
 		    padding: 0;
 		    margin: 0;
 		}
@@ -138,7 +138,7 @@
 		}
 		
 		    ul.bottommenu li {
-				font-size: 0.85rem;
+				font-size: 1rem;
 	   	        margin-bottom: 0.75rem;
 	        }
 		
