@@ -3,12 +3,12 @@
 <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
 	 viewBox="0 0 157.7 120.5" style="enable-background:new 0 0 157.7 120.5;" xml:space="preserve">
 <style type="text/css">
-	.st0{opacity:0.25;}
+	.st0{fill:#FC7328;}
 </style>
-<g class="st0">
+<g>
 	<g>
-		<polygon points="116.3,60.3 72,120.5 93.5,120.5 137.7,60.3 93.5,0 72,0 		"/>
-		<polygon points="65.7,60.3 21.4,0 0,0 44.2,60.3 0,120.5 21.4,120.5 		"/>
+		<polygon class="st0" points="116.3,60.3 72,120.5 93.5,120.5 137.7,60.3 93.5,0 72,0 		"/>
+		<polygon class="st0" points="65.7,60.3 21.4,0 0,0 44.2,60.3 0,120.5 21.4,120.5 		"/>
 	</g>
 </g>
 </svg>
