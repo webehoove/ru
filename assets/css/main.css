@@ -2826,7 +2826,7 @@ input::-moz-focus-inner {
 		input[type="button"]:hover,
 		button:hover,
 		.button:hover {
-			background-color: rgba(236, 107, 15, 1);
+			background-color: rgba(252, 115, 40, 1);
 			box-shadow: inset 0 0 0 1px rgba(236, 107, 15, 1);
 			color: rgba(252, 115, 40, 1);
 		}
@@ -2836,7 +2836,7 @@ input::-moz-focus-inner {
 		input[type="button"]:active,
 		button:active,
 		.button:active {
-			background-color: rgba(236, 107, 15, 1);
+			background-color: rgba(252, 115, 40, 1);
 			box-shadow: inset 0 0 0 1px rgba(252, 115, 40, 1);
 			color: rgba(252, 115, 40, 1);
 		}
@@ -2848,7 +2848,7 @@ input::-moz-focus-inner {
 	.button.invert {
 		background-color: inherit;
 		box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.88);
-		color: rgba(255, 255, 255, 0.98) !important;
+		color: rgba(255, 255, 255, 1) !important;
 	}
 
 		input[type="submit"].invert:hover,
@@ -2856,9 +2856,9 @@ input::-moz-focus-inner {
 		input[type="button"].invert:hover,
 		button.invert:hover,
 		.button.invert:hover {
-			background-color: rgba(236, 107, 15, 1);
+			background-color: rgba(252, 115, 40, 1);
 			box-shadow: inset 0 0 0 1px rgba(252, 115, 40, 1);
-		    color: rgba(252, 115, 40, 1);
+		    color: rgba(255, 255, 255, 1);
 		}
 
 		input[type="submit"].invert:active,
@@ -2866,9 +2866,9 @@ input::-moz-focus-inner {
 		input[type="button"].invert:active,
 		button.invert:active,
 		.button.invert:active {
-			background-color: rgba(236, 107, 15, 1);
+			background-color: rgba(252, 115, 40, 1);
 			box-shadow: inset 0 0 0 1px rgba(252, 115, 40, 1);
-		    color: rgba(252, 115, 40, 1);
+		    color: rgba(255, 255, 255, 1);
 		}
 
 		input[type="submit"].primary,
@@ -2876,7 +2876,7 @@ input::-moz-focus-inner {
 		input[type="button"].primary,
 		button.primary,
 		.button.primary {
-			background-color: rgba(0, 0, 0, 0.82);
+			background-color: rgba(0, 0, 0, 0.83);
 			box-shadow: none;
 			color: rgba(255, 255, 255, 1) !important;
 		}
@@ -2886,7 +2886,7 @@ input::-moz-focus-inner {
 			input[type="button"].primary:hover,
 			button.primary:hover,
 			.button.primary:hover {
-				background-color: rgba(0, 0, 0, 0.7);
+				background-color: rgba(252, 115, 40, 1);
 			}
 
 			input[type="submit"].primary:active,
@@ -2894,7 +2894,7 @@ input::-moz-focus-inner {
 			input[type="button"].primary:active,
 			button.primary:active,
 			.button.primary:active {
-				background-color: rgba(0, 0, 0, 0.82);
+				background-color: rgba(252, 115, 40, 1);
 			}
 			
 	.linkarrow {
@@ -4015,25 +4015,21 @@ input::-moz-focus-inner {
 
 		#wrapper > .invert {
 			background-color: rgba(0, 0, 0, 0.82);
-			color: #fff;
+			color: rgba(255, 255, 255, 0.98);
 		}
 
 			#wrapper > .invert input, #wrapper > .invert select, #wrapper > .invert textarea {
-				color: #fff;
+				color: rgba(255, 255, 255, 0.98);
 			}
 
 			#wrapper > .invert a {
-				color: #fff;
+				color: rgba(255, 255, 255, 98);
 			}
 
 				#wrapper > .invert a:hover {
-					color: #fff;
+					color: rgba(255, 255, 255, 0.88);
 					border-bottom: none;
 				}
-
-			#wrapper > .invert strong, #wrapper > .invert b {
-				color: #fff;
-			}
 
 			#wrapper > .invert h1, #wrapper > .invert h2, #wrapper > .invert h3, #wrapper > .invert h4, #wrapper > .invert h5, #wrapper > .invert h6 {
 				color: #fff;
@@ -4084,7 +4080,7 @@ input::-moz-focus-inner {
 				#wrapper > .invert .button:active {
 					background-color: rgba(255, 255, 255, 1);
 					box-shadow: none;
-					color: #141414 !important;
+					color: rgba(255, 255, 255, 1) !important;
 				}
 
 				#wrapper > .invert input[type="submit"].primary,
@@ -4092,10 +4088,10 @@ input::-moz-focus-inner {
 				#wrapper > .invert input[type="button"].primary,
 				#wrapper > .invert button.primary,
 				#wrapper > .invert .button.primary {
-					background-color: rgba(255, 255, 255, 0.35);
+					background-color: rgba(255, 255, 255, 0.98);
 					background-image: none;
 			        box-shadow: none;
-					color: #fff !important;
+					color: rgba(0, 0, 0, 1) !important;
 				}
 
 					#wrapper > .invert input[type="submit"].primary:hover,
@@ -4103,7 +4099,7 @@ input::-moz-focus-inner {
 					#wrapper > .invert input[type="button"].primary:hover,
 					#wrapper > .invert button.primary:hover,
 					#wrapper > .invert .button.primary:hover {
-						background-color: rgba(255, 255, 255, 0.15);
+						background-color: rgba(252, 115, 40, 1);
 					    box-shadow: none;
 					}
 
