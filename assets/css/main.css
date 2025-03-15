@@ -411,17 +411,17 @@ input::-moz-focus-inner {
 		}
 		
 		hr.lineer {
-			border-bottom: 1px solid rgba(0, 0, 0, 0.66);
+			border-bottom: 1px solid rgba(0, 0, 0, 0.88);
 			margin: 8rem 0 1.5rem 0;
 		}
 		
 		hr.lineer_none {
-			border-bottom: 1px solid rgba(0, 0, 0, 0.66);
+			border-bottom: 1px solid rgba(0, 0, 0, 0.88);
 			margin: 0;
 		}
 		
 		hr.lineer_top {
-			border-bottom: 1px solid rgba(0, 0, 0, 0.66);
+			border-bottom: 1px solid rgba(0, 0, 0, 0.88);
 			margin: 2rem 0 2.2rem 0;
 		}
 
@@ -610,19 +610,19 @@ input::-moz-focus-inner {
 	    }
 		
 		h1.special_one {
-			font-size: 2.825rem;
+			font-size: 3rem;
 			line-height: 0.8;
 			letter-spacing: -0.05rem;
 		}
 		
 		h1.special {
-			font-size: 2.65rem;
+			font-size: 2.75rem;
 			line-height: 0.9;
 			letter-spacing: -0.05rem;
 		}
 		
 		h2 {
-			font-size: 1.85rem;
+			font-size: 1.9rem;
 			line-height: 1.1;
 			letter-spacing: -0.02rem;
 			width: 100%;
@@ -645,7 +645,7 @@ input::-moz-focus-inner {
 		
 		h5.num2 {
 			font-size: 0.9rem;
-			line-height: 1.35;
+			line-height: 1.65;
 	    }
 		
 		hr.top_title {
