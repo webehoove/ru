@@ -222,7 +222,7 @@ input::-moz-focus-inner {
 
 	body {
 		background-color: inherit;
-		color: #292929;
+		color: #191919;
 	}
 
 	body, input, select, textarea {
@@ -681,22 +681,22 @@ input::-moz-focus-inner {
 
 	}
 
-	input, select, textarea {
-		color: rgba(41, 41, 41, 1);
+	p {
+		color: rgba(45, 45, 45, 1);
 	}
 
 	a {
 		-webkit-tap-highlight-color: transparent !important;
         outline: none !important;
-		color: rgba(0, 0, 0, 0.84);
+		color: rgba(0, 0, 0, 0.82);
 	}
 
 		a:hover {
-			rgba(0, 0, 0, 0.84);
+			rgba(0, 0, 0, 0.8);
 		}
 		
 		a:active, a:visited:active {
-			rgba(0, 0, 0, 0.84);
+			rgba(0, 0, 0, 0.82);
 		}
 	
 /* Row */
@@ -2811,7 +2811,7 @@ input::-moz-focus-inner {
 	button,
 	.button {
 		background-color: inherit;
-		box-shadow: inset 0 0 0 1px rgba(0, 0, 0, 0.66);
+		box-shadow: inset 0 0 0 1px rgba(0, 0, 0, 0.88);
 		color: rgba(0, 0, 0, 0.85) !important;
 	}
 
@@ -2821,7 +2821,7 @@ input::-moz-focus-inner {
 		button:hover,
 		.button:hover {
 			box-shadow: inset 0 0 0 1px rgba(0, 0, 0, 0.11);
-			color: rgba(0, 0, 0, 0.85) !important;
+			color: rgba(0, 0, 0, 0.85);
 		}
 
 		input[type="submit"]:active,
@@ -2829,8 +2829,8 @@ input::-moz-focus-inner {
 		input[type="button"]:active,
 		button:active,
 		.button:active {
-			box-shadow: inset 0 0 0 1px rgba(0, 0, 0, 0.66);
-			color: rgba(0, 0, 0, 0.85) !important;
+			box-shadow: inset 0 0 0 1px rgba(0, 0, 0, 0.88);
+			color: rgba(0, 0, 0, 0.85);
 		}
 		
 	input[type="submit"].invert,
@@ -2839,7 +2839,7 @@ input::-moz-focus-inner {
 	button.invert,
 	.button.invert {
 		background-color: inherit;
-		box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.66);
+		box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.88);
 		color: rgba(255, 255, 255, 0.98) !important;
 	}
 
@@ -2849,7 +2849,7 @@ input::-moz-focus-inner {
 		button.invert:hover,
 		.button.invert:hover {
 			box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.11);
-		    color: rgba(255, 255, 255, 0.98) !important;
+		    color: rgba(255, 255, 255, 0.98);
 		}
 
 		input[type="submit"].invert:active,
@@ -2857,8 +2857,8 @@ input::-moz-focus-inner {
 		input[type="button"].invert:active,
 		button.invert:active,
 		.button.invert:active {
-			box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.66);
-		    color: rgba(255, 255, 255, 0.98) !important;
+			box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.88);
+		    color: rgba(255, 255, 255, 0.98);
 		}
 
 		input[type="submit"].primary,
@@ -2866,7 +2866,7 @@ input::-moz-focus-inner {
 		input[type="button"].primary,
 		button.primary,
 		.button.primary {
-			background-color: rgba(55, 55, 55, 1);
+			background-color: rgba(0, 0, 0, 0.82);
 			box-shadow: none;
 			color: rgba(255, 255, 255, 1) !important;
 		}
@@ -2876,7 +2876,7 @@ input::-moz-focus-inner {
 			input[type="button"].primary:hover,
 			button.primary:hover,
 			.button.primary:hover {
-				background-color: rgba(55, 55, 55, 0.8);
+				background-color: rgba(0, 0, 0, 0.7);
 			}
 
 			input[type="submit"].primary:active,
@@ -2884,7 +2884,7 @@ input::-moz-focus-inner {
 			input[type="button"].primary:active,
 			button.primary:active,
 			.button.primary:active {
-				background-color: rgba(139, 142, 143, 0.5);
+				background-color: rgba(0, 0, 0, 0.82);
 			}
 			
 	.linkarrow {
@@ -2904,6 +2904,10 @@ input::-moz-focus-inner {
 	}
 			.linkarrow:hover {
 				color: rgba(0, 0, 0, 0.4);
+			}
+			
+			.linkarrow.small {
+				padding-left: 1.6rem;
 			}
 			
     @media screen and (max-width: 1366px) {
