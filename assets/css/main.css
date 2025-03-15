@@ -616,15 +616,15 @@ input::-moz-focus-inner {
 		}
 		
 		h1.special {
-			font-size: 2.5rem;
+			font-size: 2.65rem;
 			line-height: 0.9;
 			letter-spacing: -0.05rem;
 		}
 		
 		h2 {
-			font-size: 1.75rem;
-			line-height: 0.9;
-			letter-spacing: -0.01rem;
+			font-size: 1.85rem;
+			line-height: 1.1;
+			letter-spacing: -0.02rem;
 			width: 100%;
 	    }
 		
@@ -635,7 +635,7 @@ input::-moz-focus-inner {
 		
 		h4 {
 			font-size: 1.65rem;
-			letter-spacing: -0.01rem;
+			letter-spacing: -0.015rem;
 	    }
 		
 		h5.num {
@@ -645,7 +645,7 @@ input::-moz-focus-inner {
 		
 		h5.num2 {
 			font-size: 0.9rem;
-			line-height: 1;
+			line-height: 1.35;
 	    }
 		
 		hr.top_title {
@@ -2881,7 +2881,7 @@ input::-moz-focus-inner {
 			}
 			
 	.linkarrow {
-		   background: url(../../imgs/arrow_right.svg);
+		   background: url(../../imgs/icons/arrow_right.svg);
 		   background-repeat: no-repeat;
 		   background-clip: padding-box;
 		   background-position: center left;
