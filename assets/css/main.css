@@ -611,12 +611,12 @@ input::-moz-focus-inner {
 		
 		h1.special_one {
 			font-size: 3rem;
-			line-height: 0.8;
+			line-height: 0.85;
 			letter-spacing: -0.05rem;
 		}
 		
 		h1.special {
-			font-size: 2.65rem;
+			font-size: 2.6rem;
 			line-height: 0.9;
 			letter-spacing: -0.05rem;
 		}
