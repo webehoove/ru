@@ -222,6 +222,11 @@ input::-moz-focus-inner {
 		font-family: 'ELTA Sans Regular', Roboto, Helvetica, sans-serif;
 		font-feature-settings: "ss02", "ss09";
 		font-size: 1rem;
+	    letter-spacing: normal;
+		text-rendering: optimizeLegibility;
+        -webkit-font-smoothing: subpixel-antialiased;
+        -webkit-font-smoothing: antialiased;
+        -moz-osx-font-smoothing: grayscale;
 	}
 
 	a {
@@ -593,7 +598,7 @@ input::-moz-focus-inner {
 		
 		p.inside_t {
 			font-size: 1.1rem;
-			line-height: 1;
+			line-height: 1.1;
 		}
 		
 		h1 {
@@ -603,7 +608,7 @@ input::-moz-focus-inner {
 		
 		h1.special_one {
 			font-size: 2.85rem;
-			line-height: 0.85;
+			line-height: 0.8;
 		}
 		
 		h1.special {
@@ -2910,8 +2915,12 @@ input::-moz-focus-inner {
     @media screen and (max-width: 1366px) {
 		
 		.linkarrow {
-		   line-height: 0.7;
+		   line-height: 0.6;
 	    }
+		
+		    .linkarrow.small {
+				line-height: 0.65;
+			}
 	}
 	
 	@media screen and (max-width: 736px) {
@@ -3683,7 +3692,7 @@ input::-moz-focus-inner {
 				left: 0;
 				width: 100%;
 				height: 100%;
-				opacity: 0.8;
+				opacity: 0.85;
 				z-index: 1;
 			}
 
