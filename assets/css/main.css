@@ -625,7 +625,7 @@ input::-moz-focus-inner {
 		}
 		
 		h1.special {
-			font-size: 2.35rem;
+			font-size: 2.3rem;
 			line-height: 0.9;
 		}
 		
@@ -3757,7 +3757,7 @@ input::-moz-focus-inner {
 		@media screen and (max-width: 736px) {
 
 			.banner.style5 {
-				padding: 0 1rem ;
+				padding: 0 0.75rem ;
 			}
 
 		}
@@ -3851,7 +3851,7 @@ input::-moz-focus-inner {
 	@media screen and (max-width: 768px) {
 
 		.wrapper.style1 > .inner {
-			padding: 0 1rem ;
+			padding: 0 0.75rem ;
 		}
 
 	}
