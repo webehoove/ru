@@ -215,7 +215,7 @@ input::-moz-focus-inner {
 
 	body {
 		background-color: inherit;
-		color: #272623;
+		color: #33322f;
 	}
 
 	body, input, select, textarea {
@@ -4024,8 +4024,8 @@ input::-moz-focus-inner {
 	}
 
 		#wrapper > .invert {
-			background-color: rgba(0, 0, 0, 0.82);
-			color: rgba(255, 255, 255, 0.98);
+			background-color: #33322f;
+			color: rgba(255, 255, 255, 1);
 		}
 
 			#wrapper > .invert input, #wrapper > .invert select, #wrapper > .invert textarea {
