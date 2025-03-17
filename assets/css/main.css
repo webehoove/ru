@@ -207,7 +207,7 @@ input::-moz-focus-inner {
 
 	body {
 		background-color: inherit;
-		color: #000;
+		color: #2b2a28;
 	}
 
 	body, input, select, textarea {
@@ -281,7 +281,6 @@ input::-moz-focus-inner {
 		}
 		
 	p {
-		color: #41413e;
 		font-size: 1.35rem;
 		line-height: 1.2;
 	}
