@@ -3,17 +3,15 @@
 <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
 	 viewBox="0 0 157.7 120.5" style="enable-background:new 0 0 157.7 120.5;" xml:space="preserve">
 <style type="text/css">
-	.st0{fill:#2B2A28;}
+	.st0{fill:#FF7144;}
 </style>
 <g>
 	<g>
 		<g>
-			<g>
-				<polygon class="st0" points="67.7,60.3 23.4,0 0,0 44.2,60.3 0,120.5 23.4,120.5 				"/>
-			</g>
-			<g>
-				<polygon class="st0" points="135.4,60.3 91.1,0 67.7,0 111.9,60.3 67.7,120.5 91.1,120.5 				"/>
-			</g>
+			<polygon class="st0" points="67.7,60.3 23.4,0 0,0 44.2,60.3 0,120.5 23.4,120.5 			"/>
+		</g>
+		<g>
+			<polygon class="st0" points="135.4,60.3 91.1,0 67.7,0 111.9,60.3 67.7,120.5 91.1,120.5 			"/>
 		</g>
 	</g>
 </g>
