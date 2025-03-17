@@ -189,7 +189,7 @@ input::-moz-focus-inner {
 
 		}
 
-		@media screen and (max-width: 360px) {
+		@media screen and (max-width: 480px) {
 
 			html {
 				font-size: 14px;
@@ -197,7 +197,7 @@ input::-moz-focus-inner {
 
 		}
 
-		@media screen and (max-width: 340px) {
+		@media screen and (max-width: 375px) {
 
 			html {
 				font-size: 13px;
@@ -207,7 +207,7 @@ input::-moz-focus-inner {
 
 	body {
 		background-color: inherit;
-		color: #2b2a28;
+		color: #000;
 	}
 
 	body, input, select, textarea {
@@ -281,6 +281,7 @@ input::-moz-focus-inner {
 		}
 		
 	p {
+		color: #41413e;
 		font-size: 1.35rem;
 		line-height: 1.2;
 	}
@@ -504,7 +505,7 @@ input::-moz-focus-inner {
 	    }
 		
 		h1 {
-			font-size: 2.35rem;
+			font-size: 2.65rem;
 			line-height: 0.9;
 	    }
 		
@@ -524,12 +525,6 @@ input::-moz-focus-inner {
 			width: 100%;
 	    }
 		
-		h2.text {
-			font-size: 1.75rem;
-			line-height: 1;
-			width: 100%;
-	    }
-		
 		h4 {
 			font-size: 1.65rem;
 			line-height: 1;
@@ -537,7 +532,7 @@ input::-moz-focus-inner {
 		
 		h5.num {
 			font-size: 0.9rem;
-			line-height: 1.5;
+			line-height: 1.3;
 	    }
 		
 		h5.num2 {
