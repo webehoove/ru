@@ -157,14 +157,6 @@ input::-moz-focus-inner {
 
 		}
 
-		@media screen and (max-width: 1024px) {
-
-			html {
-				font-size: 16px;
-			}
-
-		}
-
 		@media screen and (max-width: 1080px) {
 
 			html {
@@ -293,16 +285,6 @@ input::-moz-focus-inner {
 		line-height: 1.2;
 	}
 	
-	p.title {
-		font-size: 1.35rem;
-		line-height: 1.15;
-	}
-	
-	p.inside_t {
-		font-size: 1.25rem;
-		line-height: 1;
-	}
-	
 	h1 {
 		font-size: 3.5rem;
 		line-height: 0.9;
@@ -319,18 +301,18 @@ input::-moz-focus-inner {
 	}
 
 	h2 {
-		font-size: 2.65rem;
+		font-size: 2.55rem;
 		line-height: 1;
 	}
 
 	h3 {
-		font-size: 2rem;
-		line-height: 1;
+		font-size: 1.75rem;
+		line-height: 1.05;
 	}
 
 	h4 {
 		font-size: 1.5rem;
-		line-height: 1;
+		line-height: 1.1;
 	}
 
 	h5 {
@@ -394,11 +376,6 @@ input::-moz-focus-inner {
 		margin: 1.5rem 0;
 	}
 
-		hr.top_title {
-			border: 0;
-		    margin: 2rem 0;
-		}
-		
 		hr.start {
 			border: 0;
 		    margin: 0.5rem 0;
@@ -411,7 +388,7 @@ input::-moz-focus-inner {
 		
 		hr.block2 {
 			border: 0;
-		    margin: 1.9rem 0;
+		    margin: 2rem 0;
 		}
 		
 		hr.block3 {
@@ -421,7 +398,7 @@ input::-moz-focus-inner {
 		
 		hr.lineer {
 			border-bottom: 1px solid #2b2a28;
-			margin: 8rem 0 1.5rem 0;
+			margin: 10rem 0 2rem 0;
 		}
 		
 		hr.lineer_none {
@@ -464,73 +441,23 @@ input::-moz-focus-inner {
 	@media screen and (max-width: 1280px) {
 
 		h1.special_one {
-		    font-size: 4.35rem;
+		    font-size: 4.5rem;
 	    }
-		
-		h2 {
-		    font-size: 2.05rem;
-	    }
-		
-		h5.num {
-		    font-size: 0.95rem;
-			line-height: 1;
-	    }
-		
-		hr.top_title {
-		    margin: 1rem 0;
-		}
-		
-		hr.block {
-		    margin: 1.2rem 0;
-		}
-		
-		hr.lineer {
-		    margin: 7rem 0 1rem 0;
-		}
-
 	}
 	
 	@media screen and (max-width: 1180px) {
 
-		p.inside_t {
-		    font-size: 1.15rem;
-	    }
-		
 		h1.special_one {
-		    font-size: 4rem;
+		    font-size: 4.5rem;
 	    }
-		
-		hr.top_title {
-		    margin: 3rem 0;
-		}
-		
-		hr.lineer {
-		    margin: 6rem 0 0.65rem; 0;
-		}
 
 	}
 	
-	@media screen and (max-width: 980px) {
+	@media screen and (max-width: 1080px) {
 
-		p.inside_t {
-		    font-size: 1.15rem;
-	    }
-		
 		h1 {
-		    font-size: 2.75rem;
+		    font-size: 3rem;
 	    }
-		
-		h1.special_one {
-		    font-size: 3.8rem;
-	    }
-		
-		h1.special {
-		    font-size: 2.75rem;
-	    }
-		
-		hr {
-		    margin: 1rem 0;
-		}
 
 	}
 	
@@ -553,18 +480,6 @@ input::-moz-focus-inner {
 			line-height: 0.95;
 			width: 80%;
 	    }
-		
-		hr.lineer_top {
-			margin: 2rem 0 2rem 0;
-		}
-		
-		hr.block {
-			margin: 1rem 0;
-		}
-		
-		hr.lineer {
-		    margin: 1rem 0;
-		}
 
 	}
 	
@@ -582,21 +497,11 @@ input::-moz-focus-inner {
 		letter-spacing: -0.02rem;
 	}
 	
-	p {
-			font-size: 1.2rem;
+	    p {
+			font-size: 1.25rem;
 			line-height: 1.2;
 			width: 100%;
 	    }
-		
-		p.title {
-			font-size: 1.35rem;
-			line-height: 1.2;
-	    }
-		
-		p.inside_t {
-			font-size: 1.1rem;
-			line-height: 1.1;
-		}
 		
 		h1 {
 			font-size: 2.35rem;
@@ -609,8 +514,8 @@ input::-moz-focus-inner {
 		}
 		
 		h1.special {
-			font-size: 2.3rem;
-			line-height: 0.9;
+			font-size: 2.85rem;
+			line-height: 0.92;
 		}
 		
 		h2 {
@@ -2658,7 +2563,7 @@ input::-moz-focus-inner {
 		width: 100%;
 		height: 100%;
 		border: none;
-		border-radius: 0.35rem;
+		border-radius: 0.4rem;
 	}
 	
 	  .box_bg_01 {
@@ -2678,7 +2583,7 @@ input::-moz-focus-inner {
 		width: 100%;
 		height: 100%;
 		border: 1px solid #e0e0e0;
-		border-radius: 0.35rem;
+		border-radius: 0.4rem;
 	}
 	
 	.box03 {
@@ -2689,7 +2594,7 @@ input::-moz-focus-inner {
 		width: 100%;
 		height: 100%;
 		border: 1px solid rgba(0, 0, 0, 0.82);
-		border-radius: 0.5rem;
+		border-radius: 0.4rem;
 	}
 	
 	  .box03_arrow {
@@ -2737,10 +2642,10 @@ input::-moz-focus-inner {
 		white-space: nowrap;
 		font-size: 1rem;
 		width: auto;
-		height: 2.6em;
+		height: 2.5rem;
 		line-height: 2.5;
-		border-radius: 0.35rem;
-		padding: 0 2.6em;
+		border-radius: 1.25rem;
+		padding: 0 1.25rem;
 		text-overflow: ellipsis;
 		overflow: hidden;
 	}
@@ -2768,10 +2673,10 @@ input::-moz-focus-inner {
 		.button.small {
 			font-size: 0.7rem;
 			width: auto;
-			height: 3em;
+			height: 3rem;
 			line-height: 3.1;
-			border-radius: 1.5em;
-			padding: 0 0 0 0.8em;
+			border-radius: 1.5rem;
+			padding: 0 0 0 0.8rem;
 		}
 
 		input[type="submit"].large,
@@ -2781,14 +2686,26 @@ input::-moz-focus-inner {
 		.button.large {
 			background-repeat: no-repeat;
 			background-clip: border-box;
-			text-align: right;
-			font-size: 0.65rem;
-			height: 4em;
-			line-height: 4.075em;
-			width: auto;
-			border-radius: 0;
-			padding: 0 1.45em;
 			text-align: center;
+			font-size: 1rem;
+			height: 3.2rem;
+			line-height: 3rem;
+			width: auto;
+			border-radius: 1.6rem;
+			padding: 0 1.15rem;
+			text-align: center;
+		}
+
+		input[type="submit"].disabled, input[type="submit"]:disabled,
+		input[type="reset"].disabled,
+		input[type="reset"]:disabled,
+		input[type="button"].disabled,
+		input[type="button"]:disabled,
+		button.disabled,
+		button:disabled,
+		.button.disabled,
+		.button:disabled {
+			pointer-events: none;
 		}
 
 	input[type="submit"],
@@ -2988,18 +2905,6 @@ input::-moz-focus-inner {
 			
 			.image.fit video {
 				width: 100%;
-			}
-
-		.image.main {
-			display: block;
-			margin: 0 0 3rem 0;
-			width: 100%;
-		}
-
-			.image.main img {
-				width: 100%;
-			}
-				
 			}
 
 /* List */
