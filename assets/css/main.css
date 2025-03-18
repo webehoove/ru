@@ -523,7 +523,7 @@ input::-moz-focus-inner {
 		
 	h1, h2, h3 {
 		margin: 0;
-		letter-spacing: -0.03rem;
+		letter-spacing: -0.035rem;
 	}
 	
 	h4 {
@@ -533,13 +533,13 @@ input::-moz-focus-inner {
 	
 	    p {
 			font-size: 1.4rem;
-			line-height: 1.15;
+			line-height: 1.1;
 			width: 100%;
 	    }
 	
 	    p.title {
 	    	font-size: 1.6rem;
-		    line-height: 1.2;
+		    line-height: 1.15;
 	    }
 		
 		h1 {
@@ -553,7 +553,7 @@ input::-moz-focus-inner {
 	    }
 		
 		h1.special_one {
-			font-size: 3rem;
+			font-size: 3.5rem;
 			line-height: 0.8;
 		}
 		
@@ -2725,12 +2725,12 @@ input::-moz-focus-inner {
 			background-repeat: no-repeat;
 			background-clip: border-box;
 			text-align: center;
-			font-size: 1rem;
+			font-size: 1.1rem;
 			height: 3.2rem;
 			line-height: 3rem;
 			width: auto;
 			border-radius: 0.25rem;
-			padding: 0 1.35rem;
+			padding: 0 1.15rem;
 			text-align: center;
 		}
 
