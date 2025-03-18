@@ -184,7 +184,7 @@ input::-moz-focus-inner {
 		@media screen and (max-width: 736px) {
 
 			html {
-				font-size: 14px;
+				font-size: 12px;
 			}
 
 		}
@@ -192,7 +192,7 @@ input::-moz-focus-inner {
 		@media screen and (max-width: 480px) {
 
 			html {
-				font-size: 14px;
+				font-size: 12px;
 			}
 
 		}
@@ -200,7 +200,7 @@ input::-moz-focus-inner {
 		@media screen and (max-width: 375px) {
 
 			html {
-				font-size: 13px;
+				font-size: 12px;
 			}
 
 		}
@@ -503,8 +503,8 @@ input::-moz-focus-inner {
 	}
 	
 	    p {
-			font-size: 1.35rem;
-			line-height: 1.2;
+			font-size: 1.25rem;
+			line-height: 1.1;
 			width: 100%;
 	    }
 		
