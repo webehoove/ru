@@ -325,11 +325,11 @@ input::-moz-focus-inner {
 	}
 	
 	h1.special_one {
-		font-size: 4.75rem;
+		font-size: 5rem;
 		line-height: 0.9;
 	}
 	
-	h1.special_one_mob {
+	h1.special {
 		font-size: 4.75rem;
 		line-height: 0.9;
 	}
@@ -558,7 +558,7 @@ input::-moz-focus-inner {
 		}
 		
 		h1.special {
-			font-size: 2.75rem;
+			font-size: 2.85rem;
 			line-height: 0.92;
 		}
 		
