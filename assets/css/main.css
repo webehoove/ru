@@ -413,7 +413,7 @@ input::-moz-focus-inner {
 
 		hr.start {
 			border: 0;
-		    margin: 0.5rem 0;
+		    margin: 1rem 0;
 		}
 		
 		hr.block {
@@ -434,6 +434,11 @@ input::-moz-focus-inner {
 		hr.lineer {
 			border-bottom: 1px solid #272623;
 			margin: 10rem -1rem 2rem -1rem;
+		}
+		
+		hr.lineer_block {
+			border: none;
+			margin: 12rem 0 0 0;
 		}
 		
 		hr.lineer_none {
@@ -519,8 +524,6 @@ input::-moz-focus-inner {
 	}
 	
 	@media screen and (max-width: 736px) {
-
-		
 		
 	h1 {
 		margin: 0;
@@ -593,10 +596,6 @@ input::-moz-focus-inner {
 			margin: 1.25rem 0;
 		}
 		
-		hr.top_title {
-			margin: 3rem 0;
-		}
-		
 		hr.start {
 			border: 0;
 		    margin: 0.5rem 0;
@@ -611,7 +610,7 @@ input::-moz-focus-inner {
 		}
 		
 		hr.block3 {
-			margin: 3.5rem 0;
+			margin: 3rem 0;
 		}
 		
 		hr.lineer_top {
@@ -620,6 +619,10 @@ input::-moz-focus-inner {
 		
 		hr.lineer {
 		    margin: 4rem -1rem;
+		}
+		
+		hr.lineer_block {
+		    margin: 4rem 0;
 		}
 
 	}
@@ -637,6 +640,10 @@ input::-moz-focus-inner {
 		a:active, a:visited:active {
 			color: rgba(39, 38, 35, 0.5);
 		}
+		
+	.colort_00 {
+		color: rgba(39, 38, 35, 1);
+	}
 	
 /* Row */
 
@@ -2779,31 +2786,31 @@ input::-moz-focus-inner {
 			box-shadow: inset 0 0 0 1px rgba(252, 115, 40, 1);
 		}
 		
-	input[type="submit"].invert,
-	input[type="reset"].invert,
-	input[type="button"].invert,
-	button.invert,
-	.button.invert {
-		background-color: inherit;
-		box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.88);
-		color: rgba(255, 255, 255, 1) !important;
+	input[type="submit"].secondary,
+	input[type="reset"].secondary,
+	input[type="button"].secondary,
+	button.secondary,
+	.button.secondary {
+		background-color: rgba(240, 240, 240, 1);
+		box-shadow: none;
+		color: rgba(39, 38, 35, 1) !important;
 	}
 
-		input[type="submit"].invert:hover,
-		input[type="reset"].invert:hover,
-		input[type="button"].invert:hover,
-		button.invert:hover,
-		.button.invert:hover {
+		input[type="submit"].secondary:hover,
+		input[type="reset"].secondary:hover,
+		input[type="button"].secondary:hover,
+		button.secondary:hover,
+		.button.secondary:hover {
 			background-color: rgba(252, 115, 40, 1);
 			box-shadow: inset 0 0 0 1px rgba(252, 115, 40, 1);
 		    color: rgba(255, 255, 255, 1);
 		}
 
-		input[type="submit"].invert:active,
-		input[type="reset"].invert:active,
-		input[type="button"].invert:active,
-		button.invert:active,
-		.button.invert:active {
+		input[type="submit"].secondary:active,
+		input[type="reset"].secondary:active,
+		input[type="button"].secondary:active,
+		button.secondary:active,
+		.button.secondary:active {
 			background-color: rgba(252, 115, 40, 1);
 			box-shadow: inset 0 0 0 1px rgba(252, 115, 40, 1);
 		    color: rgba(255, 255, 255, 1);
@@ -2814,7 +2821,7 @@ input::-moz-focus-inner {
 		input[type="button"].primary,
 		button.primary,
 		.button.primary {
-			background-color: rgba(23, 22, 20, 1);
+			background-color: rgba(39, 38, 35, 1);
 			box-shadow: none;
 			color: rgba(255, 255, 255, 1) !important;
 		}
@@ -3950,25 +3957,29 @@ input::-moz-focus-inner {
 	}
 
 		#wrapper > .invert {
-			background-color: #2b2a28;
+			background-color: #272623;
 			color: rgba(255, 255, 255, 1);
 		}
 
 			#wrapper > .invert input, #wrapper > .invert select, #wrapper > .invert textarea {
-				color: rgba(255, 255, 255, 0.98);
+				color: rgba(255, 255, 255, 1);
 			}
 
 			#wrapper > .invert a {
-				color: rgba(255, 255, 255, 98);
+				color: rgba(255, 255, 255, 1);
 			}
 
 				#wrapper > .invert a:hover {
-					color: rgba(255, 255, 255, 0.88);
+					color: rgba(255, 255, 255, 0.5);
 					border-bottom: none;
 				}
 
 			#wrapper > .invert h1, #wrapper > .invert h2, #wrapper > .invert h3, #wrapper > .invert h4, #wrapper > .invert h5, #wrapper > .invert h6 {
-				color: #fff;
+				color: rgba(255, 255, 255, 1);
+			}
+			
+			#wrapper > .invert p {
+				color: rgba(255, 255, 255, 0.75);
 			}
 
 			#wrapper > .invert blockquote {
@@ -3981,11 +3992,11 @@ input::-moz-focus-inner {
 			}
 
 			#wrapper > .invert hr {
-				border-bottom-color: rgba(255, 255, 255, 0.15);
+				border-bottom-color: rgba(255, 255, 255, 0.85);
 			}
 
 			#wrapper > .invert .box02 {
-				border-color: rgba(255, 255, 255, 0.25);
+				border-color: rgba(255, 255, 255, 0.85);
 			}
 
 			#wrapper > .invert input[type="submit"],
