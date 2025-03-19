@@ -2890,7 +2890,7 @@ input::-moz-focus-inner {
 			font-size: 1.2rem;
 			height: 3.85rem;
 			line-height: 3.85rem;
-		    border-radius: 0.35rem;
+		    border-radius: 0.3rem;
 			padding: 0 1.85rem;
 		}
 		
@@ -3988,7 +3988,7 @@ input::-moz-focus-inner {
 			}
 			
 			#wrapper > .invert p {
-				color: rgba(255, 255, 255, 0.75);
+				color: rgba(255, 255, 255, 0.55);
 			}
 
 			#wrapper > .invert blockquote {
@@ -4128,7 +4128,7 @@ input::-moz-focus-inner {
 		}
 		
 		#wrapper > .color01 {
-			background-color: #e6e7e8;
+			background-color: #dad9d8;
 		}
 
 		#wrapper > .color02 {
