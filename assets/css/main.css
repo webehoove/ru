@@ -2882,18 +2882,6 @@ input::-moz-focus-inner {
 	
 	@media screen and (max-width: 736px) {
 		
-		input[type="submit"].large,
-		input[type="reset"].large,
-		input[type="button"].large,
-		button.large,
-		.button.large {
-			font-size: 1.2rem;
-			height: 3.85rem;
-			line-height: 3.85rem;
-		    border-radius: 0.3rem;
-			padding: 0 1.85rem;
-		}
-		
 		.linkarrow {
 		   line-height: 0.65;
 		   padding-left: 2rem;
@@ -4128,7 +4116,7 @@ input::-moz-focus-inner {
 		}
 		
 		#wrapper > .color01 {
-			background-color: #dad9d8;
+			background-color: #e6e7e8;
 		}
 
 		#wrapper > .color02 {
