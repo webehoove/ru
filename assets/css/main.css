@@ -231,7 +231,7 @@ input::-moz-focus-inner {
 
 	body {
 		background-color: inherit;
-		color: #0b0b0b;
+		color: #161616;
 	}
 
 	body, input, select, textarea {
@@ -351,6 +351,7 @@ input::-moz-focus-inner {
 	}
 
 	h5 {
+		color: #41413e;
 		font-size: 1rem;
 		line-height: 1.2;
 	}
@@ -432,17 +433,17 @@ input::-moz-focus-inner {
 		}
 		
 		hr.lineer {
-			border-bottom: 1px solid #2b2a28;
+			border-bottom: 1px solid #41413e;
 			margin: 10rem 0 2rem 0;
 		}
 		
 		hr.lineer_none {
-			border-bottom: 1px solid #2b2a28;
+			border-bottom: 1px solid #41413e;
 			margin: 0;
 		}
 		
 		hr.lineer_top {
-			border-bottom: 1px solid #2b2a28;
+			border-bottom: 1px solid #41413e;
 			margin: 2rem 0 2.2rem 0;
 		}
 
@@ -622,15 +623,15 @@ input::-moz-focus-inner {
 	a {
 		-webkit-tap-highlight-color: transparent !important;
         outline: none !important;
-		color: rgba(43, 42, 40, 1);
+		color: rgba(22, 22, 22, 1);
 	}
 
 		a:hover {
-			color: rgba(252, 115, 40, 1);
+			color: rgba(22, 22, 22, 0.5);
 		}
 		
 		a:active, a:visited:active {
-			color: rgba(252, 115, 40, 1);
+			color: rgba(22, 22, 22, 0.5);
 		}
 	
 /* Row */
@@ -2753,8 +2754,8 @@ input::-moz-focus-inner {
 	button,
 	.button {
 		background-color: inherit;
-		box-shadow: inset 0 0 0 1px rgba(43, 42, 40, 1);
-		color: rgba(43, 42, 40, 1) !important;
+		box-shadow: inset 0 0 0 1px rgba(65, 65, 62, 1);
+		color: rgba(65, 65, 62, 1) !important;
 	}
 
 		input[type="submit"]:hover,
@@ -2762,9 +2763,8 @@ input::-moz-focus-inner {
 		input[type="button"]:hover,
 		button:hover,
 		.button:hover {
-			background-color: rgba(255, 113, 68, 1);
 			box-shadow: inset 0 0 0 1px rgba(255, 113, 68, 1);
-			color: rgba(43, 42, 40, 1);
+			color: rgba(11, 11, 11, 0);
 		}
 
 		input[type="submit"]:active,
@@ -2774,7 +2774,7 @@ input::-moz-focus-inner {
 		.button:active {
 			background-color: rgba(252, 115, 40, 1);
 			box-shadow: inset 0 0 0 1px rgba(252, 115, 40, 1);
-			color: rgba(43, 42, 40, 1);
+			color: rgba(65, 65, 62, 1);
 		}
 		
 	input[type="submit"].invert,
@@ -2804,7 +2804,7 @@ input::-moz-focus-inner {
 		.button.invert:active {
 			background-color: rgba(252, 115, 40, 1);
 			box-shadow: inset 0 0 0 1px rgba(252, 115, 40, 1);
-		    color: white;
+		    color: rgba(255, 255, 255, 1);
 		}
 
 		input[type="submit"].primary,
@@ -2812,7 +2812,7 @@ input::-moz-focus-inner {
 		input[type="button"].primary,
 		button.primary,
 		.button.primary {
-			background-color: rgba(43, 42, 40, 1);
+			background-color: rgba(65, 65, 62, 1);
 			box-shadow: none;
 			color: rgba(255, 255, 255, 1) !important;
 		}
@@ -2823,7 +2823,8 @@ input::-moz-focus-inner {
 			button.primary:hover,
 			.button.primary:hover {
 				background-color: rgba(255, 113, 68, 1);
-				color: rgba(43, 42, 40, 1);
+				box-shadow: none;
+				color: rgba(11, 11, 11, 1);
 			}
 
 			input[type="submit"].primary:active,
@@ -2832,7 +2833,7 @@ input::-moz-focus-inner {
 			button.primary:active,
 			.button.primary:active {
 				background-color: rgba(255, 113, 68, 1);
-				color: rgba(43, 42, 40, 1);
+				color: rgba(11, 11, 11, 1);
 			}
 			
 	.linkarrow {
