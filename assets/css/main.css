@@ -305,6 +305,7 @@ input::-moz-focus-inner {
 		}
 		
 	p {
+		color: #82817d;
 		font-size: 1.35rem;
 		line-height: 1.2;
 	}
