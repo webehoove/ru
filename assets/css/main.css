@@ -432,7 +432,7 @@ input::-moz-focus-inner {
 		
 		hr.lineer {
 			border-bottom: 1px solid #171614;
-			margin: 10rem 0 2rem 0;
+			margin: 10rem -1rem 2rem -1rem;
 		}
 		
 		hr.lineer_none {
@@ -613,7 +613,7 @@ input::-moz-focus-inner {
 		}
 		
 		hr.lineer {
-		    margin: 4rem 0;
+		    margin: 4rem -1rem;
 		}
 
 	}
