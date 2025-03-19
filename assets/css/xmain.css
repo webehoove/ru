@@ -11,7 +11,6 @@
 		.lockup {
 			position: relative;
 			width: 10rem;
-			top: 0.5rem;
 		}
 		
 		#logotype_b {
@@ -126,8 +125,7 @@
 		}
 		
 		.lockup {
-			width: 8rem;
-			top: 0.5rem;
+			width: 9rem;
 		}
 		
 		}
