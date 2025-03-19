@@ -231,7 +231,7 @@ input::-moz-focus-inner {
 
 	body {
 		background-color: inherit;
-		color: #161616;
+		color: #171614;
 	}
 
 	body, input, select, textarea {
@@ -305,7 +305,6 @@ input::-moz-focus-inner {
 		}
 		
 	p {
-		color: #41413e;
 		font-size: 1.35rem;
 		line-height: 1.2;
 	}
@@ -351,7 +350,6 @@ input::-moz-focus-inner {
 	}
 
 	h5 {
-		color: #41413e;
 		font-size: 1rem;
 		line-height: 1.2;
 	}
@@ -433,17 +431,17 @@ input::-moz-focus-inner {
 		}
 		
 		hr.lineer {
-			border-bottom: 1px solid #41413e;
+			border-bottom: 1px solid #171614;
 			margin: 10rem 0 2rem 0;
 		}
 		
 		hr.lineer_none {
-			border-bottom: 1px solid #41413e;
+			border-bottom: 1px solid #171614;
 			margin: 0;
 		}
 		
 		hr.lineer_top {
-			border-bottom: 1px solid #41413e;
+			border-bottom: 1px solid #171614;
 			margin: 2rem 0 2.2rem 0;
 		}
 
@@ -2603,12 +2601,11 @@ input::-moz-focus-inner {
 		width: 100%;
 		height: 100%;
 		border: none;
-		border-radius: 0.4rem;
+		border-radius: 0.35rem;
 	}
 	
 	  .box_bg_01 {
-		  background-color: rgba(0, 0, 0, 0.82);
-		  color: rgba(255, 255, 255, 0.98);
+		  
 	  }
 	  
 	  .box_bg_02 {
@@ -2622,8 +2619,8 @@ input::-moz-focus-inner {
 		margin: 0;
 		width: 100%;
 		height: 100%;
-		border: 1px solid #e0e0e0;
-		border-radius: 0.4rem;
+		border: 1px solid #171614;
+		border-radius: 0.35rem;
 	}
 	
 	.box03 {
@@ -2633,8 +2630,8 @@ input::-moz-focus-inner {
 		margin: 0 0 0.65rem 0;
 		width: 100%;
 		height: 100%;
-		border: 1px solid rgba(0, 0, 0, 0.82);
-		border-radius: 0.4rem;
+		border: 1px solid #171614;
+		border-radius: 0.35rem;
 	}
 	
 	  .box03_arrow {
@@ -2754,8 +2751,8 @@ input::-moz-focus-inner {
 	button,
 	.button {
 		background-color: inherit;
-		box-shadow: inset 0 0 0 1px rgba(65, 65, 62, 1);
-		color: rgba(65, 65, 62, 1) !important;
+		box-shadow: inset 0 0 0 1px rgba(23, 22, 20, 1);
+		color: rgba(23, 22, 20, 1) !important;
 	}
 
 		input[type="submit"]:hover,
@@ -2763,8 +2760,8 @@ input::-moz-focus-inner {
 		input[type="button"]:hover,
 		button:hover,
 		.button:hover {
+			background-color: rgba(252, 115, 40, 1);
 			box-shadow: inset 0 0 0 1px rgba(255, 113, 68, 1);
-			color: rgba(11, 11, 11, 0);
 		}
 
 		input[type="submit"]:active,
@@ -2774,7 +2771,6 @@ input::-moz-focus-inner {
 		.button:active {
 			background-color: rgba(252, 115, 40, 1);
 			box-shadow: inset 0 0 0 1px rgba(252, 115, 40, 1);
-			color: rgba(65, 65, 62, 1);
 		}
 		
 	input[type="submit"].invert,
@@ -2812,7 +2808,7 @@ input::-moz-focus-inner {
 		input[type="button"].primary,
 		button.primary,
 		.button.primary {
-			background-color: rgba(65, 65, 62, 1);
+			background-color: rgba(23, 22, 20, 1);
 			box-shadow: none;
 			color: rgba(255, 255, 255, 1) !important;
 		}
@@ -2824,7 +2820,7 @@ input::-moz-focus-inner {
 			.button.primary:hover {
 				background-color: rgba(255, 113, 68, 1);
 				box-shadow: none;
-				color: rgba(11, 11, 11, 1);
+				color: rgba(23, 22, 20, 1);
 			}
 
 			input[type="submit"].primary:active,
@@ -2833,7 +2829,7 @@ input::-moz-focus-inner {
 			button.primary:active,
 			.button.primary:active {
 				background-color: rgba(255, 113, 68, 1);
-				color: rgba(11, 11, 11, 1);
+				color: rgba(23, 22, 20, 1);
 			}
 			
 	.linkarrow {
