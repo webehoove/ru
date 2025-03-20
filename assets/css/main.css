@@ -4116,32 +4116,12 @@ input::-moz-focus-inner {
 				border-top-color: white;
 			}
 
-		#wrapper > .color00 {
+		#wrapper > .color_Eg_5 {
 			background-color: #f0f0f0;
 		}
 		
-		#wrapper > .color01 {
+		#wrapper > .color_Eg_15 {
 			background-color: #e6e7e8;
-		}
-
-		#wrapper > .color02 {
-			background-color: #858585;
-		}
-
-		#wrapper > .color03 {
-			background-color: #212121;
-		}
-
-		#wrapper > .color04 {
-			background-color: #5e5e5e;
-		}
-
-		#wrapper > .color05 {
-			background-color: #9e9e9e;
-		}
-
-		#wrapper > .color04 {
-			background-color: #5e5e5e;
 		}
 
 		#wrapper.divided > * {
