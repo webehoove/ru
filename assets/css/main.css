@@ -629,19 +629,23 @@ input::-moz-focus-inner {
 	a {
 		-webkit-tap-highlight-color: transparent !important;
         outline: none !important;
-		color: rgba(20, 18, 17, 1);
+		color: rgba(173, 177, 178, 1);
 	}
 
 		a:hover {
-			color: rgba(20, 18, 17, 0.5);
+			color: rgba(173, 177, 178, 0.5);
 		}
 		
 		a:active, a:visited:active {
-			color: rgba(20, 18, 17, 0.5);
+			color: rgba(173, 177, 178, 1);
 		}
 		
 	.colort_00 {
 		color: #adb1b2;
+	}
+	
+	.colort_01 {
+		color: #515254;
 	}
 	
 /* Row */
@@ -2631,7 +2635,7 @@ input::-moz-focus-inner {
 		margin: 0;
 		width: 100%;
 		height: 100%;
-		border: 1px solid #272623;
+		border: 1px solid rgba(42, 43, 44, 1);
 		border-radius: 0.35rem;
 	}
 	
@@ -2642,7 +2646,7 @@ input::-moz-focus-inner {
 		margin: 0 0 0.65rem 0;
 		width: 100%;
 		height: 100%;
-		border: 1px solid #272623;
+		border: 1px solid rgba(42, 43, 44, 1);
 		border-radius: 0.35rem;
 	}
 	
