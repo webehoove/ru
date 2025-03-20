@@ -231,7 +231,7 @@ input::-moz-focus-inner {
 
 	body {
 		background-color: inherit;
-		color: #272623;
+		color: #141211;
 	}
 
 	body, input, select, textarea {
@@ -431,7 +431,7 @@ input::-moz-focus-inner {
 		}
 		
 		hr.lineer {
-			border-bottom: 1px solid #272623;
+			border-bottom: 1px solid #eaecec;
 			margin: 10rem -1rem 2rem -1rem;
 		}
 		
@@ -441,12 +441,12 @@ input::-moz-focus-inner {
 		}
 		
 		hr.lineer_none {
-			border-bottom: 1px solid #272623;
+			border-bottom: 1px solid #eaecec;
 			margin: 0;
 		}
 		
 		hr.lineer_top {
-			border-bottom: 1px solid #272623;
+			border-bottom: 1px solid #eaecec;
 			margin: 2rem 0 2.2rem 0;
 		}
 
@@ -526,12 +526,12 @@ input::-moz-focus-inner {
 		
 	h1 {
 		margin: 0;
-		letter-spacing: -0.055rem;
+		letter-spacing: -0.05rem;
 	}
 	
 	h2, h3 {
 		margin: 0;
-		letter-spacing: -0.035rem;
+		letter-spacing: -0.03rem;
 	}
 	
 	h4 {
@@ -629,19 +629,19 @@ input::-moz-focus-inner {
 	a {
 		-webkit-tap-highlight-color: transparent !important;
         outline: none !important;
-		color: rgba(39, 38, 35, 1);
+		color: rgba(20, 18, 17, 1);
 	}
 
 		a:hover {
-			color: rgba(39, 38, 35, 0.5);
+			color: rgba(20, 18, 17, 0.5);
 		}
 		
 		a:active, a:visited:active {
-			color: rgba(39, 38, 35, 0.5);
+			color: rgba(20, 18, 17, 0.5);
 		}
 		
 	.colort_00 {
-		color: rgba(39, 38, 35, 1);
+		color: rgba(173, 178, 181, 1);
 	}
 	
 /* Row */
