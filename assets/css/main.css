@@ -431,7 +431,7 @@ input::-moz-focus-inner {
 		}
 		
 		hr.lineer {
-			border-bottom: 1px solid #adb1b2;
+			border-bottom: 1px solid #d5d7d8;
 			margin: 10rem -1rem 2rem -1rem;
 		}
 		
@@ -441,12 +441,12 @@ input::-moz-focus-inner {
 		}
 		
 		hr.lineer_none {
-			border-bottom: 1px solid #adb1b2;
+			border-bottom: 1px solid #d5d7d8;
 			margin: 0;
 		}
 		
 		hr.lineer_top {
-			border-bottom: 1px solid #adb1b2;
+			border-bottom: 1px solid #d5d7d8;
 			margin: 2rem 0 2.2rem 0;
 		}
 
@@ -640,12 +640,14 @@ input::-moz-focus-inner {
 			color: rgba(173, 177, 178, 1);
 		}
 		
-	.colort_00 {
-		color: #adb1b2;
+	
+	
+	.colort_Eg_100 {
+		color: #515254;
 	}
 	
-	.colort_01 {
-		color: #515254;
+	.colort_Eg_50 {
+		color: #adb1b2;
 	}
 	
 /* Row */
