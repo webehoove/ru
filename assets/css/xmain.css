@@ -2,7 +2,7 @@
 		.logotype_name {
 			font-size: 2rem;
 			line-height: 1.2;
-			letter-spacing: -0.05rem;
+			letter-spacing: 0;
 		}
 		
 		#logotype_b {
@@ -102,9 +102,9 @@
         @media screen and (max-width: 768px) {
 			
 		.logotype_name {
-			font-size: 2rem;
+			font-size: 1.75rem;
 			line-height: 1.2;
-			letter-spacing: -0.05rem;
+			letter-spacing: 0;
 		}
 		
 		}
