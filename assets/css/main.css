@@ -432,22 +432,15 @@ input::-moz-focus-inner {
 		}
 		
 		hr.lineer {
-			border-bottom: 1px solid #d5d7d8;
+			border-bottom: 1px solid rgba(0,0,0,.2);
 			margin: 10rem -1rem 2rem -1rem;
 		}
 		
-		hr.lineer_block {
-			border: none;
-			margin: 12rem 0 0 0;
-		}
-		
 		hr.lineer_none {
-			border-bottom: 1px solid #d5d7d8;
 			margin: 0;
 		}
 		
 		hr.lineer_top {
-			border-bottom: 1px solid #d5d7d8;
 			margin: 2rem 0 2.2rem 0;
 		}
 
@@ -526,8 +519,8 @@ input::-moz-focus-inner {
 	@media screen and (max-width: 736px) {
 		
 	    p {
-			font-size: 1.35rem;
-			line-height: 1.1;
+			font-size: 1.25rem;
+			line-height: 1.2;
 			width: 100%;
 	    }
 	
@@ -537,8 +530,8 @@ input::-moz-focus-inner {
 	    }
 		
 		h1 {
-			font-size: 2.5rem;
-			line-height: 0.9;
+			font-size: 1.5rem;
+			line-height: 1.2;
 	    }
 		
 		h1.title {
@@ -547,8 +540,8 @@ input::-moz-focus-inner {
 	    }
 		
 		h1.special_one {
-			font-size: 2rem;
-			line-height: 1.05;
+			font-size: 2.15rem;
+			line-height: 1;
 		}
 		
 		h1.special {
@@ -588,18 +581,10 @@ input::-moz-focus-inner {
 		
 		hr.start {
 			border: 0;
-		    margin: 0.5rem 0;
+		    margin: 2rem 0;
 		}
 		
 		hr.block {
-			margin: 3rem 0;
-		}
-		
-		hr.block2 {
-			margin: 1.8rem 0;
-		}
-		
-		hr.block3 {
 			margin: 3rem 0;
 		}
 		
