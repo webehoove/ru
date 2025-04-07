@@ -1,0 +1,123 @@
+        
+		.logotype_name {
+			font-size: 2rem;
+			line-height: 1.2;
+			letter-spacing: -0.05rem;
+		}
+		
+		#logotype_b {
+			position: relative;
+			top: -0.75rem;
+			font-size: 3rem;
+			line-height: 1.1;
+			letter-spacing: -0.09rem;
+		}
+		
+		#topmenu {
+			position: relative;
+			margin: 0;
+			top: 0.5rem;
+		}
+		
+		ul.topmenu {
+			list-style: none;
+			font-size: 1rem;
+		    padding: 0;
+		    margin: 0;
+		}
+
+			ul.topmenu li {
+				display: block;
+				margin-bottom: 0.35rem;
+			}
+			
+			ul.topmenu li a {
+				
+			}
+			
+			ul.topmenu li a:hover {
+				border-bottom: none;
+			}
+
+				ul.topmenu li:first-child {
+					padding-left: 0;
+				}
+				
+		.menumob {
+			display: none;
+		}
+		
+		ul.bottommenu {
+			list-style: none;
+			font-size: 1.15rem;
+		    padding: 0;
+		    margin: 0;
+		}
+		
+		        ul.bottommenu li {
+	   	        	display: block;
+				    margin-bottom: 1rem;
+	        	}
+	  	
+		.goup {
+			position: relative;
+			float: right;
+			width: 2.25rem;
+			bottom: 0.5rem;
+		}
+		
+		ul.goup li {
+			padding: 0.25rem 0.5rem 1rem 0;
+		}
+		
+		.offdesk {
+			display: none;
+		}
+		
+        @media screen and (max-width: 1180px) {
+			
+		.menumob {
+			display: block;
+			padding: 0;
+		}
+		
+		.nomob {
+			display: none;
+		}
+		
+		#topmenu {
+			display: none;
+		}
+		
+		}
+		
+        @media screen and (max-width: 820px) {
+		
+		.offdesk {
+			display: block;
+		}
+		
+		}
+		
+        @media screen and (max-width: 768px) {
+			
+		.logotype_name {
+			font-size: 2rem;
+			line-height: 1.2;
+			letter-spacing: -0.05rem;
+		}
+		
+		}
+		
+        @media screen and (max-width: 736px) {
+			
+		.offdesk {
+			display: block;
+		}
+		
+		    ul.bottommenu li {
+				font-size: 1.15rem;
+	   	        margin-bottom: 3rem;
+	        }
+		
+		}
