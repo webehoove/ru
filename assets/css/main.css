@@ -489,27 +489,14 @@ input::-moz-focus-inner {
 		    margin: 1.5rem 0;
 		}
 		
-		hr.block2 {
-			border: 0;
-		    margin: 2rem 0;
-		}
-		
-		hr.block3 {
-			border: 0;
-		    margin: 4rem 0;
-		}
-		
 		hr.lineer {
-			border-bottom: 1px solid rgba(0,0,0,.2);
+			border-bottom: 1px solid rgba(0,0,0,.5);
 			margin: 10rem -1rem 2rem -1rem;
 		}
 		
-		hr.lineer_none {
-			margin: 0;
-		}
-		
-		hr.lineer_top {
-			margin: 2rem 0 2.2rem 0;
+		hr.lineer_min {
+			border-bottom: 1px solid rgba(0,0,0,.5);
+			margin: 1rem 0;
 		}
 
 	.align-left {
@@ -599,7 +586,7 @@ input::-moz-focus-inner {
 		
 		h1.special_one {
 			font-size: 1.95rem;
-			line-height: 1.05;
+			line-height: 1.1;
 		}
 		
 		h2 {
@@ -614,22 +601,12 @@ input::-moz-focus-inner {
 	    }
 		
 		h4 {
-			font-size: 1.5rem;
+			font-size: 1.45rem;
 			line-height: 1.1;
 	    }
 		
-		h5.num {
-			font-size: 1.2rem;
-			line-height: 1.3;
-	    }
-		
-		h5.num2 {
-			font-size: 1.2rem;
-			line-height: 1.3;
-	    }
-		
 		hr {
-			margin: 1.25rem 0;
+			margin: 1rem 0;
 		}
 		
 		hr.start {
@@ -641,12 +618,8 @@ input::-moz-focus-inner {
 			margin: 3rem 0;
 		}
 		
-		hr.lineer_top {
-			margin: 0.5rem 0;
-		}
-		
 		hr.lineer {
-		    margin: 6rem -1rem;
+		    margin: 7rem -1rem;
 		}
 		
 		hr.lineer_block {
@@ -658,15 +631,15 @@ input::-moz-focus-inner {
 	a {
 		-webkit-tap-highlight-color: transparent !important;
         outline: none !important;
-		color: rgba(42, 43, 44, 1);
+		color: rgba(0, 0, 0, 1);
 	}
 
 		a:hover {
-			color: rgba(42, 43, 44, 0.5);
+			color: rgba(0, 0, 0, 0.5);
 		}
 		
 		a:active, a:visited:active {
-			color: rgba(42, 43, 44, 1);
+			color: rgba(0, 0, 0, 1);
 		}
 		
 	
@@ -2944,15 +2917,16 @@ input::-moz-focus-inner {
 		}
 		
 		.rounded img {
-			border-radius: 0.5rem;
+			border-radius: 0.75rem;
 		}
 		
 		.rounded video {
-			border-radius: 0.5rem;
+			border-radius: 0.75rem;
 		}
 		
 		.image video {
 			display: block;
+			opacity: 1;
 		}
 
 		.image.left, .image.right {
@@ -3903,7 +3877,7 @@ input::-moz-focus-inner {
 			}
 
 				.wrapper.style2 > .inner {
-					padding: 0.75rem 1rem ;
+					padding: 1rem ;
 				}
 
 		}
