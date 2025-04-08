@@ -605,8 +605,8 @@ input::-moz-focus-inner {
 	    }
 		
 		h1.special_one {
-			font-size: 1.95rem;
-			line-height: 1.1;
+			font-size: 2rem;
+			line-height: 1.15;
 		}
 		
 		h2 {
@@ -621,7 +621,7 @@ input::-moz-focus-inner {
 	    }
 		
 		h4 {
-			font-size: 1.5rem;
+			font-size: 1.7rem;
 			line-height: 1.1;
 	    }
 		
