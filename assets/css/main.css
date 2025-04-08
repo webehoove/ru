@@ -115,6 +115,30 @@
 		
 		
 		
+		
+@font-face {
+           font-family: ELTASans Light;
+           src: url(../webfonts/ss/SuisseIntl-Light.woff2) format('woff2');
+           font-display: swap;
+           font-style: normal;
+        }
+		
+@font-face {
+           font-family: ELTASans Regular;
+           src: url(../webfonts/ss/SuisseIntl-Regular.woff2) format('woff2');
+           font-display: swap;
+           font-style: normal;
+        }
+		
+@font-face {
+           font-family: ELTASans Bold;
+           src: url(../webfonts/ss/SuisseIntl-SemiBold.woff2) format('woff2');
+           font-display: swap;
+           font-style: normal;
+        }
+		
+		
+		
 				
 
 
@@ -306,6 +330,7 @@ input::-moz-focus-inner {
 
 	body, input, select, textarea {
 		font-family: 'ELTA Sans Regular', Roboto, Helvetica, sans-serif;
+		font-feature-settings: "ss02", "ss09";
 	    letter-spacing: normal;
 		text-rendering: optimizeLegibility;
         -webkit-font-smoothing: subpixel-antialiased;
@@ -346,11 +371,6 @@ input::-moz-focus-inner {
 		
 		.upup {
 			text-transform: uppercase;
-		}
-		
-		.medium_c_tx {
-			font-family: 'ELTA Sans Corp Medium', Helvetica, sans-serif;
-		    font-weight: normal;
 		}
 		
 		.medium_tx {
@@ -601,17 +621,16 @@ input::-moz-focus-inner {
 	    }
 		
 		h4 {
-			font-size: 1.45rem;
+			font-size: 1.5rem;
 			line-height: 1.1;
 	    }
 		
 		hr {
-			margin: 1rem 0;
+			margin: 1.5rem 0;
 		}
 		
 		hr.start {
-			border: 0;
-		    margin: 2.5rem 0;
+			margin: 2.5rem 0;
 		}
 		
 		hr.block {
@@ -645,7 +664,7 @@ input::-moz-focus-inner {
 	
 	
 	.colort_Eg_100 {
-		color: #515254;
+		color: #676869;
 	}
 	
 	.colort_Eg_50 {
