@@ -55,8 +55,8 @@
 }
 @media screen and (max-width: 768px) {
 .menu-btn, .menu-btnb {
-	right: 0.5rem;
-	top: 1.75rem;
+	right: 1rem;
+	top: 2.35rem;
 }
 }
 .menu-btn span, .menu-btn:before, .menu-btn:after {
@@ -80,16 +80,16 @@
 	transition: transform .6s cubic-bezier(0.215, 0.61, 0.355, 1);
 }
 .menu-btn:before {
-	transform: translateY(-4px);
+	transform: translateY(-3px);
 }
 .menu-btn:after {
-	transform: translateY(4px);
+	transform: translateY(3px);
 }
 .menu-btnb:before {
-	transform: translateY(-4px);
+	transform: translateY(-3px);
 }
 .menu-btnb:after {
-	transform: translateY(4px);
+	transform: translateY(3px);
 }
 .close {
 	z-index: 3;

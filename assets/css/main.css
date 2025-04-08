@@ -68,8 +68,47 @@
         }
 		
 @font-face {
-           font-family: ELTASans Title Medium;
+           font-family: ELTA Sans Corp Medium;
 		   src: url(../webfonts/corp/PPNeueCorp-WideMedium.woff2) format('woff2');
+           font-display: swap;
+           font-style: normal;
+        }
+		
+		
+		
+		
+		
+@font-face {
+           font-family: ELTA-Sans Light;
+           src: url(../webfonts/pp/PPPangramSans-Light.woff2) format('woff2');
+           font-display: swap;
+           font-style: normal;
+        }
+		
+@font-face {
+           font-family: ELTA-Sans Regular;
+           src: url(../webfonts/pp/PPPangramSans-Medium.woff2) format('woff2');
+           font-display: swap;
+           font-style: normal;
+        }
+		
+@font-face {
+           font-family: ELTA-Sans Semibold;
+           src: url(../webfonts/pp/PPPangramSans-Semibold.woff2) format('woff2');
+           font-display: swap;
+           font-style: normal;
+        }
+		
+@font-face {
+           font-family: ELTA-Sans Bold;
+           src: url(../webfonts/pp/PPPangramSans-Bold.woff2) format('woff2');
+           font-display: swap;
+           font-style: normal;
+        }
+		
+@font-face {
+           font-family: ELTA-Sans Compact;
+           src: url(../webfonts/pp/PPPangramSans-CompactRegular.woff2) format('woff2');
            font-display: swap;
            font-style: normal;
         }
@@ -267,7 +306,6 @@ input::-moz-focus-inner {
 
 	body, input, select, textarea {
 		font-family: 'ELTA Sans Regular', Roboto, Helvetica, sans-serif;
-		font-feature-settings: "ss02";
 	    letter-spacing: normal;
 		text-rendering: optimizeLegibility;
         -webkit-font-smoothing: subpixel-antialiased;
@@ -310,8 +348,8 @@ input::-moz-focus-inner {
 			text-transform: uppercase;
 		}
 		
-		.regular_tx {
-			font-family: 'ELTA Sans Regular', Helvetica, sans-serif;
+		.medium_c_tx {
+			font-family: 'ELTA Sans Corp Medium', Helvetica, sans-serif;
 		    font-weight: normal;
 		}
 		
@@ -555,13 +593,13 @@ input::-moz-focus-inner {
 	    }
 		
 		h1 {
-			font-size: 1.5rem;
-			line-height: 1.2;
+			font-size: 2rem;
+			line-height: 1.1;
 	    }
 		
 		h1.special_one {
-			font-size: 1.7rem;
-			line-height: 1.025;
+			font-size: 1.95rem;
+			line-height: 1.05;
 		}
 		
 		h2 {
@@ -3790,6 +3828,7 @@ input::-moz-focus-inner {
 	}
 
 		.wrapper.style2 > .inner {
+			background-color: #fff;
 			padding: 0 1rem 1rem 1rem ;
 			margin: 0 auto;
 			width: 100%;
@@ -3828,7 +3867,7 @@ input::-moz-focus-inner {
 			}
 
 				.wrapper.style2 > .inner {
-					padding: 0 1rem 1rem 1rem ;
+					padding: 0 1rem 0.75rem 1rem ;
 				}
 
 		}
@@ -3852,7 +3891,7 @@ input::-moz-focus-inner {
 			}
 
 				.wrapper.style2 > .inner {
-					padding: 0 1rem 1rem 1rem ;
+					padding: 0 1rem 0.75rem 1rem ;
 				}
 
 		}
@@ -3864,7 +3903,7 @@ input::-moz-focus-inner {
 			}
 
 				.wrapper.style2 > .inner {
-					padding: 0 1rem 1rem 1rem ;
+					padding: 0.75rem 1rem ;
 				}
 
 		}
