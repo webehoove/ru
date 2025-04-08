@@ -266,8 +266,8 @@ input::-moz-focus-inner {
 	}
 
 	body, input, select, textarea {
-		font-family: 'ELTASans Text Medium', Roboto, Helvetica, sans-serif;
-		font-feature-settings: "ss03";
+		font-family: 'ELTA Sans Regular', Roboto, Helvetica, sans-serif;
+		font-feature-settings: "ss02";
 	    letter-spacing: normal;
 		text-rendering: optimizeLegibility;
         -webkit-font-smoothing: subpixel-antialiased;
@@ -320,18 +320,13 @@ input::-moz-focus-inner {
 		    font-weight: normal;
 		}
 		
-		.light_tx {
-			font-family: 'ELTASans Text Light', Helvetica, sans-serif;
-		    font-weight: normal;
-		}
-		
-		.light_tt {
-			font-family: 'ELTASans Title Light', Helvetica, sans-serif;
+		.regular_tt {
+			font-family: 'ELTA Sans Title Regular', Helvetica, sans-serif;
 		    font-weight: normal;
 		}
 		
 		.medium_tt {
-			font-family: 'ELTASans Title Medium', Helvetica, sans-serif;
+			font-family: 'ELTA Sans Title Medium', Helvetica, sans-serif;
 		    font-weight: normal;
 		}
 		
@@ -554,19 +549,19 @@ input::-moz-focus-inner {
 	@media screen and (max-width: 736px) {
 		
 	    p {
-			font-size: 1.25rem;
+			font-size: 1.35rem;
 			line-height: 1.2;
 			width: 100%;
 	    }
 		
 		h1 {
-			font-size: 1.8rem;
+			font-size: 1.5rem;
 			line-height: 1.2;
 	    }
 		
 		h1.special_one {
-			font-size: 2.35rem;
-			line-height: 1;
+			font-size: 1.7rem;
+			line-height: 1.025;
 		}
 		
 		h2 {
