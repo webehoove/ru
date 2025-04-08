@@ -42,6 +42,40 @@
 		
 		
 		
+		
+@font-face {
+           font-family: ELTASans Text Light;
+		   src: url(../webfonts/corp/PPNeueCorp-NormalUltralight.woff2) format('woff2');
+           font-display: swap;
+           font-style: normal;
+        }
+		
+@font-face {
+           font-family: ELTASans Text Medium;
+		   src: url(../webfonts/corp/PPNeueCorp-NormalMedium.woff2) format('woff2');
+           font-display: swap;
+           font-style: normal;
+        }
+		
+		
+		
+		
+@font-face {
+           font-family: ELTASans Title Light;
+		   src: url(../webfonts/corp/PPNeueCorp-WideUltralight.woff2) format('woff2');
+           font-display: swap;
+           font-style: normal;
+        }
+		
+@font-face {
+           font-family: ELTASans Title Medium;
+		   src: url(../webfonts/corp/PPNeueCorp-WideMedium.woff2) format('woff2');
+           font-display: swap;
+           font-style: normal;
+        }
+		
+		
+		
 				
 
 
@@ -232,8 +266,8 @@ input::-moz-focus-inner {
 	}
 
 	body, input, select, textarea {
-		font-family: 'ELTA Sans Regular', Roboto, Helvetica, sans-serif;
-		font-feature-settings: "ss02", "ss09";
+		font-family: 'ELTASans Text Medium', Roboto, Helvetica, sans-serif;
+		font-feature-settings: "ss03";
 	    letter-spacing: normal;
 		text-rendering: optimizeLegibility;
         -webkit-font-smoothing: subpixel-antialiased;
@@ -260,7 +294,6 @@ input::-moz-focus-inner {
 		
 	strong, b {
 		 font-family: 'ELTA Sans Medium', Helvetica, sans-serif;
-		font-feature-settings: "ss02", "ss09";
 		 font-weight: normal;
 	}
 
@@ -279,23 +312,26 @@ input::-moz-focus-inner {
 		
 		.regular_tx {
 			font-family: 'ELTA Sans Regular', Helvetica, sans-serif;
-		font-feature-settings: "ss02", "ss09";
 		    font-weight: normal;
 		}
 		
 		.medium_tx {
 			font-family: 'ELTA Sans Medium', Helvetica, sans-serif;
-		font-feature-settings: "ss02", "ss09";
 		    font-weight: normal;
 		}
 		
-		.regular_tt {
-			font-family: 'ELTA Sans Title Regular', Helvetica, sans-serif;
+		.light_tx {
+			font-family: 'ELTASans Text Light', Helvetica, sans-serif;
+		    font-weight: normal;
+		}
+		
+		.light_tt {
+			font-family: 'ELTASans Title Light', Helvetica, sans-serif;
 		    font-weight: normal;
 		}
 		
 		.medium_tt {
-			font-family: 'ELTA Sans Title Medium', Helvetica, sans-serif;
+			font-family: 'ELTASans Title Medium', Helvetica, sans-serif;
 		    font-weight: normal;
 		}
 		
