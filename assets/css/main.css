@@ -316,19 +316,19 @@ input::-moz-focus-inner {
 		.regular_tt {
 			font-family: 'ELTA-Sans Title Rg', Helvetica, sans-serif;
 		    font-weight: normal;
-			letter-spacing: -0.05rem;
+			letter-spacing: -0.02rem;
 		}
 		
 		.medium_tt {
 			font-family: 'ELTA-S Md', Helvetica, sans-serif;
 		    font-weight: normal;
-			letter-spacing: -0.05rem;
+			letter-spacing: -0.02rem;
 		}
 		
 		.demibold_tt {
 			font-family: 'ELTA-S Db', Helvetica, sans-serif;
 		    font-weight: normal;
-			letter-spacing: -0.05rem;
+			letter-spacing: -0.02rem;
 		}
 		
 	p {
@@ -533,18 +533,18 @@ input::-moz-focus-inner {
 	    }
 		
 		h1 {
-			font-size: 1.5rem;
-			line-height: 1.15;
+			font-size: 1.75rem;
+			line-height: 1.1;
 	    }
 		
 		h1.special_one {
-			font-size: 1.85rem;
+			font-size: 2rem;
 			line-height: 1.15;
 		}
 		
 		h2 {
-			font-size: 1.9rem;
-			line-height: 1;
+			font-size: 1.5rem;
+			line-height: 1.1;
 			width: 100%;
 	    }
 		
