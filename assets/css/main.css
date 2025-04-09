@@ -2831,7 +2831,7 @@ input::-moz-focus-inner {
 	input[type="button"].secondary,
 	button.secondary,
 	.button.secondary {
-		background-color: rgba(240, 240, 240, 1);
+		background-color: rgba(230, 231, 232, 1);
 		box-shadow: none;
 		color: rgba(39,38,35,1) !important;
 	}
@@ -2953,11 +2953,11 @@ input::-moz-focus-inner {
 		}
 		
 		.rounded img {
-			border-radius: 0.75rem;
+			border-radius: 0.5rem;
 		}
 		
 		.rounded video {
-			border-radius: 0.75rem;
+			border-radius: 0.5rem;
 		}
 		
 		.image video {
