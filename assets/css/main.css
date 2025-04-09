@@ -527,7 +527,7 @@ input::-moz-focus-inner {
 		}
 		
 		hr.lineer_min {
-			border-bottom: 1px solid rgba(0,0,0,.5);
+			border-bottom: 1px solid rgba(0,0,0,.15);
 			margin: 1rem 0;
 		}
 
@@ -612,19 +612,18 @@ input::-moz-focus-inner {
 	    }
 		
 		h1 {
-			font-size: 1.9rem;
-			line-height: 1;
+			font-size: 1.7rem;
+			line-height: 1.05;
 	    }
 		
 		h1.special_one {
-			font-size: 1.9rem;
+			font-size: 2rem;
 			line-height: 1.15;
-			letter-spacing: 0.015rem;
 		}
 		
 		h2 {
 			font-size: 1.5rem;
-			line-height: 1.15;
+			line-height: 1.2;
 			width: 100%;
 	    }
 		
