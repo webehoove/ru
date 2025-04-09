@@ -36,6 +36,13 @@
         }
 		
 @font-face {
+           font-family: ELTA-S Nm;
+           src: url(../webfonts/nrm/nrm_nm.woff2) format('woff2');
+           font-display: swap;
+           font-style: normal;
+        }
+		
+@font-face {
            font-family: ELTA-S Md;
            src: url(../webfonts/nrm/nrm_md.woff2) format('woff2');
            font-display: swap;
@@ -319,16 +326,22 @@ input::-moz-focus-inner {
 			letter-spacing: -0.02rem;
 		}
 		
+		.normal_tt {
+			font-family: 'ELTA-S Nm', Helvetica, sans-serif;
+		    font-weight: normal;
+			letter-spacing: -0.03rem;
+		}
+		
 		.medium_tt {
 			font-family: 'ELTA-S Md', Helvetica, sans-serif;
 		    font-weight: normal;
-			letter-spacing: -0.02rem;
+			letter-spacing: -0.03rem;
 		}
 		
 		.demibold_tt {
 			font-family: 'ELTA-S Db', Helvetica, sans-serif;
 		    font-weight: normal;
-			letter-spacing: -0.02rem;
+			letter-spacing: -0.03rem;
 		}
 		
 	p {
