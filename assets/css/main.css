@@ -1,60 +1,124 @@
 @font-face {
+           font-family: ELTA Sans Regular;
+		   src: url(../webfonts/AeonikPro-Regular.woff2) format('woff2');
+           font-display: swap;
+           font-style: normal;
+        }
+		
+@font-face {
+           font-family: ELTA Sans Medium;
+		   src: url(../webfonts/AeonikPro-Medium.woff2) format('woff2');
+           font-display: swap;
+           font-style: normal;
+        }
+		
+@font-face {
+           font-family: ELTA Sans Bold;
+		   src: url(../webfonts/AeonikPro-Bold.woff2) format('woff2');
+           font-display: swap;
+           font-style: normal;
+        }
+		
+@font-face {
+           font-family: ELTA Sans Title Regular;
+		   src: url(../webfonts/AeonikExtendedPro-Regular.woff2) format('woff2');
+           font-display: swap;
+           font-style: normal;
+        }
+		
+@font-face {
+           font-family: ELTA Sans Title Medium;
+		   src: url(../webfonts/AeonikExtendedPro-Medium.woff2) format('woff2');
+           font-display: swap;
+           font-style: normal;
+        }
+		
+@font-face {
+           font-family: ELTA Sans Title SemiBold;
+		   src: url(../webfonts/AeonikExtendedPro-SemiBold.woff2) format('woff2');
+           font-display: swap;
+           font-style: normal;
+        }
+		
+@font-face {
+           font-family: ELTA Sans Title Bold;
+		   src: url(../webfonts/AeonikExtendedPro-Bold.woff2) format('woff2');
+           font-display: swap;
+           font-style: normal;
+        }
+		
+		
+		
+		
+@font-face {
+           font-family: ELTASans Text Light;
+		   src: url(../webfonts/corp/PPNeueCorp-NormalUltralight.woff2) format('woff2');
+           font-display: swap;
+           font-style: normal;
+        }
+		
+@font-face {
+           font-family: ELTASans Text Medium;
+		   src: url(../webfonts/corp/PPNeueCorp-NormalMedium.woff2) format('woff2');
+           font-display: swap;
+           font-style: normal;
+        }
+		
+		
+		
+		
+@font-face {
+           font-family: ELTASans Title Light;
+		   src: url(../webfonts/corp/PPNeueCorp-WideUltralight.woff2) format('woff2');
+           font-display: swap;
+           font-style: normal;
+        }
+		
+@font-face {
+           font-family: ELTA Sans Corp Medium;
+		   src: url(../webfonts/corp/PPNeueCorp-WideMedium.woff2) format('woff2');
+           font-display: swap;
+           font-style: normal;
+        }
+		
+		
+		
+		
+		
+@font-face {
+           font-family: ELTA-Sans Light;
+           src: url(../webfonts/pp/PPPangramSans-Light.woff2) format('woff2');
+           font-display: swap;
+           font-style: normal;
+        }
+		
+@font-face {
            font-family: ELTA-Sans Regular;
-           src: url(../webfonts/com/TTCommonsPro-Rg.woff2) format('woff2');
+           src: url(../webfonts/pp/PPPangramSans-Medium.woff2) format('woff2');
            font-display: swap;
            font-style: normal;
         }
 		
 @font-face {
-           font-family: ELTA-Sans Title Rg;
-           src: url(../webfonts/com/TTCommonsProExp-Rg.woff2) format('woff2');
+           font-family: ELTA-Sans Semibold;
+           src: url(../webfonts/pp/PPPangramSans-Semibold.woff2) format('woff2');
            font-display: swap;
            font-style: normal;
         }
 		
 @font-face {
-           font-family: ELTA-Sans Title Md;
-           src: url(../webfonts/com/TTCommonsProExp-Md.woff2) format('woff2');
+           font-family: ELTA-Sans Bold;
+           src: url(../webfonts/pp/PPPangramSans-Bold.woff2) format('woff2');
            font-display: swap;
            font-style: normal;
         }
 		
 @font-face {
-           font-family: ELTA-Sans Title Db;
-           src: url(../webfonts/com/TTCommonsProExp-Db.woff2) format('woff2');
+           font-family: ELTA-Sans Compact;
+           src: url(../webfonts/pp/PPPangramSans-CompactRegular.woff2) format('woff2');
            font-display: swap;
            font-style: normal;
         }
-		
-		
-		
-@font-face {
-           font-family: ELTA-S Rg;
-           src: url(../webfonts/nrm/nrm_rg.woff2) format('woff2');
-           font-display: swap;
-           font-style: normal;
-        }
-		
-@font-face {
-           font-family: ELTA-S Nm;
-           src: url(../webfonts/nrm/nrm_nm.woff2) format('woff2');
-           font-display: swap;
-           font-style: normal;
-        }
-		
-@font-face {
-           font-family: ELTA-S Md;
-           src: url(../webfonts/nrm/nrm_md.woff2) format('woff2');
-           font-display: swap;
-           font-style: normal;
-        }
-		
-@font-face {
-           font-family: ELTA-S Db;
-           src: url(../webfonts/nrm/nrm_db.woff2) format('woff2');
-           font-display: swap;
-           font-style: normal;
-        }		
 		
 		
 		
@@ -272,7 +336,8 @@ input::-moz-focus-inner {
 	}
 
 	body, input, select, textarea {
-		font-family: 'ELTA-S Rg', Roboto, Helvetica, sans-serif;
+		font-family: 'ELTA Sans Regular', Roboto, Helvetica, sans-serif;
+		font-feature-settings: "ss02", "ss09";
 	    letter-spacing: normal;
 		text-rendering: optimizeLegibility;
         -webkit-font-smoothing: subpixel-antialiased;
@@ -320,28 +385,29 @@ input::-moz-focus-inner {
 		    font-weight: normal;
 		}
 		
-		.regular_tt {
-			font-family: 'ELTA-Sans Title Rg', Helvetica, sans-serif;
+		.bold_tx {
+			font-family: 'ELTA Sans Bold', Helvetica, sans-serif;
 		    font-weight: normal;
-			letter-spacing: -0.02rem;
 		}
 		
-		.normal_tt {
-			font-family: 'ELTA-S Nm', Helvetica, sans-serif;
+		.regular_tt {
+			font-family: 'ELTA Sans Title Regular', Helvetica, sans-serif;
 		    font-weight: normal;
-			letter-spacing: -0.03rem;
 		}
 		
 		.medium_tt {
-			font-family: 'ELTA-S Md', Helvetica, sans-serif;
+			font-family: 'ELTA Sans Title Medium', Helvetica, sans-serif;
 		    font-weight: normal;
-			letter-spacing: -0.03rem;
 		}
 		
-		.demibold_tt {
-			font-family: 'ELTA-S Db', Helvetica, sans-serif;
+		.semibold_tt {
+			font-family: 'ELTA Sans Title SemiBold', Helvetica, sans-serif;
 		    font-weight: normal;
-			letter-spacing: -0.03rem;
+		}
+		
+		.bold_tt {
+			font-family: 'ELTA Sans Title Bold', Helvetica, sans-serif;
+		    font-weight: normal;
 		}
 		
 	p {
@@ -546,18 +612,19 @@ input::-moz-focus-inner {
 	    }
 		
 		h1 {
-			font-size: 1.75rem;
-			line-height: 1.1;
+			font-size: 1.9rem;
+			line-height: 1;
 	    }
 		
 		h1.special_one {
-			font-size: 2rem;
+			font-size: 1.9rem;
 			line-height: 1.15;
+			letter-spacing: 0.015rem;
 		}
 		
 		h2 {
 			font-size: 1.5rem;
-			line-height: 1.1;
+			line-height: 1.15;
 			width: 100%;
 	    }
 		
