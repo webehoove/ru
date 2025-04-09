@@ -28,6 +28,29 @@
 		
 		
 		
+@font-face {
+           font-family: ELTA-S Rg;
+           src: url(../webfonts/nrm/nrm_rg.woff2) format('woff2');
+           font-display: swap;
+           font-style: normal;
+        }
+		
+@font-face {
+           font-family: ELTA-S Md;
+           src: url(../webfonts/nrm/nrm_md.woff2) format('woff2');
+           font-display: swap;
+           font-style: normal;
+        }
+		
+@font-face {
+           font-family: ELTA-S Db;
+           src: url(../webfonts/nrm/nrm_db.woff2) format('woff2');
+           font-display: swap;
+           font-style: normal;
+        }		
+		
+		
+		
 		
 @font-face {
            font-family: ELTASans Light;
@@ -242,7 +265,7 @@ input::-moz-focus-inner {
 	}
 
 	body, input, select, textarea {
-		font-family: 'ELTA-Sans Regular', Roboto, Helvetica, sans-serif;
+		font-family: 'ELTA-S Rg', Roboto, Helvetica, sans-serif;
 	    letter-spacing: normal;
 		text-rendering: optimizeLegibility;
         -webkit-font-smoothing: subpixel-antialiased;
@@ -297,13 +320,13 @@ input::-moz-focus-inner {
 		}
 		
 		.medium_tt {
-			font-family: 'ELTA-Sans Title Md', Helvetica, sans-serif;
+			font-family: 'ELTA-S Md', Helvetica, sans-serif;
 		    font-weight: normal;
 			letter-spacing: -0.05rem;
 		}
 		
 		.demibold_tt {
-			font-family: 'ELTA-Sans Title Db', Helvetica, sans-serif;
+			font-family: 'ELTA-S Db', Helvetica, sans-serif;
 		    font-weight: normal;
 			letter-spacing: -0.05rem;
 		}
