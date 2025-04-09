@@ -230,7 +230,7 @@ input::-moz-focus-inner {
 	}
 
 	body {
-		background: #ffffff;
+		background: #FFF;
 	} 
 	     
 		 body.is-preload *, body.is-preload *:before, body.is-preload *:after {
@@ -331,7 +331,7 @@ input::-moz-focus-inner {
 		}
 
 	body {
-		background-color: inherit;
+		background-color: #F7F7F7;
 		color: #000000;
 	}
 
@@ -3838,7 +3838,7 @@ input::-moz-focus-inner {
 	}
 
 		.wrapper.style2 > .inner {
-			background-color: #fff;
+			background-color: #F7F7F7;
 			padding: 0 1rem 1rem 1rem ;
 			margin: 0 auto;
 			width: 100%;

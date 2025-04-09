@@ -55,7 +55,7 @@
 }
 @media screen and (max-width: 768px) {
 .menu-btn, .menu-btnb {
-	right: 1rem;
+	right: 1.5rem;
 	top: 2.65rem;
 }
 }
