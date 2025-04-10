@@ -622,7 +622,7 @@ input::-moz-focus-inner {
 		}
 		
 		h1.special {
-			font-size: 1.85rem;
+			font-size: 2rem;
 			line-height: 1;
 		}
 		
@@ -649,7 +649,7 @@ input::-moz-focus-inner {
 		
 		h6 {
 			font-size: 1rem;
-			line-height: 1.1;
+			line-height: 1;
 	    }
 		
 		hr {
@@ -704,7 +704,7 @@ input::-moz-focus-inner {
 	.box {
 		position: relative;
 		background-color: inherit;
-		padding: 1.5rem;
+		padding: 2rem;
 		margin: 0;
 		width: 100%;
 		height: 100%;
@@ -936,57 +936,9 @@ input::-moz-focus-inner {
 				background-color: rgba(255, 113, 68, 1);
 				color: rgba(42, 43, 44, 1);
 			}
-			
-	.linkarrow {
-		   background: url(../../imgs/icons/arrow_right_EO.svg);
-		   background-repeat: no-repeat;
-		   background-clip: padding-box;
-		   background-position: center left;
-		   cursor: pointer;
-		   display: inline-block;
-		   text-align: left;
-		   text-decoration: none;
-		   white-space: nowrap;
-		   width: auto;
-		   line-height: 1;
-		   padding-left: 2.25rem;
-	}
-			.linkarrow:hover {
-				color: rgba(252, 115, 40, 1);
-			}
-			
-			.linkarrow:active {
-				color: rgba(252, 115, 40, 1);
-			}
-			
-			.linkarrow.small {
-				line-height: 0.65;
-				padding-left: 1.6rem;
-			}
-			
-    @media screen and (max-width: 1366px) {
-		
-		.linkarrow {
-		   line-height: 1;
-	    }
-		
-		    .linkarrow.small {
-				line-height: 0.7;
-			}
-	}
 	
 	@media screen and (max-width: 736px) {
 		
-		.linkarrow {
-		   line-height: 0.65;
-		   padding-left: 2rem;
-		   margin-bottom: 1.55rem;
-	    }
-		
-		    .linkarrow.small {
-				line-height: 0.7;
-			}
-
 		input[type="submit"].large,
 		input[type="reset"].large,
 		input[type="button"].large,
