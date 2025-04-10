@@ -9,6 +9,10 @@
 			width: 10rem;
 		}
 		
+		.logotype_lockup_b {
+			width: 7rem;
+		}
+		
 		ul.topmenu {
 			position: relative;
 			list-style: none;
@@ -77,7 +81,7 @@
 			position: relative;
 			float: right;
 			width: 2.25rem;
-			bottom: 0.5rem;
+			bottom: 0.7rem;
 		}
 		
 		ul.goup li {
@@ -121,7 +125,7 @@
 			
 		#logotype_sym {
 			position: relative;
-			width: 3rem;
+			width: 3.75rem;
 			float: left;
 			top: 0;
 			left: 0;
@@ -135,7 +139,7 @@
 			letter-spacing: -0.03rem;
 			text-align: center;
 			top: 0;
-			left: -0.5rem;
+			left: -1rem;
 		}
 		
 		}

@@ -1415,15 +1415,15 @@
 
 				.row {
 					margin-top: 0;
-					margin-left: -0.75rem;
+					margin-left: -1rem;
 				}
 
 					.row > * {
-						padding: 0.75rem 0 0 0.75rem;
+						padding: 1rem 0 0 1rem;
 					}
 
 					.row.gtr-uniform {
-						margin-top: -0.75rem;
+						margin-top: -1rem;
 					}
 
 						.row.gtr-uniform > * {
@@ -1661,15 +1661,15 @@
 
 				.row {
 					margin-top: 0;
-					margin-left: -0.75rem;
+					margin-left: -1rem;
 				}
 
 					.row > * {
-						padding: 0.75rem 0 0 0.75rem;
+						padding: 1rem 0 0 1rem;
 					}
 
 					.row.gtr-uniform {
-						margin-top: -0.75rem;
+						margin-top: -1rem;
 					}
 
 						.row.gtr-uniform > * {
@@ -1906,15 +1906,15 @@
 
 				.row {
 					margin-top: 0;
-					margin-left: -0.75rem;
+					margin-left: -1rem;
 				}
 
 					.row > * {
-						padding: 0.75rem 0 0 0.75rem;
+						padding: 1rem 0 0 1rem;
 					}
 
 					.row.gtr-uniform {
-						margin-top: -0.75rem;
+						margin-top: -1rem;
 					}
 
 						.row.gtr-uniform > * {
