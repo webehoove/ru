@@ -10,7 +10,7 @@
 		}
 		
 		.logotype_lockup_b {
-			width: 7rem;
+			width: 5rem;
 		}
 		
 		ul.topmenu {
@@ -140,6 +140,10 @@
 			text-align: center;
 			top: 0;
 			left: -1rem;
+		}
+		
+		.logotype_lockup_b {
+			width: 3.75rem;
 		}
 		
 		}
