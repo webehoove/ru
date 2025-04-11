@@ -131,7 +131,7 @@
                   
              <!-- MENU TOP MOB -->
              
-					<section class="wrapper style2 align-left offdesk">
+					<section id="navmenu" class="wrapper style2 align-left offdesk">
 						<div class="inner">
                         
                                   <div class="row">
@@ -1120,6 +1120,18 @@ SmoothScroll({
 
     touchpadSupport   : true,
 })
+</script>
+<script>
+var prevScrollpos = window.pageYOffset;
+window.onscroll = function() {
+var currentScrollPos = window.pageYOffset;
+  if (prevScrollpos > currentScrollPos) {
+    document.getElementById("navmenu").style.top = "0";
+  } else {
+    document.getElementById("navmenu").style.top = "-75px";
+  }
+  prevScrollpos = currentScrollPos;
+}
 </script>
 	</body>
 </html>
