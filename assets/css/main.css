@@ -535,6 +535,11 @@ input::-moz-focus-inner {
 			border-bottom: 1px solid rgba(0, 0, 0, .15);
 			margin: 4rem 0;
 		}
+		
+		hr.lineer_bottom {
+			border-bottom: 1px solid rgba(0, 0, 0, .15);
+			margin: 10rem 0 2rem 0;
+		}
 
 	.align-left {
 		text-align: left;
@@ -675,6 +680,10 @@ input::-moz-focus-inner {
 		
 		hr.lineer_block {
 		    margin: 4rem 0;
+		}
+		
+		hr.lineer_bottom {
+		    margin: 5rem 0 1rem 0;
 		}
 
 	}
@@ -2046,7 +2055,7 @@ input::-moz-focus-inner {
 			}
 
 				#wrapper > .invert a:hover {
-					color: rgba(255, 113, 68, 1);
+					color: rgba(255, 255, 255, .6);
 					border-bottom: none;
 				}
 
@@ -2068,7 +2077,7 @@ input::-moz-focus-inner {
 			}
 
 			#wrapper > .invert hr {
-				border-bottom-color: rgba(255, 255, 255, 0.25);
+				border-bottom-color: rgba(255, 255, 255, 0.15);
 			}
 
 			#wrapper > .invert .box02 {

@@ -76,7 +76,7 @@
 	position: absolute;
 	top: 0;
 	width: 60%;
-	border-bottom: 2px solid #191919;
+	border-bottom: 2px solid #000;
 	transition: transform .6s cubic-bezier(0.215, 0.61, 0.355, 1);
 }
 .menu-btn:before {
@@ -104,11 +104,11 @@
 }
 #active:checked + .menu-btn:before {
 	transform: rotate(45deg);
-	border-color: #191919;
+	border-color: #000;
 }
 #active:checked + .menu-btn:after {
 	transform: rotate(-45deg);
-	border-color: #191919;
+	border-color: #000;
 }
 /* closing animation */
 #active:checked + .menu-btnb span {
@@ -116,15 +116,15 @@
 }
 #active:checked + .menu-btnb:before {
 	transform: rotate(45deg);
-	border-color: #191919;
+	border-color: #000;
 }
 #active:checked + .menu-btnb:after {
 	transform: rotate(-45deg);
-	border-color: #191919;
+	border-color: #000;
 }
 .wrapper_menu ul {
 	position: relative;
-	top: 0.75rem;
+	top: 1rem;
 	left: 1rem;
 	padding-bottom: 2rem;
 	margin-right: 0;
@@ -138,12 +138,12 @@
 .wrapper_menu ul li a {
 	-webkit-tap-highlight-color: transparent !important;
 	outline: none !important;
-	color: #191919;
+	color: #000;
 	text-decoration: none;
 	font-size: 1.5rem;
 	padding: 0;
 	position: relative;
-	line-height: 1.2;
+	line-height: 1.5;
 	margin: 0;
 	opacity: 0;
 	transition: all 0.3s ease;
