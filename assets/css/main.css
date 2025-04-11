@@ -1877,7 +1877,7 @@ input::-moz-focus-inner {
 			margin: 0 auto;
 			width: 100%;
 			position: relative;
-			z-index: 2;
+			z-index: 1;
 		}
 		
 		@media screen and (max-width: 1680px) {

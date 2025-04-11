@@ -1,11 +1,14 @@
         
-		#nav {
-			position: absolute;
-            transition: opacity 0.1s linear;
-			z-index: 999;
-		}
-		
-		.logotype_name {
+		#navbar {
+            position: fixed;
+            top: 0;
+            width: 100%;
+            display: block;
+            transition: top 0.3s;
+			z-index: 4;
+        }
+
+        .logotype_name {
 			font-size: 2rem;
 			line-height: 1.2;
 			letter-spacing: 0;
@@ -96,10 +99,6 @@
 		
 		.offdesk {
 			display: none;
-		}
-		
-		.offmob {
-			display: block;
 		}
 		
         @media screen and (max-width: 1180px) {
