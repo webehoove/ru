@@ -1,7 +1,7 @@
         
-		#navmenu {
-			position: fixed;
-			transition: top 0.3s;
+		#nav {
+			position: absolute;
+            transition: opacity 0.1s linear;
 			z-index: 999;
 		}
 		
