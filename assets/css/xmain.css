@@ -1,4 +1,10 @@
         
+		#navmenu {
+			position: fixed;
+			transition: top 0.3s;
+			z-index: 999;
+		}
+		
 		.logotype_name {
 			font-size: 2rem;
 			line-height: 1.2;
@@ -6,7 +12,7 @@
 		}
 		
 		.logotype_lockup {
-			width: 10rem;
+			width: 8.75rem;
 		}
 		
 		.logotype_lockup_b {
@@ -19,7 +25,7 @@
 			font-size: 0.9rem;
 		    padding: 0;
 		    margin: 0;
-			top: 0.35rem;
+			top: 0.2rem;
 		}
 
 			ul.topmenu li {
@@ -45,7 +51,7 @@
 			font-size: 0.9rem;
 		    padding: 0;
 		    margin: 0;
-			top: 0.35rem;
+			top: 0.2rem;
 		}
 
 			ul.topmenu_block li {
