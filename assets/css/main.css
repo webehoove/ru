@@ -417,17 +417,12 @@ input::-moz-focus-inner {
 	
 	h1 {
 		font-size: 2.5rem;
-		line-height: 1;
-	}
-	
-	h1.title {
-		font-size: 3.5rem;
-		line-height: 0.9;
+		line-height: 1.1;
 	}
 	
 	h1.special_one {
 		font-size: 3rem;
-		line-height: 1;
+		line-height: 1.05;
 	}
 	
 	h1.special {
@@ -437,7 +432,7 @@ input::-moz-focus-inner {
 
 	h2 {
 		font-size: 2.55rem;
-		line-height: 1;
+		line-height: 1.1;
 	}
 
 	h3 {
@@ -455,14 +450,9 @@ input::-moz-focus-inner {
 		line-height: 1.2;
 	}
 
-	h5.num {
-		font-size: 1rem;
-		line-height: 1.7;
-	}
-
-	h5.num2 {
-		font-size: 1rem;
-		line-height: 1.5;
+	h6 {
+		font-size: 0.9rem;
+		line-height: 1.2;
 	}
 	
 	sub {
@@ -538,7 +528,12 @@ input::-moz-focus-inner {
 		
 		hr.lineer_bottom {
 			border-bottom: 1px solid rgba(0, 0, 0, .15);
-			margin: 10rem 0 2rem 0;
+			margin: 10rem 0 1.5rem 0;
+		}
+		
+		hr.lineer_bottom_small {
+			border-bottom: 1px solid rgba(0, 0, 0, .15);
+			margin: 10rem 0 1.5rem 0;
 		}
 
 	.align-left {
@@ -556,29 +551,57 @@ input::-moz-focus-inner {
 	@media screen and (max-width: 1680px) {
 		
 		h1.special_one {
-		    font-size: 5rem;
+		    font-size: 2.8rem;
 	    }
 	}
 	
 	@media screen and (max-width: 1366px) {
 		
 		h1.special_one {
-		    font-size: 4.75rem;
+		    font-size: 2.8rem;
+	    }
+		
+		h1.special {
+		    font-size: 2.15rem;
+	    }
+		
+		h2 {
+		    font-size: 2.35rem;
 	    }
 		
 	}
 
 	@media screen and (max-width: 1280px) {
 
+		h1 {
+		    font-size: 2.4rem;
+	    }
+		
 		h1.special_one {
-		    font-size: 4.5rem;
+		    font-size: 2.75rem;
+	    }
+		
+		h1.special {
+		    font-size: 2.35rem;
 	    }
 	}
 	
 	@media screen and (max-width: 1180px) {
 
+		h1 {
+		    font-size: 2rem;
+	    }
+		
 		h1.special_one {
-		    font-size: 4.5rem;
+		    font-size: 2.5rem;
+	    }
+		
+		h1.special {
+		    font-size: 2.15rem;
+	    }
+		
+		h2 {
+		    font-size: 2rem;
 	    }
 
 	}
@@ -586,7 +609,19 @@ input::-moz-focus-inner {
 	@media screen and (max-width: 1080px) {
 
 		h1 {
-		    font-size: 3rem;
+		    font-size: 1.75rem;
+	    }
+		
+		h1.special_one {
+		    font-size: 2.15rem;
+	    }
+		
+		h1.special {
+		    font-size: 1.75rem;
+	    }
+		
+		h2 {
+		    font-size: 1.5rem;
 	    }
 
 	}
@@ -598,11 +633,16 @@ input::-moz-focus-inner {
 	    }
 		
 		h1 {
-			font-size: 2.75rem;
+			font-size: 1.75rem;
 	    }
 		
 		h1.special_one {
-			font-size: 4rem;
+			font-size: 2.5rem;
+			line-height: 1;
+	    }
+		
+		h1.special {
+		    font-size: 2rem;
 	    }
 		
 		h2 {
@@ -683,7 +723,11 @@ input::-moz-focus-inner {
 		}
 		
 		hr.lineer_bottom {
-		    margin: 6rem 0 1rem 0;
+		    margin: 7rem 0 1rem 0;
+		}
+		
+		hr.lineer_bottom_small {
+		    margin: 0 0 1rem 0;
 		}
 
 	}
@@ -1069,7 +1113,7 @@ input::-moz-focus-inner {
 
 		ul li {
 			display: inline-block;
-			padding-right: 2rem;
+			padding-right: 1.5rem;
 		}
 		
 		ul.alter li {
@@ -1649,7 +1693,7 @@ input::-moz-focus-inner {
 /* Banner (style5) */
 
 	.banner.style5 {
-		padding: 0.5rem 2.5rem ;
+		padding: 1rem 2rem ;
 		margin: 0 auto;
 		width: 100%;
 		-moz-align-items: left;
@@ -1735,7 +1779,7 @@ input::-moz-focus-inner {
 		@media screen and (max-width: 1680px) {
 
 			.banner.style5 {
-				padding: 0 2.5rem ;
+				padding: 1rem 2rem ;
 			}
 
 		}
@@ -1743,7 +1787,7 @@ input::-moz-focus-inner {
 		@media screen and (max-width: 1280px) {
 
 			.banner.style5 {
-				padding: 0 1rem ;
+				padding: 0.5rem 1rem ;
 			}
 
 		}
@@ -1751,7 +1795,7 @@ input::-moz-focus-inner {
 		@media screen and (max-width: 1080px) {
 
 			.banner.style5 {
-				padding: 0 1rem ;
+				padding: 0.5rem 1rem;
 			}
 
 		}
@@ -1821,7 +1865,7 @@ input::-moz-focus-inner {
 /* Wrapper (style1) */
 
 	.wrapper.style1 > .inner {
-		padding: 0 2.5rem ;
+		padding: 0 2rem ;
 		margin: 0 auto;
 		width: 100%;
 	}
@@ -1837,7 +1881,7 @@ input::-moz-focus-inner {
 	@media screen and (max-width: 1680px) {
 
 		.wrapper.style1 > .inner {
-			padding: 0 1rem ;
+			padding: 0 2rem ;
 		}
 
 	}

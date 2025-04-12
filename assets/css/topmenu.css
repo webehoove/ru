@@ -53,6 +53,12 @@
  /* background: linear-gradient(-45deg, #e3eefe 0%, #efddfb 100%); */
 	transition: all 0.3s ease-in-out;
 }
+@media screen and (max-width: 1180px) {
+.menu-btn, .menu-btnb {
+	right: 1.5rem;
+	top: 1.5rem;
+}
+}
 @media screen and (max-width: 768px) {
 .menu-btn, .menu-btnb {
 	right: 1.5rem;
