@@ -616,7 +616,7 @@ input::-moz-focus-inner {
 	@media screen and (max-width: 736px) {
 		
 	    p {
-			font-size: 1.35rem;
+			font-size: 1.25rem;
 			line-height: 1.2;
 			width: 100%;
 	    }
