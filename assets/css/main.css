@@ -425,6 +425,11 @@ input::-moz-focus-inner {
 		line-height: 1.05;
 	}
 	
+	h1.special_two {
+		font-size: 3rem;
+		line-height: 1.05;
+	}
+	
 	h1.special {
 		font-size: 2.5rem;
 		line-height: 1;
@@ -672,7 +677,7 @@ input::-moz-focus-inner {
 		}
 		
 		h1.special {
-			font-size: 2.05rem;
+			font-size: 2rem;
 			line-height: 1.15;
 		}
 		
