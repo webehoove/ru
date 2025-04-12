@@ -623,7 +623,7 @@ input::-moz-focus-inner {
 		
 		h1 {
 			font-size: 1.7rem;
-			line-height: 1.05;
+			line-height: 1.1;
 	    }
 		
 		h1.special_one {
@@ -753,8 +753,8 @@ input::-moz-focus-inner {
 		border-radius: 0.35rem;
 	}
 	
-	  .box02_bg_01 {
-		  background-color: rgba(255, 255, 255, 1);
+	  .box02_bg_02 {
+		  background-color: rgba(240, 240, 240, 1);
 	  }
 	
 	.box03 {
@@ -2209,6 +2209,10 @@ input::-moz-focus-inner {
 		
 		#wrapper > .color_Eg_15 {
 			background-color: #e6e7e8;
+		}
+		
+		#wrapper > .color_Eg_25 {
+			background-color: #d5d7d8;
 		}
 		
 		#wrapper > .color_Eg_50 {
