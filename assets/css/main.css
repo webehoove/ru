@@ -558,12 +558,20 @@ input::-moz-focus-inner {
 		h1.special_one {
 		    font-size: 2.8rem;
 	    }
+		
+		h1.special_two {
+		    font-size: 2.8rem;
+	    }
 	}
 	
 	@media screen and (max-width: 1366px) {
 		
 		h1.special_one {
 		    font-size: 2.8rem;
+	    }
+		
+		h1.special_two {
+		    font-size: 2.7rem;
 	    }
 		
 		h1.special {
@@ -586,6 +594,10 @@ input::-moz-focus-inner {
 		    font-size: 2.75rem;
 	    }
 		
+		h1.special_two {
+		    font-size: 2.6rem;
+	    }
+		
 		h1.special {
 		    font-size: 2.35rem;
 	    }
@@ -599,6 +611,10 @@ input::-moz-focus-inner {
 		
 		h1.special_one {
 		    font-size: 2.5rem;
+	    }
+		
+		h1.special_two {
+		    font-size: 2.4rem;
 	    }
 		
 		h1.special {
@@ -619,6 +635,10 @@ input::-moz-focus-inner {
 		
 		h1.special_one {
 		    font-size: 2.15rem;
+	    }
+		
+		h1.special_two {
+		    font-size: 2rem;
 	    }
 		
 		h1.special {
@@ -644,6 +664,10 @@ input::-moz-focus-inner {
 		h1.special_one {
 			font-size: 2.5rem;
 			line-height: 1;
+	    }
+		
+		h1.special_two {
+		    font-size: 2.35rem;
 	    }
 		
 		h1.special {
@@ -675,6 +699,11 @@ input::-moz-focus-inner {
 			font-size: 2.05rem;
 			line-height: 1;
 		}
+		
+		h1.special_two {
+		    font-size: 2rem;
+			line-height: 1.1;
+	    }
 		
 		h1.special {
 			font-size: 2rem;
