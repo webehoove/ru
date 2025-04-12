@@ -668,12 +668,12 @@ input::-moz-focus-inner {
 		
 		h1.special_one {
 			font-size: 2.05rem;
-			line-height: 1.15;
+			line-height: 1;
 		}
 		
 		h1.special {
-			font-size: 2rem;
-			line-height: 1;
+			font-size: 2.05rem;
+			line-height: 1.15;
 		}
 		
 		h2 {
@@ -1816,7 +1816,7 @@ input::-moz-focus-inner {
 		@media screen and (max-width: 736px) {
 
 			.banner.style5 {
-				display: none;
+				padding: 0 1rem ;
 			}
 
 		}
@@ -1862,7 +1862,7 @@ input::-moz-focus-inner {
 /* Wrapper (style1) */
 
 	.wrapper.style1 > .inner {
-		padding: 0 2rem ;
+		padding: 1rem 2rem ;
 		margin: 0 auto;
 		width: 100%;
 	}
@@ -1878,7 +1878,7 @@ input::-moz-focus-inner {
 	@media screen and (max-width: 1680px) {
 
 		.wrapper.style1 > .inner {
-			padding: 0 2rem ;
+			padding: 1rem 2rem ;
 		}
 
 	}
@@ -1886,7 +1886,7 @@ input::-moz-focus-inner {
 	@media screen and (max-width: 1280px) {
 
 		.wrapper.style1 > .inner {
-			padding: 0 1rem ;
+			padding: 0.5rem 1rem ;
 		}
 
 	}
@@ -1894,7 +1894,7 @@ input::-moz-focus-inner {
 	@media screen and (max-width: 1080px) {
 
 		.wrapper.style1 > .inner {
-			padding: 0 1rem ;
+			padding: 0.5rem 1rem;
 		}
 
 	}

@@ -33,7 +33,6 @@
 
 			ul.topmenu li {
 				display: inline-block;
-				margin-bottom: 0.35rem;
 			}
 			
 			ul.topmenu li a {
@@ -111,6 +110,18 @@
 		
 		.offdesk {
 			display: none;
+		}
+		
+        @media screen and (max-width: 1366px) {
+			
+		.logotype_lockup {
+			width: 9rem;
+		}
+		
+		.logotype_lockup_b {
+			width: 4.25rem;
+		}
+		
 		}
 		
         @media screen and (max-width: 1180px) {
