@@ -103,6 +103,9 @@
 	height: 100%;
 	pointer-events: none;
 	transition: background .6s;
+	overflow: hidden;
+    touch-action: none;
+    -ms-touch-action: none;
 }
 /* closing animation */
 #active:checked + .menu-btn span {
