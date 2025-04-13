@@ -696,12 +696,12 @@ input::-moz-focus-inner {
 	    }
 		
 		h1.special_one {
-			font-size: 2.35rem;
-			line-height: 1.05;
+			font-size: 2rem;
+			line-height: 1;
 		}
 		
 		h1.special_two {
-		    font-size: 2.05rem;
+		    font-size: 2rem;
 			line-height: 1.1;
 	    }
 		
