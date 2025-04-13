@@ -536,6 +536,11 @@ input::-moz-focus-inner {
 			margin: 4rem 0;
 		}
 		
+		hr.lineer_block_text {
+			border-bottom: 1px solid rgba(0, 0, 0, .15);
+			margin: 8rem 0 7rem 0;
+		}
+		
 		hr.lineer_bottom {
 			border-bottom: 1px solid rgba(0, 0, 0, .15);
 			margin: 10rem 0 1.5rem 0;
@@ -763,6 +768,10 @@ input::-moz-focus-inner {
 		}
 		
 		hr.lineer_block {
+		    margin: 4rem 0;
+		}
+		
+		hr.lineer_block_text {
 		    margin: 4rem 0;
 		}
 		
