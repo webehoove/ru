@@ -26,7 +26,7 @@
         <link rel="icon" type="image/png" sizes="16x16" href="imgs/support/favicon-16x16.png">
         <link rel="manifest" href="imgs/support/site.webmanifest">
 	</head>
-	<body>
+	<body class="is-preload">
     
     
     
@@ -140,7 +140,7 @@
                             <div class="row">
                                         <div class="col-6 off-12-small">
                                         
-                                             <h1 class="special_one semibold_tt upup">Компания Элта&reg</h1>
+                                             <h1 class="special_one bold_tt upup">Компания Элта&reg</h1>
                                         
                                         </div>
                                         <div class="col-6 off-12-small">
@@ -1057,7 +1057,7 @@ $(function() {
   
     $(window).scroll(function() {    
         var scroll = $(window).scrollTop();
-        if (scroll >= 100) {
+        if (scroll >= 50) {
             header.addClass("scrolled");
         } else {
             header.removeClass("scrolled");
@@ -1070,7 +1070,7 @@ var scrollSrc = "imgs/brand/elta_symbol_b.svg";
 
 $(window).scroll(function() {
    var value = $(this).scrollTop();
-   if (value > 100)
+   if (value > 50)
       $(".logo").attr("src", scrollSrc);
    else
       $(".logo").attr("src", initialSrc);
@@ -1080,7 +1080,7 @@ $(function() {
     $(window).scroll(function() {    
         var scroll = $(window).scrollTop();
     
-        if (scroll >= 100) {
+        if (scroll >= 50) {
             header.removeClass('menu-btn').addClass("menu-btnb");
         } else {
             header.removeClass("menu-btnb").addClass('menu-btn');
@@ -1092,7 +1092,7 @@ $(function() {
     $(window).scroll(function() {    
         var scroll = $(window).scrollTop();
     
-        if (scroll >= 100) {
+        if (scroll >= 50) {
             header.removeClass('logotype_wm_w').addClass("logotype_wm_b");
         } else {
             header.removeClass("logotype_wm_b").addClass('logotype_wm_w');
