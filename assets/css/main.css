@@ -425,6 +425,11 @@ input::-moz-focus-inner {
 		line-height: 1.05;
 	}
 	
+	h1.special_two {
+		font-size: 3rem;
+		line-height: 1.05;
+	}
+	
 	h1.special {
 		font-size: 2.5rem;
 		line-height: 1;
@@ -553,12 +558,20 @@ input::-moz-focus-inner {
 		h1.special_one {
 		    font-size: 2.8rem;
 	    }
+		
+		h1.special_two {
+		    font-size: 2.8rem;
+	    }
 	}
 	
 	@media screen and (max-width: 1366px) {
 		
 		h1.special_one {
 		    font-size: 2.8rem;
+	    }
+		
+		h1.special_two {
+		    font-size: 2.7rem;
 	    }
 		
 		h1.special {
@@ -581,6 +594,10 @@ input::-moz-focus-inner {
 		    font-size: 2.75rem;
 	    }
 		
+		h1.special_two {
+		    font-size: 2.6rem;
+	    }
+		
 		h1.special {
 		    font-size: 2.35rem;
 	    }
@@ -594,6 +611,10 @@ input::-moz-focus-inner {
 		
 		h1.special_one {
 		    font-size: 2.5rem;
+	    }
+		
+		h1.special_two {
+		    font-size: 2.4rem;
 	    }
 		
 		h1.special {
@@ -614,6 +635,10 @@ input::-moz-focus-inner {
 		
 		h1.special_one {
 		    font-size: 2.15rem;
+	    }
+		
+		h1.special_two {
+		    font-size: 2rem;
 	    }
 		
 		h1.special {
@@ -639,6 +664,10 @@ input::-moz-focus-inner {
 		h1.special_one {
 			font-size: 2.5rem;
 			line-height: 1;
+	    }
+		
+		h1.special_two {
+		    font-size: 2.35rem;
 	    }
 		
 		h1.special {
@@ -667,13 +696,18 @@ input::-moz-focus-inner {
 	    }
 		
 		h1.special_one {
-			font-size: 2.05rem;
-			line-height: 1.15;
+			font-size: 2.35rem;
+			line-height: 1.05;
 		}
+		
+		h1.special_two {
+		    font-size: 2.05rem;
+			line-height: 1.1;
+	    }
 		
 		h1.special {
 			font-size: 2rem;
-			line-height: 1;
+			line-height: 1.15;
 		}
 		
 		h2 {
@@ -1816,7 +1850,7 @@ input::-moz-focus-inner {
 		@media screen and (max-width: 736px) {
 
 			.banner.style5 {
-				display: none;
+				padding: 0 1rem ;
 			}
 
 		}
@@ -1862,7 +1896,7 @@ input::-moz-focus-inner {
 /* Wrapper (style1) */
 
 	.wrapper.style1 > .inner {
-		padding: 0 2rem ;
+		padding: 1rem 2rem ;
 		margin: 0 auto;
 		width: 100%;
 	}
@@ -1878,7 +1912,7 @@ input::-moz-focus-inner {
 	@media screen and (max-width: 1680px) {
 
 		.wrapper.style1 > .inner {
-			padding: 0 2rem ;
+			padding: 1rem 2rem ;
 		}
 
 	}
@@ -1886,7 +1920,7 @@ input::-moz-focus-inner {
 	@media screen and (max-width: 1280px) {
 
 		.wrapper.style1 > .inner {
-			padding: 0 1rem ;
+			padding: 0.5rem 1rem ;
 		}
 
 	}
@@ -1894,7 +1928,7 @@ input::-moz-focus-inner {
 	@media screen and (max-width: 1080px) {
 
 		.wrapper.style1 > .inner {
-			padding: 0 1rem ;
+			padding: 0.5rem 1rem;
 		}
 
 	}
@@ -1922,7 +1956,7 @@ input::-moz-focus-inner {
 	}
 
 		.wrapper.style2 > .inner {
-			background-color: #FFF;
+			background-color: inherit;
 			padding: 0 1rem 1rem 1rem ;
 			margin: 0 auto;
 			width: 100%;
