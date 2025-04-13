@@ -186,12 +186,12 @@
 		
 		#logotype_wm {
 			position: relative;
-			font-size: 1.65rem;
-			line-height: 1.4;
+			font-size: 1.75rem;
+			line-height: 1.25;
 			letter-spacing: -0.03rem;
 			text-align: center;
 			top: 0;
-			left: -1rem;
+			left: -1.15rem;
 		}
 		
 		.logotype_wm_w {
