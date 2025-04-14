@@ -90,7 +90,7 @@
 						<div class="content">
                         
                                   <div class="row">
-                                        <div class="col-6 off-12-small">
+                                        <div id="hideitlow" class="col-6 off-12-small">
                                               
                                              <ul>
                                                  <div class="logotype_lockup"><a href="https://eltaspb.ru/"><img src="../imgs/brand/elta_logotype_lockup_w.svg" onContextMenu="return false;" alt="" /></a></div>
@@ -455,11 +455,13 @@
                                         <div class="col-2 col-6-small">
                                         
                                              <ul class="bottommenu upup">
-                                                <li><a href="#about" class="smooth-scroll">О компании</a></li>
-                                                <li><a href="#quality_and_safety" class="smooth-scroll">Качество работ</a></li>
-                                                <li><a href="#service" class="smooth-scroll">Наши услуги</a></li>
-                                                <li><a href="#pluses" class="smooth-scroll">Преимущества</a></li>
-                                                <li><a href="#partners" class="smooth-scroll">Заказчики</a></li>
+                                                <li class="medium_tx">Компания</li>
+                                                <li><a href="https://eltaspb.ru/about">О нас</a></li>
+                                                <li><a href="https://eltaspb.ru/process">Принцип работы</a></li>
+                                                <li><a href="https://eltaspb.ru/licenses/">Документация</a></li>
+                                                <li><a href="https://eltaspb.ru/projects">Проекты</a></li>
+                                                <li><a href="https://eltaspb.ru/vacancies/">Вакансии</a></li>
+                                                <li><a href="https://eltaspb.ru/contact/" class="smooth-scroll">Контакты</a></li>
                                              </ul>
                                              <hr>
                                              
@@ -467,10 +469,10 @@
                                         <div class="col-2 col-6-small">
                                         
                                              <ul class="bottommenu upup">
-                                                <li><a href="https://eltaspb.ru/licenses/">Документация</a></li>
-                                                <li><a href="https://eltaspb.ru/projects">Проекты</a></li>
-                                                <li><a href="https://eltaspb.ru/vacancies/">Вакансии</a></li>
-                                                <li><a href="https://eltaspb.ru/contacts/">Контакты</a></li>
+                                                <li class="medium_tx"><a href="https://eltaspb.ru/licenses/" style="color:#FFF;">Наши услуги</a></li>
+                                                <li><a href="https://eltaspb.ru/licenses/">Проектирование</a></li>
+                                                <li><a href="https://eltaspb.ru/projects">Монтажные работы</a></li>
+                                                <li><a href="https://eltaspb.ru/vacancies/">Обслуживание систем</a></li>
                                              </ul>
                                              <hr class="block">
                                              
@@ -478,6 +480,7 @@
                                         <div class="col-2 col-6-small">
                                         
                                              <ul class="bottommenu upup">
+                                                <li class="medium_tx"><a href="https://eltaspb.ru/contact/" style="color:#FFF;">Санткт-Петербург</a></li>
                                                 <li><a href="mailto:pda@elta-spb.com">pda@elta-spb.com</a></li>
                                                 <li><a href="tel:+78122447041">8 (812) 244-70-41</a></li>
                                                 <li><a href="tel:+78122447042">8 (812) 244-70-42</a></li>
@@ -574,7 +577,7 @@ var currentScrollPos = window.pageYOffset;
   if (prevScrollpos > currentScrollPos) {
     document.getElementById("navbar").style.top = "0";
   } else {
-    document.getElementById("navbar").style.top = "-75px";
+    document.getElementById("navbar").style.top = "-85px";
   }
   prevScrollpos = currentScrollPos;
 }

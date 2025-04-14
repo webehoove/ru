@@ -90,7 +90,7 @@
 						<div class="content">
                         
                                   <div class="row">
-                                        <div class="col-6 off-12-small">
+                                        <div id="hideitlow" class="col-6 off-12-small">
                                               
                                              <ul>
                                                  <div class="logotype_lockup"><a href="https://eltaspb.ru/"><img src="imgs/brand/elta_logotype_lockup_w.svg" onContextMenu="return false;" alt="" /></a></div>
@@ -121,7 +121,7 @@
                                         </div>
                             </div>
                             
-                            <div class="offdesk" style="width:100%; position:relative; min-height:100vh;">
+                            <div class="offdesk_title" style="width:100%; position:relative; min-height:100vh;">
                             <div style="position:absolute; top:46%; transform: translate(0%,-50%);">
                             <div class="row">
                                         <div class="col-6 col-12-small">
@@ -1065,7 +1065,7 @@ var currentScrollPos = window.pageYOffset;
   if (prevScrollpos > currentScrollPos) {
     document.getElementById("navbar").style.top = "0";
   } else {
-    document.getElementById("navbar").style.top = "-75px";
+    document.getElementById("navbar").style.top = "-85px";
   }
   prevScrollpos = currentScrollPos;
 }
