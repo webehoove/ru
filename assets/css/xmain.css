@@ -19,24 +19,26 @@
 		}
 		
 		.logotype_lockup {
-			width: 9rem;
+			width: 8rem;
 		}
 		
 		.logotype_lockup_b {
-			width: 5rem;
+			width: 3rem;
+			margin-bottom: 1.5rem;
 		}
 		
 		ul.topmenu {
 			position: relative;
 			list-style: none;
-			font-size: 0.9rem;
+			font-size: 0.85rem;
 		    padding: 0;
 		    margin: 0;
-			top: 0;
+			top: 0.35rem;
 		}
 
 			ul.topmenu li {
 				display: inline-block;
+				padding-right: 2rem;
 			}
 			
 			ul.topmenu li a {
@@ -54,10 +56,10 @@
 		ul.topmenu_block {
 			position: relative;
 			list-style: none;
-			font-size: 0.9rem;
+			font-size: 0.85rem;
 		    padding: 0;
 		    margin: 0;
-			top: 0;
+			top: 0.35rem;
 		}
 
 			ul.topmenu_block li {
@@ -79,7 +81,7 @@
 		
 		ul.bottommenu {
 			list-style: none;
-			font-size: 1rem;
+			font-size: 0.9rem;
 		    padding: 0;
 		    margin: 0;
 		}
@@ -116,15 +118,35 @@
 			display: none;
 		}
 		
+        @media screen and (max-width: 1680px) {
+			
+		ul.topmenu, ul.topmenu_block {
+			font-size: 0.85rem;
+		}
+		
+		        ul.topmenu li, ul.topmenu_block li {
+	   	        	padding-right: 1rem;
+	        	}
+		
+		}
+		
         @media screen and (max-width: 1366px) {
 			
 		.logotype_lockup {
-			width: 9rem;
+			width: 8rem;
 		}
 		
 		.logotype_lockup_b {
-			width: 4.25rem;
+			width: 3rem;
 		}
+		
+		ul.topmenu, ul.topmenu_block {
+			font-size: 0.8rem;
+		}
+		
+		        ul.topmenu li, ul.topmenu_block li {
+	   	        	padding-right: 0.7rem;
+	        	}
 		
 		}
 		
@@ -140,11 +162,11 @@
 		}
 		
 		.logotype_lockup {
-			width: 8rem;
+			width: 7rem;
 		}
 		
 		.logotype_lockup_b {
-			width: 4rem;
+			width: 2.5rem;
 		}
 		
 		}
@@ -152,11 +174,11 @@
         @media screen and (max-width: 1080px) {
 		
 		.logotype_lockup {
-			width: 8rem;
+			width: 7rem;
 		}
 		
 		.logotype_lockup_b {
-			width: 4rem;
+			width: 2.5rem;
 		}
 		
 		}
@@ -164,11 +186,11 @@
         @media screen and (max-width: 820px) {
 		
 		.logotype_lockup {
-			width: 8rem;
+			width: 7rem;
 		}
 		
 		.logotype_lockup_b {
-			width: 4rem;
+			width: 2.5rem;
 		}
 		
 		}
@@ -204,7 +226,7 @@
 		}
 		
 		.logotype_lockup_b {
-			width: 3.75rem;
+			width: 3.5rem;
 		}
 		
 		}

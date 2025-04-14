@@ -19,6 +19,10 @@
            font-style: normal;
         }
 		
+		
+		
+		
+		
 @font-face {
            font-family: ELTA Sans Title Regular;
 		   src: url(../webfonts/AeonikExtendedPro-Regular.woff2) format('woff2');
@@ -45,105 +49,7 @@
 		   src: url(../webfonts/AeonikExtendedPro-Bold.woff2) format('woff2');
            font-display: swap;
            font-style: normal;
-        }
-		
-		
-		
-		
-@font-face {
-           font-family: ELTASans Text Light;
-		   src: url(../webfonts/corp/PPNeueCorp-NormalUltralight.woff2) format('woff2');
-           font-display: swap;
-           font-style: normal;
-        }
-		
-@font-face {
-           font-family: ELTASans Text Medium;
-		   src: url(../webfonts/corp/PPNeueCorp-NormalMedium.woff2) format('woff2');
-           font-display: swap;
-           font-style: normal;
-        }
-		
-		
-		
-		
-@font-face {
-           font-family: ELTASans Title Light;
-		   src: url(../webfonts/corp/PPNeueCorp-WideUltralight.woff2) format('woff2');
-           font-display: swap;
-           font-style: normal;
-        }
-		
-@font-face {
-           font-family: ELTA Sans Corp Medium;
-		   src: url(../webfonts/corp/PPNeueCorp-WideMedium.woff2) format('woff2');
-           font-display: swap;
-           font-style: normal;
-        }
-		
-		
-		
-		
-		
-@font-face {
-           font-family: ELTA-Sans Light;
-           src: url(../webfonts/pp/PPPangramSans-Light.woff2) format('woff2');
-           font-display: swap;
-           font-style: normal;
-        }
-		
-@font-face {
-           font-family: ELTA-Sans Regular;
-           src: url(../webfonts/pp/PPPangramSans-Medium.woff2) format('woff2');
-           font-display: swap;
-           font-style: normal;
-        }
-		
-@font-face {
-           font-family: ELTA-Sans Semibold;
-           src: url(../webfonts/pp/PPPangramSans-Semibold.woff2) format('woff2');
-           font-display: swap;
-           font-style: normal;
-        }
-		
-@font-face {
-           font-family: ELTA-Sans Bold;
-           src: url(../webfonts/pp/PPPangramSans-Bold.woff2) format('woff2');
-           font-display: swap;
-           font-style: normal;
-        }
-		
-@font-face {
-           font-family: ELTA-Sans Compact;
-           src: url(../webfonts/pp/PPPangramSans-CompactRegular.woff2) format('woff2');
-           font-display: swap;
-           font-style: normal;
-        }
-		
-		
-		
-		
-@font-face {
-           font-family: ELTASans Light;
-           src: url(../webfonts/ss/SuisseIntl-Light.woff2) format('woff2');
-           font-display: swap;
-           font-style: normal;
-        }
-		
-@font-face {
-           font-family: ELTASans Regular;
-           src: url(../webfonts/ss/SuisseIntl-Regular.woff2) format('woff2');
-           font-display: swap;
-           font-style: normal;
-        }
-		
-@font-face {
-           font-family: ELTASans Bold;
-           src: url(../webfonts/ss/SuisseIntl-SemiBold.woff2) format('woff2');
-           font-display: swap;
-           font-style: normal;
-        }
-		
+        }	
 		
 		
 				
@@ -451,7 +357,7 @@ input::-moz-focus-inner {
 	}
 
 	h4 {
-		font-size: 1.5rem;
+		font-size: 1.15rem;
 		line-height: 1.1;
 	}
 
@@ -742,7 +648,7 @@ input::-moz-focus-inner {
 	    }
 		
 		h4 {
-			font-size: 1.7rem;
+			font-size: 1.15rem;
 			line-height: 1.1;
 	    }
 		
@@ -2309,12 +2215,19 @@ input::-moz-focus-inner {
 			}
 
 			#wrapper > .invert a {
-				color: rgba(255, 255, 255, 1);
+				color: rgba(255, 255, 255, .5);
 			}
 
 				#wrapper > .invert a:hover {
-					color: rgba(255, 255, 255, .6);
-					border-bottom: none;
+					color: rgba(255, 255, 255, 1);
+				}
+
+			#wrapper > .invert .topmenu a, #wrapper > .invert .topmenu_block a {
+				color: rgba(255, 255, 255, 1);
+			}
+
+				#wrapper > .invert .topmenu a:hover, #wrapper > .invert .topmenu_block a:hover {
+					color: rgba(255, 255, 255, .7);
 				}
 
 			#wrapper > .invert h1, #wrapper > .invert h2, #wrapper > .invert h3, #wrapper > .invert h4, #wrapper > .invert h5, #wrapper > .invert h6 {
@@ -2322,7 +2235,7 @@ input::-moz-focus-inner {
 			}
 			
 			#wrapper > .invert p {
-				color: rgba(255, 255, 255, 0.55);
+				color: rgba(255, 255, 255, 0.95);
 			}
 
 			#wrapper > .invert blockquote {
