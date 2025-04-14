@@ -23,7 +23,7 @@
 		}
 		
 		.logotype_lockup_b {
-			width: 15rem;
+			width: 5rem;
 		}
 		
 		ul.topmenu {
@@ -108,10 +108,10 @@
 			bottom: 0.7rem;
 		}
 		
-		ul.goup li {
-			padding: 0.25rem 0.5rem 1rem 0;
-		}
-		
+		       ul.goup li {
+			        padding: 0.25rem 0.5rem 1rem 0;
+		       }
+			   
 		.offdesk {
 			display: none;
 		}
