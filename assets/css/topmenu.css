@@ -56,13 +56,18 @@
 @media screen and (max-width: 1180px) {
 .menu-btn, .menu-btnb {
 	right: 1.5rem;
-	top: 1.5rem;
+	top: 2.5rem;
 }
-}
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 980px) {
 .menu-btn, .menu-btnb {
-	right: 0.5rem;
-	top: 1.5rem;
+	right: 1.5rem;
+	top: 2.5rem;
+}
+}
+@media screen and (max-width: 820px) {
+.menu-btn, .menu-btnb {
+	right: 1.5rem;
+	top: 2.5rem;
 }
 }
 @media screen and (max-width: 768px) {
