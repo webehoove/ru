@@ -262,7 +262,7 @@
 		}
 		
 		.logotype_lockup_b {
-			width: 3.5rem;
+			width: 3.35rem;
 		}
 		
 		}
@@ -271,6 +271,7 @@
 			
 		ul.bottommenu li {
 			font-size: 1.05rem;
+			line-height: 1.2;
 	   	    margin-bottom: 1rem;
 	    }
 		
