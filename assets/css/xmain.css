@@ -213,6 +213,10 @@
 			width: 2.5rem;
 		}
 		
+		.offmobblock {
+			display: none;
+		}
+		
 		}
 		
         @media screen and (max-width: 820px) {
@@ -222,6 +226,10 @@
 		}
 		
 		.offdesk_title {
+			display: block;
+		}
+		
+		.offmobblock {
 			display: block;
 		}
 		
