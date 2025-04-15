@@ -25,6 +25,70 @@
         <link rel="icon" type="image/png" sizes="32x32" href="imgs/support/favicon-32x32.png">
         <link rel="icon" type="image/png" sizes="16x16" href="imgs/support/favicon-16x16.png">
         <link rel="manifest" href="imgs/support/site.webmanifest">
+<style>
+.collapsible {
+   opacity: 1;
+   transition: opacity .2s ease-out;
+   -moz-transition: opacity .2s ease-out;
+   -webkit-transition: opacity .2s ease-out;
+   -o-transition: opacity .2s ease-out;
+   background-color: #272623;
+   border-radius: 0.35rem;
+   color: white;
+   cursor: pointer;
+   padding: 1.5rem;
+   width: 100%;
+   border: none;
+   text-align: left;
+   outline: none;
+}
+
+.active, .collapsible:hover {
+  opacity: 1;
+}
+
+.collapsible:after {
+   position: relative;
+   content: 'подробнее';
+   color: white;
+   font-size: 0.9rem;
+   text-transform: uppercase;
+   float: right;
+   bottom: 1.2rem;
+   opacity: .5;
+}
+
+.active:after {
+   content: "закрыть";
+   font-size: 0.9rem;
+   text-transform: uppercase;
+}
+
+.coltext {
+   padding: 2rem 0 1rem 0;
+   max-height: 0;
+   overflow: hidden;
+   transition: max-height 0.3s ease-out;
+}
+@media screen and (max-width: 736px) {
+			
+		.collapsible {
+			padding: 1rem 1rem 3rem 1rem;
+	    }
+		
+		.collapsible:after {
+			font-size: 0.85rem;
+			float: left;
+			top: 1rem;
+			bottom: 0.5rem;
+	    }
+		
+		.h1.coltitle {
+			bottom: 1rem;
+		}
+		
+		}
+</style>
 	</head>
 	<body class="is-preload">
     
@@ -759,6 +823,75 @@
                                         </div>
                             </div>
                         </div> 
+                  </section>    
+                  
+             <!-- PLUSES -->
+                  <section class="wrapper style1 color_Eg_15 align-left">
+                        <div class="inner">
+                        
+                            <div class="row">
+                                        <div class="col-12 col-12-small">
+                                        
+                                             <hr>
+                                        
+                                        </div>
+                            </div>
+                            <div id="partners" class="row">
+                                        <div class="col-5 col-12-small">
+                                        
+                                             <h1 class="semibold_tt upup">Мы руководствуемся</h1>
+                                             <h1 class="regular_tt upup">основными принципами</h1>
+                                             
+                                             <hr class="start">
+                                             
+                                             <!-- <p>Каждый из выполняемых нами проектов является превосходным образцом профессионально выполненной работы инженеров и монтажных бригад. Уверенность в каждом из наших сотрудников позволяет нам гарантировать своим заказчикам качество и точное соблюдение всех условий договора о сотрудничестве. Мы используем в своей работе только профессиональное, современное оборудование и технологии работ, что является гарантией быстрого, качественно и эффективного выполнения поставленных задач.</p> -->
+                                        
+                                        </div>
+                                        <div class="col-1 off-12-small">
+                                        </div>
+                                        <div class="col-5 col-12-small">
+                                        
+                                             <div class="collapsible">
+                                                <span class="image fit" style="width:2.5rem; opacity:.3"><img src="imgs/icons/icon_b_list_check_w.svg" onContextMenu="return false;" alt="" /></span>
+                                                <hr class="block2">
+                                                <h1 class="coltitle semibold_tt upup">Честный бюджет</h1>
+                                             </div>
+                                             <div class="coltext">
+                                                <p class="colort_Eg_100" style="margin-top:2rem;">Мы всегда даём заказчику полную и правдивую картину стоимости реализации проекта. Подавая коммерческое предложение, мы гарантируем, что проект может быть реализован в рамках согласованного бюджета.</p>
+                                                <hr>
+                                             </div>
+                                             
+                                             <div class="collapsible">
+                                                 <span class="image fit" style="width:2.35rem; opacity:.3""><img src="imgs/icons/icon_b_safe_check_w.svg" onContextMenu="return false;" alt="" /></span>
+                                                 <hr class="block2">
+                                                 <h1 class="semibold_tt upup">Контроль качества</h1>
+                                             </div>
+                                             <div class="coltext">
+                                                 <p class="colort_Eg_100" style="margin-top:2rem;">Мы дорожим своей репутацией и неизменно выполняем работы на таком уровне качества, который превращает новых заказчиков в наших постоянных партнеров. Нами выработана и воплощена собственная система внутреннего контроля качества. Эффективность системы проверена годами и подтверждается десятками успешно завершенных проектов.</p>
+                                                 <hr>
+                                             </div>
+                                             
+                                             <div class="collapsible">
+                                                 <span class="image fit" style="width:2.35rem; opacity:.3"><img src="imgs/icons/icon_b_clock_w.svg" onContextMenu="return false;" alt="" /></span>
+                                                 <hr class="block2">
+                                                 <h1 class="semibold_tt upup">Точные сроки</h1>
+                                             </div>
+                                             <div class="coltext">
+                                                 <p class="colort_Eg_100" style="margin-top:2rem;">Мы реально оцениваем сроки, в которые проект возможно воплотить без ущерба для качества, учитывая как потребности заказчика, так и объективные факторы, влияющие на время выполнения работ.<br><br>
+                                                 Объективно оценивая поставленные задачи и условия, а также имея четко разработанные алгоритмы для их выполнения, мы всегда исполняем взятые на себя обязательства в срок.</p>
+                                                 <hr>
+                                             </div>
+                                        
+                                        </div>
+                            </div>
+                            <div class="row">
+                                        <div class="col-12 col-12-small">
+                                        
+                                             <hr class="block">
+                                        
+                                        </div>
+                            </div>
+                        </div> 
                   </section>     
                   
              <!-- PARTNERS -->
@@ -919,7 +1052,7 @@
                                              <p style="opacity:.6;">Свяжитесь с нами, чтобы обсудить, как мы можем помочь вам и вашей организации планировать, создавать и управлять безопасными и эффективными инженерными сетями.</p>
                                              <hr>
                                              <ul>
-                                                 <li><a href="https://eltaspb.ru/contacts/" class="button primary large upup">Контакты</a></li>
+                                                 <li><a href="https://eltaspb.ru/contacts/" class="button primary large medium_tx upup">Контакты</a></li>
                                              </ul>
                                              
                                         </div>
@@ -1114,6 +1247,22 @@ $(function() {
         }
     });
 });
+</script>
+<script>
+var coll = document.getElementsByClassName("collapsible");
+var i;
+
+for (i = 0; i < coll.length; i++) {
+  coll[i].addEventListener("click", function() {
+    this.classList.toggle("active");
+    var coltext = this.nextElementSibling;
+    if (coltext.style.maxHeight){
+      coltext.style.maxHeight = null;
+    } else {
+      coltext.style.maxHeight = coltext.scrollHeight + "px";
+    } 
+  });
+}
 </script>
 	</body>
 </html>
