@@ -762,6 +762,11 @@ input::-moz-focus-inner {
 		      background-color: rgba(39, 38, 35, 1);
 		      color: #FFF;
 	      }
+		  
+		  ul.box_link li {
+			  border-bottom: 1px solid #272623;
+			  padding: 2rem 0 0.15rem 0;
+		  }
 	  
 	.box02 {
 		position: relative;
@@ -798,12 +803,16 @@ input::-moz-focus-inner {
 	        @media screen and (max-width: 736px) {
 				
 				.box, .box02 {
-					padding: 1.25rem;
+					padding: 1.35rem 1.25rem 1.25rem 1.25rem;
 		        }
 				
 				.box03_arrow {
 					width: 1.2rem;
 					top: 1.2rem;
+		        }
+		  
+		        ul.box_link li {
+			        margin-bottom: 0.25rem;
 		        }
 				
 			}
@@ -875,8 +884,8 @@ input::-moz-focus-inner {
 		button.large,
 		.button.large {
 			font-size: 0.8rem;
-			height: 3.25rem;
-			line-height: 3.25rem;
+			height: 3.5rem;
+			line-height: 3.5rem;
 			width: auto;
 			border-radius: 0.25rem;
 			padding: 0 1.5rem;
@@ -960,8 +969,8 @@ input::-moz-focus-inner {
 		button.large,
 		.button.large {
 			font-size: 0.9rem;
-			height: 3.5rem;
-			line-height: 3.5rem;
+			height: 4rem;
+			line-height: 4rem;
 			width: auto;
 			border-radius: 0.25rem;
 			padding: 0 1.75rem;
