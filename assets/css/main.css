@@ -271,6 +271,7 @@ input::-moz-focus-inner {
 	strong, b {
 		 font-family: 'ELTA Sans Medium', Helvetica, sans-serif;
 		 font-weight: normal;
+		 letter-spacing: 0.035rem;
 	}
 
 	em, i {
@@ -289,6 +290,7 @@ input::-moz-focus-inner {
 		.medium_tx {
 			font-family: 'ELTA Sans Medium', Helvetica, sans-serif;
 		    font-weight: normal;
+			letter-spacing: 0.035rem;
 		}
 		
 		.bold_tx {
