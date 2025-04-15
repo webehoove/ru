@@ -163,6 +163,7 @@
 		.menumob {
 			display: block;
 			padding: 0;
+			z-index: 5;
 		}
 		
 		#hideitlow {
