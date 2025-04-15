@@ -824,7 +824,7 @@ input::-moz-focus-inner {
 		border: 0;
 		cursor: pointer;
 		display: inline-block;
-		letter-spacing: 0.025rem;
+		letter-spacing: 0.05rem;
 		text-align: center;
 		text-decoration: none;
 		white-space: nowrap;
