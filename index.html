@@ -31,9 +31,8 @@
    -moz-transition: opacity .2s ease-out;
    -webkit-transition: opacity .2s ease-out;
    -o-transition: opacity .2s ease-out;
-   background-color: #cacbcc;
-   border-radius: 0.35rem;
-   color: #000;
+   background-color: #272623;
+   color: #FFF;
    cursor: pointer;
    padding: 1.5rem;
    width: 100%;
@@ -45,13 +44,12 @@
 
 .active, .collapsible:hover {
    opacity: 1;
-   background-color: #002bb5;
 }
 
 .collapsible:after {
    position: relative;
    content: 'открыть';
-   color: #000;
+   color: #FFF;
    font-size: 0.9rem;
    text-transform: uppercase;
    float: right;
@@ -66,7 +64,9 @@
 }
 
 .coltext {
-   padding: 0 0 1rem 0;
+   background-color: #FFF;
+   padding: 0 1.5rem 0 1.5rem;
+   margin-bottom: 1rem;
    max-height: 0;
    overflow: hidden;
    transition: max-height 0.3s ease-out;
@@ -78,7 +78,7 @@
 	    }
 		
 		.active, .collapsible:hover {
-            opacity: .75;
+            opacity: 1;
         }
 		
 		.collapsible:after {
@@ -809,7 +809,7 @@
                                         <div class="col-5 col-12-small">
                                         
                                              <div class="collapsible">
-                                                <span class="image fit" style="width:2rem; opacity:.5"><img src="imgs/icons/icon_b_list_check.svg" onContextMenu="return false;" alt="" /></span>
+                                                <span class="image fit" style="width:2rem; opacity:.5"><img src="imgs/icons/icon_b_list_check_w.svg" onContextMenu="return false;" alt="" /></span>
                                                 <hr class="block2">
                                                 <h1 class="coltitle semibold_tt upup">Честный бюджет</h1>
                                              </div>
@@ -819,7 +819,7 @@
                                              </div>
                                              
                                              <div class="collapsible">
-                                                 <span class="image fit" style="width:1.8rem; opacity:.5""><img src="imgs/icons/icon_b_safe_check.svg" onContextMenu="return false;" alt="" /></span>
+                                                 <span class="image fit" style="width:1.8rem; opacity:.5""><img src="imgs/icons/icon_b_safe_check_w.svg" onContextMenu="return false;" alt="" /></span>
                                                  <hr class="block2">
                                                  <h1 class="semibold_tt upup">Контроль качества</h1>
                                              </div>
@@ -830,13 +830,14 @@
                                              </div>
                                              
                                              <div class="collapsible">
-                                                 <span class="image fit" style="width:1.8rem; opacity:.5"><img src="imgs/icons/icon_b_clock.svg" onContextMenu="return false;" alt="" /></span>
+                                                 <span class="image fit" style="width:1.8rem; opacity:.5"><img src="imgs/icons/icon_b_clock_w.svg" onContextMenu="return false;" alt="" /></span>
                                                  <hr class="block2">
                                                  <h1 class="semibold_tt upup">Точные сроки</h1>
                                              </div>
                                              <div class="coltext">
                                                  <p class="colort_Eg_100" style="margin-top:2rem;">Мы реально оцениваем сроки, в которые проект возможно воплотить без ущерба для качества, учитывая как потребности заказчика, так и объективные факторы, влияющие на время выполнения работ.<br><br>
                                                  Объективно оценивая поставленные задачи и условия, а также имея четко разработанные алгоритмы для их выполнения, мы всегда исполняем взятые на себя обязательства в срок.</p>
+                                                 <hr class="block2">
                                              </div>
                                         
                                         </div>
