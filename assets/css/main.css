@@ -238,7 +238,7 @@ input::-moz-focus-inner {
 
 	body {
 		background-color: #FFF;
-		color: #000000;
+		color: #292a2c;
 	}
 
 	body, input, select, textarea {
@@ -456,12 +456,12 @@ input::-moz-focus-inner {
 		
 		hr.lineer_bottom {
 			border-bottom: 1px solid rgba(0, 0, 0, .15);
-			margin: 10rem 0 1.5rem 0;
+			margin: 10rem 0 2rem 0;
 		}
 		
 		hr.lineer_bottom_small {
 			border-bottom: 1px solid rgba(0, 0, 0, .15);
-			margin: 4rem 0 1.5rem 0;
+			margin: 4rem 0 2rem 0;
 		}
 		
 		hr.lineer_start {
@@ -711,25 +711,25 @@ input::-moz-focus-inner {
 	a {
 		-webkit-tap-highlight-color: transparent !important;
         outline: none !important;
-		color: rgba(0, 0, 0, 1);
+		color: rgba(62, 63, 65, 1);
 	}
 
 		a:hover {
-			color: rgba(0, 0, 0, 0.5);
+			color: rgba(62, 63, 65, .5);
 		}
 		
 		a:active, a:visited:active {
-			color: rgba(0, 0, 0, 1);
+			color: rgba(62, 63, 65, .5);
 		}
 		
 	
 	
-	.colort_Eg_100 {
-		color: #676869;
+	.colort_o_30 {
+		opacity: .3;
 	}
 	
-	.colort_Eg_50 {
-		color: #979899;
+	.colort_o_50 {
+		opacity: .5;
 	}
 
 
@@ -742,12 +742,11 @@ input::-moz-focus-inner {
 		margin: 0;
 		width: 100%;
 		height: 100%;
-		border: none;
 		border-radius: 0.35rem;
 	}
 	
 	  .box_bg_01 {
-		  background-color: rgba(39, 38, 35, 1);
+		  background-color: rgba(62, 63, 65, 1);
 	  }
 	  
 	  .box_bg_02 {
@@ -759,12 +758,12 @@ input::-moz-focus-inner {
 	  }
 	  
 	      a .box_bg_02:hover {
-		      background-color: rgba(39, 38, 35, 1);
+		      background-color: rgba(62, 63, 65, 1);
 		      color: #FFF;
 	      }
 		  
 		  ul.box_link li {
-			  border-bottom: 1px solid #272623;
+			  border-bottom: 1px solid rgba(62, 63, 65, .5);
 			  padding: 2rem 0 0.15rem 0;
 		  }
 	  
@@ -774,7 +773,6 @@ input::-moz-focus-inner {
 		padding: 2rem;
 		margin: 0;
 		width: 100%;
-		border: none;
 		border-radius: 0.35rem;
 	}
 	
@@ -782,33 +780,10 @@ input::-moz-focus-inner {
 		  background-color: rgba(240, 240, 240, 1);
 	  }
 	
-	.box03 {
-		position: relative;
-		background-color: inherit;
-		padding: 2rem;
-		margin: 0;
-		width: 100%;
-		border: 1px solid rgba(0, 0, 0, .15);
-		border-radius: 0.35rem;
-	}
-	
-	  .box03_arrow {
-		  position: absolute; 
-		  width: 1.5rem; 
-		  top: 1.55rem; 
-		  left: -3rem; 
-		  opacity: .3;
-	  }
-	
 	        @media screen and (max-width: 736px) {
 				
 				.box, .box02 {
 					padding: 1.35rem 1.25rem 1.25rem 1.25rem;
-		        }
-				
-				.box03_arrow {
-					width: 1.2rem;
-					top: 1.2rem;
 		        }
 		  
 		        ul.box_link li {
@@ -910,8 +885,8 @@ input::-moz-focus-inner {
 	button,
 	.button {
 		background-color: inherit;
-		box-shadow: inset 0 0 0 1px rgba(39, 38, 35, 1);
-		color: rgba(39, 38, 35, 1) !important;
+		box-shadow: inset 0 0 0 1px rgba(62, 63, 65, .5);
+		color: rgba(62, 63, 65, 1) !important;
 	}
 
 		input[type="submit"]:hover,
@@ -919,7 +894,7 @@ input::-moz-focus-inner {
 		input[type="button"]:hover,
 		button:hover,
 		.button:hover {
-			box-shadow: inset 0 0 0 1px rgba(39, 38, 35, 0.25);
+			box-shadow: inset 0 0 0 1px rgba(62, 63, 65, 1);
 		}
 
 		input[type="submit"]:active,
@@ -927,8 +902,8 @@ input::-moz-focus-inner {
 		input[type="button"]:active,
 		button:active,
 		.button:active {
-			box-shadow: inset 0 0 0 1px rgba(33, 95, 205, 1);
-			color: rgba(39, 38, 35, 1);
+			box-shadow: inset 0 0 0 1px rgba(62, 63, 65, 1);
+			color: rgba(62, 63, 65, 1);
 		}
 
 		input[type="submit"].primary,
@@ -936,7 +911,7 @@ input::-moz-focus-inner {
 		input[type="button"].primary,
 		button.primary,
 		.button.primary {
-			background-color: rgba(39, 38, 35, 1);
+			background-color: rgba(62, 63, 65, 1);
 			box-shadow: none;
 			color: rgba(255, 255, 255, 1) !important;
 		}
@@ -946,9 +921,8 @@ input::-moz-focus-inner {
 			input[type="button"].primary:hover,
 			button.primary:hover,
 			.button.primary:hover {
-				background-color: #fe4438;
+				background-color: #095edd;
 				box-shadow: none;
-				color: rgba(39, 38, 35, 1);
 			}
 
 			input[type="submit"].primary:active,
@@ -956,9 +930,8 @@ input::-moz-focus-inner {
 			input[type="button"].primary:active,
 			button.primary:active,
 			.button.primary:active {
-				background-color: #fe4438;
+				background-color: #095edd;
 				box-shadow: none;
-				color: rgba(39, 38, 35, 1);
 			}
 	
 	@media screen and (max-width: 736px) {
@@ -2205,7 +2178,7 @@ input::-moz-focus-inner {
 	}
 
 		#wrapper > .invert {
-			background-color: #272623;
+			background-color: #292a2c;
 			color: rgba(255, 255, 255, .95);
 		}
 
