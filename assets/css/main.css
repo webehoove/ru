@@ -2178,7 +2178,7 @@ input::-moz-focus-inner {
 	}
 
 		#wrapper > .invert {
-			background-color: #3e3f41;
+			background-color: #14161e;
 			color: rgba(255, 255, 255, 1);
 		}
 
@@ -2187,7 +2187,7 @@ input::-moz-focus-inner {
 			}
 
 			#wrapper > .invert a {
-				color: rgba(255, 255, 255, .5);
+				color: rgba(255, 255, 255, .6);
 			}
 
 				#wrapper > .invert a:hover {
