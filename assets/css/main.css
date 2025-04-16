@@ -238,7 +238,7 @@ input::-moz-focus-inner {
 
 	body {
 		background-color: #FFF;
-		color: #292a2c;
+		color: #14161e;
 	}
 
 	body, input, select, textarea {
@@ -728,8 +728,8 @@ input::-moz-focus-inner {
 		opacity: .3;
 	}
 	
-	.colort_o_50 {
-		opacity: .5;
+	.colort_o_60 {
+		opacity: .6;
 	}
 
 
@@ -2183,7 +2183,7 @@ input::-moz-focus-inner {
 		}
 
 			#wrapper > .invert input, #wrapper > .invert select, #wrapper > .invert textarea {
-				color: rgba(255, 255, 255, .95);
+				color: rgba(255, 255, 255, 1);
 			}
 
 			#wrapper > .invert a {
