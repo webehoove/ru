@@ -772,6 +772,10 @@ input::-moz-focus-inner {
 		
 	
 	
+	.colort_o_00 {
+		opacity: 1;
+	}
+	
 	.colort_o_30 {
 		opacity: .3;
 	}
@@ -827,6 +831,38 @@ input::-moz-focus-inner {
 	  .box02_bg_02 {
 		  background-color: rgba(240, 240, 240, 1);
 	  }
+	  
+	.box_wide {
+		position: relative;
+		background-color: rgba(240, 240, 240, 1);
+		padding: 2rem;
+		margin: 0;
+		width: 100%;
+		height: 100%;
+		border-radius: 0.35rem;
+	}
+	  
+	  .box_wide.box_wide_bg_01 {
+		  position: relative;
+		  background-image: url(../../imgs/bnrs/elta_plan_design_2200.jpg);
+		  background-clip:padding-box;
+		  background-position: center;
+		  background-size: cover;
+		  background-repeat: no-repeat;
+		  color: #fff;
+	  }
+	  
+	  .box_wide_text {
+		  position: relative;
+		  padding-bottom: 2rem;
+		  width: 80%;
+		  height: 100%;
+		  float: left;
+	  }
+	  
+	  .box_wide_text p {
+		  width: 40%;
+	  }
 	
 	        @media screen and (max-width: 736px) {
 				
@@ -837,6 +873,15 @@ input::-moz-focus-inner {
 		        ul.box_link li {
 			        margin-bottom: 0.25rem;
 		        }
+				
+				.box_wide.box_wide_bg_01 {
+					padding: 1.35rem 1.25rem 1.35rem 1.25rem;
+		        }
+				
+				    .box_wide_text p {
+						width: 100%;
+						padding-bottom: 1rem;
+					}
 				
 			}
 
@@ -979,6 +1024,25 @@ input::-moz-focus-inner {
 			button.primary:active,
 			.button.primary:active {
 				background-color: rgba(62, 63, 65, .7);
+				box-shadow: none;
+			}
+
+		button.secondary,
+		.button.secondary {
+			background-color: rgba(255, 255, 255, 1);
+			box-shadow: none;
+			color: rgba(62, 63, 65, 1) !important;
+		}
+
+			button.secondary:hover,
+			.button.secondary:hover {
+				background-color: rgba(255, 255, 255, .7);
+				box-shadow: none;
+			}
+
+			button.secondary:active,
+			.button.secondary:active {
+				background-color: rgba(255, 255, 255, .7);
 				box-shadow: none;
 			}
 	
