@@ -320,8 +320,8 @@ input::-moz-focus-inner {
 		
 	p {
 		font-size: 1.25rem;
-		line-height: 1.2;
-		margin-bottom: 1rem;
+		line-height: 1.25;
+		margin-bottom: 1.25rem;
 		opacity: .6;
 	}
 	
@@ -659,6 +659,7 @@ input::-moz-focus-inner {
 	    p {
 			font-size: 1.3rem;
 			line-height: 1.25;
+			margin-bottom: 1.2;
 			width: 100%;
 	    }
 		
@@ -830,7 +831,7 @@ input::-moz-focus-inner {
 	        @media screen and (max-width: 736px) {
 				
 				.box, .box02 {
-					padding: 1.35rem 1.25rem 1.25rem 1.25rem;
+					padding: 1.35rem 1.25rem 1.35rem 1.25rem;
 		        }
 		  
 		        ul.box_link li {
