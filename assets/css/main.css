@@ -852,6 +852,26 @@ input::-moz-focus-inner {
 		  color: #fff;
 	  }
 	  
+	  .box_wide.box_wide_bg_02 {
+		  position: relative;
+		  background-image: url(../../imgs/bnrs/elta_high_worker_one_2400.jpg);
+		  background-clip:padding-box;
+		  background-position: left;
+		  background-size: cover;
+		  background-repeat: no-repeat;
+		  color: #fff;
+	  }
+	  
+	  .box_wide.box_wide_bg_03 {
+		  position: relative;
+		  background-image: url(../../imgs/bnrs/elta_maintenance_check_2400.jpg);
+		  background-clip:padding-box;
+		  background-position: left;
+		  background-size: cover;
+		  background-repeat: no-repeat;
+		  color: #fff;
+	  }
+	  
 	  .box_wide_text {
 		  position: relative;
 		  padding-bottom: 2rem;
@@ -874,11 +894,15 @@ input::-moz-focus-inner {
 			        margin-bottom: 0.25rem;
 		        }
 				
-				.box_wide.box_wide_bg_01 {
-					padding: 1.35rem 1.25rem 1.35rem 1.25rem;
+				.box_wide_bg_01, .box_wide_bg_02, .box_wide_bg_03 {
+					padding: 1.35rem 1.25rem 0 1.25rem;
 		        }
 				
-				    .box_wide_text p {
+				    .box_wide_text {
+						padding-bottom: 1rem;
+					}
+					
+					.box_wide_text p {
 						width: 100%;
 						padding-bottom: 1rem;
 					}
