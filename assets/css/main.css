@@ -505,6 +505,15 @@ input::-moz-focus-inner {
 		    font-size: 2rem;
 	    }
 		
+		hr.block {
+			border: 0;
+		    margin: 4rem 0;
+		}
+		
+		hr.lineer {
+			margin: 6rem 0 4rem 0;
+		}
+		
 	}
 	
 	@media screen and (max-width: 1366px) {
