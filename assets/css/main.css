@@ -727,11 +727,11 @@ input::-moz-focus-inner {
 		
 		hr.lineer {
 		    border-bottom: 1px solid rgba(0, 0, 0, .65);
-			margin: 8rem -1rem 4rem -1rem;
+			margin: 7rem -1rem 3rem -1rem;
 		}
 		
 		hr.lineer_block {
-		    margin: 4rem 0;
+		    margin: 3rem 0;
 		}
 		
 		hr.lineer_block_text {
@@ -739,7 +739,7 @@ input::-moz-focus-inner {
 		}
 		
 		hr.lineer_bottom {
-		    margin: 8rem 0 1rem 0;
+		    margin: 6rem 0 1rem 0;
 		}
 		
 		hr.lineer_bottom_small {
@@ -768,8 +768,8 @@ input::-moz-focus-inner {
 		opacity: 1;
 	}
 	
-	.colort_o_30 {
-		opacity: .3;
+	.colort_o_40 {
+		opacity: .4;
 	}
 	
 	.colort_o_60 {
