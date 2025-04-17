@@ -678,7 +678,7 @@ input::-moz-focus-inner {
 		}
 		
 		h1.special_two {
-		    font-size: 2rem;
+		    font-size: 2.05rem;
 			line-height: 1.05;
 	    }
 		
@@ -2494,7 +2494,7 @@ input::-moz-focus-inner {
 				#wrapper > .invert input[type="button"].primary,
 				#wrapper > .invert button.primary,
 				#wrapper > .invert .button.primary {
-					background-color: rgba(255, 255, 255, 1);
+					background-color: rgba(255, 255, 255, .8);
 					background-image: none;
 			        box-shadow: none;
 					color: rgba(0, 0, 0, 1) !important;
@@ -2505,7 +2505,7 @@ input::-moz-focus-inner {
 					#wrapper > .invert input[type="button"].primary:hover,
 					#wrapper > .invert button.primary:hover,
 					#wrapper > .invert .button.primary:hover {
-						background-color: rgba(255, 255, 255, .7);
+						background-color: rgba(255, 255, 255, .5);
 					    box-shadow: none;
 						color: #fff;
 					}
@@ -2515,7 +2515,7 @@ input::-moz-focus-inner {
 					#wrapper > .invert input[type="button"].primary:active,
 					#wrapper > .invert button.primary:active,
 					#wrapper > .invert .button.primary:active {
-						background-color: rgba(255, 255, 255, .7);
+						background-color: rgba(255, 255, 255, .5);
 					    box-shadow: none;
 						color: #fff;
 					}
