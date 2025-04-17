@@ -264,6 +264,10 @@
 			width: 3.15rem;
 		}
 		
+		.offmobtext {
+			display: none;
+		}
+		
 		}
 		
         @media screen and (max-width: 736px) {
