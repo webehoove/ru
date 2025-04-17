@@ -875,7 +875,7 @@ input::-moz-focus-inner {
 	  .box_wide_text {
 		  position: relative;
 		  padding-bottom: 2rem;
-		  width: 80%;
+		  width: 90%;
 		  height: 100%;
 		  float: left;
 	  }
