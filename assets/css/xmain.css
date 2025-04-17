@@ -90,6 +90,7 @@
 		ul.bottommenu {
 			list-style: none;
 			font-size: 0.9rem;
+			line-height: 1.2;
 		    padding: 0;
 		    margin: 0;
 		}
@@ -102,6 +103,7 @@
 		ul.bottommenu_hor {
 			list-style: none;
 			font-size: 0.9rem;
+			line-height: 0.9;
 		    padding: 0;
 		    margin: 0;
 		}
@@ -206,16 +208,16 @@
 			display: block;
 		}
 		
+		.offmobblock {
+			display: none;
+		}
+		
 		}
 		
         @media screen and (max-width: 1080px) {
 		
 		.logotype_lockup_b {
 			width: 2.5rem;
-		}
-		
-		.offmobblock {
-			display: none;
 		}
 		
 		}
