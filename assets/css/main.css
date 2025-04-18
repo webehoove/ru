@@ -1985,6 +1985,174 @@ input::-moz-focus-inner {
 		background-color: rgba(0, 0, 0, 0);
 	}
 	
+/* Banner (style4) */
+
+	.banner.style4 {
+		padding: 1rem 2rem ;
+		margin: 0 auto;
+		width: 100%;
+		-moz-align-items: left;
+		-webkit-align-items: left;
+		-ms-align-items: left;
+		align-items: left;
+		display: -moz-flex;
+		display: -webkit-flex;
+		display: -ms-flex;
+		display: flex;
+		-moz-justify-content: left;
+		-webkit-justify-content: left;
+		-ms-justify-content: left;
+		justify-content: left;
+		background-color: inherit;
+		position: relative;
+		overflow-x: hidden;
+	}
+
+		.banner.style4 .content {
+			position: relative;
+			width: 100%;
+			height: 100svh;
+			overflow: hidden;
+			z-index: 2;
+		}
+
+		.banner.style4 .image {
+			-moz-flex-grow: 0;
+			-webkit-flex-grow: 0;
+			-ms-flex-grow: 0;
+			flex-grow: 0;
+			-moz-flex-shrink: 0;
+			-webkit-flex-shrink: 0;
+			-ms-flex-shrink: 0;
+			flex-shrink: 0;
+			position: absolute;
+			width: 100%;
+			height: 100%;
+			top: 0;
+			left: 0;
+			opacity: 1;
+		}
+
+			.banner.style4 .image img {
+				-moz-object-fit: cover;
+				-webkit-object-fit: cover;
+				-ms-object-fit: cover;
+				object-fit: cover;
+				-moz-object-position: center;
+				-webkit-object-position: center;
+				-ms-object-position: center;
+				object-position: center;
+				display: block;
+				position: absolute;
+				top: 0;
+				left: 0;
+				width: 100%;
+				height: 100%;
+			}
+			
+			.banner.style4 .image video {
+				-webkit-appearance: none;
+                transform: rotateY(180deg);
+				-moz-object-fit: cover;
+				-webkit-object-fit: cover;
+				-ms-object-fit: cover;
+				object-fit: cover;
+				-moz-object-position: center;
+				-webkit-object-position: center;
+				-ms-object-position: center;
+				object-position: center;
+				display: block;
+				position: absolute;
+				top: 0;
+				left: 0;
+				width: 100%;
+				height: 100%;
+				opacity: 0.9;
+				z-index: 1;
+			}
+
+		@media screen and (max-width: 1680px) {
+
+			.banner.style4 {
+				padding: 1rem 2rem ;
+			}
+
+		}
+
+		@media screen and (max-width: 1366px) {
+
+			.banner.style4 {
+				padding: 1rem 2rem ;
+			}
+
+		}
+
+		@media screen and (max-width: 1280px) {
+
+			.banner.style4 {
+				padding: 1rem 1.5rem ;
+			}
+
+		}
+
+		@media screen and (max-width: 1080px) {
+
+			.banner.style4 {
+				padding: 0.5rem 1rem;
+			}
+
+		}
+
+	    @media screen and (max-width: 1024px) {
+
+		    .banner.style4 {
+		    	padding: 0 1rem ;
+		    }
+
+	    }
+
+		@media screen and (max-width: 980px) {
+
+			.banner.style4 {
+				padding: 0 1rem ;
+			}
+
+		}
+
+		@media screen and (max-width: 736px) {
+
+			.banner.style4 {
+				padding: 0 1rem ;
+			}
+
+		}
+
+		.banner.style4.fullscreen {
+			min-height: 100vh;
+		}
+
+		.banner.style4.content-align-left {
+			text-align: left;
+		}
+
+		.banner.style4.content-align-right {
+			text-align: right;
+		}
+
+		.banner.style4.image-position-left .image img {
+			-moz-object-position: left;
+			-webkit-object-position: left;
+			-ms-object-position: left;
+			object-position: left;
+		}
+
+		.banner.style4.image-position-right .image img {
+			-moz-object-position: right;
+			-webkit-object-position: right;
+			-ms-object-position: right;
+			object-position: right;
+		}
+	
 /* Banner (style1) */
 
 	.banner.style1 {
