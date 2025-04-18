@@ -2617,7 +2617,16 @@ input::-moz-focus-inner {
 					color: rgba(255, 255, 255, .7);
 				}
 
-			#wrapper > .invert h1, #wrapper > .invert h2, #wrapper > .invert h3, #wrapper > .invert h4, #wrapper > .invert h5, #wrapper > .invert h6 {
+			#wrapper > .invert ul.box_link_w li a {
+			  color: rgba(255, 255, 255, 1);
+		    }
+		  
+		       #wrapper > .invert ul.box_link_w li a:hover {
+			       border-color: rgba(255, 255, 255, .5);
+			       opacity: .8;
+		       }
+		  
+		    #wrapper > .invert h1, #wrapper > .invert h2, #wrapper > .invert h3, #wrapper > .invert h4, #wrapper > .invert h5, #wrapper > .invert h6 {
 				color: rgba(255, 255, 255, 1);
 			}
 			
