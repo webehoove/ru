@@ -31,7 +31,7 @@
 		}
 		
 		.logotype_lockup_b {
-			width: 3rem;
+			width: 4rem;
 			margin-bottom: 1.5rem;
 		}
 		
@@ -146,10 +146,6 @@
 			width: 7.75rem;
 		}
 		
-		.logotype_lockup_b {
-			width: 3rem;
-		}
-		
 		ul.topmenu, ul.topmenu_block {
 			font-size: 0.85rem;
 		}
@@ -217,7 +213,7 @@
         @media screen and (max-width: 1080px) {
 		
 		.logotype_lockup_b {
-			width: 2.5rem;
+			width: 3.35rem;
 		}
 		
 		}
@@ -261,7 +257,7 @@
 		}
 		
 		.logotype_lockup_b {
-			width: 3.15rem;
+			width: 3.35rem;
 		}
 		
 		.offmobtext {
