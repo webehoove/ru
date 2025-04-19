@@ -704,8 +704,8 @@ input::-moz-focus-inner {
 	    }
 		
 		h3 {
-			font-size: 1.35rem;
-			line-height: 1.05;
+			font-size: 1.5rem;
+			line-height: 1.1;
 	    }
 		
 		h4 {
@@ -962,7 +962,7 @@ input::-moz-focus-inner {
 	
 	        @media screen and (max-width: 736px) {
 				
-				.box, .box02 {
+				.box, .box02, .box03 {
 					padding: 1.35rem 1.25rem 1.35rem 1.25rem;
 		        }
 		  
