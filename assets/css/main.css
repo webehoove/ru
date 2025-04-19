@@ -2661,7 +2661,7 @@ input::-moz-focus-inner {
 			}
 			
 			#wrapper > .invert .box03 {
-		        border: 1px solid rgba(255, 255, 255, .25);
+		        border: 1px solid rgba(255, 255, 255, .15);
 	        }
 
 			#wrapper > .invert input[type="submit"],
@@ -2670,7 +2670,7 @@ input::-moz-focus-inner {
 			#wrapper > .invert button,
 			#wrapper > .invert .button {
 				background-color: inherit;
-		        box-shadow: inset 0 0 0 1px rgba(255, 255, 255, .25);
+		        box-shadow: inset 0 0 0 1px rgba(255, 255, 255, .15);
 		        color: rgba(255, 255, 255, 1) !important;
 			    }
 
