@@ -708,6 +708,11 @@ input::-moz-focus-inner {
 			line-height: 1.1;
 	    }
 		
+		h3.text_norm {
+			font-size: 1.3rem;
+			line-height: 1.1;
+	    }
+		
 		h4 {
 			font-size: 1.15rem;
 			line-height: 1.15;
@@ -809,6 +814,7 @@ input::-moz-focus-inner {
 	
 	  .box_bg_01 {
 		  background-color: rgba(62, 63, 65, 1);
+		  color: #FFF;
 	  }
 	  
 	  .box_bg_02 {
