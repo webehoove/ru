@@ -910,6 +910,16 @@ input::-moz-focus-inner {
 		  color: #fff;
 	  }
 	  
+	  .box_wide.box_wide_bg_04 {
+		  position: relative;
+		  background-image: url(../../imgs/bnrs/elta_crane_sky_2400.jpg);
+		  background-clip:padding-box;
+		  background-position: center;
+		  background-size: cover;
+		  background-repeat: no-repeat;
+		  color: #fff;
+	  }
+	  
 	  .box_wide_text {
 		  position: relative;
 		  padding-bottom: 2rem;
@@ -988,7 +998,7 @@ input::-moz-focus-inner {
 			        margin-bottom: 0.25rem;
 		        }
 				
-				.box_wide_bg_01, .box_wide_bg_02, .box_wide_bg_03 {
+				.box_wide_bg_01, .box_wide_bg_02, .box_wide_bg_03, .box_wide_bg_04 {
 					padding: 1.35rem 1.25rem 0 1.25rem;
 		        }
 				
@@ -1154,13 +1164,13 @@ input::-moz-focus-inner {
 
 			button.secondary:hover,
 			.button.secondary:hover {
-				background-color: rgba(255, 255, 255, .7);
+				background-color: rgba(255, 255, 255, .85);
 				box-shadow: none;
 			}
 
 			button.secondary:active,
 			.button.secondary:active {
-				background-color: rgba(255, 255, 255, .7);
+				background-color: rgba(255, 255, 255, .85);
 				box-shadow: none;
 			}
 	
