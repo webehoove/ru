@@ -18,22 +18,32 @@
 <link rel="icon" type="image/png" sizes="32x32" href="images/support/favicon-32x32.png">
 <link rel="icon" type="image/png" sizes="16x16" href="images/support/favicon-16x16.png">
 <link rel="manifest" href="images/support/site.webmanifest">
+<style>
+.logo_inv a {
+	position: fixed;
+	top: 0.5rem;
+	left: 0.5rem;
+    mix-blend-mode: difference;
+    color: white;
+	z-index: 2;
+}
+</style>
 </head>
 
 <body class="is-preload">
-<div id="wrapper" class="divided"> 
+<div id="wrapper" class="divided">
+<div class="logo_inv"> <a href="https://webehoove.github.io/ru/"><span class=" t_rg_It">We</span>Behoove</a></div> 
   
   <!-- BANNER -->
   <section class="banner style5 invert orient-left content-align-left image-position-center fullscreen onload-image-fade-in onload-content-fade-right">
     <div class="content">
       <div class="row invert_black">
-        <div class="col-2 col-6-small"> <a href="https://webehoove.github.io/ru/"><span class="logoname t_rg_It">We</span><span class="logoname">Behoove</span></a>
+        <div class="col-6 col-6-small"> <a style="display:none;" href="https://webehoove.github.io/ru/"><span class="logoname t_rg_It">We</span><span class="logoname">Behoove</span></a>
           <hr class="minor">
         </div>
-        <div class="col-4 col-6-small"> </div>
-        <div class="col-4 col-12-small">
+        <div class="col-4 col-6-small">
           <ul class="topmenu">
-            <li><a href="">Работы</a></li>
+            <li class="title"><a href="">Работы</a><li>
             <li><a href="">О нас</a></li>
             <li><a href="">Контакты</a></li>
           </ul>
