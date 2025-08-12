@@ -1361,6 +1361,10 @@ input, select, textarea {
 			overflow: hidden;
 			z-index: 1;
 		}
+		
+		.banner.style5 .content .white, .banner.style5 .content .white a {
+			color: rgba(255, 255, 255, 1);
+		}
 
 		.banner.style5 .image {
 			-moz-flex-grow: 0;
@@ -1711,7 +1715,7 @@ input, select, textarea {
 			background-color: #212121;
 			color: rgba(255, 255, 255, 0.87);
 		}
-			#wrapper > .invert .white, #wrapper > .invert .white a {
+			#wrapper > .invert .invert_white, #wrapper > .invert .invert_white a {
 				color: rgba(255, 255, 255, 1);
 			}
 
