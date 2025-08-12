@@ -41,6 +41,69 @@
 
 
 
+@font-face {
+    font-family: 'WBSans Lt';
+    font-weight: normal;
+    font-style: normal;
+    src:url(../webfonts/wbsans/AeonikPro-Light.woff2) format('woff2'),
+	    url(../webfonts/wbh/AeonikPro-Light.woff) format('woff');
+}
+
+@font-face {
+    font-family: 'WBSans Lt It';
+    font-weight: normal;
+    font-style: normal;
+    src:url(../webfonts/wbh/AeonikPro-LightItalic.woff) format('woff');
+}
+
+@font-face {
+    font-family: 'WBSans Rg';
+    font-weight: normal;
+    font-style: normal;
+    src:url(../webfonts/wbsans/AeonikPro-Regular.woff2) format('woff2'),
+	    url(../webfonts/wbh/AeonikPro-Regular.woff) format('woff');
+}
+
+@font-face {
+    font-family: 'WBSans Rg It';
+    font-weight: normal;
+    font-style: normal;
+    src:url(../webfonts/wbh/AeonikPro-RegularItalic.woff) format('woff');
+}
+
+@font-face {
+    font-family: 'WBSans Md';
+    font-weight: normal;
+    font-style: normal;
+    src:url(../webfonts/wbsans/AeonikPro-Medium.woff2) format('woff2'),
+	    url(../webfonts/wbh/AeonikPro-Medium.woff) format('woff');
+}
+
+@font-face {
+    font-family: 'WBSans Md It';
+    font-weight: normal;
+    font-style: normal;
+    src:url(../webfonts/wbsans/AeonikPro-MediumItalic.woff) format('woff');
+}
+
+@font-face {
+    font-family: 'WBSans Bd';
+    font-weight: normal;
+    font-style: normal;
+    src:url(../webfonts/wbsans/AeonikPro-Bold.woff2) format('woff2'),
+	    url(../webfonts/wbh/AeonikPro-Bold.woff) format('woff');
+}
+
+@font-face {
+    font-family: 'WBSans Bd It';
+    font-weight: normal;
+    font-style: normal;
+    src:url(../webfonts/wbh/AeonikPro-BoldItalic.woff) format('woff');
+}
+
+
+
+
 
 @font-face {
     font-family: 'WB Gurofic Rg';
@@ -226,7 +289,7 @@ input, select, textarea {
 	}
 
 	body, input, select, textarea {
-		font-family: 'WB Sweet Rg', Helvetica, sans-serif;
+		font-family: 'WBSans Rg', Helvetica, sans-serif;
 		-webkit-font-smoothing: antialiased;
 	    -moz-osx-font-smoothing: grayscale;
 		font-weight: normal;
@@ -276,14 +339,14 @@ input, select, textarea {
 			text-transform: uppercase;
 		}
 		
-		.t_rg_sans {
+		.t_rg_serif {
 			font-family: 'WB Gurofic Rg', Helvetica, sans-serif;
 		    -webkit-font-smoothing: antialiased;
 	        -moz-osx-font-smoothing: grayscale;
 		    font-weight: normal;
 		}
 		
-		.t_it_sans {
+		.t_it_serif {
 			font-family: 'WB Gurofic It', Helvetica, sans-serif;
 		    -webkit-font-smoothing: antialiased;
 	        -moz-osx-font-smoothing: grayscale;
@@ -291,42 +354,56 @@ input, select, textarea {
 		}
 		
 		.t_lt {
-			font-family: 'WB Sweet Lt', Helvetica, sans-serif;
+			font-family: 'WBSans Lt', Helvetica, sans-serif;
 		    -webkit-font-smoothing: antialiased;
 	        -moz-osx-font-smoothing: grayscale;
 		    font-weight: normal;
 		}
 		
-		.t_lt_italic {
-			font-family: 'WB Sweet Lt It', Helvetica, sans-serif;
+		.t_lt_It {
+			font-family: 'WBSans Lt It', Helvetica, sans-serif;
 		    -webkit-font-smoothing: antialiased;
 	        -moz-osx-font-smoothing: grayscale;
 		    font-weight: normal;
 		}
 		
 		.t_rg {
-			font-family: 'WB Sweet Rg', Helvetica, sans-serif;
+			font-family: 'WBSans Rg', Helvetica, sans-serif;
 		    -webkit-font-smoothing: antialiased;
 	        -moz-osx-font-smoothing: grayscale;
 		    font-weight: normal;
 		}
 		
-		.t_rg_italic {
-			font-family: 'WB Sweet Rg It', Helvetica, sans-serif;
+		.t_rg_It {
+			font-family: 'WBSans Rg It', Helvetica, sans-serif;
 		    -webkit-font-smoothing: antialiased;
 	        -moz-osx-font-smoothing: grayscale;
 		    font-weight: normal;
 		}
 		
 		.t_md {
-			font-family: 'WB Sweet Md', Helvetica, sans-serif;
+			font-family: 'WBSans Md', Helvetica, sans-serif;
 		    -webkit-font-smoothing: antialiased;
 	        -moz-osx-font-smoothing: grayscale;
 		    font-weight: normal;
 		}
 		
-		.t_md_italic {
-			font-family: 'WB Sweet Md It', Helvetica, sans-serif;
+		.t_md_It {
+			font-family: 'WBSans Md It', Helvetica, sans-serif;
+		    -webkit-font-smoothing: antialiased;
+	        -moz-osx-font-smoothing: grayscale;
+		    font-weight: normal;
+		}
+		
+		.t_bd {
+			font-family: 'WBSans Bd', Helvetica, sans-serif;
+		    -webkit-font-smoothing: antialiased;
+	        -moz-osx-font-smoothing: grayscale;
+		    font-weight: normal;
+		}
+		
+		.t_bd_It {
+			font-family: 'WBSans Bd It', Helvetica, sans-serif;
 		    -webkit-font-smoothing: antialiased;
 	        -moz-osx-font-smoothing: grayscale;
 		    font-weight: normal;
