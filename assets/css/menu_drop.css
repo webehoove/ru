@@ -1,0 +1,44 @@
+.collapsible {
+	transition: opacity .2s ease-out;
+	-moz-transition: opacity .2s ease-out;
+	-webkit-transition: opacity .2s ease-out;
+	-o-transition: opacity .2s ease-out;
+}
+.active, .collapsible:hover {
+	opacity: 1;
+}
+.collapsible:after {
+	position: fixed;
+	content: 'Меню';
+}
+.active:after {
+	content: "Закрыть";
+}
+.coltext {
+	position: fixed;
+	background-color: #212121;
+	padding: 0;
+	margin: 0;
+	max-height: 0;
+	overflow: hidden;
+	transition: max-height 0.3s ease-out;
+	z-index: 1;
+}
+@media screen and (max-width: 736px) {
+	
+.collapsible {
+	padding: 0;
+	margin: 0;
+}
+.active, .collapsible:hover {
+	opacity: 1;
+}
+.collapsible:after {
+	position: fixed;
+	top: 0.5rem;
+	right: 0.5rem;
+}
+.coltext {
+	
+}
+}

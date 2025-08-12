@@ -274,7 +274,7 @@ input, select, textarea {
 		@media screen and (max-width: 736px) {
 
 			html {
-				font-size: 16px;
+				font-size: 15px;
 			}
 
 		}
@@ -282,7 +282,7 @@ input, select, textarea {
 		@media screen and (max-width: 360px) {
 
 			html {
-				font-size: 16px;
+				font-size: 15px;
 			}
 
 		}
@@ -543,7 +543,7 @@ input, select, textarea {
 		}
 		
 		    h1.title {
-			    font-size: 3rem;
+			    font-size: 3.5rem;
 		    }
 			
 			h1.major {
@@ -855,11 +855,6 @@ input, select, textarea {
 				         display: block;
 						 padding: 0 0 0.25rem 0;
 			         }
-					 
-					 ul.topmenu li.title {
-				         padding-bottom: 0;
-			         }
-
 		       }
 
 	dl {
