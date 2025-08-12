@@ -53,7 +53,8 @@
     font-family: 'WBSans Lt It';
     font-weight: normal;
     font-style: normal;
-    src:url(../webfonts/wbsans/AeonikPro-LightItalic.woff) format('woff');
+    src:url(../webfonts/wbsans/AeonikPro-LightItalic.woff2) format('woff2'),
+	    url(../webfonts/wbsans/AeonikPro-LightItalic.woff) format('woff');
 }
 
 @font-face {
@@ -68,7 +69,8 @@
     font-family: 'WBSans Rg It';
     font-weight: normal;
     font-style: normal;
-    src:url(../webfonts/wbsans/AeonikPro-RegularItalic.woff) format('woff');
+    src:url(../webfonts/wbsans/AeonikPro-RegularItalic.woff2) format('woff2'),
+	    url(../webfonts/wbsans/AeonikPro-RegularItalic.woff) format('woff');
 }
 
 @font-face {
@@ -83,7 +85,8 @@
     font-family: 'WBSans Md It';
     font-weight: normal;
     font-style: normal;
-    src:url(../webfonts/wbsans/AeonikPro-MediumItalic.woff) format('woff');
+    src:url(../webfonts/wbsans/AeonikPro-MediumItalic.woff2) format('woff2'),
+	    url(../webfonts/wbsans/AeonikPro-MediumItalic.woff) format('woff');
 }
 
 @font-face {
@@ -98,7 +101,8 @@
     font-family: 'WBSans Bd It';
     font-weight: normal;
     font-style: normal;
-    src:url(../webfonts/wbsans/AeonikPro-BoldItalic.woff) format('woff');
+    src:url(../webfonts/wbsans/AeonikPro-BoldItalic.woff2) format('woff2'),
+	    url(../webfonts/wbsans/AeonikPro-BoldItalic.woff) format('woff');
 }
 
 
