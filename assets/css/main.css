@@ -1334,7 +1334,7 @@ input, select, textarea {
 /* Banner (style5) */
 
 	.banner.style5 {
-		padding: 0 0.5rem 0.5rem 0.5rem ;
+		padding: 0 0.5rem ;
 		margin: 0 auto;
 		width: 100%;
 		-moz-align-items: left;
@@ -1414,15 +1414,14 @@ input, select, textarea {
 				top: 0;
 				left: 0;
 				max-width: 100%;
-                max-height: 100%;
                 min-width: 100%;
-                min-height: 100%;
+				height: 100svh;
 			}
 
 		@media screen and (max-width: 1680px) {
 
 			.banner.style5 {
-				padding: 0 0.5rem 0.5rem 0.5rem ;
+				padding: 0 0.5rem ;
 			}
 
 		}
@@ -1438,7 +1437,7 @@ input, select, textarea {
 		@media screen and (max-width: 980px) {
 
 			.banner.style5 {
-				padding: 0 0.5rem 0.5rem 0.5rem ;
+				padding: 0 0.5rem ;
 			}
 
 		}
@@ -1446,7 +1445,7 @@ input, select, textarea {
 		@media screen and (max-width: 736px) {
 
 			.banner.style5 {
-				padding: 0 0.5rem 0.5rem 0.5rem ;
+				padding: 0 0.5rem ;
 				overflow: hidden;
 				height: 100svh;
 			}
@@ -1709,7 +1708,7 @@ input, select, textarea {
 	}
 
 		#wrapper > .invert {
-			background-color: rgba(0, 0, 0, 1);
+			background-color: #212121;
 			color: rgba(255, 255, 255, 0.87);
 		}
 			#wrapper > .invert .white, #wrapper > .invert .white a {
