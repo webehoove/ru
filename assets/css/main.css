@@ -1709,9 +1709,12 @@ input, select, textarea {
 	}
 
 		#wrapper > .invert {
-			background-color: rgba(255, 255, 255, 1);
+			background-color: rgba(0, 0, 0, 1);
 			color: rgba(255, 255, 255, 0.87);
 		}
+			#wrapper > .invert .white, #wrapper > .invert .white a {
+				color: rgba(255, 255, 255, 1);
+			}
 
 			#wrapper > .invert input, #wrapper > .invert select, #wrapper > .invert textarea {
 				color: #ffffff;
@@ -1734,7 +1737,7 @@ input, select, textarea {
 			}
 			
 			#wrapper > .invert p {
-				color: rgba(255, 255, 255, 0.67);
+				color: rgba(255, 255, 255, 0.57);
 			}
 
 			#wrapper > .invert hr {
@@ -1894,44 +1897,9 @@ input, select, textarea {
 				border-top-color: white;
 			}
 
-			#wrapper > .invert header p {
-				color: #ffffff;
-			}
-
-			#wrapper > .invert table tbody tr {
-				border-color: white;
-			}
-
-				#wrapper > .invert table tbody tr:nth-child(2n + 1) {
-					background-color: rgba(255, 255, 255, 0.125);
-				}
-
-				#wrapper > .invert table tbody tr.alt {
-					background-color: rgba(255, 255, 255, 0.125) !important;
-				}
-
-			#wrapper > .invert table th {
-				color: #ffffff;
-			}
-
-			#wrapper > .invert table thead {
-				border-bottom-color: white;
-			}
-
-			#wrapper > .invert table tfoot {
-				border-top-color: white;
-			}
-
-			#wrapper > .invert table.alt tbody tr td {
-				border-color: white;
-			}
-
-			#wrapper > .invert table.uniform tbody tr:nth-child(2n + 1) {
-				background-color: transparent;
-			}
-
 			#wrapper > .invert .banner .image {
 				background-color: white;
+				color: black;
 			}
 			
 			#wrapper > .invert .items.style1 > * {
@@ -1945,10 +1913,6 @@ input, select, textarea {
 				#wrapper > .invert .items.style2 > * {
 					border-color: white;
 				}
-
-			#wrapper > .invert .index > * {
-				border-top-color: white;
-			}
 
 		#wrapper > .color_black {
 			background-color: #212121;
