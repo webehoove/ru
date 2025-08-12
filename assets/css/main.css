@@ -46,14 +46,14 @@
     font-weight: normal;
     font-style: normal;
     src:url(../webfonts/wbsans/AeonikPro-Light.woff2) format('woff2'),
-	    url(../webfonts/wbh/AeonikPro-Light.woff) format('woff');
+	    url(../webfonts/wbsans/AeonikPro-Light.woff) format('woff');
 }
 
 @font-face {
     font-family: 'WBSans Lt It';
     font-weight: normal;
     font-style: normal;
-    src:url(../webfonts/wbh/AeonikPro-LightItalic.woff) format('woff');
+    src:url(../webfonts/wbsans/AeonikPro-LightItalic.woff) format('woff');
 }
 
 @font-face {
@@ -61,14 +61,14 @@
     font-weight: normal;
     font-style: normal;
     src:url(../webfonts/wbsans/AeonikPro-Regular.woff2) format('woff2'),
-	    url(../webfonts/wbh/AeonikPro-Regular.woff) format('woff');
+	    url(../webfonts/wbsans/AeonikPro-Regular.woff) format('woff');
 }
 
 @font-face {
     font-family: 'WBSans Rg It';
     font-weight: normal;
     font-style: normal;
-    src:url(../webfonts/wbh/AeonikPro-RegularItalic.woff) format('woff');
+    src:url(../webfonts/wbsans/AeonikPro-RegularItalic.woff) format('woff');
 }
 
 @font-face {
@@ -76,7 +76,7 @@
     font-weight: normal;
     font-style: normal;
     src:url(../webfonts/wbsans/AeonikPro-Medium.woff2) format('woff2'),
-	    url(../webfonts/wbh/AeonikPro-Medium.woff) format('woff');
+	    url(../webfonts/wbsans/AeonikPro-Medium.woff) format('woff');
 }
 
 @font-face {
@@ -91,14 +91,14 @@
     font-weight: normal;
     font-style: normal;
     src:url(../webfonts/wbsans/AeonikPro-Bold.woff2) format('woff2'),
-	    url(../webfonts/wbh/AeonikPro-Bold.woff) format('woff');
+	    url(../webfonts/wbsans/AeonikPro-Bold.woff) format('woff');
 }
 
 @font-face {
     font-family: 'WBSans Bd It';
     font-weight: normal;
     font-style: normal;
-    src:url(../webfonts/wbh/AeonikPro-BoldItalic.woff) format('woff');
+    src:url(../webfonts/wbsans/AeonikPro-BoldItalic.woff) format('woff');
 }
 
 
