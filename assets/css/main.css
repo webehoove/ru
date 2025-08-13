@@ -110,20 +110,37 @@
 
 
 @font-face {
-    font-family: 'WBSerif Rg';
+    font-family: 'WBSerif Fn Rg';
     font-weight: normal;
     font-style: normal;
-    src:url(../webfonts/wbserif/WBSerif-Dispay-Regular.woff2) format('woff2'),
-	    url(../webfonts/wbserif/WBSerif-Dispay-Regular.woff) format('woff');
+    src:url(../webfonts/wbserif/WBSerif-Fine-Gt-Regular.woff2) format('woff2'),
+	    url(../webfonts/wbserif/WBSerif-Fine-Gt-Regular.woff) format('woff');
 }
 
 @font-face {
-    font-family: 'WBSerif Md';
+    font-family: 'WBSerif Fn Rg It';
     font-weight: normal;
     font-style: normal;
-    src:url(../webfonts/wbserif/WBSerif-Dispay-Medium.woff2) format('woff2'),
-	    url(../webfonts/wbserif/WBSerif-Dispay-Medium.woff) format('woff');
+    src:url(../webfonts/wbserif/WBSerif-Fine-Gt-Regular-Italic.woff2) format('woff2'),
+	    url(../webfonts/wbserif/WBSerif-Fine-Gt-Regular-Italic.woff) format('woff');
 }
+
+@font-face {
+    font-family: 'WBSerif Ds Rg';
+    font-weight: normal;
+    font-style: normal;
+    src:url(../webfonts/wbserif/WBSerif-Display-Gt-Regular.woff2) format('woff2'),
+	    url(../webfonts/wbserif/WBSerif-Display-Gt-Regular.woff) format('woff');
+}
+
+@font-face {
+    font-family: 'WBSerif Ds Rg It';
+    font-weight: normal;
+    font-style: normal;
+    src:url(../webfonts/wbserif/WBSerif-Display-Gt-Regular-Italic.woff2) format('woff2'),
+	    url(../webfonts/wbserif/WBSerif-Display-Gt-Regular-Italic.woff) format('woff');
+}
+
 
 
 
@@ -342,8 +359,29 @@ input, select, textarea {
 			text-transform: uppercase;
 		}
 		
-		.t_rg_serif {
-			font-family: 'WBSerif Rg', Helvetica, sans-serif;
+		.t_fn_rg_serif {
+			font-family: 'WBSerif Fn Rg', Helvetica, sans-serif;
+		    -webkit-font-smoothing: antialiased;
+	        -moz-osx-font-smoothing: grayscale;
+		    font-weight: normal;
+		}
+		
+		.t_fn_rg_it_serif {
+			font-family: 'WBSerif Fn Rg It', Helvetica, sans-serif;
+		    -webkit-font-smoothing: antialiased;
+	        -moz-osx-font-smoothing: grayscale;
+		    font-weight: normal;
+		}
+		
+		.t_ds_rg_serif {
+			font-family: 'WBSerif Ds Rg', Helvetica, sans-serif;
+		    -webkit-font-smoothing: antialiased;
+	        -moz-osx-font-smoothing: grayscale;
+		    font-weight: normal;
+		}
+		
+		.t_ds_rg_it_serif {
+			font-family: 'WBSerif Ds Rg It', Helvetica, sans-serif;
 		    -webkit-font-smoothing: antialiased;
 	        -moz-osx-font-smoothing: grayscale;
 		    font-weight: normal;
@@ -501,7 +539,7 @@ input, select, textarea {
 	        }
 
 		h2 {
-			font-size: 2rem;
+			font-size: 1.75rem;
 		}
 
 		h3 {
