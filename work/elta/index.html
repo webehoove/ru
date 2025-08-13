@@ -57,12 +57,11 @@
 /* Big-------------------------------------------------- */
 header {
 	position: fixed;
-	background: transparent;
 	z-index: 999;
 	top: 0;
 	height: calc(100svh + 2px);
 	width: 100%;
-	transition: all 1s;
+	transition: all 0.5s;
 }
 header .titre {
 	position: absolute;
@@ -72,13 +71,12 @@ header .titre {
 	padding: 0;
 	text-align: left;
 	height: calc(100svh - 2px);
-	transition: all 1s;
+	transition: all 0.5s;
 }
 header .titre h1 {
 	position: absolute;
 	bottom: 1rem;
 	width: 100%;
-	font-weight: normal;
 	transition: all 1s;
 	margin: 0;
 	padding: 0;
@@ -89,10 +87,9 @@ main {
 	font-size: 10vw;
 	display: inline-block;
 	height: auto;
-	line-height: 1em;
 	text-align: left;
 	margin-top: 100svh;
-	transition: all 1s;
+	transition: all 0.5s;
 }
 /* Small -------------------------------------------------- */
 body.small header .titre {
