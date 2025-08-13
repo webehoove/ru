@@ -26,7 +26,7 @@
 	left: 0.5rem;
 	mix-blend-mode: difference;
 	color: white;
-	z-index: 2;
+	z-index: 3;
 }
 .menu_inv {
 	-webkit-transform: translateX(-50%);
@@ -37,7 +37,7 @@
 	left: 50%;
 	mix-blend-mode: difference;
 	color: white;
-	z-index: 2;
+	z-index: 3;
 }
 .menu_inv a {
 	mix-blend-mode: difference;
@@ -49,19 +49,19 @@
 	right: 0.5rem;
 	mix-blend-mode: difference;
 	color: white;
-	z-index: 2;
+	z-index: 3;
 }
 .menu_mob_inv {
 	display: none;
 }
-/* Big-------------------------------------------------- */
+/* Big -------------------------------------------------- */
 header {
 	position: fixed;
 	z-index: 999;
 	top: 0;
 	height: calc(100svh + 2px);
 	width: 100%;
-	transition: all 0.5s;
+	transition: all 0.6s;
 }
 header .titre {
 	position: absolute;
@@ -71,7 +71,7 @@ header .titre {
 	padding: 0;
 	text-align: left;
 	height: calc(100svh - 2px);
-	transition: all 0.5s;
+	transition: all 0.6s;
 }
 header .titre h1 {
 	position: absolute;
@@ -81,6 +81,7 @@ header .titre h1 {
 	margin: 0;
 	padding: 0;
 	font-size: 4.5vw;
+	letter-spacing: -0.025rem;
 }
 main {
 	width: 100%;
@@ -89,7 +90,7 @@ main {
 	height: auto;
 	text-align: left;
 	margin-top: 100svh;
-	transition: all 0.5s;
+	transition: all 0.6s;
 }
 /* Small -------------------------------------------------- */
 body.small header .titre {
@@ -115,10 +116,11 @@ body.small header .titre h1 {
 	top: 0.5rem;
 	mix-blend-mode: difference;
 	color: white;
-	z-index: 2;
+	z-index: 3;
 }
 header .titre h1 {
 	font-size: 13vw;
+	letter-spacing: 0;
 }
 }
 </style>
@@ -137,9 +139,18 @@ header .titre h1 {
   <div class="lang_inv"> En </div>
   <div class="menu_mob_inv collapsible"> </div>
   <div class="coltext">
-    <p style="margin-top:2rem;">Мы всегда даём заказчику полную и правдивую картину стоимости реализации проекта. Подавая коммерческое предложение, мы гарантируем, что проект может быть реализован в рамках согласованного бюджета.</p>
-    <p>Точный расчет объема работ, количества, стоимости материалов и оборудования помогает избежать необоснованных трат. Комплексное проектирование инженерных систем обеспечивает бесперебойную эксплуатацию всех узлов.</p>
-    <p>Разработка проектной документации на все виды сетей в одной организации не требует постоянной координации между несколькими разработчиками. Профессиональный подход к проектированию поможет избежать проблем при получении разрешений на строительство и ввод систем в эксплуатацию. В итоге собственник экономит средства и время.</p>
+    <div class="block">
+      <ul>
+        <li><a href="">Работы</a></li>
+        <li><a href="">О нас</a></li>
+        <li><a href="">Контакты</a></li>
+      </ul>
+    </div>
+    <p>Центральной фигурой бренда, конечно является логотип. Он будет появляться практически во всех материалах компании и представлять бренд от первого лица. В вашей ситуации, советуем начать именно с него.
+
+Мы разработали несколько вариантов логотипа, которые соответствуют стандартам современного дизайна. Учтены ныне актуальные технические требования, как например, масштабирование без искажений. В современном мире логотип часто присутствует в маленьком размере, при просмотре на смартфонах.
+
+В представленных материалах пока не подобраны цвета. Мы демонстрируем лишь форму. Предварительно в каждом из вариантов подобраны некоторые графические решения и шрифты, соответствующие строению логотипу. Они не окончательные и будут прорабатываться дальше.</p>
   </div>
   
   <!-- BANNER -->
@@ -259,7 +270,7 @@ $(window).scroll(function() {
                         $('body').css('overflow', 'hidden');
                         setTimeout(function(){
                             $('body').css('overflow', 'scroll');
-                        }, 1000);
+                        }, 2000);
                     }
                     else if (scrollh => 1){
                         $('body').stop().addClass('small');  
