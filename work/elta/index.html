@@ -54,6 +54,60 @@
 .menu_mob_inv {
 	display: none;
 }
+/* Big-------------------------------------------------- */
+header {
+	position: fixed;
+	background: transparent;
+	z-index: 999;
+	top: 0;
+	height: calc(100vh + 2px);
+	width: 100%;
+	transition: all 1s;
+}
+header .titre {
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	left: 0;
+	padding: 0;
+	text-align: left;
+	height: calc(100vh - 2px);
+	transition: all 1s;
+}
+header .titre h1 {
+	position: absolute;
+	bottom: 1rem;
+	width: 100%;
+	font-weight: normal;
+	transition: all 1s;
+	margin: 0;
+	padding: 0;
+	font-size: 4.5vw;
+}
+main {
+	width: 100%;
+	font-size: 10vw;
+	display: inline-block;
+	height: auto;
+	line-height: 1em;
+	text-align: left;
+	margin-top: 100vh;
+	transition: all 1s;
+}
+/* Small -------------------------------------------------- */
+body.small header .titre {
+	padding: 0;
+}
+body.small main {
+	margin: 0;
+}
+body.small header {
+	font-size: 1rem;
+	height: 3.8rem;
+}
+body.small header .titre h1 {
+	font: 1rem "WBSans Rg";
+}
  @media screen and (max-width: 736px) {
 .menu_inv, .menu_inv a, .lang_inv {
 	display: none;
@@ -62,23 +116,23 @@
 	display: block;
 	position: fixed;
 	top: 0.5rem;
-	right: 0.5rem;
 	mix-blend-mode: difference;
 	color: white;
 	z-index: 2;
 }
+header .titre h1 {
+	font-size: 13vw;
+}
 }
 </style>
-</head>
-<body class="is-preload">
+</head><body class="is-preload">
 <div id="wrapper" class="divided"> 
   
   <!-- MENU TOP DESKTOP -->
   <div class="logo_inv"> <a href="https://webehoove.github.io/ru/"><span class="t_rg_It">We</span>Behoove</a> </div>
   <div class="menu_inv">
     <ul>
-      <li style="margin-right:1rem;"><a href="">Работы</a>
-      <li>
+      <li style="margin-right:1rem;"><a href="">Работы</a></li>
       <li style="margin-right:1rem;"><a href="">О нас</a></li>
       <li><a href="">Контакты</a></li>
     </ul>
@@ -92,11 +146,15 @@
   </div>
   
   <!-- BANNER -->
-  <section class="banner style5 orient-left content-align-left image-position-center fullscreen onload-content-fade-in onload-image-fade-down">
+  <section class="banner style5 invert orient-left content-align-left image-position-center fullscreen onload-content-fade-in onload-image-fade-down">
     <div class="content">
-      <div class="row" style="position:absolute; bottom:1rem;">
+      <div class="row" style="position:absolute; bottom:1.5rem;">
         <div class="col-12 col-12-small">
-          <h1 class="title white">Элта</h1>
+          <header>
+            <div class="titre">
+              <h1 class="white">Элта</h1>
+            </div>
+          </header>
         </div>
       </div>
     </div>
@@ -106,19 +164,24 @@
   </section>
   
   <!-- ABOUT PROJECT -->
-  <section class="wrapper style1 align-left">
+  <section class="wrapper style1 invert align-left">
     <div class="inner">
       <div class="row">
         <div class="col-6 col-12-small">
           <hr class="start">
-          <h1>Фирменный стиль, Вебсайт, UI/UX</h1>
+          <ul class="alt">
+            <li>Понимание бренда</li>
+            <li>Стратегия бренда</li>
+            <li>Идентичность бренда</li>
+            <li>Опыт бренда</li>
+          </ul>
         </div>
         <div class="col-5 col-12-small">
           <hr class="start">
-          <p>Дизайн студия Comence специализируется в области бренд стратегии, фирменного стиля, сайтов, мобильного дизайна &#8211; упаковки, работая в тесном сотрудничестве с клиентами. Наша цель — создание и развитие долгосрочных отношений между брендом клиента и его заказчиками. Мы верим в успех компаний, уделяющих должное внимание дизайну.</p>
+          <p class="paragraph">На сектор жилищного отопления приходится 15% всех выбросов CO2 в Европе. Технологии, способные изменить ситуацию, уже существуют, но их внедрение отстаёт. Изменение глубоко укоренившихся моделей поведения и представление надёжной и доступной альтернативы ископаемому топливу требует по-настоящему амбициозного бренда. Мы помогли создать именно такой бренд в Aira.</p>
+          <p>Тепловые насосы могут быть в четыре-пять раз эффективнее газовых котлов и, таким образом, представляют собой высокоэффективную альтернативу. Однако более широкому внедрению тепловых насосов в Европе препятствуют высокие первоначальные затраты, низкая осведомленность и отсутствие срочной необходимости декарбонизации отопления жилых помещений.</p>
         </div>
       </div>
-      <hr />
       
       <!-- PARAGRAPH -->
       
@@ -132,7 +195,6 @@
           <p>Тепловые насосы могут быть в четыре-пять раз эффективнее газовых котлов и, таким образом, представляют собой высокоэффективную альтернативу. Однако более широкому внедрению тепловых насосов в Европе препятствуют высокие первоначальные затраты, низкая осведомленность и отсутствие срочной необходимости декарбонизации отопления жилых помещений.</p>
         </div>
       </div>
-      <hr />
       
       <!-- PARAGRAPH -->
       
@@ -171,7 +233,8 @@
 
                   touchpadSupport   : true,
                   })
-</script>
+</script> 
+<script type="text/javascript">
 var coll = document.getElementsByClassName("collapsible");
 var i;
 
@@ -185,7 +248,27 @@ for (i = 0; i < coll.length; i++) {
       coltext.style.maxHeight = coltext.scrollHeight + "px";
     } 
   });
-}
+} 
+      </script> 
+<script type="text/javascript">
+$(window).scroll(function() {
+                    var scrollh = $(this).scrollTop();
+                    if (scrollh < 1) {
+                        $('body').stop().removeClass('small'); 
+
+                    }
+                    else if (scrollh == 1){
+                        $('body').stop().addClass('small');  
+                        $('body').css('overflow', 'hidden');
+                        setTimeout(function(){
+                            $('body').css('overflow', 'scroll');
+                        }, 1000);
+                    }
+                    else if (scrollh => 1){
+                        $('body').stop().addClass('small');  
+
+                    }
+                });
 </script>
 </body>
 </html>
