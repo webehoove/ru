@@ -110,19 +110,19 @@
 
 
 @font-face {
-    font-family: 'WB Gurofic Rg';
+    font-family: 'WBSerif Rg';
     font-weight: normal;
     font-style: normal;
-    src:url(../webfonts/wbh/gutofic-regular-webfont.woff2) format('woff2'),
-	    url(../webfonts/wbh/gutofic-regular-webfont.woff) format('woff');
+    src:url(../webfonts/wbserif/WBSerif-Dispay-Regular.woff2) format('woff2'),
+	    url(../webfonts/wbserif/WBSerif-Dispay-Regular.woff) format('woff');
 }
 
 @font-face {
-    font-family: 'WB Gurofic It';
+    font-family: 'WBSerif Md';
     font-weight: normal;
     font-style: normal;
-    src:url(../webfonts/wbh/gutofic-it-webfont.woff2) format('woff2'),
-	    url(../webfonts/wbh/gutofic-it-webfont.woff) format('woff');
+    src:url(../webfonts/wbserif/WBSerif-Dispay-Medium.woff2) format('woff2'),
+	    url(../webfonts/wbserif/WBSerif-Dispay-Medium.woff) format('woff');
 }
 
 
@@ -343,14 +343,14 @@ input, select, textarea {
 		}
 		
 		.t_rg_serif {
-			font-family: 'WB Gurofic Rg', Helvetica, sans-serif;
+			font-family: 'WBSerif Rg', Helvetica, sans-serif;
 		    -webkit-font-smoothing: antialiased;
 	        -moz-osx-font-smoothing: grayscale;
 		    font-weight: normal;
 		}
 		
-		.t_it_serif {
-			font-family: 'WB Gurofic It', Helvetica, sans-serif;
+		.t_md_serif {
+			font-family: 'WBSerif Md', Helvetica, sans-serif;
 		    -webkit-font-smoothing: antialiased;
 	        -moz-osx-font-smoothing: grayscale;
 		    font-weight: normal;
