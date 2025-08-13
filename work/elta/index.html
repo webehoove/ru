@@ -61,7 +61,7 @@ header {
 	top: 0;
 	height: calc(100svh + 2px);
 	width: 100%;
-	transition: all 0.6s;
+	transition: all 1s;
 }
 header .titre {
 	position: absolute;
@@ -71,7 +71,7 @@ header .titre {
 	padding: 0;
 	text-align: left;
 	height: calc(100svh - 2px);
-	transition: all 0.6s;
+	transition: all 1s;
 }
 header .titre h1 {
 	position: absolute;
@@ -90,7 +90,7 @@ main {
 	height: auto;
 	text-align: left;
 	margin-top: 100svh;
-	transition: all 0.6s;
+	transition: all 1s;
 }
 /* Small -------------------------------------------------- */
 body.small header .titre {
@@ -270,7 +270,7 @@ $(window).scroll(function() {
                         $('body').css('overflow', 'hidden');
                         setTimeout(function(){
                             $('body').css('overflow', 'scroll');
-                        }, 2000);
+                        }, 1000);
                     }
                     else if (scrollh => 1){
                         $('body').stop().addClass('small');  
