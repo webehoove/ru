@@ -377,15 +377,15 @@ hr {
 	border-bottom: none;
 	margin: 3rem 0;
 }
+hr.start {
+	border: 0;
+	border-bottom: none;
+	margin: 4rem 0;
+}
 hr.major {
 	border: 0;
 	border-bottom: none;
 	margin: 5rem 0;
-}
-hr.start {
-	border: 0;
-	border-bottom: none;
-	margin: 3rem 0;
 }
 hr.minor {
 	border: 0;
