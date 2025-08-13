@@ -25,7 +25,6 @@
 	z-index: 1;
 }
 @media screen and (max-width: 736px) {
-	
 .collapsible {
 	padding: 0;
 	margin: 0;
@@ -39,6 +38,5 @@
 	right: 0.5rem;
 }
 .coltext {
-	
 }
 }
