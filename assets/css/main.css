@@ -1607,7 +1607,7 @@ body.is-preload .banner.onload-image-fade-in .image img {
 	overflow-x: hidden;
 }
 #wrapper > .invert {
-	background-color: #212121;
+	background-color: black;
 	color: rgba(255, 255, 255, 0.87);
 }
 #wrapper > .invert .invert_white, #wrapper > .invert .invert_white a {
