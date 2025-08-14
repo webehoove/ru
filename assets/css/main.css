@@ -349,7 +349,7 @@ h1 {
 	line-height: 1;
 }
 h1.major {
-	font-size: 6rem;
+	font-size: 7rem;
 	line-height: 1.1;
 }
 h1.title {
@@ -406,6 +406,9 @@ hr.minor {
 .align-right {
 	text-align: right;
 }
+.no_desktop {
+	display: none;
+}
  @media screen and (max-width: 1280px) {
 h1 {
 	font-size: 2rem;
@@ -441,19 +444,23 @@ hr.minor {
 	top: 0.5rem;
 	right: 0;
 }
+.no_desktop {
+	display: block;
+}
 }
  @media screen and (max-width: 736px) {
 h1 {
 	font-size: 2rem;
 }
+h1.major {
+	font-size: 3rem;
+	line-height: 1;
+}
 h1.title {
 	font-size: 3.5rem;
 }
-h1.major {
-	font-size: 2.5rem;
-}
 h2 {
-	font-size: 1.25rem;
+	font-size: 1.35rem;
 }
 h3 {
 	font-size: 1.25rem;
