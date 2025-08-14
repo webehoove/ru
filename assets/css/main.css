@@ -1315,6 +1315,7 @@ body.is-preload .banner.onload-image-fade-in .image img {
 	justify-content: left;
 	background-color: inherit;
 	position: relative;
+	height: 100svh;
 	overflow-x: hidden;
 }
 .banner.style6 .content {
@@ -1437,12 +1438,6 @@ body.is-preload .banner.onload-image-fade-in .image img {
 	-webkit-object-position: right;
 	-ms-object-position: right;
 	object-position: right;
-}
-.banner .image {
-	background-color: rgba(0, 0, 0, 0.87);
-}
-.banner.invert .image {
-	background-color: rgba(0, 0, 0, 0.87);
 }
 /* Wrapper (style1) */
 
