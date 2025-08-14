@@ -166,7 +166,7 @@ html {
 	box-sizing: inherit;
 }
 body {
-	background: #f3f3f3;
+	background: #f5f5f5;
 }
 body.is-preload *, body.is-preload *:before, body.is-preload *:after {
 	-moz-animation: none !important;
@@ -214,7 +214,7 @@ html {
 }
 }
 body {
-	background-color: #fff;
+	background-color: #f5f5f5;
 	color: rgba(0, 0, 0, 0.87);
 }
 body, input, select, textarea {
@@ -350,7 +350,7 @@ h1 {
 }
 h1.major {
 	font-size: 6rem;
-	line-height: 1ю1;
+	line-height: 1.1;
 }
 h1.title {
 	font-size: 4.5rem;
@@ -1631,10 +1631,7 @@ body.is-preload .banner.onload-image-fade-in .image img {
 	color: rgba(255, 255, 255, 0.6);
 }
 #wrapper > .invert hr {
-	border-bottom-color: white;
-}
-#wrapper > .invert .box {
-	border-color: white;
+	border-bottom-color: rgba(255, 255, 255, 0.6);
 }
 #wrapper > .invert input[type="submit"], #wrapper > .invert input[type="reset"], #wrapper > .invert input[type="button"], #wrapper > .invert button, #wrapper > .invert .button {
 	background-color: transparent;
@@ -1735,4 +1732,7 @@ body.is-preload .banner.onload-image-fade-in .image img {
 }
 #wrapper > .color_black {
 	background-color: #212121;
+}
+#wrapper > .color_grey {
+	background-color: #f5f5f5;
 }

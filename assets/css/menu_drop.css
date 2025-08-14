@@ -34,16 +34,16 @@
 .coltext ul {
 	position: absolute;
 	left: 0.5rem;
-	bottom: 1.5rem;
+	bottom: 1rem;
 }
 .coltext ul li {
 	display: block;
 	margin-top: -0.5rem;
-	color: #f3f3f3;
+	color: #dedede;
 	font-size: 2.5rem;
 }
 .coltext a, .coltext a:hover {
-	color: #f3f3f3;
+	color: #dedede;
 }
 @media screen and (max-width: 736px) {
 .collapsible {
