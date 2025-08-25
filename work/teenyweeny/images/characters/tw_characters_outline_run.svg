@@ -9,7 +9,7 @@
 	.st3{fill:none;stroke:#00726A;stroke-width:14;stroke-miterlimit:10;}
 	.st4{fill:#006837;}
 	.st5{fill:#FFBE83;stroke:#A04F12;stroke-width:14;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}
-	.st6{fill:#6757B5;}
+	.st6{fill:#6757B5;stroke:#483D7F;stroke-width:14;stroke-miterlimit:10;}
 	.st7{opacity:0;fill:#FFE5D4;}
 	.st8{fill:none;stroke:#A04F12;stroke-width:14;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}
 	.st9{fill:#E56E03;}
