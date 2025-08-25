@@ -591,6 +591,9 @@ input[type="submit"].primary:active, input[type="reset"].primary:active, input[t
 .image img {
 	display: block;
 }
+.image img.rounded {
+	border-radius: 3rem;
+}
 .image video {
 	display: block;
 }
@@ -629,6 +632,11 @@ input[type="submit"].primary:active, input[type="reset"].primary:active, input[t
 }
 .image.main img {
 	width: 100%;
+}
+ @media screen and (max-width: 1280px) {
+.image img.rounded {
+	border-radius: 2.25rem;
+}
 }
 /* List */
 
