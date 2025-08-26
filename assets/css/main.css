@@ -469,7 +469,7 @@ h5 {
 	font-size: 0.65rem;
 }
 hr {
-	margin: 3rem 0;
+	margin: 2rem 0;
 }
 hr.start {
 	margin: 0.5rem 0;
@@ -597,6 +597,9 @@ input[type="submit"].primary:active, input[type="reset"].primary:active, input[t
 .image video {
 	display: block;
 }
+.image video.rounded {
+	border-radius: 0.5rem;
+}
 .image.left, .image.right {
 	width: 40%;
 	max-width: 10rem;
@@ -635,6 +638,9 @@ input[type="submit"].primary:active, input[type="reset"].primary:active, input[t
 }
  @media screen and (max-width: 1280px) {
 .image img.rounded {
+	border-radius: 0.35rem;
+}
+.image video.rounded {
 	border-radius: 0.35rem;
 }
 }
