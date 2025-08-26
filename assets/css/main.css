@@ -353,7 +353,7 @@ h1.major {
 	line-height: 1.1;
 }
 h1.title {
-	font-size: 4.5rem;
+	font-size: 4rem;
 	line-height: 1;
 }
 h2 {
@@ -469,7 +469,7 @@ h5 {
 	font-size: 0.65rem;
 }
 hr {
-	margin: 2rem 0;
+	margin: 1.75rem 0;
 }
 hr.start {
 	margin: 0.5rem 0;
