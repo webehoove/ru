@@ -1,32 +1,26 @@
 @font-face {
-	font-family: 'WB Sweet Lt';
-	font-weight: normal;
+	font-family: 'WBSans Ext Rg';
+	src: url(../webfonts/ext/AeonikExtendedPro-Regular.woff2) format('woff2');
+	font-display: swap;
 	font-style: normal;
-	src: url(../webfonts/wbh/sweetext-lt-webfont.woff2) format('woff2'), url(../webfonts/wbh/neuefity-lt-webfont.woff) format('woff');
 }
 @font-face {
-	font-family: 'WB Sweet Rg';
-	font-weight: normal;
+	font-family: 'WBSans Ext Md';
+	src: url(../webfonts/ext/AeonikExtendedPro-Medium.woff2) format('woff2');
+	font-display: swap;
 	font-style: normal;
-	src: url(../webfonts/wbh/sweetext-rg-webfont.woff2) format('woff2'), url(../webfonts/wbh/neuefity-rg-webfont.woff) format('woff');
 }
 @font-face {
-	font-family: 'WB Sweet Rg It';
-	font-weight: normal;
+	font-family: 'WBSans Ext Sb';
+	src: url(../webfonts/ext/AeonikExtendedPro-SemiBold.woff2) format('woff2');
+	font-display: swap;
 	font-style: normal;
-	src: url(../webfonts/wbh/sweetext-it-webfont.woff2) format('woff2'), url(../webfonts/wbh/neuefity-it-webfont.woff) format('woff');
 }
 @font-face {
-	font-family: 'WB Sweet Md';
-	font-weight: normal;
+	font-family: 'WBSans Ext Bd';
+	src: url(../webfonts/ext/AeonikExtendedPro-Bold.woff2) format('woff2');
+	font-display: swap;
 	font-style: normal;
-	src: url(../webfonts/wbh/sweetext-md-webfont.woff2) format('woff2'), url(../webfonts/wbh/neuefity-md-webfont.woff) format('woff');
-}
-@font-face {
-	font-family: 'WB Sweet Md It';
-	font-weight: normal;
-	font-style: normal;
-	src: url(../webfonts/wbh/sweetext-mdit-webfont.woff2) format('woff2'), url(../webfonts/wbh/neuefity-mdit-webfont.woff) format('woff');
 }
 @font-face {
 	font-family: 'WBSans Lt';
@@ -334,6 +328,30 @@ h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
 }
 .t_bd_it {
 	font-family: 'WBSans Bd It', Helvetica, sans-serif;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	font-weight: normal;
+}
+.t_rg_ext {
+	font-family: 'WBSans Ext Rg', Helvetica, sans-serif;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	font-weight: normal;
+}
+.t_md_ext {
+	font-family: 'WBSans Ext Md', Helvetica, sans-serif;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	font-weight: normal;
+}
+.t_sb_ext {
+	font-family: 'WBSans Ext Sb', Helvetica, sans-serif;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	font-weight: normal;
+}
+.t_bd_ext {
+	font-family: 'WBSans Ext Bd', Helvetica, sans-serif;
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
 	font-weight: normal;
