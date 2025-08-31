@@ -1200,7 +1200,7 @@ body.is-preload .banner.onload-image-fade-in .image img {
 /* Banner (style5) */
 
 .banner.style5 {
-	padding: 0 1rem;
+	padding: 0 0.75rem;
 	margin: 0 auto;
 	width: 100%;
 	-moz-align-items: left;
@@ -1288,7 +1288,7 @@ body.is-preload .banner.onload-image-fade-in .image img {
 }
  @media screen and (max-width: 736px) {
 .banner.style5 {
-	padding: 0 1rem;
+	padding: 0 0.75rem;
 	overflow: hidden;
 	height: 100svh;
 }
@@ -1335,7 +1335,7 @@ body.is-preload .banner.onload-image-fade-in .image img {
 /* Banner (style6) */
 
 .banner.style6 {
-	padding: 0 1rem;
+	padding: 0 0.75rem;
 	margin: 0 auto;
 	width: 100%;
 	-moz-align-items: left;
@@ -1424,7 +1424,7 @@ body.is-preload .banner.onload-image-fade-in .image img {
 }
  @media screen and (max-width: 736px) {
 .banner.style6 {
-	padding: 0 1rem;
+	padding: 0 0.75rem;
 	overflow: hidden;
 	height: 100svh;
 }
@@ -1465,7 +1465,7 @@ body.is-preload .banner.onload-image-fade-in .image img {
 /* Wrapper (style1) */
 
 .wrapper.style1 > .inner {
-	padding: 0 1rem 1rem 1rem;
+	padding: 0 0.75rem 0.75rem 0.75rem;
 	margin: 0 auto;
 	width: 100%;
 }
