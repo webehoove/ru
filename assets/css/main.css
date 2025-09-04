@@ -668,10 +668,10 @@ input[type="submit"].primary:active, input[type="reset"].primary:active, input[t
 }
  @media screen and (max-width: 1280px) {
 .image img.rounded {
-	border-radius: 1rem;
+	border-radius: 0.65rem;
 }
 .image video.rounded {
-	border-radius: 1rem;
+	border-radius: 0.65rem;
 }
 }
 /* List */
