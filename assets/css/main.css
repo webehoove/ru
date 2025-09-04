@@ -622,13 +622,13 @@ input[type="submit"].primary:active, input[type="reset"].primary:active, input[t
 	display: block;
 }
 .image img.rounded {
-	border-radius: 0.5rem;
+	border-radius: 1rem;
 }
 .image video {
 	display: block;
 }
 .image video.rounded {
-	border-radius: 0.5rem;
+	border-radius: 1rem;
 }
 .image.left, .image.right {
 	width: 40%;
@@ -668,10 +668,10 @@ input[type="submit"].primary:active, input[type="reset"].primary:active, input[t
 }
  @media screen and (max-width: 1280px) {
 .image img.rounded {
-	border-radius: 0.35rem;
+	border-radius: 1rem;
 }
 .image video.rounded {
-	border-radius: 0.35rem;
+	border-radius: 1rem;
 }
 }
 /* List */
@@ -1335,7 +1335,7 @@ body.is-preload .banner.onload-image-fade-in .image img {
 /* Banner (style6) */
 
 .banner.style6 {
-	padding: 0 0.75rem;
+	padding: 0 0 0 0.75rem;
 	margin: 0 auto;
 	width: 100%;
 	-moz-align-items: left;
