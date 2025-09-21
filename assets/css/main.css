@@ -481,6 +481,7 @@ p {
 }
 h1 {
 	font-size: 1.5rem;
+	line-height: 1.2;
 }
 h1.major {
 	font-size: 3rem;
@@ -499,7 +500,7 @@ h5 {
 	font-size: 0.65rem;
 }
 hr {
-	margin: 1.75rem 0;
+	margin: 2.5rem 0;
 }
 hr.start {
 	margin: 0.5rem 0;
@@ -508,7 +509,10 @@ hr.major {
 	margin: 2rem 0;
 }
 hr.minor {
-	margin: 1rem 0;
+	margin: 1.75rem 0;
+}
+.no_desktop {
+	display: inline-block;
 }
 }
 /* Box */
