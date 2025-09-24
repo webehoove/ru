@@ -371,7 +371,7 @@ h1 {
 	letter-spacing: -0.015rem;
 }
 h1.major {
-	font-size: 7rem;
+	font-size: 4rem;
 	line-height: 1.1;
 }
 h1.title {
@@ -441,7 +441,7 @@ h1 {
 	font-size: 1.75rem;
 }
 h1.major {
-	font-size: 4rem;
+	font-size: 3rem;
 }
 h1.title {
 	font-size: 3rem;
@@ -484,7 +484,7 @@ h1 {
 	line-height: 1.2;
 }
 h1.major {
-	font-size: 3rem;
+	font-size: 2rem;
 	line-height: 1;
 }
 h1.title {
@@ -509,7 +509,7 @@ hr.major {
 	margin: 2rem 0;
 }
 hr.minor {
-	margin: 1.5rem 0;
+	margin: 1.25rem 0;
 }
 .no_desktop {
 	display: inline-block;
