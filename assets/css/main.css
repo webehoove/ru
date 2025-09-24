@@ -428,8 +428,11 @@ hr.minor {
 .align-right {
 	text-align: right;
 }
-.no_desktop {
+#no_desktop {
 	display: none;
+}
+#no_mob {
+	display: block;
 }
  @media screen and (max-width: 1680px) {
 h1 {
@@ -471,7 +474,7 @@ hr.minor {
 	top: 0.5rem;
 	right: 0;
 }
-.no_desktop {
+#no_desktop {
 	display: block;
 }
 }
@@ -485,7 +488,7 @@ h1 {
 }
 h1.major {
 	font-size: 2rem;
-	line-height: 1;
+	line-height: 1.2;
 }
 h1.title {
 	font-size: 3.25rem;
@@ -511,8 +514,11 @@ hr.major {
 hr.minor {
 	margin: 1.25rem 0;
 }
-.no_desktop {
+#no_desktop {
 	display: inline-block;
+}
+#no_mob {
+	display: none;
 }
 }
 /* Box */
