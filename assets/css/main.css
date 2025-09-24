@@ -403,7 +403,7 @@ hr {
 hr.start {
 	border: 0;
 	border-bottom: none;
-	margin: 4rem 0;
+	margin: 6rem 0;
 }
 hr.major {
 	border: 0;
@@ -484,11 +484,11 @@ p {
 }
 h1 {
 	font-size: 1.5rem;
-	line-height: 1.2;
+	line-height: 1.1;
 }
 h1.major {
-	font-size: 2rem;
-	line-height: 1.2;
+	font-size: 1.8rem;
+	line-height: 1.1;
 }
 h1.title {
 	font-size: 3.25rem;
@@ -506,7 +506,7 @@ hr {
 	margin: 2.5rem 0;
 }
 hr.start {
-	margin: 0.5rem 0;
+	margin: 4rem 0;
 }
 hr.major {
 	margin: 2rem 0;
@@ -1210,7 +1210,7 @@ body.is-preload .banner.onload-image-fade-in .image img {
 /* Banner (style5) */
 
 .banner.style5 {
-	padding: 0 0.75rem;
+	padding: 0 2rem;
 	margin: 0 auto;
 	width: 100%;
 	-moz-align-items: left;
@@ -1298,7 +1298,7 @@ body.is-preload .banner.onload-image-fade-in .image img {
 }
  @media screen and (max-width: 736px) {
 .banner.style5 {
-	padding: 0 0.75rem;
+	padding: 0 1.25rem;
 	overflow: hidden;
 	height: 100svh;
 }
@@ -1475,7 +1475,7 @@ body.is-preload .banner.onload-image-fade-in .image img {
 /* Wrapper (style1) */
 
 .wrapper.style1 > .inner {
-	padding: 0 0.75rem 0.75rem 0.75rem;
+	padding: 0 2rem 2rem 2rem;
 	margin: 0 auto;
 	width: 100%;
 }
@@ -1491,6 +1491,11 @@ body.is-preload .banner.onload-image-fade-in .image img {
 .wrapper.style1 > .inner.small {
 	width: 100%;
 }
+ @media screen and (max-width: 736px) {
+.wrapper.style1 > .inner {
+	padding: 0 1.25rem 1.25rem 1.25rem;
+	margin: 0 auto;
+	width: 100%;
 }
 /* Wrapper (style2) */
 
