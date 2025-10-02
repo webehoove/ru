@@ -278,12 +278,6 @@ h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
 	-moz-osx-font-smoothing: grayscale;
 	font-weight: normal;
 }
-.t_md_serif {
-	font-family: 'WBSerif Md', Helvetica, sans-serif;
-	-webkit-font-smoothing: antialiased;
-	-moz-osx-font-smoothing: grayscale;
-	font-weight: normal;
-}
 .t_lt {
 	font-family: 'WBSans Lt', Helvetica, sans-serif;
 	-webkit-font-smoothing: antialiased;
@@ -371,7 +365,7 @@ h1 {
 	letter-spacing: -0.015rem;
 }
 h1.major {
-	font-size: 4rem;
+	font-size: 4.3rem;
 	line-height: 1.1;
 }
 h1.title {
@@ -662,10 +656,16 @@ input[type="submit"].primary:active, input[type="reset"].primary:active, input[t
 	margin: 0;
 	width: 100%;
 }
-.image.fit img {
+.image.widy {
+	display: block;
+	margin: 0;
+	padding: 0;
 	width: 100%;
 }
-.image.fit video {
+.image.widy img, .image.widy video  {
+	width: 100%;
+}
+.image.fit img, .image.fit video {
 	width: 100%;
 }
 .image.main {
