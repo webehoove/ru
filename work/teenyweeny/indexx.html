@@ -225,11 +225,6 @@ header .titre h1 {
             <video data-src="videos/posts/tw_posts_read.mp4" placeholder="" autoplay loop muted="" playsinline="" src="videos/posts/tw_posts_read.mp4" type="video/mp4" style="-webkit-filter:brightness(1); -webkit-filter:invert(0);"></video>
           </div>
         </div>
-        <!-- <div class="col-4 col-12-small">
-          <div id="slider" class="image fit"> <img id="mainImg" src="images/posts/tw_posts_friends.jpg" onContextMenu="return false;" alt="">
-            <div class="mainSlider"> <img src="images/posts/tw_posts_friends.jpg" style="display: none"> <img src="images/posts/tw_posts_open_25.jpg" style="display: none"> </div>
-          </div>
-        </div> -->
         <div class="col-4 col-12-small">
           <div class="image fit">
             <video data-src="videos/posts/tw_posts_bell.mp4" placeholder="" autoplay loop muted="" playsinline="" src="videos/posts/tw_posts_bell.mp4" type="video/mp4" style="-webkit-filter:brightness(1); -webkit-filter:invert(0);"></video>
@@ -308,7 +303,9 @@ header .titre h1 {
           <div class="image fit"> <img src="images/posts/tw_posts_logomess.jpg" onContextMenu="return false;" alt=""> </div>
         </div>
         <div class="col-4 col-12-small">
-          <div class="image fit"> <img src="images/posts/tw_posts_logomess.jpg" onContextMenu="return false;" alt=""> </div>
+          <div id="slider" class="image fit"> <img id="mainImg" src="images/posts/tw_posts_logomess_00.png" onContextMenu="return false;" alt="">
+            <div class="mainSlider"> <img src="images/posts/tw_posts_logomess_00.png" style="display: none"> <img src="images/posts/tw_posts_logomess_01.png" style="display: none"> <img src="images/posts/tw_posts_logomess_02.png" style="display: none"> <img src="images/posts/tw_posts_logomess_03.png" style="display: none"> </div>
+          </div>
         </div>
         <div class="col-4 col-12-small">
           <div class="image fit">
@@ -524,19 +521,21 @@ $(window).scroll(function() {
 <script>
 var images = [];
 
-images[0] = ['images/posts/tw_posts_friends.jpg'];
-images[1] = ['images/posts/tw_posts_open_25.jpg'];
+images[0] = ['images/posts/tw_posts_logomess_00.png'];
+images[1] = ['images/posts/tw_posts_logomess_01.png'];
+images[2] = ['images/posts/tw_posts_logomess_02.png'];
+images[3] = ['images/posts/tw_posts_logomess_03.png'];
 var index = 0;
 
 function change() {
   document.getElementById("mainImg").src = images[index];
-  if (index == 1) {
+  if (index == 3) {
     index = 0;
   } else {
     index++;
   }
 
-  setTimeout(change, 2000);
+  setTimeout(change, 500);
 }
 
 window.onload = change();
