@@ -9,10 +9,10 @@
 }
 .collapsible:after {
 	position: fixed;
-	content: 'Меню';
+	content: 'M';
 }
 .active:after {
-	content: "Закрыть";
+	content: 'X';
 }
 .coltext {
 	position: fixed;
