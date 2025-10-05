@@ -468,9 +468,6 @@ hr.minor {
 	top: 0.5rem;
 	right: 0;
 }
-#no_desktop {
-	display: block;
-}
 }
  @media screen and (max-width: 736px) {
 p {
@@ -664,6 +661,7 @@ input[type="submit"].primary:active, input[type="reset"].primary:active, input[t
 }
 .image.widy img, .image.widy video  {
 	width: 100%;
+	height: 100%;
 }
 .image.fit img, .image.fit video {
 	width: 100%;
@@ -682,6 +680,11 @@ input[type="submit"].primary:active, input[type="reset"].primary:active, input[t
 }
 .image video.rounded {
 	border-radius: 0.65rem;
+}
+ }
+ @media screen and (max-width: 736px) {
+.image.widy img, .image.widy video  {
+	height: 100%;
 }
 }
 /* List */
@@ -1345,7 +1348,7 @@ body.is-preload .banner.onload-image-fade-in .image img {
 /* Banner (style6) */
 
 .banner.style6 {
-	padding: 0 0 0 0.75rem;
+	padding: 0 0 0 2rem;
 	margin: 0 auto;
 	width: 100%;
 	-moz-align-items: left;
@@ -1366,6 +1369,7 @@ body.is-preload .banner.onload-image-fade-in .image img {
 	overflow-x: hidden;
 }
 .banner.style6 .content {
+	padding: 0;
 	position: relative;
 	width: 100%;
 	height: 100%;
@@ -1431,12 +1435,15 @@ body.is-preload .banner.onload-image-fade-in .image img {
 	min-width: 100%;
 	height: 100%;
 }
-}
  @media screen and (max-width: 736px) {
 .banner.style6 {
-	padding: 0 0.75rem;
+	padding: 0 0 0 1.25rem;
 	overflow: hidden;
 	height: 100svh;
+}
+.banner.style6 .content {
+	padding: 0;
+	margin: 0;
 }
 }
 .banner.style6.fullscreen {
