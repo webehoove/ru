@@ -143,7 +143,7 @@ header .titre h1 {
       </div>
     </div>
     <div id="no_mob" class="image widy">
-      <video data-src="videos/banner/tw_logo_intro_jump.mp4" width="2000px" height="1200px" placeholder="" autoplay loop muted="" playsinline="" src="videos/banner/tw_logo_intro_jump.mp4" type="video/mp4" style="-webkit-filter:brightness(1); -webkit-filter:invert(0);"></video>
+      <video data-src="videos/banner/tw_logo_intro_jump.mp4" width="2000px" height="1200px" poster="" autoplay loop muted="" playsinline="" src="videos/banner/tw_logo_intro_jump.mp4" type="video/mp4" style="-webkit-filter:brightness(1); -webkit-filter:invert(0);"></video>
     </div>
     <div id="no_desktop" class="image widy">
       <video data-src="videos/banner/tw_logo_intro_jump_m.mp4" width="1400px" height="1400px" placeholder="" autoplay loop muted="" playsinline="" src="videos/banner/tw_logo_intro_jump_m.mp4" type="video/mp4" style="-webkit-filter:brightness(1); -webkit-filter:invert(0);"></video>
@@ -247,14 +247,22 @@ header .titre h1 {
         <div class="col-12 col-12-small">
           <div class="image fit"> <img src="images/posts/tw_posts_run.png" onContextMenu="return false;" alt=""> </div>
         </div>
-        <div class="col-6 col-12-small">
+        <div class="col-8 col-12-small">
           <div class="image fit widy">
             <video data-src="videos/posts/tw_posts_build.mp4" width="1664px" height="2072px" placeholder="" autoplay loop muted="" playsinline="" src="videos/posts/tw_posts_build.mp4" type="video/mp4" style="-webkit-filter:brightness(1); -webkit-filter:invert(0);"></video>
           </div>
         </div>
-        <div class="col-6 col-12-small">
-          <div class="image fit widy">
-            <video data-src="videos/posts/tw_posts_build.mp4" width="1664px" height="2072px" placeholder="" autoplay loop muted="" playsinline="" src="videos/posts/tw_posts_build.mp4" type="video/mp4" style="-webkit-filter:brightness(1); -webkit-filter:invert(0);"></video>
+        <div class="col-4 col-12-small">
+          <div id="slider" class="image fit"> <img id="mainImg" src="images/animals/tw_posts_animals_01.png" onContextMenu="return false;" alt="">
+            <div class="mainSlider"> <img src="images/animals/tw_posts_animals_01.png" style="display: none">
+            <img src="images/animals/tw_posts_animals_02.png" style="display: none">
+            <img src="images/animals/tw_posts_animals_03.png" style="display: none">
+            <img src="images/animals/tw_posts_animals_04.png" style="display: none">
+            <img src="images/animals/tw_posts_animals_05.png" style="display: none">
+            <img src="images/animals/tw_posts_animals_06.png" style="display: none">
+            <img src="images/animals/tw_posts_animals_07.png" style="display: none">
+            <img src="images/animals/tw_posts_animals_08.png" style="display: none">
+            <img src="images/animals/tw_posts_animals_09.png" style="display: none"> </div>
           </div>
         </div>
         <div class="col-4 col-12-small">
@@ -312,11 +320,6 @@ header .titre h1 {
         <div class="col-4 col-12-small">
           <div class="image fit"> <img src="images/posts/tw_posts_logomess_eng.png" onContextMenu="return false;" alt=""> </div>
         </div>
-        <!-- <div class="col-4 col-12-small">
-          <div id="slider" class="image fit"> <img id="mainImg" src="images/posts/tw_posts_logomess_00.png" onContextMenu="return false;" alt="">
-            <div class="mainSlider"> <img src="images/posts/tw_posts_logomess_00.png" style="display: none"> <img src="images/posts/tw_posts_logomess_01.png" style="display: none"> <img src="images/posts/tw_posts_logomess_02.png" style="display: none"> <img src="images/posts/tw_posts_logomess_03.png" style="display: none"> </div>
-          </div>
-        </div> -->
         <div class="col-4 col-12-small">
           <div class="image fit widy">
             <video data-src="videos/posts/tw_posts_logomess.mp4" width="1664px" height="2072px" placeholder="" autoplay loop muted="" playsinline="" src="videos/posts/tw_posts_logomess.mp4" type="video/mp4" style="-webkit-filter:brightness(1); -webkit-filter:invert(0);"></video>
@@ -468,7 +471,7 @@ header .titre h1 {
         <div class="col-12 col-12-small" style="position:absolute; bottom:1rem;">
           <ul style="opacity:0.5;">
             <li><a href="https://t.me/webehoove" target="_blank">Telegram</a>, <a href="mailto:webehoove@gmail.com">Mail</a></li>
-            <li style="position:absolute; right:0;">&copy;<script>document.write(Date().split(' ')[3])</script> <span class="t_rg_it">We</span><span>Behoove</span></li>
+            <li style="position:absolute; right:0;">&copy;<script>document.write(Date().split(' ')[3])</script> <span class="t_rg_it">We</span><span>Behoove Studio</span></li>
           </ul>
         </div>
       </div>
@@ -546,21 +549,26 @@ $(window).scroll(function() {
 <script>
 var images = [];
 
-images[0] = ['images/posts/tw_posts_logomess_00.png'];
-images[1] = ['images/posts/tw_posts_logomess_01.png'];
-images[2] = ['images/posts/tw_posts_logomess_02.png'];
-images[3] = ['images/posts/tw_posts_logomess_03.png'];
+images[0] = ['images/animals/tw_posts_animals_01.png'];
+images[1] = ['images/animals/tw_posts_animals_02.png'];
+images[2] = ['images/animals/tw_posts_animals_03.png'];
+images[3] = ['images/animals/tw_posts_animals_04.png'];
+images[4] = ['images/animals/tw_posts_animals_05.png'];
+images[5] = ['images/animals/tw_posts_animals_06.png'];
+images[6] = ['images/animals/tw_posts_animals_07.png'];
+images[7] = ['images/animals/tw_posts_animals_08.png'];
+images[8] = ['images/animals/tw_posts_animals_09.png'];
 var index = 0;
 
 function change() {
   document.getElementById("mainImg").src = images[index];
-  if (index == 3) {
+  if (index == 8) {
     index = 0;
   } else {
     index++;
   }
 
-  setTimeout(change, 500);
+  setTimeout(change, 800);
 }
 
 window.onload = change();
