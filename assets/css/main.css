@@ -659,7 +659,7 @@ input[type="submit"].primary:active, input[type="reset"].primary:active, input[t
 	padding: 0;
 	width: 100%;
 }
-.image.widy img, .image.widy video  {
+.image.widy img, .image.widy video {
 	width: 100%;
 	height: 100%;
 }
@@ -681,9 +681,9 @@ input[type="submit"].primary:active, input[type="reset"].primary:active, input[t
 .image video.rounded {
 	border-radius: 0.65rem;
 }
- }
+}
  @media screen and (max-width: 736px) {
-.image.widy img, .image.widy video  {
+.image.widy img, .image.widy video {
 	height: 100%;
 }
 }
@@ -1213,7 +1213,7 @@ body.is-preload .banner.onload-image-fade-in .image img {
 /* Banner (style5) */
 
 .banner.style5 {
-	padding: 0 2rem;
+	padding: 0 0.65rem;
 	margin: 0 auto;
 	width: 100%;
 	-moz-align-items: left;
@@ -1260,7 +1260,6 @@ body.is-preload .banner.onload-image-fade-in .image img {
 	height: 100svh;
 	top: 0;
 	left: 0;
-	opacity: 1;
 }
 .banner.style5 .image img {
 	-moz-object-fit: cover;
@@ -1301,7 +1300,7 @@ body.is-preload .banner.onload-image-fade-in .image img {
 }
  @media screen and (max-width: 736px) {
 .banner.style5 {
-	padding: 0 1.25rem;
+	padding: 0 0.65rem;
 	overflow: hidden;
 	height: 100svh;
 }
@@ -1348,7 +1347,7 @@ body.is-preload .banner.onload-image-fade-in .image img {
 /* Banner (style6) */
 
 .banner.style6 {
-	padding: 0 0 0 2rem;
+	padding: 0 0 0 0.65rem;
 	margin: 0 auto;
 	width: 100%;
 	-moz-align-items: left;
@@ -1437,7 +1436,7 @@ body.is-preload .banner.onload-image-fade-in .image img {
 }
  @media screen and (max-width: 736px) {
 .banner.style6 {
-	padding: 0 0 0 1.25rem;
+	padding: 0 0 0 0.65rem;
 	overflow: hidden;
 	height: 100svh;
 }
@@ -1482,7 +1481,7 @@ body.is-preload .banner.onload-image-fade-in .image img {
 /* Wrapper (style1) */
 
 .wrapper.style1 > .inner {
-	padding: 0 2rem 2rem 2rem;
+	padding: 0 0.65rem 0.65rem 0.65rem;
 	margin: 0 auto;
 	width: 100%;
 }
@@ -1500,9 +1499,10 @@ body.is-preload .banner.onload-image-fade-in .image img {
 }
  @media screen and (max-width: 736px) {
 .wrapper.style1 > .inner {
-	padding: 0 1.25rem 1.25rem 1.25rem;
+	padding: 0 0.65rem 0.65rem 0.65rem;
 	margin: 0 auto;
 	width: 100%;
+}
 }
 /* Wrapper (style2) */
 
@@ -1511,7 +1511,6 @@ body.is-preload .banner.onload-image-fade-in .image img {
 }
 .wrapper.style2 > .inner {
 	padding: 5.25rem 3.5rem 3.25rem 3.5rem;
-	background-color: #f5f5f5;
 	margin: 0 auto;
 	width: 100%;
 	position: relative;
@@ -1554,12 +1553,6 @@ body.is-preload .banner.onload-image-fade-in .image img {
 .wrapper.style2 > .inner {
 	padding: 2rem 1.5rem 0.1rem 1.5rem;
 }
-}
-#wrapper > .wrapper.style2.invert:not(.color1):not(.color2):not(.color3):not(.color4):not(.color5):not(.color6):not(.color7) {
-	background-color: #222222;
-}
-#wrapper > .wrapper.style2.invert > .inner {
-	background-color: #000000;
 }
 /* Index */
 

@@ -33,12 +33,12 @@
 }
 .coltext ul {
 	position: absolute;
-	left: 0.5rem;
+	left: 0.65rem;
 	bottom: 1rem;
 }
 .coltext ul li {
 	display: block;
-	margin-top: -0.5rem;
+	margin-top: -0.65rem;
 	color: #d7d7d7;
 	font-size: 2.5rem;
 }
@@ -55,8 +55,8 @@
 }
 .collapsible:after {
 	position: fixed;
-	top: 0.5rem;
-	right: 0.5rem;
+	top: 0.65rem;
+	right: 0.65rem;
 }
 .coltext {
 	color: #FFF;
