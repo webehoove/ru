@@ -506,7 +506,7 @@ hr.minor {
 	margin: 1.25rem 0;
 }
 #no_desktop {
-	display: inline-block;
+	display: block;
 }
 #no_mob {
 	display: none;
@@ -651,6 +651,7 @@ input[type="submit"].primary:active, input[type="reset"].primary:active, input[t
 .image.fit {
 	display: block;
 	margin: 0;
+	padding: 0;
 	width: 100%;
 }
 .image.widy {
