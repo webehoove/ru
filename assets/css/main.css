@@ -409,6 +409,10 @@ hr.minor {
 	border-bottom: none;
 	margin: 2rem 0;
 }
+hr.line {
+	border-top:1px solid rgba(255, 255, 255, .3);
+	margin: 2rem 0;
+}
 .lang {
 	position: relative;
 	float: right;
@@ -1754,5 +1758,5 @@ body.is-preload .banner.onload-image-fade-in .image img {
 	background-color: #212121;
 }
 #wrapper > .color_grey {
-	background-color: #f5f5f5;
+	background-color: #f2f2f2;
 }

@@ -1,0 +1,74 @@
+/* 1 */
+.tech-slideshow {
+	height: 300px;
+	width: 100%;
+	margin: 0 auto;
+	position: relative;
+	overflow: hidden;
+	transform: translate3d(0, 0, 0);
+}
+.tech-slideshow > div {
+	height: 300px;
+	width: 3000px;
+	background: url(../../work/hayat/images/wbs_work_hayat.jpg);
+	position: absolute;
+	top: 0;
+	left: 0;
+	height: 100%;
+	transform: translate3d(0, 0, 0);
+}
+.tech-slideshow .mover-1 {
+	animation: moveSlideshow 10s linear infinite;
+}
+ @keyframes moveSlideshow {
+ 100% {
+ transform: translateX(-40%);
+}
+}
+ @media screen and (max-width: 736px) {
+.tech-slideshow .mover-1 {
+	animation: moveSlideshow 14s linear infinite;
+}
+ @keyframes moveSlideshow {
+ 100% {
+ transform: translateX(-100%);
+}
+}
+}
+/* 2 */
+.tech-slideshow2 {
+	height: 300px;
+	width: 100%;
+	margin: 0 auto;
+	position: relative;
+	overflow: hidden;
+	transform: translate3d(0, 0, 0);
+}
+.tech-slideshow2 > div {
+	height: 300px;
+	width: 3000px;
+	background: url(../../work/hayat/images/wbs_work_hayat2.jpg);
+	position: absolute;
+	top: 0;
+	left: 0;
+	height: 100%;
+	transform: translate3d(0, 0, 0);
+}
+.tech-slideshow2 .mover-2 {
+	animation: moveSlideshow 10s linear infinite;
+}
+ @keyframes moveSlideshow {
+ 100% {
+ transform: translateX(-40%);
+}
+}
+ @media screen and (max-width: 736px) {
+.tech-slideshow .mover-2 {
+	animation: moveSlideshow 14s linear infinite;
+}
+ @keyframes moveSlideshow {
+ 100% {
+ transform: translateX(-100%);
+}
+}
+}
