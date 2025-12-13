@@ -1,7 +1,7 @@
 /* 1 */
 .tech-slideshow {
 	height: 300px;
-	width: 100%;
+	max-width: 100%;
 	margin: 0 auto;
 	position: relative;
 	overflow: hidden;
@@ -9,7 +9,7 @@
 }
 .tech-slideshow > div {
 	height: 300px;
-	width: 3000px;
+	width: 3631px;
 	background: url(../../work/hayat/images/wbs_work_hayat.jpg);
 	position: absolute;
 	top: 0;
@@ -22,7 +22,7 @@
 }
  @keyframes moveSlideshow {
  100% {
- transform: translateX(-40%);
+ transform: translateX(-66.6666%);
 }
 }
  @media screen and (max-width: 736px) {
@@ -56,10 +56,6 @@
 }
 .tech-slideshow2 .mover-2 {
 	animation: moveSlideshow 10s linear infinite;
-}
- @keyframes moveSlideshow {
- 100% {
- transform: translateX(-40%);
 }
 }
  @media screen and (max-width: 736px) {
