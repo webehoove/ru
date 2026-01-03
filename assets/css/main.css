@@ -1,28 +1,4 @@
 @font-face {
-	font-family: 'WBSans Ext Rg';
-	src: url(../webfonts/ext/AeonikExtendedPro-Regular.woff2) format('woff2');
-	font-display: swap;
-	font-style: normal;
-}
-@font-face {
-	font-family: 'WBSans Ext Md';
-	src: url(../webfonts/ext/AeonikExtendedPro-Medium.woff2) format('woff2');
-	font-display: swap;
-	font-style: normal;
-}
-@font-face {
-	font-family: 'WBSans Ext Sb';
-	src: url(../webfonts/ext/AeonikExtendedPro-SemiBold.woff2) format('woff2');
-	font-display: swap;
-	font-style: normal;
-}
-@font-face {
-	font-family: 'WBSans Ext Bd';
-	src: url(../webfonts/ext/AeonikExtendedPro-Bold.woff2) format('woff2');
-	font-display: swap;
-	font-style: normal;
-}
-@font-face {
 	font-family: 'WBSans Lt';
 	font-weight: normal;
 	font-style: normal;
@@ -74,25 +50,7 @@
 	font-family: 'WBSerif Fn Rg';
 	font-weight: normal;
 	font-style: normal;
-	src: url(../webfonts/wbserif/WBSerif-Fine-Gt-Regular.woff2) format('woff2'), url(../webfonts/wbserif/WBSerif-Fine-Gt-Regular.woff) format('woff');
-}
-@font-face {
-	font-family: 'WBSerif Fn Rg It';
-	font-weight: normal;
-	font-style: normal;
-	src: url(../webfonts/wbserif/WBSerif-Fine-Gt-Regular-Italic.woff2) format('woff2'), url(../webfonts/wbserif/WBSerif-Fine-Gt-Regular-Italic.woff) format('woff');
-}
-@font-face {
-	font-family: 'WBSerif Ds Rg';
-	font-weight: normal;
-	font-style: normal;
-	src: url(../webfonts/wbserif/WBSerif-Display-Gt-Regular.woff2) format('woff2'), url(../webfonts/wbserif/WBSerif-Display-Gt-Regular.woff) format('woff');
-}
-@font-face {
-	font-family: 'WBSerif Ds Rg It';
-	font-weight: normal;
-	font-style: normal;
-	src: url(../webfonts/wbserif/WBSerif-Display-Gt-Regular-Italic.woff2) format('woff2'), url(../webfonts/wbserif/WBSerif-Display-Gt-Regular-Italic.woff) format('woff');
+	src: url(../webfonts/wbserif/WBSerif-Text-Regular.woff2) format('woff2'), url(../webfonts/wbserif/WBSerif-Text-Regular.woff) format('woff'), url(../webfonts/wbserif/WBSerif-Text-Regular.eot) format('eot'), url(../webfonts/wbserif/WBSerif-Text-Regular.ttf) format('ttf');
 }
 html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
 	margin: 0;
@@ -261,24 +219,6 @@ h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
 	-moz-osx-font-smoothing: grayscale;
 	font-weight: normal;
 }
-.t_fn_rg_it_serif {
-	font-family: 'WBSerif Fn Rg It', Helvetica, sans-serif;
-	-webkit-font-smoothing: antialiased;
-	-moz-osx-font-smoothing: grayscale;
-	font-weight: normal;
-}
-.t_ds_rg_serif {
-	font-family: 'WBSerif Ds Rg', Helvetica, sans-serif;
-	-webkit-font-smoothing: antialiased;
-	-moz-osx-font-smoothing: grayscale;
-	font-weight: normal;
-}
-.t_ds_rg_it_serif {
-	font-family: 'WBSerif Ds Rg It', Helvetica, sans-serif;
-	-webkit-font-smoothing: antialiased;
-	-moz-osx-font-smoothing: grayscale;
-	font-weight: normal;
-}
 .t_lt {
 	font-family: 'WBSans Lt', Helvetica, sans-serif;
 	-webkit-font-smoothing: antialiased;
@@ -323,30 +263,6 @@ h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
 }
 .t_bd_it {
 	font-family: 'WBSans Bd It', Helvetica, sans-serif;
-	-webkit-font-smoothing: antialiased;
-	-moz-osx-font-smoothing: grayscale;
-	font-weight: normal;
-}
-.t_rg_ext {
-	font-family: 'WBSans Ext Rg', Helvetica, sans-serif;
-	-webkit-font-smoothing: antialiased;
-	-moz-osx-font-smoothing: grayscale;
-	font-weight: normal;
-}
-.t_md_ext {
-	font-family: 'WBSans Ext Md', Helvetica, sans-serif;
-	-webkit-font-smoothing: antialiased;
-	-moz-osx-font-smoothing: grayscale;
-	font-weight: normal;
-}
-.t_sb_ext {
-	font-family: 'WBSans Ext Sb', Helvetica, sans-serif;
-	-webkit-font-smoothing: antialiased;
-	-moz-osx-font-smoothing: grayscale;
-	font-weight: normal;
-}
-.t_bd_ext {
-	font-family: 'WBSans Ext Bd', Helvetica, sans-serif;
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
 	font-weight: normal;
@@ -411,7 +327,7 @@ hr.minor {
 	margin: 2rem 0;
 }
 hr.line {
-	border-top:1px solid rgba(255, 255, 255, .3);
+	border-top: 1px solid rgba(255, 255, 255, .3);
 	margin: 2rem 0;
 }
 .lang {
