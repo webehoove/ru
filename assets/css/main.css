@@ -328,7 +328,7 @@ hr.minor {
 }
 hr.line {
 	border-top: 1px solid rgba(255, 255, 255, .3);
-	margin: 2rem 0;
+	margin: 1rem 0 0 0;
 }
 .lang {
 	position: relative;
@@ -425,6 +425,9 @@ hr.major {
 }
 hr.minor {
 	margin: 1.25rem 0;
+}
+hr.line {
+	margin: 0.35rem 0;
 }
 #no_desktop {
 	display: block;

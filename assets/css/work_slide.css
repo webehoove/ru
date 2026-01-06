@@ -13,7 +13,7 @@
 }
  @media screen and ( min-width: 900px ) {
 .loop_css1 {
-    height: calc(50vw * .17);
+ height: calc(50vw * .17);
 }
 .loop_css1 img {
 	width: auto;
@@ -53,8 +53,7 @@
 .loop_css2 li {
 	display: inline-block;
 	width: calc(100vw / 2);
-	min-width: 150px;
-	margin: 0 20px 0 0;
+	margin: 0 5px 0 0;
 	list-style: none;
 	text-align: center;
 }
@@ -103,9 +102,20 @@
 	white-space: nowrap;
 	will-change: transform;
 }
- @media screen and ( min-width: 900px ) {
-.loop_css3 div {
-	font-size: 4rem;
+ @media screen and (max-width: 900px) {
+.loop_css2 li img {
+	width: 48vw;
+}
+.loop_css2 ul:first-child {
+	-webkit-animation: loop 10s -5s linear infinite;
+	animation: loop 10s -5s linear infinite;
+	-webkit-backface-visibility: hidden;
+	backface-visibility: hidden;
+	will-change: transform;
+}
+.loop_css2 ul + ul {
+	-webkit-animation: loop2 10s linear infinite;
+	animation: loop2 10s linear infinite;
 }
 }
 .loop_css3 div:nth-child(odd) {
