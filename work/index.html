@@ -419,6 +419,42 @@ header .titre h1 {
                   })
 </script> 
 <script type="text/javascript">
+var coll = document.getElementsByClassName("collapsible");
+var i;
+
+for (i = 0; i < coll.length; i++) {
+  coll[i].addEventListener("click", function() {
+    this.classList.toggle("active");
+    var coltext = this.nextElementSibling;
+    if (coltext.style.maxHeight){
+      coltext.style.maxHeight = null;
+    } else {
+      coltext.style.maxHeight = coltext.scrollHeight + "px";
+    } 
+  });
+} 
+      </script> 
+<script type="text/javascript">
+$(window).scroll(function() {
+                    var scrollh = $(this).scrollTop();
+                    if (scrollh < 1) {
+                        $('body').stop().removeClass('small'); 
+
+                    }
+                    else if (scrollh == 1){
+                        $('body').stop().addClass('small');  
+                        $('body').css('overflow', 'hidden');
+                        setTimeout(function(){
+                            $('body').css('overflow', 'scroll');
+                        }, 1000);
+                    }
+                    else if (scrollh => 1){
+                        $('body').stop().addClass('small');  
+
+                    }
+                });
+</script> 
+<script type="text/javascript">
 document.getElementById('refreshButton').addEventListener('click', function() {
     window.location.reload(true);
 });
