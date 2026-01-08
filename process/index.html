@@ -1,0 +1,616 @@
+<!DOCTYPE HTML>
+<html lang='ru'>
+<head>
+<title>Процесс &#8212; WeBehoove Studio</title>
+<meta charset="utf-8" />
+<meta name="robots" content="all,follow">
+<meta name="googlebot" content="index,follow,snippet,archive">
+<meta name="description" content="Брендинг в контексте времени и визуальной среды">
+<meta name="keywords" content="">
+<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+<meta property="og:title" content="WeBehoove Дизайн Студия">
+<meta property="og:description" content="Брендинг в контексте времени и визуальной среды">
+<meta data-n-head="ssr" data-hid="application-name" name="application-name" content="Br">
+<meta data-n-head="ssr" data-hid="apple-mobile-web-app-title" name="apple-mobile-web-app-title" content="Br">
+<meta data-n-head="ssr" data-hid="og:title" name="og:title" property="og:title" content="WeBehoove Дизайн Cтудия">
+<meta data-n-head="ssr" data-hid="og:site_name" name="og:site_name" property="og:site_name" content="Br">
+<meta data-n-head="ssr" data-hid="og:type" name="og:type" property="og:type" content="website">
+<meta data-n-head="ssr" data-hid="og:url" name="og:url" property="og:url" content="https://webehoove.github.io/ru/">
+<link rel="stylesheet" href="../assets/css/main.css" />
+<link rel="stylesheet" href="../assets/css/menu_drop.css" />
+<link rel="stylesheet" href="../assets/css/grid.css" />
+<noscript>
+<link rel="stylesheet" href="../assets/css/noscript.css" />
+</noscript>
+<link rel="icon" type="image/x-icon" href="../images/support/favicon.ico">
+<link rel="apple-touch-icon" sizes="180x180" href="../images/support/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="../images/support/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="../images/support/favicon-16x16.png">
+<link rel="manifest" href="../images/support/site.webmanifest">
+<style>
+.logo_inv a {
+	position: fixed;
+	top: 0.65rem;
+	left: 0.65rem;
+	mix-blend-mode: difference;
+	color: white;
+	z-index: 3;
+}
+.menu_inv {
+	-webkit-transform: translateX(-50%);
+	-ms-transform: translateX(-50%);
+	transform: translateX(-50%);
+	position: fixed;
+	top: 0.5rem;
+	left: 50%;
+	mix-blend-mode: difference;
+	color: white;
+	z-index: 3;
+}
+.menu_inv a {
+	mix-blend-mode: difference;
+	color: white;
+}
+.lang_inv {
+	position: fixed;
+	top: 0.5rem;
+	right: 0.5rem;
+	mix-blend-mode: difference;
+	color: white;
+	z-index: 3;
+}
+.menu_mob_inv {
+	display: none;
+}
+/* Big -------------------------------------------------- */
+header {
+	position: fixed;
+	z-index: 999;
+	top: 0;
+	height: calc(100svh + 2px);
+	width: 100%;
+	transition: all 1s;
+}
+header .titre {
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	left: 0;
+	padding: 0;
+	text-align: left;
+	height: calc(100svh - 2px);
+	transition: all 1s;
+}
+header .titre h1 {
+	position: absolute;
+	bottom: 1.5rem;
+	width: 100%;
+	transition: all 1s;
+	margin: 0;
+	padding: 0;
+	font-size: 4.5vw;
+}
+main {
+	width: 100%;
+	font-size: 10vw;
+	display: inline-block;
+	height: auto;
+	text-align: left;
+	margin-top: 100svh;
+	transition: all 1s;
+}
+/* Small -------------------------------------------------- */
+body.small header .titre {
+	padding: 0;
+}
+body.small main {
+	margin: 0;
+}
+body.small header {
+	font-size: 1rem;
+	height: 4.4rem;
+}
+body.small header .titre h1 {
+	font: 1rem "WBSans Rg";
+}
+ @media screen and (max-width: 736px) {
+.menu_inv, .menu_inv a, .lang_inv {
+	display: none;
+}
+.menu_mob_inv {
+	display: block;
+	position: fixed;
+	top: 0.5rem;
+	mix-blend-mode: difference;
+	color: white;
+	z-index: 3;
+}
+header .titre h1 {
+	font-size: 13vw;
+}
+}
+</style>
+</head><body class="is-preload" onContextMenu="return false;">
+<div id="wrapper" class="divided"> 
+  
+  <!-- MENU TOP DESKTOP -->
+  <div class="logo_inv"> <a href="https://webehoove.github.io/ru/"><span class="t_rg_it">W</span><span class="t_rg">B.S</span></a> </div>
+  <div class="menu_inv">
+    <ul>
+      <li style="margin-right:1rem;"><a href="https://webehoove.github.io/ru/work/">Работы</a></li>
+      <li style="margin-right:1rem; opacity:.4;">Процесс</li>
+      <li><a href="https://webehoove.github.io/ru/contact/">Контакты</a></li>
+    </ul>
+  </div>
+  <div class="lang_inv">
+    <div class="image fit" style="width:1.2rem; position:relative; float:right;"><a href="https://webehoove.github.io/ru/"><img src="../images/brand/wb_symbol_lines_w.svg" onContextMenu="return false;" alt=""></a> </div>
+  </div>
+  <div class="menu_mob_inv collapsible"> </div>
+  <div class="coltext">
+    <div class="block">
+      <ul>
+        <li><a href="https://webehoove.github.io/ru/work/">Работы</a></li>
+        <li><a href="https://webehoove.github.io/ru/process/">Процесс</a></li>
+        <li><a href="https://webehoove.github.io/ru/contact/">Контакты</a></li>
+      </ul>
+    </div>
+    <p style="opacity:0;">https://webehoove.github.io/ru/https://webehoove.github.io/ru/</p>
+  </div>
+  
+  <!-- ELTA ABOUT PROJECT -->
+  <section class="wrapper style1 invert align-left">
+    <div class="inner">
+    <div class="row">
+      <div class="col-2 off-12-small"></div>
+      <div class="col-10 col-12-small">
+        <hr class="start">
+        <h1 class="major">Преобразование брендов для достижения реальных перемен.</h1>
+        <hr class="major">
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-6 col-12-small">
+        <hr class="minor">
+        <ul class="alt">
+          <li>Мы &#8212; <span class="t_rg_it">We</span><span>Behoove Studio</span></li>
+          <li>
+            <div id="myDateDisplay" style="opacity:.25;"></div>
+          </li>
+          <li>
+            <div id="myClockDisplay" class="clock" style="opacity:.25;"></div>
+          </li>
+        </ul>
+      </div>
+      <div class="col-5 col-12-small">
+        <hr class="minor">
+        <h2 class="t_fn_rg_serif">На протяжении десятилетий сильные бренды были конкурентным преимуществом для лидеров, понимающих коммерческий мир. И последние 15 лет <span class="t_rg_it">W</span><span class="t_rg">B.S</span> является партнером и помошником для компаний, которые знают, что нужно для создания сильного бренда.</h2>
+      </div>
+    </div>
+    <div class="row" style="margin:2.5rem 0;">
+      <div class="col-6 col-12-small">
+        <div class="image fit">
+          <video data-src="videos/wbs_process_new.mp4" poster="" autoplay loop muted="" playsinline="" src="videos/wbs_process_new.mp4" type="video/mp4" style="-webkit-filter:brightness(1); -webkit-filter:invert(0);"></video>
+        </div>
+      </div>
+      <div class="col-5 col-12-small">
+        <p class="paragraph">Бренд стал важнейшим фактором для всех, кто хочет внести устойчивый вклад в развитие мира, будь то в коммерческой, культурной или социальной сферах.</p>
+        <p class="paragraph">Компании, которые серьезно относятся к своему бренду, обладают удивительной способностью добиваться успеха там, где другие терпят неудачу. Они выделяются на фоне конкурентов, создавая преобразующие корпоративные культуры, выстраивая отношения с важными для них людьми и адаптируясь к меняющимся условиям, при этом решительно двигаясь вперед.</p>
+        <p class="paragraph">В студии <span class="t_rg_it">W</span><span class="t_rg">B.S</span> наша команда, мыслящих и действующих, помогает нашим клиентам добиться успеха, содействуя им в поиске своего места в мире, где все происходит одновременно. Затем мы определяем и разрабатываем их бренды, чтобы ускорить реальные изменения и делаем это для клиентов из разных отраслей, секторов, уровней зрелости и географических регионов.</p>
+        <h2 class="t_fn_rg_serif" style="margin:3rem 0;">Деловое искусство</h2>
+        <p class="paragraph">В основе нашей работы лежит вера в искусство ведения бизнеса. Это двойственность, основанная на признании того, что коммерческий успех зиждется на той же основе человеческих эмоций, что и всё остальное в этом мире. То же самое справедливо и для стратегии или дизайна: именно там, где факты встречаются с интуицией, мы получаем результаты, которые выделяются.</p>
+      </div></div>
+    </div>
+  </section>
+  
+  <!-- ELTA WORK -->
+  <section class="wrapper style1 invert align-left">
+    <div class="inner">
+      <div class="row">
+        <div class="col-12 col-12-small">
+          <div class="image fit">
+            <video data-src="videos/elta_logotype_symbol_prev.mp4" poster="" autoplay loop muted="" playsinline="" src="../work/elta/videos/elta_logotype_symbol_prev.mp4" type="video/mp4" style="-webkit-filter:brightness(1); -webkit-filter:invert(0);"></video>
+            <hr class="major">
+          </div>
+        </div>
+      </div>
+      <div class="row align-center">
+        <div class="col-2 off-12-small"></div>
+        <div class="col-8 col-12-small">
+          <h1><span class="t_fn_rg_serif">&laquo;За последние два года мы добились невероятного прогресса в определении и воплощении в жизнь нашего нового бренда, что является свидетельством креативности и мастерства компании</span> <span class="t_rg_it">W</span><span class="t_rg">B.S</span>&raquo;.</h1>
+          <p style="margin-top:2rem;">Александр Бараев. директор по стратегии и трансформации.</p>
+          <hr class="major">
+        </div>
+        <div class="col-12 coll-12-small"></div>
+      </div>
+      <div class="row">
+        <div class="col-12 col-12-small">
+          <div class="image fit"><img src="../work/elta/images/elta_logotype_construction.svg" onContextMenu="return false;" alt=""> </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-6 col-12-small">
+          <div class="image fit">
+            <video data-src="videos/elta_slogan_mesure.mp4" poster="" autoplay loop muted="" playsinline="" src="../work/elta/videos/elta_slogan_mesure.mp4" type="video/mp4" style="-webkit-filter:brightness(1); -webkit-filter:invert(0);"></video>
+          </div>
+        </div>
+        <div class="col-6 col-12-small">
+          <div class="image fit"><img src="../work/elta/images/elta_safe_logo.jpg" onContextMenu="return false;" alt=""> </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-12 col-12-small">
+          <div class="image fit"><img src="../work/elta/images/elta_img_slogan.jpg" onContextMenu="return false;" alt=""> </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-6 col-12-small">
+          <div class="image fit"><img src="../work/elta/images/elta_handbag_man.jpg" onContextMenu="return false;" alt=""> </div>
+        </div>
+        <div class="col-6 col-12-small">
+          <div class="image fit"><img src="../work/elta/images/elta_shirt_logo.jpg" onContextMenu="return false;" alt=""> </div>
+        </div>
+      </div>
+      <div id="no_mob" class="row">
+        <div class="col-12 off-12-small">
+          <div class="image fit"><img src="../work/elta/images/elta_bc.jpg" onContextMenu="return false;" alt=""> </div>
+        </div>
+      </div>
+      <div id="no_mob" class="row">
+        <div class="col-12 off-12-small">
+          <div class="image fit"><img src="../work/elta/images/elta_bc_baraev.jpg" onContextMenu="return false;" alt=""> </div>
+        </div>
+      </div>
+      <div id="no_desktop" class="row">
+        <div class="col-12 col-12-small">
+          <div class="image fit"><img src="../work/elta/images/elta_bc_mob.jpg" onContextMenu="return false;" alt=""> </div>
+        </div>
+      </div>
+      <div id="no_desktop" class="row">
+        <div class="col-12 col-12-small">
+          <div class="image fit"><img src="../work/elta/images/elta_bc_baraev_mob.jpg" onContextMenu="return false;" alt=""> </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-6 col-12-small">
+          <div class="image fit"><img src="../work/elta/images/elta_hoody_logo.jpg" onContextMenu="return false;" alt=""> </div>
+        </div>
+        <div class="col-6 col-12-small">
+          <div class="image fit"><img src="../work/elta/images/elta_projects_map.png" onContextMenu="return false;" alt=""> </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-6 col-12-small">
+          <div class="image fit"><img src="../work/elta/images/elta_infographic_3d_graph.jpg" onContextMenu="return false;" alt=""> </div>
+        </div>
+        <div class="col-6 col-12-small">
+          <div class="image fit"><img src="../work/elta/images/elta_annual_reports.jpg" onContextMenu="return false;" alt=""> </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-12 col-12-small">
+          <div class="image fit"><img src="../work/elta/images/elta_brosh_colors.jpg" onContextMenu="return false;" alt=""> </div>
+        </div>
+      </div>
+      <div class="row">
+        <div id="no_mob" class="col-6 col-12-small">
+          <div class="image fit"><img src="../work/elta/images/elta_ds_door.png" onContextMenu="return false;" alt=""> </div>
+        </div>
+        <div id="no_mob" class="col-6 col-12-small">
+          <div class="image fit"><img src="../work/elta/images/elta_office_door.jpg" onContextMenu="return false;" alt=""> </div>
+        </div>
+      </div>
+      <div class="row">
+        <div id="no_desktop" class="col-6 col-12-small">
+          <div class="image fit"><img src="../work/elta/images/elta_ds_door_mob.png" onContextMenu="return false;" alt=""> </div>
+        </div>
+        <div id="no_desktop" class="col-6 col-12-small">
+          <div class="image fit"><img src="../work/elta/images/elta_office_door_mob.jpg" onContextMenu="return false;" alt=""> </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-6 col-12-small">
+          <div class="image fit"><img src="../work/elta/images/elta_list_projects.jpg" onContextMenu="return false;" alt=""> </div>
+        </div>
+        <div class="col-6 col-12-small">
+          <div class="image fit"><img src="../work/elta/images/elta_folder_list_01.jpg" onContextMenu="return false;" alt=""> </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-12 col-12-small">
+          <div class="image fit"><img src="../work/elta/images/elta_folder_list.jpg" onContextMenu="return false;" alt=""> </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-6 col-12-small">
+          <div class="image fit"><img src="../work/elta/images/elta_docs_ex.png" onContextMenu="return false;" alt=""> </div>
+        </div>
+        <div class="col-6 col-12-small">
+          <div class="image fit"><img src="../work/elta/images/elta_color_palette.png" onContextMenu="return false;" alt=""> </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-12 col-12-small">
+          <div class="image fit"><img src="../work/elta/images/elta_web_blocks_menu.jpg" onContextMenu="return false;" alt=""> </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-7 col-12-small">
+          <div class="image fit"><img src="../work/elta/images/elta_web_blocks_light_menu.jpg" onContextMenu="return false;" alt=""> </div>
+        </div>
+        <div class="col-5 col-12-small">
+          <div class="image fit">
+            <video data-src="videos/elta_design_parts_tr.mp4" poster="" autoplay loop muted="" playsinline="" src="../work/elta/videos/elta_design_parts_tr.mp4" type="video/mp4" style="-webkit-filter:brightness(1); -webkit-filter:invert(0);"></video>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-5 col-12-small">
+          <div class="image fit"><img src="../work/elta/images/elta_web_box_st.jpg" onContextMenu="return false;" alt=""> </div>
+        </div>
+        <div class="col-7 col-12-small">
+          <div class="image fit">
+            <video data-src="videos/elta_web_block_open.mp4" poster="" autoplay loop muted="" playsinline="" src="../work/elta/videos/elta_web_block_open.mp4" type="video/mp4" style="-webkit-filter:brightness(1); -webkit-filter:invert(0);"></video>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-12 col-12-small">
+          <div class="image fit"><img src="../work/elta/images/elta_poster_out_fp.jpg" onContextMenu="return false;" alt=""> </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-12 col-12-small">
+          <div class="image fit">
+            <video data-src="videos/elta_ru_ast.mp4" poster="" autoplay loop muted="" playsinline="" src="../work/elta/videos/elta_ru_ast.mp4" type="video/mp4" style="-webkit-filter:brightness(1); -webkit-filter:invert(0);"></video>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-12 col-12-small">
+          <div class="image fit"><img src="../work/elta/images/elta_typography_pres_01.svg" onContextMenu="return false;" alt=""> </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-12 col-12-small">
+          <div class="image fit"><img src="../work/elta/images/elta_typography_pres_02.svg" onContextMenu="return false;" alt=""> </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-12 col-12-small">
+          <div class="image fit"><img src="../work/elta/images/elta_typography_pres_03.svg" onContextMenu="return false;" alt=""> </div>
+        </div>
+      </div>
+      <div id="no_mob" class="row">
+        <div class="col-12 col-12-small">
+          <div class="image fit"><img src="../work/elta/images/elta_print_box_00.jpg" onContextMenu="return false;" alt=""> </div>
+        </div>
+      </div>
+      <div id="no_desktop" class="row">
+        <div class="col-12 col-12-small">
+          <div class="image fit"><img src="../work/elta/images/elta_print_box_00_mob.jpg" onContextMenu="return false;" alt=""> </div>
+        </div>
+      </div>
+      <div class="row">
+        <div id="no_mob" class="col-6 col-12-small">
+          <div class="image fit"><img src="../work/elta/images/elta_print_box_01.jpg" onContextMenu="return false;" alt=""> </div>
+        </div>
+        <div id="no_mob" class="col-6 col-12-small">
+          <div class="image fit"><img src="../work/elta/images/elta_print_box_02.jpg" onContextMenu="return false;" alt=""> </div>
+        </div>
+      </div>
+      <div id="no_desktop" class="row">
+        <div class="col-12 col-12-small">
+          <div class="image fit"><img src="../work/elta/images/elta_print_box_01_mob.jpg" onContextMenu="return false;" alt=""> </div>
+        </div>
+        <div class="col-12 col-12-small">
+          <div class="image fit"><img src="../work/elta/images/elta_print_box_02_mob.jpg" onContextMenu="return false;" alt=""> </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-4 col-12-small">
+          <div class="image fit">
+            <video data-src="videos/elta_web_solar_icon.mp4" poster="" autoplay loop muted="" playsinline="" src="../work/elta/videos/elta_web_solar_icon.mp4" type="video/mp4" style="-webkit-filter:brightness(1); -webkit-filter:invert(0);"></video>
+          </div>
+        </div>
+        <div class="col-8 col-12-small">
+          <div class="image fit"><img src="../work/elta/images/elta_web_heater_system.jpg" onContextMenu="return false;" alt=""> </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-6 col-12-small">
+          <div class="image fit"><img src="../work/elta/images/elta_icons_all.svg" onContextMenu="return false;" alt=""> </div>
+        </div>
+        <div class="col-6 col-12-small">
+          <div class="image fit">
+            <video data-src="videos/elta_icons_all.mp4" poster="" autoplay loop muted="" playsinline="" src="../work/elta/videos/elta_icons_all.mp4" type="video/mp4" style="-webkit-filter:brightness(1); -webkit-filter:invert(0);"></video>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-12 col-12-small">
+          <div class="image fit"><img src="../work/elta/images/elta_icons_grid.svg" onContextMenu="return false;" alt=""> </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-5 col-12-small">
+          <div class="image fit">
+            <video data-src="videos/elta_pipes_eng.mp4" poster="" autoplay loop muted="" playsinline="" src="../work/elta/videos/elta_pipes_eng.mp4" type="video/mp4" style="-webkit-filter:brightness(1); -webkit-filter:invert(0);"></video>
+          </div>
+        </div>
+        <div class="col-5 col-12-small">
+          <p class="paragraph">Электрификация, беспилотные автомобили, цифровизация и другие новые технологии готовы изменить будущее. В этом меняющемся контексте компании Элта требовалась новая стратегия бренда, чтобы обеспечить еще лучший сервис для своих клиентов, расширить свою роль и укрепить свои позиции на рынке.</p>
+          <p class="paragraph"><span class="t_rg_it">W</span><span class="t_rg">B.S</span> тесно сотрудничала с Элта, чтобы использовать этот импульс. От архитектуры бренда и позиционирования до брендовой платформы мы разработали амбициозную стратегию, которая помогла бы сместить центр тяжести компании с продуктоцентричного на клиентоориентированный.</p>
+        </div>
+      </div>
+      
+      <!-- MENU PRO -->
+      <div class="row"> 
+        <!-- PREVIOS -->
+        <div class="col-6 col-6-small">
+          <hr class="start">
+          <div style="display:inline-block;"> <a href='https://webehoove.github.io/ru/work/hayat_web/'>
+            <div style="float:right;">
+              <h5 style="margin-bottom:1.35rem;" class="upup">Предыдущая работа</h5>
+            </div>
+            </a> </div>
+          <a href='https://webehoove.github.io/ru/work/hayat_web/'>
+          <h2 style="margin-bottom:0.5rem;">Hayat Сайт</h2>
+          </a> <a href='https://webehoove.github.io/ru/work/hayat_web/'>
+          <p style="line-height:1.1;">Благотворительный фонд &laquo;Хайат&raquo;</p>
+          </a>
+          <hr class="minor">
+          <div class="image fit"><a href='https://webehoove.github.io/ru/work/hayat_web/'><img src="../work/hayat_web/images/hayat_web_prev.jpg" onContextMenu="return false;" alt=""></a> </div>
+        </div>
+        <!-- NEXT -->
+        <div class="col-6 col-6-small">
+          <hr class="start">
+          <div style="display:inline-block;"> <a href='https://webehoove.github.io/ru/work/elta_web/'>
+            <div style="float:left;">
+              <h5 style="margin-bottom:1.35rem;" class="upup">Следующая работа</h5>
+            </div>
+            </a> </div>
+          <a href='https://webehoove.github.io/ru/work/elta_web/'>
+          <h2 style="margin-bottom:0.5rem;">Элта Сайт</h2>
+          </a> <a href='https://webehoove.github.io/ru/work/elta_web/'>
+          <p style="line-height:1.1;">Функциональность. Потенциал. Прогресс.</p>
+          </a>
+          <hr class="minor">
+          <div class="image fit"><a href='https://webehoove.github.io/ru/work/elta_web/'><img src="" onContextMenu="return false;" alt=""></a> </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+  <!-- SPACE ENDING -->
+  <section class="wrapper style1 invert align-left">
+    <div class="inner">
+      <div class="row">
+        <div class="col-12 col-12-small">
+          <hr class="major">
+        </div>
+      </div>
+    </div>
+  </section>
+  
+  <!-- END -->
+  <section class="banner style6 invert orient-left content-align-left image-position-center fullscreen onload-content-fade-in onload-image-fade-down">
+    <div class="content">
+      <div class="row">
+        <div class="col-12 col-12-small" style="position:absolute; bottom:2.5rem;">
+          <div style="opacity:0.35;"><img src="../images/brand/wb_logotype_wbs_w.svg" onContextMenu="return false;" alt=""></div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-12 col-12-small" style="position:absolute; bottom:1rem;">
+          <ul style="opacity:0.5;">
+            <li><a href="https://t.me/webehoove" target="_blank">Telegram</a>, <a href="mailto:webehoove@gmail.com">Mail</a></li>
+            <li style="position:absolute; right:0;">&copy;<script>document.write(Date().split(' ')[3])</script> <span class="t_rg_it">We</span><span>Behoove Studio</span></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="image">
+      <video data-src="../../video/wb_linewalksleep.mp4" poster="" autoplay loop muted="" playsinline="" src="../video/wb_linewalksleep.mp4" style="filter: brightness(100%); filter: invert(0);"></video>
+    </div>
+  </section>
+</div>
+
+<!-- Scripts --> 
+<script src="../assets/js/jquery.min.js"></script> 
+<script src="../assets/js/jquery.scrollex.min.js"></script> 
+<script src="../assets/js/jquery.scrolly.min.js"></script> 
+<script src="../assets/js/browser.min.js"></script> 
+<script src="../assets/js/breakpoints.min.js"></script> 
+<script src="../assets/js/util.js"></script> 
+<script src="../assets/js/main.js"></script> 
+<script src="../assets/js/demo.js"></script> 
+<script src="https://cdnjs.cloudflare.com/ajax/libs/smoothscroll/1.4.10/SmoothScroll.min.js" integrity="sha256-huW7yWl7tNfP7lGk46XE+Sp0nCotjzYodhVKlwaNeco=" crossorigin="anonymous"></script> 
+<script type="text/javascript">
+              SmoothScroll({
+                  animationTime    : 1000,
+                  stepSize         : 75,
+
+                  accelerationDelta : 30,  
+                  accelerationMax   : 2,   
+
+                  keyboardSupport   : true,  
+                  arrowScroll       : 50,
+
+                  pulseAlgorithm   : true,
+                  pulseScale       : 4,
+                  pulseNormalize   : 1,
+
+                  touchpadSupport   : true,
+                  })
+</script> 
+<script type="text/javascript">
+var coll = document.getElementsByClassName("collapsible");
+var i;
+
+for (i = 0; i < coll.length; i++) {
+  coll[i].addEventListener("click", function() {
+    this.classList.toggle("active");
+    var coltext = this.nextElementSibling;
+    if (coltext.style.maxHeight){
+      coltext.style.maxHeight = null;
+    } else {
+      coltext.style.maxHeight = coltext.scrollHeight + "px";
+    } 
+  });
+} 
+      </script> 
+<script type="text/javascript">
+$(window).scroll(function() {
+                    var scrollh = $(this).scrollTop();
+                    if (scrollh < 1) {
+                        $('body').stop().removeClass('small'); 
+
+                    }
+                    else if (scrollh == 1){
+                        $('body').stop().addClass('small');  
+                        $('body').css('overflow', 'hidden');
+                        setTimeout(function(){
+                            $('body').css('overflow', 'scroll');
+                        }, 1000);
+                    }
+                    else if (scrollh => 1){
+                        $('body').stop().addClass('small');  
+
+                    }
+                });
+</script> 
+<script>
+function showTime() {
+  var timediv = document.getElementById("myClockDisplay");
+  var datediv = document.getElementById("myDateDisplay");
+  var dt = new Date();
+  var d = dt.getDate();
+  var m = dt.getMonth() + 1; // getMonth() returns the month "index" starting with 0 for Jan
+  var y = dt.getFullYear();
+  var hh = dt.getHours();
+  var mm = dt.getMinutes();
+  var ss = dt.getSeconds();
+  var session = "AM";
+  if (hh == 0) {
+    hh = 12;
+  }
+
+  if (hh > 12) {
+    hh = hh - 12;
+    session = "PM";
+  }
+
+  d = (d < 10) ? "0" + d : d;
+  m = (m < 10) ? "0" + m : m;
+  hh = (hh < 10) ? "0" + hh : hh;
+  mm = (mm < 10) ? "0" + mm : mm;
+  ss = (ss < 10) ? "0" + ss : ss;
+  timediv.textContent = hh + ":" + mm + ":" + ss + " " + session;
+  datediv.textContent = m + "/" + d + "/" + y;
+  setTimeout(showTime, 1000);
+}
+
+showTime();
+</script>
+</body>
+</html>
