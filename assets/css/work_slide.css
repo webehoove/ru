@@ -66,7 +66,7 @@
 	height: 40%;
 }
 .loop_css2 li a:hover {
-	opacity: .7;
+	opacity: .8;
 }
 .loop_css2 ul:first-child {
 	-webkit-animation: loop 50s -25s linear infinite;
@@ -104,15 +104,15 @@
 }
  @media screen and (max-width: 900px) {
 .loop_css2 ul:first-child {
-	-webkit-animation: loop 10s -5s linear infinite;
-	animation: loop 10s -5s linear infinite;
+	-webkit-animation: loop 20s -10s linear infinite;
+	animation: loop 20s -10s linear infinite;
 	-webkit-backface-visibility: hidden;
 	backface-visibility: hidden;
 	will-change: transform;
 }
 .loop_css2 ul + ul {
-	-webkit-animation: loop2 10s linear infinite;
-	animation: loop2 10s linear infinite;
+	-webkit-animation: loop2 20s linear infinite;
+	animation: loop2 20s linear infinite;
 }
 }
 .loop_css3 div:nth-child(odd) {
