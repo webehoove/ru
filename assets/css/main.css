@@ -176,8 +176,7 @@ body, input, select, textarea {
 	font-weight: normal;
 	font-size: 1rem;
 	font-style: normal;
-	font-feature-settings: "ss02";
-	font-feature-settings: "liga" 1;
+	font-feature-settings: "ss02", "liga";
 	letter-spacing: 0;
 	line-height: 1.4;
 }
